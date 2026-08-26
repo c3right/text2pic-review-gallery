@@ -37,3 +37,56 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
+      - name: Install live visual-smoke dependency
+        run: python -m pip install --disable-pip-version-check pillow==11.3.0
+
+      - name: Verify live Pages URL and representative visual bytes
+        env:
+          PAGE_URL: ${{ steps.deployment.outputs.page_url }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          base="${PAGE_URL%/}/"
+          tmpdir="$(mktemp -d)"
+
+          fetch_cmp() {
+            rel="$1"
+            expected="$2"
+            out="$tmpdir/$(printf '%s' "$rel" | tr '/.' '__')"
+            curl --fail --location --silent --show-error \
+              --retry 12 --retry-delay 2 --retry-all-errors \
+              "${base}${rel}" -o "$out"
+            cmp --silent "$expected" "$out"
+            printf 'LIVE_OK %s\n' "$rel"
+          }
+
+          fetch_cmp "index.html" "index.html"
+          fetch_cmp "conversations/007/index.html" "conversations/007/index.html"
+          fetch_cmp "groups/007/G06H/index.html" "groups/007/G06H/index.html"
+          fetch_cmp "images/007-8502144cb89e/index.html" "images/007-8502144cb89e/index.html"
+          fetch_cmp "contact_sheets/005/B1.jpg" "contact_sheets/005/B1.jpg"
+          fetch_cmp "contact_sheets/007/G06H.jpg" "contact_sheets/007/G06H.jpg"
+          fetch_cmp "contact_sheets/008/HD.jpg" "contact_sheets/008/HD.jpg"
+          fetch_cmp "contact_sheets/20260506/G00.jpg" "contact_sheets/20260506/G00.jpg"
+          fetch_cmp "previews/007-8502144cb89e.jpg" "previews/007-8502144cb89e.jpg"
+
+          PAGE_SMOKE_TMP="$tmpdir" python - <<'PY'
+          import os
+          from pathlib import Path
+          from PIL import Image
+
+          root = Path(os.environ["PAGE_SMOKE_TMP"])
+          files = list(root.iterdir())
+          jpeg_files = [p for p in files if p.read_bytes()[:2] == b"\xff\xd8"]
+          if len(jpeg_files) != 5:
+              raise SystemExit(f"expected 5 live JPEGs, found {len(jpeg_files)}")
+          for path in jpeg_files:
+              with Image.open(path) as image:
+                  image.load()
+                  if image.width <= 0 or image.height <= 0:
+                      raise SystemExit(f"invalid image dimensions: {path}")
+                  print(f"PIXEL_OK {path.name} {image.width}x{image.height} {image.mode}")
+          PY
+
+          printf 'PAGE_URL %s\n' "$PAGE_URL"
