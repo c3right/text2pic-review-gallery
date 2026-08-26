@@ -1,0 +1,44 @@
+{
+  "canonical_bytes": 994393,
+  "canonical_expected_sha256": "bbae761c58ac7e32d76158b052788ae24e2c65d2337280cbb13a3a4cbbdb993e",
+  "canonical_original_path": "references/text2pic/conversations/20260506-图片风格总结分析/originals/images/G22_美观参考_冷色轻等距商务_图1.png",
+  "canonical_sha256": "bbae761c58ac7e32d76158b052788ae24e2c65d2337280cbb13a3a4cbbdb993e",
+  "conversation_id": "20260506",
+  "conversation_title": "20260506-图片风格总结分析",
+  "current_filename": "G22_美观参考_冷色轻等距商务_图1.png",
+  "detail_page": "images/20260506-0e8d906f35e5/index.html",
+  "duplicate_content_ids": [],
+  "group_id": "G22",
+  "group_title": "后期第二层美观参考：冷色轻等距商务示意",
+  "id": "20260506-0e8d906f35e5",
+  "image_manifest_evidence": {
+    "path": "references/text2pic/conversations/20260506-图片风格总结分析/IMAGE_MANIFEST.md",
+    "section": "G22 后期第二层美观参考组：冷色轻等距商务示意"
+  },
+  "metadata_path": "metadata/20260506-0e8d906f35e5.json",
+  "original_filename": "image(65).png",
+  "preview_dimensions": [
+    572,
+    1024
+  ],
+  "preview_path": "previews/20260506-0e8d906f35e5.jpg",
+  "rule_impact_evidence": {
+    "path": "references/text2pic/conversations/20260506-图片风格总结分析/IMAGE_MANIFEST.md",
+    "section": "G22 后期第二层美观参考组：冷色轻等距商务示意"
+  },
+  "source_dimensions_after_orientation": [
+    572,
+    1024
+  ],
+  "source_format": "PNG",
+  "test_purpose": "提取冷色轻等距商务示意的共同第二层美观特征。",
+  "thumbnail_dimensions": [
+    235,
+    420
+  ],
+  "thumbnail_path": "thumbnails/20260506-0e8d906f35e5.jpg",
+  "user_feedback_evidence": {
+    "path": "references/text2pic/conversations/20260506-图片风格总结分析/IMAGE_MANIFEST.md",
+    "section": "G22 后期第二层美观参考组：冷色轻等距商务示意"
+  }
+}

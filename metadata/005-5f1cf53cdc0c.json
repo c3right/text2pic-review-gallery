@@ -1,0 +1,44 @@
+{
+  "canonical_bytes": 251167,
+  "canonical_expected_sha256": "36ec4eeb067b8b7235dfeec244d49d7a4f1ad4cfb21b95e10d683da1f3001e69",
+  "canonical_original_path": "references/text2pic/conversations/005-视频制作流程建议/originals/images/user-tests/P2.0_B2_减注释_图2_HUD科技屏_CE3810A7.jpeg",
+  "canonical_sha256": "36ec4eeb067b8b7235dfeec244d49d7a4f1ad4cfb21b95e10d683da1f3001e69",
+  "conversation_id": "005",
+  "conversation_title": "005-视频制作流程建议",
+  "current_filename": "P2.0_B2_减注释_图2_HUD科技屏_CE3810A7.jpeg",
+  "detail_page": "images/005-5f1cf53cdc0c/index.html",
+  "duplicate_content_ids": [],
+  "group_id": "B2",
+  "group_title": "Prompt 2.0：减注释",
+  "id": "005-5f1cf53cdc0c",
+  "image_manifest_evidence": {
+    "path": "references/text2pic/conversations/005-视频制作流程建议/IMAGE_MANIFEST.md",
+    "section": "B2｜Prompt 2.0：减注释"
+  },
+  "metadata_path": "metadata/005-5f1cf53cdc0c.json",
+  "original_filename": "CE3810A7-9630-45A0-93ED-D5B3A4DBB64F.jpeg",
+  "preview_dimensions": [
+    1200,
+    670
+  ],
+  "preview_path": "previews/005-5f1cf53cdc0c.jpg",
+  "rule_impact_evidence": {
+    "path": "references/text2pic/conversations/005-视频制作流程建议/IMAGE_MANIFEST.md",
+    "section": "B2｜Prompt 2.0：减注释"
+  },
+  "source_dimensions_after_orientation": [
+    1376,
+    768
+  ],
+  "source_format": "JPEG",
+  "test_purpose": "测试减注释后是否解决视觉母语偏海报、HUD 或白板流程图的问题。",
+  "thumbnail_dimensions": [
+    420,
+    234
+  ],
+  "thumbnail_path": "thumbnails/005-5f1cf53cdc0c.jpg",
+  "user_feedback_evidence": {
+    "path": "references/text2pic/conversations/005-视频制作流程建议/IMAGE_MANIFEST.md",
+    "section": "B2｜Prompt 2.0：减注释"
+  }
+}

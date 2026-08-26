@@ -1,0 +1,46 @@
+{
+  "canonical_bytes": 727097,
+  "canonical_expected_sha256": "8ff4038f328e915aa03ad959f32171ffbf0206d15d58cb431876db864ab7cdb0",
+  "canonical_original_path": "references/text2pic/conversations/20260506-图片风格总结分析/originals/images/G11_第一层美观缺失反例_借成熟体系_模型2_同字节重复.png",
+  "canonical_sha256": "8ff4038f328e915aa03ad959f32171ffbf0206d15d58cb431876db864ab7cdb0",
+  "conversation_id": "20260506",
+  "conversation_title": "20260506-图片风格总结分析",
+  "current_filename": "G11_第一层美观缺失反例_借成熟体系_模型2_同字节重复.png",
+  "detail_page": "images/20260506-8c8c00810791/index.html",
+  "duplicate_content_ids": [
+    "20260506-2265240bfaa7"
+  ],
+  "group_id": "G11",
+  "group_title": "第一层美观缺失反例：借成熟体系成为共性路径",
+  "id": "20260506-8c8c00810791",
+  "image_manifest_evidence": {
+    "path": "references/text2pic/conversations/20260506-图片风格总结分析/IMAGE_MANIFEST.md",
+    "section": "G11 第一层美观缺失反例：借成熟体系成为共性路径"
+  },
+  "metadata_path": "metadata/20260506-8c8c00810791.json",
+  "original_filename": "image(40).png",
+  "preview_dimensions": [
+    572,
+    1024
+  ],
+  "preview_path": "previews/20260506-8c8c00810791.jpg",
+  "rule_impact_evidence": {
+    "path": "references/text2pic/conversations/20260506-图片风格总结分析/IMAGE_MANIFEST.md",
+    "section": "G11 第一层美观缺失反例：借成熟体系成为共性路径"
+  },
+  "source_dimensions_after_orientation": [
+    572,
+    1024
+  ],
+  "source_format": "PNG",
+  "test_purpose": "验证主题本身不能替代画面对象定义。",
+  "thumbnail_dimensions": [
+    235,
+    420
+  ],
+  "thumbnail_path": "thumbnails/20260506-8c8c00810791.jpg",
+  "user_feedback_evidence": {
+    "path": "references/text2pic/conversations/20260506-图片风格总结分析/IMAGE_MANIFEST.md",
+    "section": "G11 第一层美观缺失反例：借成熟体系成为共性路径"
+  }
+}

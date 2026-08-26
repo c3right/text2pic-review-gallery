@@ -1,0 +1,46 @@
+{
+  "canonical_bytes": 4120122,
+  "canonical_expected_sha256": "54d0af0f901d8f8f29431b1be8f4b438ffb615b26a0fc067596463dfc4efbbe2",
+  "canonical_original_path": "references/text2pic/conversations/007-Branch-1-V1视觉系统设计/originals/images/8）H_LYNK7｜拆解清单图｜欧洲市场落地门槛分析.png",
+  "canonical_sha256": "54d0af0f901d8f8f29431b1be8f4b438ffb615b26a0fc067596463dfc4efbbe2",
+  "conversation_id": "007",
+  "conversation_title": "007-Branch-1-V1视觉系统设计",
+  "current_filename": "8）H_LYNK7｜拆解清单图｜欧洲市场落地门槛分析.png",
+  "detail_page": "images/007-3264435ee595/index.html",
+  "duplicate_content_ids": [
+    "20260506-87bbc4af3794"
+  ],
+  "group_id": "G06H",
+  "group_title": "SVP 第 2 轮 H：Hybrid Balanced",
+  "id": "007-3264435ee595",
+  "image_manifest_evidence": {
+    "path": "references/text2pic/conversations/007-Branch-1-V1视觉系统设计/IMAGE_MANIFEST.md",
+    "section": "7. 第六组：SVP 第 2 轮 W/H/C（12 张） / H"
+  },
+  "metadata_path": "metadata/007-3264435ee595.json",
+  "original_filename": null,
+  "preview_dimensions": [
+    670,
+    1200
+  ],
+  "preview_path": "previews/007-3264435ee595.jpg",
+  "rule_impact_evidence": {
+    "path": "references/text2pic/conversations/007-Branch-1-V1视觉系统设计/IMAGE_MANIFEST.md",
+    "section": "7. 第六组：SVP 第 2 轮 W/H/C（12 张） / H"
+  },
+  "source_dimensions_after_orientation": [
+    1143,
+    2048
+  ],
+  "source_format": "PNG",
+  "test_purpose": "验证 Hybrid Balanced 作为主线默认候选的结构与叙事平衡。",
+  "thumbnail_dimensions": [
+    234,
+    420
+  ],
+  "thumbnail_path": "thumbnails/007-3264435ee595.jpg",
+  "user_feedback_evidence": {
+    "path": "references/text2pic/conversations/007-Branch-1-V1视觉系统设计/IMAGE_MANIFEST.md",
+    "section": "7. 第六组：SVP 第 2 轮 W/H/C（12 张） / H"
+  }
+}

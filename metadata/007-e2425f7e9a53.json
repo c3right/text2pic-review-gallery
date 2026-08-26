@@ -1,0 +1,44 @@
+{
+  "canonical_bytes": 3610035,
+  "canonical_expected_sha256": "9a60cd3fc8c8c0e72dd434d65fd916fe545444f88b9744f720998e2a2d7d0cb3",
+  "canonical_original_path": "references/text2pic/conversations/007-Branch-1-V1视觉系统设计/originals/images/2）小鹏 3 — B版（小规模事实链）.png",
+  "canonical_sha256": "9a60cd3fc8c8c0e72dd434d65fd916fe545444f88b9744f720998e2a2d7d0cb3",
+  "conversation_id": "007",
+  "conversation_title": "007-Branch-1-V1视觉系统设计",
+  "current_filename": "2）小鹏 3 — B版（小规模事实链）.png",
+  "detail_page": "images/007-e2425f7e9a53/index.html",
+  "duplicate_content_ids": [],
+  "group_id": "G04",
+  "group_title": "事实快照图边界测试 v1",
+  "id": "007-e2425f7e9a53",
+  "image_manifest_evidence": {
+    "path": "references/text2pic/conversations/007-Branch-1-V1视觉系统设计/IMAGE_MANIFEST.md",
+    "section": "5. 第四组：事实快照图边界测试 v1（8 张）"
+  },
+  "metadata_path": "metadata/007-e2425f7e9a53.json",
+  "original_filename": null,
+  "preview_dimensions": [
+    670,
+    1200
+  ],
+  "preview_path": "previews/007-e2425f7e9a53.jpg",
+  "rule_impact_evidence": {
+    "path": "references/text2pic/conversations/007-Branch-1-V1视觉系统设计/IMAGE_MANIFEST.md",
+    "section": "5. 第四组：事实快照图边界测试 v1（8 张）"
+  },
+  "source_dimensions_after_orientation": [
+    1143,
+    2048
+  ],
+  "source_format": "PNG",
+  "test_purpose": "验证证据卡与小规模事实链在不同语义结构上的边界。",
+  "thumbnail_dimensions": [
+    234,
+    420
+  ],
+  "thumbnail_path": "thumbnails/007-e2425f7e9a53.jpg",
+  "user_feedback_evidence": {
+    "path": "references/text2pic/conversations/007-Branch-1-V1视觉系统设计/IMAGE_MANIFEST.md",
+    "section": "5. 第四组：事实快照图边界测试 v1（8 张）"
+  }
+}

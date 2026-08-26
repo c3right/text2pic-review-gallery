@@ -1,0 +1,44 @@
+{
+  "canonical_bytes": 301934,
+  "canonical_expected_sha256": "ab5bf1745ee8da3d02be451f764b0fb403c815d621f24b69bb716e6e8cbf9422",
+  "canonical_original_path": "references/text2pic/conversations/20260506-图片风格总结分析/originals/images/G06_结构稳定性_三块硬能力_模型3.png",
+  "canonical_sha256": "ab5bf1745ee8da3d02be451f764b0fb403c815d621f24b69bb716e6e8cbf9422",
+  "conversation_id": "20260506",
+  "conversation_title": "20260506-图片风格总结分析",
+  "current_filename": "G06_结构稳定性_三块硬能力_模型3.png",
+  "detail_page": "images/20260506-feb40569d708/index.html",
+  "duplicate_content_ids": [],
+  "group_id": "G06",
+  "group_title": "第一轮结构稳定性：三块硬能力",
+  "id": "20260506-feb40569d708",
+  "image_manifest_evidence": {
+    "path": "references/text2pic/conversations/20260506-图片风格总结分析/IMAGE_MANIFEST.md",
+    "section": "G06 第一轮结构稳定性：三块硬能力"
+  },
+  "metadata_path": "metadata/20260506-feb40569d708.json",
+  "original_filename": "image(21).png",
+  "preview_dimensions": [
+    1024,
+    576
+  ],
+  "preview_path": "previews/20260506-feb40569d708.jpg",
+  "rule_impact_evidence": {
+    "path": "references/text2pic/conversations/20260506-图片风格总结分析/IMAGE_MANIFEST.md",
+    "section": "G06 第一轮结构稳定性：三块硬能力"
+  },
+  "source_dimensions_after_orientation": [
+    1024,
+    576
+  ],
+  "source_format": "PNG",
+  "test_purpose": "测试渠道、售后、本地化协同三块能力的模块表达。",
+  "thumbnail_dimensions": [
+    420,
+    236
+  ],
+  "thumbnail_path": "thumbnails/20260506-feb40569d708.jpg",
+  "user_feedback_evidence": {
+    "path": "references/text2pic/conversations/20260506-图片风格总结分析/IMAGE_MANIFEST.md",
+    "section": "G06 第一轮结构稳定性：三块硬能力"
+  }
+}

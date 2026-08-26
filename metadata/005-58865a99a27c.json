@@ -1,0 +1,44 @@
+{
+  "canonical_bytes": 1934359,
+  "canonical_expected_sha256": "cc99b28edd37ec5d98cada08d7f1dce28e5c49819a8d682b6f375b003541713e",
+  "canonical_original_path": "references/text2pic/conversations/005-视频制作流程建议/originals/images/assistant-generated/a_wide_infographic_poster_image_with_three_side_by.png",
+  "canonical_sha256": "cc99b28edd37ec5d98cada08d7f1dce28e5c49819a8d682b6f375b003541713e",
+  "conversation_id": "005",
+  "conversation_title": "005-视频制作流程建议",
+  "current_filename": "a_wide_infographic_poster_image_with_three_side_by.png",
+  "detail_page": "images/005-58865a99a27c/index.html",
+  "duplicate_content_ids": [],
+  "group_id": "A3",
+  "group_title": "三档信息密度对比",
+  "id": "005-58865a99a27c",
+  "image_manifest_evidence": {
+    "path": "references/text2pic/conversations/005-视频制作流程建议/IMAGE_MANIFEST.md",
+    "section": "A3｜三档信息密度对比"
+  },
+  "metadata_path": "metadata/005-58865a99a27c.json",
+  "original_filename": null,
+  "preview_dimensions": [
+    1200,
+    960
+  ],
+  "preview_path": "previews/005-58865a99a27c.jpg",
+  "rule_impact_evidence": {
+    "path": "references/text2pic/conversations/005-视频制作流程建议/IMAGE_MANIFEST.md",
+    "section": "A3｜三档信息密度对比"
+  },
+  "source_dimensions_after_orientation": [
+    1402,
+    1122
+  ],
+  "source_format": "PNG",
+  "test_purpose": "比较 Lite、Balanced 与 Dense 三档信息密度。",
+  "thumbnail_dimensions": [
+    420,
+    336
+  ],
+  "thumbnail_path": "thumbnails/005-58865a99a27c.jpg",
+  "user_feedback_evidence": {
+    "path": "references/text2pic/conversations/005-视频制作流程建议/IMAGE_MANIFEST.md",
+    "section": "A3｜三档信息密度对比"
+  }
+}

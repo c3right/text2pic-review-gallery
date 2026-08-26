@@ -1,0 +1,44 @@
+{
+  "canonical_bytes": 1705665,
+  "canonical_expected_sha256": "2b2ab766807603793cf3271408f6f97a0e008eb8239eb0e40cf7c9e6e3d68612",
+  "canonical_original_path": "references/text2pic/conversations/20260506-图片风格总结分析/originals/images/G20_完整规则回归_低门槛到认知_模型3.png",
+  "canonical_sha256": "2b2ab766807603793cf3271408f6f97a0e008eb8239eb0e40cf7c9e6e3d68612",
+  "conversation_id": "20260506",
+  "conversation_title": "20260506-图片风格总结分析",
+  "current_filename": "G20_完整规则回归_低门槛到认知_模型3.png",
+  "detail_page": "images/20260506-c570c9f5d70e/index.html",
+  "duplicate_content_ids": [],
+  "group_id": "G20",
+  "group_title": "完整显式规则回归：低门槛体验→教育用户→建立认知",
+  "id": "20260506-c570c9f5d70e",
+  "image_manifest_evidence": {
+    "path": "references/text2pic/conversations/20260506-图片风格总结分析/IMAGE_MANIFEST.md",
+    "section": "G20 完整显式规则回归：低门槛体验→教育用户→建立认知"
+  },
+  "metadata_path": "metadata/20260506-c570c9f5d70e.json",
+  "original_filename": "image(60).png",
+  "preview_dimensions": [
+    675,
+    1200
+  ],
+  "preview_path": "previews/20260506-c570c9f5d70e.jpg",
+  "rule_impact_evidence": {
+    "path": "references/text2pic/conversations/20260506-图片风格总结分析/IMAGE_MANIFEST.md",
+    "section": "G20 完整显式规则回归：低门槛体验→教育用户→建立认知"
+  },
+  "source_dimensions_after_orientation": [
+    720,
+    1280
+  ],
+  "source_format": "PNG",
+  "test_purpose": "回归三阶段小场景 + 数字的显式规则和第二层美观效果。",
+  "thumbnail_dimensions": [
+    236,
+    420
+  ],
+  "thumbnail_path": "thumbnails/20260506-c570c9f5d70e.jpg",
+  "user_feedback_evidence": {
+    "path": "references/text2pic/conversations/20260506-图片风格总结分析/IMAGE_MANIFEST.md",
+    "section": "G20 完整显式规则回归：低门槛体验→教育用户→建立认知"
+  }
+}

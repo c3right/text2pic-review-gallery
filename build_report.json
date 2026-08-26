@@ -1,0 +1,42 @@
+{
+  "build_version": "0.1.0",
+  "canonical_integrity": {
+    "changed": [],
+    "checked": 146,
+    "status": "PASS"
+  },
+  "corpus_gate": {
+    "actual_total": 146,
+    "by_conversation": {
+      "005": 22,
+      "005.1": 0,
+      "006": 0,
+      "007": 45,
+      "008": 8,
+      "20260506": 71
+    },
+    "expected_total": 146
+  },
+  "duplicate_policy": {
+    "duplicate_sha_groups": 14,
+    "provenance_deduplication": "none",
+    "unique_canonical_sha256": 129
+  },
+  "gallery_coverage": {
+    "manifest_entries": 146,
+    "metadata_sidecars": 146,
+    "navigation_targets": 146,
+    "previews": 146,
+    "status": "PASS"
+  },
+  "lfs_actual_byte_verification": {
+    "decoded_images": 146,
+    "pointer_images": 0
+  },
+  "source_revision": "a44f93538fda7e20af8d4dc16123b725efbc6735",
+  "status": "PASS",
+  "web_integrity": {
+    "broken_local_links": 0,
+    "status": "PASS"
+  }
+}

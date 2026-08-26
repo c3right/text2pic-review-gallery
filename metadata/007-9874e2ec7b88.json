@@ -1,0 +1,44 @@
+{
+  "canonical_bytes": 3714465,
+  "canonical_expected_sha256": "c0b1cdac753bf130c48f3513838bd057c25ac33fab9e98216b67ee2cd24852eb",
+  "canonical_original_path": "references/text2pic/conversations/007-Branch-1-V1视觉系统设计/originals/images/领克 7｜拆解清单图｜优化 Prompt v2.png",
+  "canonical_sha256": "c0b1cdac753bf130c48f3513838bd057c25ac33fab9e98216b67ee2cd24852eb",
+  "conversation_id": "007",
+  "conversation_title": "007-Branch-1-V1视觉系统设计",
+  "current_filename": "领克 7｜拆解清单图｜优化 Prompt v2.png",
+  "detail_page": "images/007-9874e2ec7b88/index.html",
+  "duplicate_content_ids": [],
+  "group_id": "G02",
+  "group_title": "三张问题样本定向修正",
+  "id": "007-9874e2ec7b88",
+  "image_manifest_evidence": {
+    "path": "references/text2pic/conversations/007-Branch-1-V1视觉系统设计/IMAGE_MANIFEST.md",
+    "section": "3. 第二组：三张问题样本定向修正（3 张）"
+  },
+  "metadata_path": "metadata/007-9874e2ec7b88.json",
+  "original_filename": null,
+  "preview_dimensions": [
+    670,
+    1200
+  ],
+  "preview_path": "previews/007-9874e2ec7b88.jpg",
+  "rule_impact_evidence": {
+    "path": "references/text2pic/conversations/007-Branch-1-V1视觉系统设计/IMAGE_MANIFEST.md",
+    "section": "3. 第二组：三张问题样本定向修正（3 张）"
+  },
+  "source_dimensions_after_orientation": [
+    1143,
+    2048
+  ],
+  "source_format": "PNG",
+  "test_purpose": "针对三张问题样本减轻文字和重信息图感，并观察系列一致性问题。",
+  "thumbnail_dimensions": [
+    234,
+    420
+  ],
+  "thumbnail_path": "thumbnails/007-9874e2ec7b88.jpg",
+  "user_feedback_evidence": {
+    "path": "references/text2pic/conversations/007-Branch-1-V1视觉系统设计/IMAGE_MANIFEST.md",
+    "section": "3. 第二组：三张问题样本定向修正（3 张）"
+  }
+}

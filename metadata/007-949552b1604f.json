@@ -1,0 +1,44 @@
+{
+  "canonical_bytes": 3816863,
+  "canonical_expected_sha256": "4dcdf49358dbb745a9363775970778706725f19ac0f33217f9d141d478871257",
+  "canonical_original_path": "references/text2pic/conversations/007-Branch-1-V1视觉系统设计/originals/images/对照逻辑图｜标准样本：小鹏 分块段 9.png",
+  "canonical_sha256": "4dcdf49358dbb745a9363775970778706725f19ac0f33217f9d141d478871257",
+  "conversation_id": "007",
+  "conversation_title": "007-Branch-1-V1视觉系统设计",
+  "current_filename": "对照逻辑图｜标准样本：小鹏 分块段 9.png",
+  "detail_page": "images/007-949552b1604f/index.html",
+  "duplicate_content_ids": [],
+  "group_id": "G01",
+  "group_title": "四图型标准样本首测",
+  "id": "007-949552b1604f",
+  "image_manifest_evidence": {
+    "path": "references/text2pic/conversations/007-Branch-1-V1视觉系统设计/IMAGE_MANIFEST.md",
+    "section": "2. 第一组：四图型标准样本首测（8 张）"
+  },
+  "metadata_path": "metadata/007-949552b1604f.json",
+  "original_filename": null,
+  "preview_dimensions": [
+    670,
+    1200
+  ],
+  "preview_path": "previews/007-949552b1604f.jpg",
+  "rule_impact_evidence": {
+    "path": "references/text2pic/conversations/007-Branch-1-V1视觉系统设计/IMAGE_MANIFEST.md",
+    "section": "2. 第一组：四图型标准样本首测（8 张）"
+  },
+  "source_dimensions_after_orientation": [
+    1143,
+    2048
+  ],
+  "source_format": "PNG",
+  "test_purpose": "将四图型方法投到文生图模型，验证图型判断、Prompt 骨架与实际画面。",
+  "thumbnail_dimensions": [
+    234,
+    420
+  ],
+  "thumbnail_path": "thumbnails/007-949552b1604f.jpg",
+  "user_feedback_evidence": {
+    "path": "references/text2pic/conversations/007-Branch-1-V1视觉系统设计/IMAGE_MANIFEST.md",
+    "section": "2. 第一组：四图型标准样本首测（8 张）"
+  }
+}

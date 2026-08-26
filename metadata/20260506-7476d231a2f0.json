@@ -1,0 +1,44 @@
+{
+  "canonical_bytes": 705761,
+  "canonical_expected_sha256": "e73f45e36f5ae855f56a6bb5fe491cc283d6c65ff1a332e646aa92f2fc6b79cd",
+  "canonical_original_path": "references/text2pic/conversations/20260506-图片风格总结分析/originals/images/G18_完整规则回归_落地门槛_唯一图.png",
+  "canonical_sha256": "e73f45e36f5ae855f56a6bb5fe491cc283d6c65ff1a332e646aa92f2fc6b79cd",
+  "conversation_id": "20260506",
+  "conversation_title": "20260506-图片风格总结分析",
+  "current_filename": "G18_完整规则回归_落地门槛_唯一图.png",
+  "detail_page": "images/20260506-7476d231a2f0/index.html",
+  "duplicate_content_ids": [],
+  "group_id": "G18",
+  "group_title": "完整显式规则回归：欧洲落地门槛",
+  "id": "20260506-7476d231a2f0",
+  "image_manifest_evidence": {
+    "path": "references/text2pic/conversations/20260506-图片风格总结分析/IMAGE_MANIFEST.md",
+    "section": "G18 完整显式规则回归：欧洲落地门槛"
+  },
+  "metadata_path": "metadata/20260506-7476d231a2f0.json",
+  "original_filename": "image(54).png",
+  "preview_dimensions": [
+    572,
+    1024
+  ],
+  "preview_path": "previews/20260506-7476d231a2f0.jpg",
+  "rule_impact_evidence": {
+    "path": "references/text2pic/conversations/20260506-图片风格总结分析/IMAGE_MANIFEST.md",
+    "section": "G18 完整显式规则回归：欧洲落地门槛"
+  },
+  "source_dimensions_after_orientation": [
+    572,
+    1024
+  ],
+  "source_format": "PNG",
+  "test_purpose": "回归四层门槛的容器化 / 结构化 Prompt。",
+  "thumbnail_dimensions": [
+    235,
+    420
+  ],
+  "thumbnail_path": "thumbnails/20260506-7476d231a2f0.jpg",
+  "user_feedback_evidence": {
+    "path": "references/text2pic/conversations/20260506-图片风格总结分析/IMAGE_MANIFEST.md",
+    "section": "G18 完整显式规则回归：欧洲落地门槛"
+  }
+}

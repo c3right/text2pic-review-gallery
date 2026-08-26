@@ -1,0 +1,44 @@
+{
+  "canonical_bytes": 4059297,
+  "canonical_expected_sha256": "22daf4ebf6d612f9c51083a2bb88a5868556b8d79b90ebee39c93f19b3090152",
+  "canonical_original_path": "references/text2pic/conversations/008-Branch-2-V1视觉系统设计/originals/images/HD_4_欧洲市场落地门槛分析.png",
+  "canonical_sha256": "22daf4ebf6d612f9c51083a2bb88a5868556b8d79b90ebee39c93f19b3090152",
+  "conversation_id": "008",
+  "conversation_title": "008-Branch-2-V1视觉系统设计",
+  "current_filename": "HD_4_欧洲市场落地门槛分析.png",
+  "detail_page": "images/008-bd7d65e8967c/index.html",
+  "duplicate_content_ids": [],
+  "group_id": "HD",
+  "group_title": "SVP Round 3 / H-default",
+  "id": "008-bd7d65e8967c",
+  "image_manifest_evidence": {
+    "path": "references/text2pic/conversations/008-Branch-2-V1视觉系统设计/IMAGE_MANIFEST.md",
+    "section": "2. 测试目的 + 4. 用户具体评价及规则影响"
+  },
+  "metadata_path": "metadata/008-bd7d65e8967c.json",
+  "original_filename": null,
+  "preview_dimensions": [
+    670,
+    1200
+  ],
+  "preview_path": "previews/008-bd7d65e8967c.jpg",
+  "rule_impact_evidence": {
+    "path": "references/text2pic/conversations/008-Branch-2-V1视觉系统设计/IMAGE_MANIFEST.md",
+    "section": "2. 测试目的 + 4. 用户具体评价及规则影响"
+  },
+  "source_dimensions_after_orientation": [
+    1143,
+    2048
+  ],
+  "source_format": "PNG",
+  "test_purpose": "验证 H-default 是否能成为全系统默认主线。",
+  "thumbnail_dimensions": [
+    234,
+    420
+  ],
+  "thumbnail_path": "thumbnails/008-bd7d65e8967c.jpg",
+  "user_feedback_evidence": {
+    "path": "references/text2pic/conversations/008-Branch-2-V1视觉系统设计/IMAGE_MANIFEST.md",
+    "section": "2. 测试目的 + 4. 用户具体评价及规则影响"
+  }
+}

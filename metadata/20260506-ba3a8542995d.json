@@ -1,0 +1,44 @@
+{
+  "canonical_bytes": 1642063,
+  "canonical_expected_sha256": "f1e051ccc89966455f844b118a9b47ef098a300730ea3af2d23aaef2be526235",
+  "canonical_original_path": "references/text2pic/conversations/20260506-图片风格总结分析/originals/images/G12_地图容器问题_落地门槛_模型2.png",
+  "canonical_sha256": "f1e051ccc89966455f844b118a9b47ef098a300730ea3af2d23aaef2be526235",
+  "conversation_id": "20260506",
+  "conversation_title": "20260506-图片风格总结分析",
+  "current_filename": "G12_地图容器问题_落地门槛_模型2.png",
+  "detail_page": "images/20260506-ba3a8542995d/index.html",
+  "duplicate_content_ids": [],
+  "group_id": "G12",
+  "group_title": "地图 / 容器问题：落地门槛",
+  "id": "20260506-ba3a8542995d",
+  "image_manifest_evidence": {
+    "path": "references/text2pic/conversations/20260506-图片风格总结分析/IMAGE_MANIFEST.md",
+    "section": "G12 第一层美观充分但地图/容器暴露问题：落地门槛"
+  },
+  "metadata_path": "metadata/20260506-ba3a8542995d.json",
+  "original_filename": "image(43).png",
+  "preview_dimensions": [
+    675,
+    1200
+  ],
+  "preview_path": "previews/20260506-ba3a8542995d.jpg",
+  "rule_impact_evidence": {
+    "path": "references/text2pic/conversations/20260506-图片风格总结分析/IMAGE_MANIFEST.md",
+    "section": "G12 第一层美观充分但地图/容器暴露问题：落地门槛"
+  },
+  "source_dimensions_after_orientation": [
+    720,
+    1280
+  ],
+  "source_format": "PNG",
+  "test_purpose": "验证地图区域硬约束与层板 / 货架等容器形式必须显式。",
+  "thumbnail_dimensions": [
+    236,
+    420
+  ],
+  "thumbnail_path": "thumbnails/20260506-ba3a8542995d.jpg",
+  "user_feedback_evidence": {
+    "path": "references/text2pic/conversations/20260506-图片风格总结分析/IMAGE_MANIFEST.md",
+    "section": "G12 第一层美观充分但地图/容器暴露问题：落地门槛"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "canonical_bytes": 730927,
+  "canonical_expected_sha256": "35861a385b7652ad50d9ed8979270108b284b1b1975cf4fe051efa030b3b2f00",
+  "canonical_original_path": "references/text2pic/conversations/20260506-图片风格总结分析/originals/images/G13_方向歧义_三块硬能力_模型1.png",
+  "canonical_sha256": "35861a385b7652ad50d9ed8979270108b284b1b1975cf4fe051efa030b3b2f00",
+  "conversation_id": "20260506",
+  "conversation_title": "20260506-图片风格总结分析",
+  "current_filename": "G13_方向歧义_三块硬能力_模型1.png",
+  "detail_page": "images/20260506-0bffbded2ecb/index.html",
+  "duplicate_content_ids": [],
+  "group_id": "G13",
+  "group_title": "方向歧义：三块硬能力",
+  "id": "20260506-0bffbded2ecb",
+  "image_manifest_evidence": {
+    "path": "references/text2pic/conversations/20260506-图片风格总结分析/IMAGE_MANIFEST.md",
+    "section": "G13 第一层美观充分但方向歧义：三块硬能力"
+  },
+  "metadata_path": "metadata/20260506-0bffbded2ecb.json",
+  "original_filename": "image(44).png",
+  "preview_dimensions": [
+    572,
+    1024
+  ],
+  "preview_path": "previews/20260506-0bffbded2ecb.jpg",
+  "rule_impact_evidence": {
+    "path": "references/text2pic/conversations/20260506-图片风格总结分析/IMAGE_MANIFEST.md",
+    "section": "G13 第一层美观充分但方向歧义：三块硬能力"
+  },
+  "source_dimensions_after_orientation": [
+    572,
+    1024
+  ],
+  "source_format": "PNG",
+  "test_purpose": "验证并列模块的空间方向必须显式写定。",
+  "thumbnail_dimensions": [
+    235,
+    420
+  ],
+  "thumbnail_path": "thumbnails/20260506-0bffbded2ecb.jpg",
+  "user_feedback_evidence": {
+    "path": "references/text2pic/conversations/20260506-图片风格总结分析/IMAGE_MANIFEST.md",
+    "section": "G13 第一层美观充分但方向歧义：三块硬能力"
+  }
+}

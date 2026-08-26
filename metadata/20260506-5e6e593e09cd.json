@@ -1,0 +1,44 @@
+{
+  "canonical_bytes": 1645579,
+  "canonical_expected_sha256": "6dd8f6682e725240140297ae9d3240bbfce6ab67acca16ebe33920934e13e476",
+  "canonical_original_path": "references/text2pic/conversations/20260506-图片风格总结分析/originals/images/G16_完整规则回归_竞争重点切换_模型2.png",
+  "canonical_sha256": "6dd8f6682e725240140297ae9d3240bbfce6ab67acca16ebe33920934e13e476",
+  "conversation_id": "20260506",
+  "conversation_title": "20260506-图片风格总结分析",
+  "current_filename": "G16_完整规则回归_竞争重点切换_模型2.png",
+  "detail_page": "images/20260506-5e6e593e09cd/index.html",
+  "duplicate_content_ids": [],
+  "group_id": "G16",
+  "group_title": "完整显式规则回归：竞争重点切换",
+  "id": "20260506-5e6e593e09cd",
+  "image_manifest_evidence": {
+    "path": "references/text2pic/conversations/20260506-图片风格总结分析/IMAGE_MANIFEST.md",
+    "section": "G16 完整显式规则回归：竞争重点切换"
+  },
+  "metadata_path": "metadata/20260506-5e6e593e09cd.json",
+  "original_filename": "image(51).png",
+  "preview_dimensions": [
+    675,
+    1200
+  ],
+  "preview_path": "previews/20260506-5e6e593e09cd.jpg",
+  "rule_impact_evidence": {
+    "path": "references/text2pic/conversations/20260506-图片风格总结分析/IMAGE_MANIFEST.md",
+    "section": "G16 完整显式规则回归：竞争重点切换"
+  },
+  "source_dimensions_after_orientation": [
+    720,
+    1280
+  ],
+  "source_format": "PNG",
+  "test_purpose": "回归竞争重点切换的左右结构与内容稳定性。",
+  "thumbnail_dimensions": [
+    236,
+    420
+  ],
+  "thumbnail_path": "thumbnails/20260506-5e6e593e09cd.jpg",
+  "user_feedback_evidence": {
+    "path": "references/text2pic/conversations/20260506-图片风格总结分析/IMAGE_MANIFEST.md",
+    "section": "G16 完整显式规则回归：竞争重点切换"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "canonical_bytes": 1753281,
+  "canonical_expected_sha256": "9f4a70c82e3f9d836346c060c4ab2a7272bfaa5d56c2dc1d2a10c41c0dc4d654",
+  "canonical_original_path": "references/text2pic/conversations/20260506-图片风格总结分析/originals/images/G19_完整规则回归_借成熟体系_模型3.png",
+  "canonical_sha256": "9f4a70c82e3f9d836346c060c4ab2a7272bfaa5d56c2dc1d2a10c41c0dc4d654",
+  "conversation_id": "20260506",
+  "conversation_title": "20260506-图片风格总结分析",
+  "current_filename": "G19_完整规则回归_借成熟体系_模型3.png",
+  "detail_page": "images/20260506-d439a562c133/index.html",
+  "duplicate_content_ids": [],
+  "group_id": "G19",
+  "group_title": "完整显式规则回归：借成熟体系",
+  "id": "20260506-d439a562c133",
+  "image_manifest_evidence": {
+    "path": "references/text2pic/conversations/20260506-图片风格总结分析/IMAGE_MANIFEST.md",
+    "section": "G19 完整显式规则回归：借成熟体系"
+  },
+  "metadata_path": "metadata/20260506-d439a562c133.json",
+  "original_filename": "image(57).png",
+  "preview_dimensions": [
+    675,
+    1200
+  ],
+  "preview_path": "previews/20260506-d439a562c133.jpg",
+  "rule_impact_evidence": {
+    "path": "references/text2pic/conversations/20260506-图片风格总结分析/IMAGE_MANIFEST.md",
+    "section": "G19 完整显式规则回归：借成熟体系"
+  },
+  "source_dimensions_after_orientation": [
+    720,
+    1280
+  ],
+  "source_format": "PNG",
+  "test_purpose": "回归零跑 / 奇瑞案例与更快、更省、更稳共性结论的显式对象表达。",
+  "thumbnail_dimensions": [
+    236,
+    420
+  ],
+  "thumbnail_path": "thumbnails/20260506-d439a562c133.jpg",
+  "user_feedback_evidence": {
+    "path": "references/text2pic/conversations/20260506-图片风格总结分析/IMAGE_MANIFEST.md",
+    "section": "G19 完整显式规则回归：借成熟体系"
+  }
+}

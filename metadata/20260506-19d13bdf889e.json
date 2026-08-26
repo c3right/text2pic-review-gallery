@@ -1,0 +1,44 @@
+{
+  "canonical_bytes": 651771,
+  "canonical_expected_sha256": "4effad8b73f728ab72c2e585babf3790a872850bf7021fe1451cb21e4d3c8cfe",
+  "canonical_original_path": "references/text2pic/conversations/20260506-图片风格总结分析/originals/images/G04_结构稳定性_早期有效到体系能力_模型3.png",
+  "canonical_sha256": "4effad8b73f728ab72c2e585babf3790a872850bf7021fe1451cb21e4d3c8cfe",
+  "conversation_id": "20260506",
+  "conversation_title": "20260506-图片风格总结分析",
+  "current_filename": "G04_结构稳定性_早期有效到体系能力_模型3.png",
+  "detail_page": "images/20260506-19d13bdf889e/index.html",
+  "duplicate_content_ids": [],
+  "group_id": "G04",
+  "group_title": "第一轮结构稳定性：早期有效→后期局限→体系能力",
+  "id": "20260506-19d13bdf889e",
+  "image_manifest_evidence": {
+    "path": "references/text2pic/conversations/20260506-图片风格总结分析/IMAGE_MANIFEST.md",
+    "section": "G04 第一轮结构稳定性：早期有效→后期局限→体系能力"
+  },
+  "metadata_path": "metadata/20260506-19d13bdf889e.json",
+  "original_filename": "image(15).png",
+  "preview_dimensions": [
+    1024,
+    576
+  ],
+  "preview_path": "previews/20260506-19d13bdf889e.jpg",
+  "rule_impact_evidence": {
+    "path": "references/text2pic/conversations/20260506-图片风格总结分析/IMAGE_MANIFEST.md",
+    "section": "G04 第一轮结构稳定性：早期有效→后期局限→体系能力"
+  },
+  "source_dimensions_after_orientation": [
+    1024,
+    576
+  ],
+  "source_format": "PNG",
+  "test_purpose": "测试早期有效、后期局限与体系能力三阶段结构。",
+  "thumbnail_dimensions": [
+    420,
+    236
+  ],
+  "thumbnail_path": "thumbnails/20260506-19d13bdf889e.jpg",
+  "user_feedback_evidence": {
+    "path": "references/text2pic/conversations/20260506-图片风格总结分析/IMAGE_MANIFEST.md",
+    "section": "G04 第一轮结构稳定性：早期有效→后期局限→体系能力"
+  }
+}

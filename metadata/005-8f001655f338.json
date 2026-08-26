@@ -1,0 +1,44 @@
+{
+  "canonical_bytes": 522060,
+  "canonical_expected_sha256": "f845e998b9a7f536144d678c0f273c63a1593570546ccec2bb9f2960269b25ad",
+  "canonical_original_path": "references/text2pic/conversations/005-视频制作流程建议/originals/images/user-tests/P3.0_B3_纪实编辑_图1_事件海报感_BDD42F58.jpeg",
+  "canonical_sha256": "f845e998b9a7f536144d678c0f273c63a1593570546ccec2bb9f2960269b25ad",
+  "conversation_id": "005",
+  "conversation_title": "005-视频制作流程建议",
+  "current_filename": "P3.0_B3_纪实编辑_图1_事件海报感_BDD42F58.jpeg",
+  "detail_page": "images/005-8f001655f338/index.html",
+  "duplicate_content_ids": [],
+  "group_id": "B3",
+  "group_title": "Prompt 3.0：Editorial Documentary",
+  "id": "005-8f001655f338",
+  "image_manifest_evidence": {
+    "path": "references/text2pic/conversations/005-视频制作流程建议/IMAGE_MANIFEST.md",
+    "section": "B3｜Prompt 3.0：Editorial Documentary"
+  },
+  "metadata_path": "metadata/005-8f001655f338.json",
+  "original_filename": "BDD42F58-F47D-4E20-B5FC-55508A859635.jpeg",
+  "preview_dimensions": [
+    1200,
+    670
+  ],
+  "preview_path": "previews/005-8f001655f338.jpg",
+  "rule_impact_evidence": {
+    "path": "references/text2pic/conversations/005-视频制作流程建议/IMAGE_MANIFEST.md",
+    "section": "B3｜Prompt 3.0：Editorial Documentary"
+  },
+  "source_dimensions_after_orientation": [
+    1376,
+    768
+  ],
+  "source_format": "JPEG",
+  "test_purpose": "测试 Editorial Documentary 是否能形成更平衡的事实链与调查资料表达。",
+  "thumbnail_dimensions": [
+    420,
+    234
+  ],
+  "thumbnail_path": "thumbnails/005-8f001655f338.jpg",
+  "user_feedback_evidence": {
+    "path": "references/text2pic/conversations/005-视频制作流程建议/IMAGE_MANIFEST.md",
+    "section": "B3｜Prompt 3.0：Editorial Documentary"
+  }
+}

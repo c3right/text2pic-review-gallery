@@ -1,0 +1,47 @@
+{
+  "canonical_bytes": 4119724,
+  "canonical_expected_sha256": "905daf6c7651cf758d612c30b1cc73873c8a376530d145fa99468951ec6110ba",
+  "canonical_original_path": "references/text2pic/conversations/007-Branch-1-V1视觉系统设计/originals/images/2）W_LYNK3｜对照逻辑图｜交出去的部分 vs 保留的部分.png",
+  "canonical_sha256": "905daf6c7651cf758d612c30b1cc73873c8a376530d145fa99468951ec6110ba",
+  "conversation_id": "007",
+  "conversation_title": "007-Branch-1-V1视觉系统设计",
+  "current_filename": "2）W_LYNK3｜对照逻辑图｜交出去的部分 vs 保留的部分.png",
+  "detail_page": "images/007-125ab827d11b/index.html",
+  "duplicate_content_ids": [
+    "20260506-8a5c31ea2e05",
+    "20260506-d15645682bad"
+  ],
+  "group_id": "G06W",
+  "group_title": "SVP 第 2 轮 W：Warm Editorial Narrative",
+  "id": "007-125ab827d11b",
+  "image_manifest_evidence": {
+    "path": "references/text2pic/conversations/007-Branch-1-V1视觉系统设计/IMAGE_MANIFEST.md",
+    "section": "7. 第六组：SVP 第 2 轮 W/H/C（12 张） / W"
+  },
+  "metadata_path": "metadata/007-125ab827d11b.json",
+  "original_filename": null,
+  "preview_dimensions": [
+    670,
+    1200
+  ],
+  "preview_path": "previews/007-125ab827d11b.jpg",
+  "rule_impact_evidence": {
+    "path": "references/text2pic/conversations/007-Branch-1-V1视觉系统设计/IMAGE_MANIFEST.md",
+    "section": "7. 第六组：SVP 第 2 轮 W/H/C（12 张） / W"
+  },
+  "source_dimensions_after_orientation": [
+    1143,
+    2048
+  ],
+  "source_format": "PNG",
+  "test_purpose": "验证暖色 editorial narrative 作为更强故事入口的表现与过满风险。",
+  "thumbnail_dimensions": [
+    234,
+    420
+  ],
+  "thumbnail_path": "thumbnails/007-125ab827d11b.jpg",
+  "user_feedback_evidence": {
+    "path": "references/text2pic/conversations/007-Branch-1-V1视觉系统设计/IMAGE_MANIFEST.md",
+    "section": "7. 第六组：SVP 第 2 轮 W/H/C（12 张） / W"
+  }
+}

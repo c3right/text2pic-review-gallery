@@ -1,0 +1,44 @@
+{
+  "canonical_bytes": 518101,
+  "canonical_expected_sha256": "cbd1a3e2877a7cd7b13455971a0c161fed3fa45b8447edf7773a2c6445fd05eb",
+  "canonical_original_path": "references/text2pic/conversations/005-视频制作流程建议/originals/images/user-tests/P4.0_B4_证据板_图3_仍最好_199EAB8C.jpeg",
+  "canonical_sha256": "cbd1a3e2877a7cd7b13455971a0c161fed3fa45b8447edf7773a2c6445fd05eb",
+  "conversation_id": "005",
+  "conversation_title": "005-视频制作流程建议",
+  "current_filename": "P4.0_B4_证据板_图3_仍最好_199EAB8C.jpeg",
+  "detail_page": "images/005-28ff8cc263ec/index.html",
+  "duplicate_content_ids": [],
+  "group_id": "B4",
+  "group_title": "Prompt 4.0：统一 Evidence Board",
+  "id": "005-28ff8cc263ec",
+  "image_manifest_evidence": {
+    "path": "references/text2pic/conversations/005-视频制作流程建议/IMAGE_MANIFEST.md",
+    "section": "B4｜Prompt 4.0：统一 Evidence Board"
+  },
+  "metadata_path": "metadata/005-28ff8cc263ec.json",
+  "original_filename": "199EAB8C-FA14-41A8-8DAF-582ABBBAD10D.jpeg",
+  "preview_dimensions": [
+    1200,
+    670
+  ],
+  "preview_path": "previews/005-28ff8cc263ec.jpg",
+  "rule_impact_evidence": {
+    "path": "references/text2pic/conversations/005-视频制作流程建议/IMAGE_MANIFEST.md",
+    "section": "B4｜Prompt 4.0：统一 Evidence Board"
+  },
+  "source_dimensions_after_orientation": [
+    1376,
+    768
+  ],
+  "source_format": "JPEG",
+  "test_purpose": "测试统一 Evidence Board 是否能覆盖 Hook、事实链和 Core Thesis。",
+  "thumbnail_dimensions": [
+    420,
+    234
+  ],
+  "thumbnail_path": "thumbnails/005-28ff8cc263ec.jpg",
+  "user_feedback_evidence": {
+    "path": "references/text2pic/conversations/005-视频制作流程建议/IMAGE_MANIFEST.md",
+    "section": "B4｜Prompt 4.0：统一 Evidence Board"
+  }
+}

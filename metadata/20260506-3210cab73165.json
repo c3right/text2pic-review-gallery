@@ -1,0 +1,44 @@
+{
+  "canonical_bytes": 143685,
+  "canonical_expected_sha256": "a2abd4b4c997f2f56e75329fdcddbd4d88c60f54511c23bfdbff26f46a5ec946",
+  "canonical_original_path": "references/text2pic/conversations/20260506-图片风格总结分析/originals/images/G09_第一层美观定向_低门槛到认知_模型2.png",
+  "canonical_sha256": "a2abd4b4c997f2f56e75329fdcddbd4d88c60f54511c23bfdbff26f46a5ec946",
+  "conversation_id": "20260506",
+  "conversation_title": "20260506-图片风格总结分析",
+  "current_filename": "G09_第一层美观定向_低门槛到认知_模型2.png",
+  "detail_page": "images/20260506-3210cab73165/index.html",
+  "duplicate_content_ids": [],
+  "group_id": "G09",
+  "group_title": "第一层美观定向：低门槛体验→教育用户→建立认知",
+  "id": "20260506-3210cab73165",
+  "image_manifest_evidence": {
+    "path": "references/text2pic/conversations/20260506-图片风格总结分析/IMAGE_MANIFEST.md",
+    "section": "G09 第一层美观定向测试：低门槛体验→教育用户→建立认知"
+  },
+  "metadata_path": "metadata/20260506-3210cab73165.json",
+  "original_filename": "image(33).png",
+  "preview_dimensions": [
+    216,
+    384
+  ],
+  "preview_path": "previews/20260506-3210cab73165.jpg",
+  "rule_impact_evidence": {
+    "path": "references/text2pic/conversations/20260506-图片风格总结分析/IMAGE_MANIFEST.md",
+    "section": "G09 第一层美观定向测试：低门槛体验→教育用户→建立认知"
+  },
+  "source_dimensions_after_orientation": [
+    216,
+    384
+  ],
+  "source_format": "PNG",
+  "test_purpose": "验证三模块小场景的对象绑定与竖式布局适配。",
+  "thumbnail_dimensions": [
+    216,
+    384
+  ],
+  "thumbnail_path": "thumbnails/20260506-3210cab73165.jpg",
+  "user_feedback_evidence": {
+    "path": "references/text2pic/conversations/20260506-图片风格总结分析/IMAGE_MANIFEST.md",
+    "section": "G09 第一层美观定向测试：低门槛体验→教育用户→建立认知"
+  }
+}

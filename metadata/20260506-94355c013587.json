@@ -1,0 +1,46 @@
+{
+  "canonical_bytes": 363486,
+  "canonical_expected_sha256": "df369075221f23adc29c073f16a5df02ec9cc71eab3e603cac0ad8fd92e71145",
+  "canonical_original_path": "references/text2pic/conversations/20260506-图片风格总结分析/originals/images/G02_结构稳定性_业务分工逻辑_模型1.png",
+  "canonical_sha256": "df369075221f23adc29c073f16a5df02ec9cc71eab3e603cac0ad8fd92e71145",
+  "conversation_id": "20260506",
+  "conversation_title": "20260506-图片风格总结分析",
+  "current_filename": "G02_结构稳定性_业务分工逻辑_模型1.png",
+  "detail_page": "images/20260506-94355c013587/index.html",
+  "duplicate_content_ids": [
+    "20260506-aa3ef06c0fc2"
+  ],
+  "group_id": "G02",
+  "group_title": "第一轮结构稳定性：业务分工逻辑",
+  "id": "20260506-94355c013587",
+  "image_manifest_evidence": {
+    "path": "references/text2pic/conversations/20260506-图片风格总结分析/IMAGE_MANIFEST.md",
+    "section": "G02 第一轮结构稳定性：业务分工逻辑"
+  },
+  "metadata_path": "metadata/20260506-94355c013587.json",
+  "original_filename": "image(7).png",
+  "preview_dimensions": [
+    1024,
+    559
+  ],
+  "preview_path": "previews/20260506-94355c013587.jpg",
+  "rule_impact_evidence": {
+    "path": "references/text2pic/conversations/20260506-图片风格总结分析/IMAGE_MANIFEST.md",
+    "section": "G02 第一轮结构稳定性：业务分工逻辑"
+  },
+  "source_dimensions_after_orientation": [
+    1024,
+    559
+  ],
+  "source_format": "PNG",
+  "test_purpose": "测试左右三模块业务分工结构在不同模型中的稳定性。",
+  "thumbnail_dimensions": [
+    420,
+    229
+  ],
+  "thumbnail_path": "thumbnails/20260506-94355c013587.jpg",
+  "user_feedback_evidence": {
+    "path": "references/text2pic/conversations/20260506-图片风格总结分析/IMAGE_MANIFEST.md",
+    "section": "G02 第一轮结构稳定性：业务分工逻辑"
+  }
+}

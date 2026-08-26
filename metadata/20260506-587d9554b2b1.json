@@ -1,0 +1,46 @@
+{
+  "canonical_bytes": 3941420,
+  "canonical_expected_sha256": "795ca9575461fb40c32195344c7d5e7355aa1e37cdb144156e6e5f568c98a191",
+  "canonical_original_path": "references/text2pic/conversations/20260506-图片风格总结分析/originals/images/6）H_LYNK3｜对照逻辑图｜交出去的部分 vs 保留的部分(2).png",
+  "canonical_sha256": "795ca9575461fb40c32195344c7d5e7355aa1e37cdb144156e6e5f568c98a191",
+  "conversation_id": "20260506",
+  "conversation_title": "20260506-图片风格总结分析",
+  "current_filename": "6）H_LYNK3｜对照逻辑图｜交出去的部分 vs 保留的部分(2).png",
+  "detail_page": "images/20260506-587d9554b2b1/index.html",
+  "duplicate_content_ids": [
+    "007-a304bbea2d4b"
+  ],
+  "group_id": "G00",
+  "group_title": "初始两套视觉参考（W/H）",
+  "id": "20260506-587d9554b2b1",
+  "image_manifest_evidence": {
+    "path": "references/text2pic/conversations/20260506-图片风格总结分析/IMAGE_MANIFEST.md",
+    "section": "G00 初始两套视觉参考（W/H）"
+  },
+  "metadata_path": "metadata/20260506-587d9554b2b1.json",
+  "original_filename": null,
+  "preview_dimensions": [
+    670,
+    1200
+  ],
+  "preview_path": "previews/20260506-587d9554b2b1.jpg",
+  "rule_impact_evidence": {
+    "path": "references/text2pic/conversations/20260506-图片风格总结分析/IMAGE_MANIFEST.md",
+    "section": "G00 初始两套视觉参考（W/H）"
+  },
+  "source_dimensions_after_orientation": [
+    1143,
+    2048
+  ],
+  "source_format": "PNG",
+  "test_purpose": "识别第二层美观与第一层结构表达应分离，并形成 W/H 参考起点。",
+  "thumbnail_dimensions": [
+    234,
+    420
+  ],
+  "thumbnail_path": "thumbnails/20260506-587d9554b2b1.jpg",
+  "user_feedback_evidence": {
+    "path": "references/text2pic/conversations/20260506-图片风格总结分析/IMAGE_MANIFEST.md",
+    "section": "G00 初始两套视觉参考（W/H）"
+  }
+}

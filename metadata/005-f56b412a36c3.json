@@ -1,0 +1,44 @@
+{
+  "canonical_bytes": 2382872,
+  "canonical_expected_sha256": "d38431f8ecfd558094fe8bd2d8a9c030a9fa50824f9b386e4571e26370b42f57",
+  "canonical_original_path": "references/text2pic/conversations/005-视频制作流程建议/originals/images/assistant-generated/a_dark_cinematic_investigative_poster_thumbnail_s.png",
+  "canonical_sha256": "d38431f8ecfd558094fe8bd2d8a9c030a9fa50824f9b386e4571e26370b42f57",
+  "conversation_id": "005",
+  "conversation_title": "005-视频制作流程建议",
+  "current_filename": "a_dark_cinematic_investigative_poster_thumbnail_s.png",
+  "detail_page": "images/005-f56b412a36c3/index.html",
+  "duplicate_content_ids": [],
+  "group_id": "A1",
+  "group_title": "分块段 1 Visual Moments 三图试验",
+  "id": "005-f56b412a36c3",
+  "image_manifest_evidence": {
+    "path": "references/text2pic/conversations/005-视频制作流程建议/IMAGE_MANIFEST.md",
+    "section": "A1｜分块段 1 Visual Moments 三图试验"
+  },
+  "metadata_path": "metadata/005-f56b412a36c3.json",
+  "original_filename": null,
+  "preview_dimensions": [
+    1200,
+    800
+  ],
+  "preview_path": "previews/005-f56b412a36c3.jpg",
+  "rule_impact_evidence": {
+    "path": "references/text2pic/conversations/005-视频制作流程建议/IMAGE_MANIFEST.md",
+    "section": "A1｜分块段 1 Visual Moments 三图试验"
+  },
+  "source_dimensions_after_orientation": [
+    1536,
+    1024
+  ],
+  "source_format": "PNG",
+  "test_purpose": "验证一个分块拆成三个视觉瞬间的多图路线。",
+  "thumbnail_dimensions": [
+    420,
+    280
+  ],
+  "thumbnail_path": "thumbnails/005-f56b412a36c3.jpg",
+  "user_feedback_evidence": {
+    "path": "references/text2pic/conversations/005-视频制作流程建议/IMAGE_MANIFEST.md",
+    "section": "A1｜分块段 1 Visual Moments 三图试验"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "canonical_bytes": 1643832,
+  "canonical_expected_sha256": "d365e7d215352e813e9f1672fef0e5725f9d7e3f4681fa51827d8892a2028d93",
+  "canonical_original_path": "references/text2pic/conversations/20260506-图片风格总结分析/originals/images/G15_完整规则回归_业务分工_模型2.png",
+  "canonical_sha256": "d365e7d215352e813e9f1672fef0e5725f9d7e3f4681fa51827d8892a2028d93",
+  "conversation_id": "20260506",
+  "conversation_title": "20260506-图片风格总结分析",
+  "current_filename": "G15_完整规则回归_业务分工_模型2.png",
+  "detail_page": "images/20260506-7f0dd2301c5a/index.html",
+  "duplicate_content_ids": [],
+  "group_id": "G15",
+  "group_title": "完整显式规则回归：业务分工",
+  "id": "20260506-7f0dd2301c5a",
+  "image_manifest_evidence": {
+    "path": "references/text2pic/conversations/20260506-图片风格总结分析/IMAGE_MANIFEST.md",
+    "section": "G15 完整显式规则回归：业务分工"
+  },
+  "metadata_path": "metadata/20260506-7f0dd2301c5a.json",
+  "original_filename": "image(49).png",
+  "preview_dimensions": [
+    675,
+    1200
+  ],
+  "preview_path": "previews/20260506-7f0dd2301c5a.jpg",
+  "rule_impact_evidence": {
+    "path": "references/text2pic/conversations/20260506-图片风格总结分析/IMAGE_MANIFEST.md",
+    "section": "G15 完整显式规则回归：业务分工"
+  },
+  "source_dimensions_after_orientation": [
+    720,
+    1280
+  ],
+  "source_format": "PNG",
+  "test_purpose": "回归左右业务分工结构的显式规则稳定性。",
+  "thumbnail_dimensions": [
+    236,
+    420
+  ],
+  "thumbnail_path": "thumbnails/20260506-7f0dd2301c5a.jpg",
+  "user_feedback_evidence": {
+    "path": "references/text2pic/conversations/20260506-图片风格总结分析/IMAGE_MANIFEST.md",
+    "section": "G15 完整显式规则回归：业务分工"
+  }
+}

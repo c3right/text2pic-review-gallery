@@ -1,0 +1,46 @@
+{
+  "canonical_bytes": 4524914,
+  "canonical_expected_sha256": "f4e8a691a88ae8a22c8cfea1517224dd1d1ecf9d5e43db9737d92f63d1f8b1c5",
+  "canonical_original_path": "references/text2pic/conversations/20260506-图片风格总结分析/originals/images/1）W_LYNK1｜主题叙事图｜外界误读(3).png",
+  "canonical_sha256": "f4e8a691a88ae8a22c8cfea1517224dd1d1ecf9d5e43db9737d92f63d1f8b1c5",
+  "conversation_id": "20260506",
+  "conversation_title": "20260506-图片风格总结分析",
+  "current_filename": "1）W_LYNK1｜主题叙事图｜外界误读(3).png",
+  "detail_page": "images/20260506-74495ffd6800/index.html",
+  "duplicate_content_ids": [
+    "007-c2794c8bd572"
+  ],
+  "group_id": "G00",
+  "group_title": "初始两套视觉参考（W/H）",
+  "id": "20260506-74495ffd6800",
+  "image_manifest_evidence": {
+    "path": "references/text2pic/conversations/20260506-图片风格总结分析/IMAGE_MANIFEST.md",
+    "section": "G00 初始两套视觉参考（W/H）"
+  },
+  "metadata_path": "metadata/20260506-74495ffd6800.json",
+  "original_filename": null,
+  "preview_dimensions": [
+    670,
+    1200
+  ],
+  "preview_path": "previews/20260506-74495ffd6800.jpg",
+  "rule_impact_evidence": {
+    "path": "references/text2pic/conversations/20260506-图片风格总结分析/IMAGE_MANIFEST.md",
+    "section": "G00 初始两套视觉参考（W/H）"
+  },
+  "source_dimensions_after_orientation": [
+    1143,
+    2048
+  ],
+  "source_format": "PNG",
+  "test_purpose": "识别第二层美观与第一层结构表达应分离，并形成 W/H 参考起点。",
+  "thumbnail_dimensions": [
+    234,
+    420
+  ],
+  "thumbnail_path": "thumbnails/20260506-74495ffd6800.jpg",
+  "user_feedback_evidence": {
+    "path": "references/text2pic/conversations/20260506-图片风格总结分析/IMAGE_MANIFEST.md",
+    "section": "G00 初始两套视觉参考（W/H）"
+  }
+}

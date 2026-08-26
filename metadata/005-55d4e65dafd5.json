@@ -1,0 +1,44 @@
+{
+  "canonical_bytes": 461050,
+  "canonical_expected_sha256": "f93bec82f4b2b9cf2db172abf109ab185a21cbab9ee44f8e722e1875bc449401",
+  "canonical_original_path": "references/text2pic/conversations/005-视频制作流程建议/originals/images/user-tests/P1x_B1_没这么简单_A0512754.jpeg",
+  "canonical_sha256": "f93bec82f4b2b9cf2db172abf109ab185a21cbab9ee44f8e722e1875bc449401",
+  "conversation_id": "005",
+  "conversation_title": "005-视频制作流程建议",
+  "current_filename": "P1x_B1_没这么简单_A0512754.jpeg",
+  "detail_page": "images/005-55d4e65dafd5/index.html",
+  "duplicate_content_ids": [],
+  "group_id": "B1",
+  "group_title": "首轮 Beta / Prompt 1.x：Auto-Overannotation",
+  "id": "005-55d4e65dafd5",
+  "image_manifest_evidence": {
+    "path": "references/text2pic/conversations/005-视频制作流程建议/IMAGE_MANIFEST.md",
+    "section": "B1｜首轮 Beta / Prompt 1.x：Auto-Overannotation"
+  },
+  "metadata_path": "metadata/005-55d4e65dafd5.json",
+  "original_filename": "A0512754-38F6-497A-9F65-76A421D02544.jpeg",
+  "preview_dimensions": [
+    1200,
+    670
+  ],
+  "preview_path": "previews/005-55d4e65dafd5.jpg",
+  "rule_impact_evidence": {
+    "path": "references/text2pic/conversations/005-视频制作流程建议/IMAGE_MANIFEST.md",
+    "section": "B1｜首轮 Beta / Prompt 1.x：Auto-Overannotation"
+  },
+  "source_dimensions_after_orientation": [
+    1376,
+    768
+  ],
+  "source_format": "JPEG",
+  "test_purpose": "观察模型在指定文字之外自动增加解释卡、地图、图表和重复文字的问题。",
+  "thumbnail_dimensions": [
+    420,
+    234
+  ],
+  "thumbnail_path": "thumbnails/005-55d4e65dafd5.jpg",
+  "user_feedback_evidence": {
+    "path": "references/text2pic/conversations/005-视频制作流程建议/IMAGE_MANIFEST.md",
+    "section": "B1｜首轮 Beta / Prompt 1.x：Auto-Overannotation"
+  }
+}

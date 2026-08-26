@@ -1,0 +1,44 @@
+{
+  "canonical_bytes": 151925,
+  "canonical_expected_sha256": "564d6d08739fe9bb5add2c4e25b64de510e0cdf8f063155cf0e19dbe2bb5aed3",
+  "canonical_original_path": "references/text2pic/conversations/005-视频制作流程建议/originals/images/user-tests/P5.0_B5_结构板_图1_近重复_1437E3F3.jpeg",
+  "canonical_sha256": "564d6d08739fe9bb5add2c4e25b64de510e0cdf8f063155cf0e19dbe2bb5aed3",
+  "conversation_id": "005",
+  "conversation_title": "005-视频制作流程建议",
+  "current_filename": "P5.0_B5_结构板_图1_近重复_1437E3F3.jpeg",
+  "detail_page": "images/005-c5d4b8bf0d9e/index.html",
+  "duplicate_content_ids": [],
+  "group_id": "B5",
+  "group_title": "Prompt 5.0：Editorial Structure Board",
+  "id": "005-c5d4b8bf0d9e",
+  "image_manifest_evidence": {
+    "path": "references/text2pic/conversations/005-视频制作流程建议/IMAGE_MANIFEST.md",
+    "section": "B5｜Prompt 5.0：Editorial Structure Board"
+  },
+  "metadata_path": "metadata/005-c5d4b8bf0d9e.json",
+  "original_filename": "1437E3F3-84F0-4139-BD34-E782F6CBE771.jpeg",
+  "preview_dimensions": [
+    1200,
+    670
+  ],
+  "preview_path": "previews/005-c5d4b8bf0d9e.jpg",
+  "rule_impact_evidence": {
+    "path": "references/text2pic/conversations/005-视频制作流程建议/IMAGE_MANIFEST.md",
+    "section": "B5｜Prompt 5.0：Editorial Structure Board"
+  },
+  "source_dimensions_after_orientation": [
+    1376,
+    768
+  ],
+  "source_format": "JPEG",
+  "test_purpose": "测试结构布局可控性与咨询 PPT / 白卡片材质问题。",
+  "thumbnail_dimensions": [
+    420,
+    234
+  ],
+  "thumbnail_path": "thumbnails/005-c5d4b8bf0d9e.jpg",
+  "user_feedback_evidence": {
+    "path": "references/text2pic/conversations/005-视频制作流程建议/IMAGE_MANIFEST.md",
+    "section": "B5｜Prompt 5.0：Editorial Structure Board"
+  }
+}

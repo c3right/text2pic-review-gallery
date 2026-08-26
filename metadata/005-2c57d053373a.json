@@ -1,0 +1,44 @@
+{
+  "canonical_bytes": 2083611,
+  "canonical_expected_sha256": "5efe8a8145f6c37a5f0a3d6016cacf35897285a67d84039ef359ffbbf0f0ce73",
+  "canonical_original_path": "references/text2pic/conversations/005-视频制作流程建议/originals/images/assistant-generated/a_clean_corporate_infographic_slide_presentatio.png",
+  "canonical_sha256": "5efe8a8145f6c37a5f0a3d6016cacf35897285a67d84039ef359ffbbf0f0ce73",
+  "conversation_id": "005",
+  "conversation_title": "005-视频制作流程建议",
+  "current_filename": "a_clean_corporate_infographic_slide_presentatio.png",
+  "detail_page": "images/005-2c57d053373a/index.html",
+  "duplicate_content_ids": [],
+  "group_id": "A4",
+  "group_title": "非正式结构页示意",
+  "id": "005-2c57d053373a",
+  "image_manifest_evidence": {
+    "path": "references/text2pic/conversations/005-视频制作流程建议/IMAGE_MANIFEST.md",
+    "section": "A4｜非正式结构页示意"
+  },
+  "metadata_path": "metadata/005-2c57d053373a.json",
+  "original_filename": null,
+  "preview_dimensions": [
+    1200,
+    675
+  ],
+  "preview_path": "previews/005-2c57d053373a.jpg",
+  "rule_impact_evidence": {
+    "path": "references/text2pic/conversations/005-视频制作流程建议/IMAGE_MANIFEST.md",
+    "section": "A4｜非正式结构页示意"
+  },
+  "source_dimensions_after_orientation": [
+    1672,
+    941
+  ],
+  "source_format": "PNG",
+  "test_purpose": "保留结构页附近额外生成的辅助示意，作为非正式视觉证据。",
+  "thumbnail_dimensions": [
+    420,
+    236
+  ],
+  "thumbnail_path": "thumbnails/005-2c57d053373a.jpg",
+  "user_feedback_evidence": {
+    "path": "references/text2pic/conversations/005-视频制作流程建议/IMAGE_MANIFEST.md",
+    "section": "A4｜非正式结构页示意"
+  }
+}

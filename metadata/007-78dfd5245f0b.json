@@ -1,0 +1,47 @@
+{
+  "canonical_bytes": 4216844,
+  "canonical_expected_sha256": "b8f8086068eb7d9f1553f6025f9e2810d572e76addee9b4b5eaeb15a6cb8c84d",
+  "canonical_original_path": "references/text2pic/conversations/007-Branch-1-V1视觉系统设计/originals/images/4）W_LYNK7｜拆解清单图｜欧洲市场落地门槛分析.png",
+  "canonical_sha256": "b8f8086068eb7d9f1553f6025f9e2810d572e76addee9b4b5eaeb15a6cb8c84d",
+  "conversation_id": "007",
+  "conversation_title": "007-Branch-1-V1视觉系统设计",
+  "current_filename": "4）W_LYNK7｜拆解清单图｜欧洲市场落地门槛分析.png",
+  "detail_page": "images/007-78dfd5245f0b/index.html",
+  "duplicate_content_ids": [
+    "20260506-9ec1479080fd",
+    "20260506-0658a466151f"
+  ],
+  "group_id": "G06W",
+  "group_title": "SVP 第 2 轮 W：Warm Editorial Narrative",
+  "id": "007-78dfd5245f0b",
+  "image_manifest_evidence": {
+    "path": "references/text2pic/conversations/007-Branch-1-V1视觉系统设计/IMAGE_MANIFEST.md",
+    "section": "7. 第六组：SVP 第 2 轮 W/H/C（12 张） / W"
+  },
+  "metadata_path": "metadata/007-78dfd5245f0b.json",
+  "original_filename": null,
+  "preview_dimensions": [
+    670,
+    1200
+  ],
+  "preview_path": "previews/007-78dfd5245f0b.jpg",
+  "rule_impact_evidence": {
+    "path": "references/text2pic/conversations/007-Branch-1-V1视觉系统设计/IMAGE_MANIFEST.md",
+    "section": "7. 第六组：SVP 第 2 轮 W/H/C（12 张） / W"
+  },
+  "source_dimensions_after_orientation": [
+    1143,
+    2048
+  ],
+  "source_format": "PNG",
+  "test_purpose": "验证暖色 editorial narrative 作为更强故事入口的表现与过满风险。",
+  "thumbnail_dimensions": [
+    234,
+    420
+  ],
+  "thumbnail_path": "thumbnails/007-78dfd5245f0b.jpg",
+  "user_feedback_evidence": {
+    "path": "references/text2pic/conversations/007-Branch-1-V1视觉系统设计/IMAGE_MANIFEST.md",
+    "section": "7. 第六组：SVP 第 2 轮 W/H/C（12 张） / W"
+  }
+}

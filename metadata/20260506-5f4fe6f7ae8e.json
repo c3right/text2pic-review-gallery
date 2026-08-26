@@ -1,0 +1,44 @@
+{
+  "canonical_bytes": 2912189,
+  "canonical_expected_sha256": "59ca63713811679311a65771c5bb9b67502af43764adc9cc9ebf18d8ed35cf39",
+  "canonical_original_path": "references/text2pic/conversations/20260506-图片风格总结分析/originals/images/G05_结构稳定性_四层落地门槛_模型2.png",
+  "canonical_sha256": "59ca63713811679311a65771c5bb9b67502af43764adc9cc9ebf18d8ed35cf39",
+  "conversation_id": "20260506",
+  "conversation_title": "20260506-图片风格总结分析",
+  "current_filename": "G05_结构稳定性_四层落地门槛_模型2.png",
+  "detail_page": "images/20260506-5f4fe6f7ae8e/index.html",
+  "duplicate_content_ids": [],
+  "group_id": "G05",
+  "group_title": "第一轮结构稳定性：四层落地门槛",
+  "id": "20260506-5f4fe6f7ae8e",
+  "image_manifest_evidence": {
+    "path": "references/text2pic/conversations/20260506-图片风格总结分析/IMAGE_MANIFEST.md",
+    "section": "G05 第一轮结构稳定性：四层落地门槛"
+  },
+  "metadata_path": "metadata/20260506-5f4fe6f7ae8e.json",
+  "original_filename": "image(17).png",
+  "preview_dimensions": [
+    900,
+    1200
+  ],
+  "preview_path": "previews/20260506-5f4fe6f7ae8e.jpg",
+  "rule_impact_evidence": {
+    "path": "references/text2pic/conversations/20260506-图片风格总结分析/IMAGE_MANIFEST.md",
+    "section": "G05 第一轮结构稳定性：四层落地门槛"
+  },
+  "source_dimensions_after_orientation": [
+    1536,
+    2048
+  ],
+  "source_format": "PNG",
+  "test_purpose": "测试四层门槛的层级理解和容器自主发挥。",
+  "thumbnail_dimensions": [
+    315,
+    420
+  ],
+  "thumbnail_path": "thumbnails/20260506-5f4fe6f7ae8e.jpg",
+  "user_feedback_evidence": {
+    "path": "references/text2pic/conversations/20260506-图片风格总结分析/IMAGE_MANIFEST.md",
+    "section": "G05 第一轮结构稳定性：四层落地门槛"
+  }
+}

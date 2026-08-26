@@ -1,0 +1,46 @@
+{
+  "canonical_bytes": 226831,
+  "canonical_expected_sha256": "14c09ce47dd0db489b03cf4ddb8fe2c112e6755c51b71da77caa1cd8bc264d74",
+  "canonical_original_path": "references/text2pic/conversations/20260506-图片风格总结分析/originals/images/G01_结构稳定性_竞争重点切换_模型3b_同字节重复.png",
+  "canonical_sha256": "14c09ce47dd0db489b03cf4ddb8fe2c112e6755c51b71da77caa1cd8bc264d74",
+  "conversation_id": "20260506",
+  "conversation_title": "20260506-图片风格总结分析",
+  "current_filename": "G01_结构稳定性_竞争重点切换_模型3b_同字节重复.png",
+  "detail_page": "images/20260506-84de79979fbe/index.html",
+  "duplicate_content_ids": [
+    "20260506-d81438d4f5e8"
+  ],
+  "group_id": "G01",
+  "group_title": "第一轮结构与文字稳定性：竞争重点切换",
+  "id": "20260506-84de79979fbe",
+  "image_manifest_evidence": {
+    "path": "references/text2pic/conversations/20260506-图片风格总结分析/IMAGE_MANIFEST.md",
+    "section": "G01 第一轮结构与文字稳定性：竞争重点切换"
+  },
+  "metadata_path": "metadata/20260506-84de79979fbe.json",
+  "original_filename": "image(5).png",
+  "preview_dimensions": [
+    1024,
+    559
+  ],
+  "preview_path": "previews/20260506-84de79979fbe.jpg",
+  "rule_impact_evidence": {
+    "path": "references/text2pic/conversations/20260506-图片风格总结分析/IMAGE_MANIFEST.md",
+    "section": "G01 第一轮结构与文字稳定性：竞争重点切换"
+  },
+  "source_dimensions_after_orientation": [
+    1024,
+    559
+  ],
+  "source_format": "PNG",
+  "test_purpose": "测试竞争重点切换的结构写法、文字白名单和模型增补解释行为。",
+  "thumbnail_dimensions": [
+    420,
+    229
+  ],
+  "thumbnail_path": "thumbnails/20260506-84de79979fbe.jpg",
+  "user_feedback_evidence": {
+    "path": "references/text2pic/conversations/20260506-图片风格总结分析/IMAGE_MANIFEST.md",
+    "section": "G01 第一轮结构与文字稳定性：竞争重点切换"
+  }
+}

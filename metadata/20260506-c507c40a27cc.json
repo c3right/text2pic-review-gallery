@@ -1,0 +1,44 @@
+{
+  "canonical_bytes": 1641062,
+  "canonical_expected_sha256": "80709cff9fd1388eaabd67b52d6a704992051ecc04586ce85847c33cc71c987d",
+  "canonical_original_path": "references/text2pic/conversations/20260506-图片风格总结分析/originals/images/G17_完整规则回归_早期到体系_模型2.png",
+  "canonical_sha256": "80709cff9fd1388eaabd67b52d6a704992051ecc04586ce85847c33cc71c987d",
+  "conversation_id": "20260506",
+  "conversation_title": "20260506-图片风格总结分析",
+  "current_filename": "G17_完整规则回归_早期到体系_模型2.png",
+  "detail_page": "images/20260506-c507c40a27cc/index.html",
+  "duplicate_content_ids": [],
+  "group_id": "G17",
+  "group_title": "完整显式规则回归：早期有效→后期局限→体系能力",
+  "id": "20260506-c507c40a27cc",
+  "image_manifest_evidence": {
+    "path": "references/text2pic/conversations/20260506-图片风格总结分析/IMAGE_MANIFEST.md",
+    "section": "G17 完整显式规则回归：早期有效→后期局限→体系能力"
+  },
+  "metadata_path": "metadata/20260506-c507c40a27cc.json",
+  "original_filename": "image(53).png",
+  "preview_dimensions": [
+    675,
+    1200
+  ],
+  "preview_path": "previews/20260506-c507c40a27cc.jpg",
+  "rule_impact_evidence": {
+    "path": "references/text2pic/conversations/20260506-图片风格总结分析/IMAGE_MANIFEST.md",
+    "section": "G17 完整显式规则回归：早期有效→后期局限→体系能力"
+  },
+  "source_dimensions_after_orientation": [
+    720,
+    1280
+  ],
+  "source_format": "PNG",
+  "test_purpose": "把抽象阶段词转成明确对象后验证跨模型收敛。",
+  "thumbnail_dimensions": [
+    236,
+    420
+  ],
+  "thumbnail_path": "thumbnails/20260506-c507c40a27cc.jpg",
+  "user_feedback_evidence": {
+    "path": "references/text2pic/conversations/20260506-图片风格总结分析/IMAGE_MANIFEST.md",
+    "section": "G17 完整显式规则回归：早期有效→后期局限→体系能力"
+  }
+}

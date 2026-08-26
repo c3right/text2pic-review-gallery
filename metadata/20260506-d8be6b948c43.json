@@ -1,0 +1,44 @@
+{
+  "canonical_bytes": 1708529,
+  "canonical_expected_sha256": "df3a5a35c8d30f3498cb554acdff1c698c1276b669f3f63fccec5805f350b9b0",
+  "canonical_original_path": "references/text2pic/conversations/20260506-图片风格总结分析/originals/images/G08_第一层美观定向_业务分工逻辑_模型2.png",
+  "canonical_sha256": "df3a5a35c8d30f3498cb554acdff1c698c1276b669f3f63fccec5805f350b9b0",
+  "conversation_id": "20260506",
+  "conversation_title": "20260506-图片风格总结分析",
+  "current_filename": "G08_第一层美观定向_业务分工逻辑_模型2.png",
+  "detail_page": "images/20260506-d8be6b948c43/index.html",
+  "duplicate_content_ids": [],
+  "group_id": "G08",
+  "group_title": "第一层美观定向：业务分工逻辑",
+  "id": "20260506-d8be6b948c43",
+  "image_manifest_evidence": {
+    "path": "references/text2pic/conversations/20260506-图片风格总结分析/IMAGE_MANIFEST.md",
+    "section": "G08 第一层美观定向测试：业务分工逻辑"
+  },
+  "metadata_path": "metadata/20260506-d8be6b948c43.json",
+  "original_filename": "image(30).png",
+  "preview_dimensions": [
+    675,
+    1200
+  ],
+  "preview_path": "previews/20260506-d8be6b948c43.jpg",
+  "rule_impact_evidence": {
+    "path": "references/text2pic/conversations/20260506-图片风格总结分析/IMAGE_MANIFEST.md",
+    "section": "G08 第一层美观定向测试：业务分工逻辑"
+  },
+  "source_dimensions_after_orientation": [
+    720,
+    1280
+  ],
+  "source_format": "PNG",
+  "test_purpose": "验证关键区域绑定主体对象、辅助元素和关系后的稳定性。",
+  "thumbnail_dimensions": [
+    236,
+    420
+  ],
+  "thumbnail_path": "thumbnails/20260506-d8be6b948c43.jpg",
+  "user_feedback_evidence": {
+    "path": "references/text2pic/conversations/20260506-图片风格总结分析/IMAGE_MANIFEST.md",
+    "section": "G08 第一层美观定向测试：业务分工逻辑"
+  }
+}

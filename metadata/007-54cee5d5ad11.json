@@ -1,0 +1,44 @@
+{
+  "canonical_bytes": 3895888,
+  "canonical_expected_sha256": "7d11167c48f906bc9a7b79870b2a9e319930116ab6554255f1b1eefd606f72c0",
+  "canonical_original_path": "references/text2pic/conversations/007-Branch-1-V1视觉系统设计/originals/images/9）C_LYNK1｜主题叙事图｜外界误读.png",
+  "canonical_sha256": "7d11167c48f906bc9a7b79870b2a9e319930116ab6554255f1b1eefd606f72c0",
+  "conversation_id": "007",
+  "conversation_title": "007-Branch-1-V1视觉系统设计",
+  "current_filename": "9）C_LYNK1｜主题叙事图｜外界误读.png",
+  "detail_page": "images/007-54cee5d5ad11/index.html",
+  "duplicate_content_ids": [],
+  "group_id": "G06C",
+  "group_title": "SVP 第 2 轮 C：Cool Analytical Schematic",
+  "id": "007-54cee5d5ad11",
+  "image_manifest_evidence": {
+    "path": "references/text2pic/conversations/007-Branch-1-V1视觉系统设计/IMAGE_MANIFEST.md",
+    "section": "7. 第六组：SVP 第 2 轮 W/H/C（12 张） / C"
+  },
+  "metadata_path": "metadata/007-54cee5d5ad11.json",
+  "original_filename": null,
+  "preview_dimensions": [
+    670,
+    1200
+  ],
+  "preview_path": "previews/007-54cee5d5ad11.jpg",
+  "rule_impact_evidence": {
+    "path": "references/text2pic/conversations/007-Branch-1-V1视觉系统设计/IMAGE_MANIFEST.md",
+    "section": "7. 第六组：SVP 第 2 轮 W/H/C（12 张） / C"
+  },
+  "source_dimensions_after_orientation": [
+    1143,
+    2048
+  ],
+  "source_format": "PNG",
+  "test_purpose": "验证冷静分析方向的统一性以及 HUD / 课件气质风险。",
+  "thumbnail_dimensions": [
+    234,
+    420
+  ],
+  "thumbnail_path": "thumbnails/007-54cee5d5ad11.jpg",
+  "user_feedback_evidence": {
+    "path": "references/text2pic/conversations/007-Branch-1-V1视觉系统设计/IMAGE_MANIFEST.md",
+    "section": "7. 第六组：SVP 第 2 轮 W/H/C（12 张） / C"
+  }
+}

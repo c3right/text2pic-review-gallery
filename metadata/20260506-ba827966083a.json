@@ -1,0 +1,44 @@
+{
+  "canonical_bytes": 308716,
+  "canonical_expected_sha256": "d6d42ff34d258264ccb3ba9881bdce07b7b35c21195eed0942d93bd67b22636e",
+  "canonical_original_path": "references/text2pic/conversations/20260506-图片风格总结分析/originals/images/G03_结构稳定性_低门槛体验到建立认知_模型1.png",
+  "canonical_sha256": "d6d42ff34d258264ccb3ba9881bdce07b7b35c21195eed0942d93bd67b22636e",
+  "conversation_id": "20260506",
+  "conversation_title": "20260506-图片风格总结分析",
+  "current_filename": "G03_结构稳定性_低门槛体验到建立认知_模型1.png",
+  "detail_page": "images/20260506-ba827966083a/index.html",
+  "duplicate_content_ids": [],
+  "group_id": "G03",
+  "group_title": "第一轮结构稳定性：低门槛体验→教育用户→建立认知",
+  "id": "20260506-ba827966083a",
+  "image_manifest_evidence": {
+    "path": "references/text2pic/conversations/20260506-图片风格总结分析/IMAGE_MANIFEST.md",
+    "section": "G03 第一轮结构稳定性：低门槛体验→教育用户→建立认知"
+  },
+  "metadata_path": "metadata/20260506-ba827966083a.json",
+  "original_filename": "image(10).png",
+  "preview_dimensions": [
+    1024,
+    559
+  ],
+  "preview_path": "previews/20260506-ba827966083a.jpg",
+  "rule_impact_evidence": {
+    "path": "references/text2pic/conversations/20260506-图片风格总结分析/IMAGE_MANIFEST.md",
+    "section": "G03 第一轮结构稳定性：低门槛体验→教育用户→建立认知"
+  },
+  "source_dimensions_after_orientation": [
+    1024,
+    559
+  ],
+  "source_format": "PNG",
+  "test_purpose": "测试三阶段价值 / 事实链结构的跨模型稳定性。",
+  "thumbnail_dimensions": [
+    420,
+    229
+  ],
+  "thumbnail_path": "thumbnails/20260506-ba827966083a.jpg",
+  "user_feedback_evidence": {
+    "path": "references/text2pic/conversations/20260506-图片风格总结分析/IMAGE_MANIFEST.md",
+    "section": "G03 第一轮结构稳定性：低门槛体验→教育用户→建立认知"
+  }
+}

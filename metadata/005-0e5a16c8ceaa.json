@@ -1,0 +1,44 @@
+{
+  "canonical_bytes": 243781,
+  "canonical_expected_sha256": "9d62db4e24317093d97756de753abb59010c697ace6a00e6abc51965177605a7",
+  "canonical_original_path": "references/text2pic/conversations/005-视频制作流程建议/originals/images/user-tests/P6.0_B6_材质增强_变化不大_15F6FB56.jpeg",
+  "canonical_sha256": "9d62db4e24317093d97756de753abb59010c697ace6a00e6abc51965177605a7",
+  "conversation_id": "005",
+  "conversation_title": "005-视频制作流程建议",
+  "current_filename": "P6.0_B6_材质增强_变化不大_15F6FB56.jpeg",
+  "detail_page": "images/005-0e5a16c8ceaa/index.html",
+  "duplicate_content_ids": [],
+  "group_id": "B6",
+  "group_title": "Prompt 6.0：材质增强",
+  "id": "005-0e5a16c8ceaa",
+  "image_manifest_evidence": {
+    "path": "references/text2pic/conversations/005-视频制作流程建议/IMAGE_MANIFEST.md",
+    "section": "B6｜Prompt 6.0：材质增强"
+  },
+  "metadata_path": "metadata/005-0e5a16c8ceaa.json",
+  "original_filename": "15F6FB56-C986-49A6-9038-66B04C2F9A0D.jpeg",
+  "preview_dimensions": [
+    1200,
+    670
+  ],
+  "preview_path": "previews/005-0e5a16c8ceaa.jpg",
+  "rule_impact_evidence": {
+    "path": "references/text2pic/conversations/005-视频制作流程建议/IMAGE_MANIFEST.md",
+    "section": "B6｜Prompt 6.0：材质增强"
+  },
+  "source_dimensions_after_orientation": [
+    1376,
+    768
+  ],
+  "source_format": "JPEG",
+  "test_purpose": "在基本布局不变时测试细粒度材质词能否显著改变白卡片质感。",
+  "thumbnail_dimensions": [
+    420,
+    234
+  ],
+  "thumbnail_path": "thumbnails/005-0e5a16c8ceaa.jpg",
+  "user_feedback_evidence": {
+    "path": "references/text2pic/conversations/005-视频制作流程建议/IMAGE_MANIFEST.md",
+    "section": "B6｜Prompt 6.0：材质增强"
+  }
+}

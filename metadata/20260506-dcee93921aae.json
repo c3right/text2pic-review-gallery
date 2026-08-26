@@ -1,0 +1,44 @@
+{
+  "canonical_bytes": 320350,
+  "canonical_expected_sha256": "2684802fa8d866dadd8531f1d192b520da17e054122551f4728ddf9639b7dd26",
+  "canonical_original_path": "references/text2pic/conversations/20260506-图片风格总结分析/originals/images/G10_第一层美观模糊反例_早期到体系_模型1.png",
+  "canonical_sha256": "2684802fa8d866dadd8531f1d192b520da17e054122551f4728ddf9639b7dd26",
+  "conversation_id": "20260506",
+  "conversation_title": "20260506-图片风格总结分析",
+  "current_filename": "G10_第一层美观模糊反例_早期到体系_模型1.png",
+  "detail_page": "images/20260506-dcee93921aae/index.html",
+  "duplicate_content_ids": [],
+  "group_id": "G10",
+  "group_title": "第一层美观模糊反例：早期有效→后期局限→体系能力",
+  "id": "20260506-dcee93921aae",
+  "image_manifest_evidence": {
+    "path": "references/text2pic/conversations/20260506-图片风格总结分析/IMAGE_MANIFEST.md",
+    "section": "G10 第一层美观模糊反例：早期有效→后期局限→体系能力"
+  },
+  "metadata_path": "metadata/20260506-dcee93921aae.json",
+  "original_filename": "image(35).png",
+  "preview_dimensions": [
+    572,
+    1024
+  ],
+  "preview_path": "previews/20260506-dcee93921aae.jpg",
+  "rule_impact_evidence": {
+    "path": "references/text2pic/conversations/20260506-图片风格总结分析/IMAGE_MANIFEST.md",
+    "section": "G10 第一层美观模糊反例：早期有效→后期局限→体系能力"
+  },
+  "source_dimensions_after_orientation": [
+    572,
+    1024
+  ],
+  "source_format": "PNG",
+  "test_purpose": "验证抽象形容词无法替代具体对象绑定。",
+  "thumbnail_dimensions": [
+    235,
+    420
+  ],
+  "thumbnail_path": "thumbnails/20260506-dcee93921aae.jpg",
+  "user_feedback_evidence": {
+    "path": "references/text2pic/conversations/20260506-图片风格总结分析/IMAGE_MANIFEST.md",
+    "section": "G10 第一层美观模糊反例：早期有效→后期局限→体系能力"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "canonical_bytes": 4177635,
+  "canonical_expected_sha256": "afbaeb51413933ec6767c85352e6ae3a590afcbddb8b2ed04fbfab7b8f3463c2",
+  "canonical_original_path": "references/text2pic/conversations/007-Branch-1-V1视觉系统设计/originals/images/6）SVP_B_LYNK3｜领克3｜对照逻辑图.png",
+  "canonical_sha256": "afbaeb51413933ec6767c85352e6ae3a590afcbddb8b2ed04fbfab7b8f3463c2",
+  "conversation_id": "007",
+  "conversation_title": "007-Branch-1-V1视觉系统设计",
+  "current_filename": "6）SVP_B_LYNK3｜领克3｜对照逻辑图.png",
+  "detail_page": "images/007-5bb046d792d9/index.html",
+  "duplicate_content_ids": [],
+  "group_id": "G05B",
+  "group_title": "SVP 第 1 轮 B：显式继承同一 SVP",
+  "id": "007-5bb046d792d9",
+  "image_manifest_evidence": {
+    "path": "references/text2pic/conversations/007-Branch-1-V1视觉系统设计/IMAGE_MANIFEST.md",
+    "section": "6. 第五组：SVP 第 1 轮（8 张） / B 组"
+  },
+  "metadata_path": "metadata/007-5bb046d792d9.json",
+  "original_filename": null,
+  "preview_dimensions": [
+    670,
+    1200
+  ],
+  "preview_path": "previews/007-5bb046d792d9.jpg",
+  "rule_impact_evidence": {
+    "path": "references/text2pic/conversations/007-Branch-1-V1视觉系统设计/IMAGE_MANIFEST.md",
+    "section": "6. 第五组：SVP 第 1 轮（8 张） / B 组"
+  },
+  "source_dimensions_after_orientation": [
+    1143,
+    2048
+  ],
+  "source_format": "PNG",
+  "test_purpose": "验证显式统一 SVP 对连续感、整体感和视觉一致性的作用。",
+  "thumbnail_dimensions": [
+    234,
+    420
+  ],
+  "thumbnail_path": "thumbnails/007-5bb046d792d9.jpg",
+  "user_feedback_evidence": {
+    "path": "references/text2pic/conversations/007-Branch-1-V1视觉系统设计/IMAGE_MANIFEST.md",
+    "section": "6. 第五组：SVP 第 1 轮（8 张） / B 组"
+  }
+}

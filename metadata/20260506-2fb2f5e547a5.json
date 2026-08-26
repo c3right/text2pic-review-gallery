@@ -1,0 +1,44 @@
+{
+  "canonical_bytes": 2337894,
+  "canonical_expected_sha256": "a6c52cd78e87ce5123ac0a03304d44d132de0f310e38af7cae863269ca957797",
+  "canonical_original_path": "references/text2pic/conversations/20260506-图片风格总结分析/originals/images/G07_第一层美观定向_竞争重点切换_模型2.png",
+  "canonical_sha256": "a6c52cd78e87ce5123ac0a03304d44d132de0f310e38af7cae863269ca957797",
+  "conversation_id": "20260506",
+  "conversation_title": "20260506-图片风格总结分析",
+  "current_filename": "G07_第一层美观定向_竞争重点切换_模型2.png",
+  "detail_page": "images/20260506-2fb2f5e547a5/index.html",
+  "duplicate_content_ids": [],
+  "group_id": "G07",
+  "group_title": "第一层美观定向：竞争重点切换",
+  "id": "20260506-2fb2f5e547a5",
+  "image_manifest_evidence": {
+    "path": "references/text2pic/conversations/20260506-图片风格总结分析/IMAGE_MANIFEST.md",
+    "section": "G07 第一层美观定向测试：竞争重点切换"
+  },
+  "metadata_path": "metadata/20260506-2fb2f5e547a5.json",
+  "original_filename": "image(27).png",
+  "preview_dimensions": [
+    674,
+    1200
+  ],
+  "preview_path": "previews/20260506-2fb2f5e547a5.jpg",
+  "rule_impact_evidence": {
+    "path": "references/text2pic/conversations/20260506-图片风格总结分析/IMAGE_MANIFEST.md",
+    "section": "G07 第一层美观定向测试：竞争重点切换"
+  },
+  "source_dimensions_after_orientation": [
+    1150,
+    2048
+  ],
+  "source_format": "PNG",
+  "test_purpose": "验证显式对象绑定区域与未绑定区域之间的跨模型稳定性差异。",
+  "thumbnail_dimensions": [
+    236,
+    420
+  ],
+  "thumbnail_path": "thumbnails/20260506-2fb2f5e547a5.jpg",
+  "user_feedback_evidence": {
+    "path": "references/text2pic/conversations/20260506-图片风格总结分析/IMAGE_MANIFEST.md",
+    "section": "G07 第一层美观定向测试：竞争重点切换"
+  }
+}

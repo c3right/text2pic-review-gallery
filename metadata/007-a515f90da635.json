@@ -1,0 +1,44 @@
+{
+  "canonical_bytes": 3463544,
+  "canonical_expected_sha256": "e7201816ab7685730ec50502720e0e1ca926280ca8b6f751cd1f154ed5a6d759",
+  "canonical_original_path": "references/text2pic/conversations/007-Branch-1-V1视觉系统设计/originals/images/小鹏9｜对照逻辑图｜B｜中心主轴.png",
+  "canonical_sha256": "e7201816ab7685730ec50502720e0e1ca926280ca8b6f751cd1f154ed5a6d759",
+  "conversation_id": "007",
+  "conversation_title": "007-Branch-1-V1视觉系统设计",
+  "current_filename": "小鹏9｜对照逻辑图｜B｜中心主轴.png",
+  "detail_page": "images/007-a515f90da635/index.html",
+  "duplicate_content_ids": [],
+  "group_id": "G03",
+  "group_title": "布局 / 子型 A/B",
+  "id": "007-a515f90da635",
+  "image_manifest_evidence": {
+    "path": "references/text2pic/conversations/007-Branch-1-V1视觉系统设计/IMAGE_MANIFEST.md",
+    "section": "4. 第三组：布局 / 子型 A/B（6 张）"
+  },
+  "metadata_path": "metadata/007-a515f90da635.json",
+  "original_filename": null,
+  "preview_dimensions": [
+    670,
+    1200
+  ],
+  "preview_path": "previews/007-a515f90da635.jpg",
+  "rule_impact_evidence": {
+    "path": "references/text2pic/conversations/007-Branch-1-V1视觉系统设计/IMAGE_MANIFEST.md",
+    "section": "4. 第三组：布局 / 子型 A/B（6 张）"
+  },
+  "source_dimensions_after_orientation": [
+    1143,
+    2048
+  ],
+  "source_format": "PNG",
+  "test_purpose": "比较事实快照、拆解清单和对照逻辑的布局 / 子型 A/B。",
+  "thumbnail_dimensions": [
+    234,
+    420
+  ],
+  "thumbnail_path": "thumbnails/007-a515f90da635.jpg",
+  "user_feedback_evidence": {
+    "path": "references/text2pic/conversations/007-Branch-1-V1视觉系统设计/IMAGE_MANIFEST.md",
+    "section": "4. 第三组：布局 / 子型 A/B（6 张）"
+  }
+}

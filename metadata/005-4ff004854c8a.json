@@ -1,0 +1,44 @@
+{
+  "canonical_bytes": 2085928,
+  "canonical_expected_sha256": "d9b1f80e59b82c78c61aabad160a9dea48b5760953ab86ac3f852ec18019b56e",
+  "canonical_original_path": "references/text2pic/conversations/005-视频制作流程建议/originals/images/assistant-generated/a_wide_infographic_comparison_layout_overall_scen.png",
+  "canonical_sha256": "d9b1f80e59b82c78c61aabad160a9dea48b5760953ab86ac3f852ec18019b56e",
+  "conversation_id": "005",
+  "conversation_title": "005-视频制作流程建议",
+  "current_filename": "a_wide_infographic_comparison_layout_overall_scen.png",
+  "detail_page": "images/005-4ff004854c8a/index.html",
+  "duplicate_content_ids": [],
+  "group_id": "A2",
+  "group_title": "三种审美方向对比",
+  "id": "005-4ff004854c8a",
+  "image_manifest_evidence": {
+    "path": "references/text2pic/conversations/005-视频制作流程建议/IMAGE_MANIFEST.md",
+    "section": "A2｜三种审美方向对比"
+  },
+  "metadata_path": "metadata/005-4ff004854c8a.json",
+  "original_filename": null,
+  "preview_dimensions": [
+    1200,
+    800
+  ],
+  "preview_path": "previews/005-4ff004854c8a.jpg",
+  "rule_impact_evidence": {
+    "path": "references/text2pic/conversations/005-视频制作流程建议/IMAGE_MANIFEST.md",
+    "section": "A2｜三种审美方向对比"
+  },
+  "source_dimensions_after_orientation": [
+    1536,
+    1024
+  ],
+  "source_format": "PNG",
+  "test_purpose": "比较 PPT 信息图、纪录片海报与纪录片分析板三种审美方向。",
+  "thumbnail_dimensions": [
+    420,
+    280
+  ],
+  "thumbnail_path": "thumbnails/005-4ff004854c8a.jpg",
+  "user_feedback_evidence": {
+    "path": "references/text2pic/conversations/005-视频制作流程建议/IMAGE_MANIFEST.md",
+    "section": "A2｜三种审美方向对比"
+  }
+}

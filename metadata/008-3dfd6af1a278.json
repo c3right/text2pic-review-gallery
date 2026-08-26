@@ -1,0 +1,44 @@
+{
+  "canonical_bytes": 4243287,
+  "canonical_expected_sha256": "e3e133aacc6b18e4044f08532af812884a837b0d872b60c62ef7f2c7ef7ea9a5",
+  "canonical_original_path": "references/text2pic/conversations/008-Branch-2-V1视觉系统设计/originals/images/WA_4_欧洲市场落地门槛分析.png",
+  "canonical_sha256": "e3e133aacc6b18e4044f08532af812884a837b0d872b60c62ef7f2c7ef7ea9a5",
+  "conversation_id": "008",
+  "conversation_title": "008-Branch-2-V1视觉系统设计",
+  "current_filename": "WA_4_欧洲市场落地门槛分析.png",
+  "detail_page": "images/008-3dfd6af1a278/index.html",
+  "duplicate_content_ids": [],
+  "group_id": "WA",
+  "group_title": "SVP Round 3 / W-accent",
+  "id": "008-3dfd6af1a278",
+  "image_manifest_evidence": {
+    "path": "references/text2pic/conversations/008-Branch-2-V1视觉系统设计/IMAGE_MANIFEST.md",
+    "section": "2. 测试目的 + 4. 用户具体评价及规则影响"
+  },
+  "metadata_path": "metadata/008-3dfd6af1a278.json",
+  "original_filename": null,
+  "preview_dimensions": [
+    670,
+    1200
+  ],
+  "preview_path": "previews/008-3dfd6af1a278.jpg",
+  "rule_impact_evidence": {
+    "path": "references/text2pic/conversations/008-Branch-2-V1视觉系统设计/IMAGE_MANIFEST.md",
+    "section": "2. 测试目的 + 4. 用户具体评价及规则影响"
+  },
+  "source_dimensions_after_orientation": [
+    1143,
+    2048
+  ],
+  "source_format": "PNG",
+  "test_purpose": "验证 W-accent 是否能成为主题叙事 / 入口位增强线。",
+  "thumbnail_dimensions": [
+    234,
+    420
+  ],
+  "thumbnail_path": "thumbnails/008-3dfd6af1a278.jpg",
+  "user_feedback_evidence": {
+    "path": "references/text2pic/conversations/008-Branch-2-V1视觉系统设计/IMAGE_MANIFEST.md",
+    "section": "2. 测试目的 + 4. 用户具体评价及规则影响"
+  }
+}

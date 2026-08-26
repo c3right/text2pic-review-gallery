@@ -1,0 +1,44 @@
+{
+  "canonical_bytes": 3717326,
+  "canonical_expected_sha256": "63c115a487c74499f9b212588c2f987b8481cba251ec4ff1ac2099d677921edd",
+  "canonical_original_path": "references/text2pic/conversations/007-Branch-1-V1视觉系统设计/originals/images/4）SVP_A_LYNK7｜领克7｜拆解清单图.png",
+  "canonical_sha256": "63c115a487c74499f9b212588c2f987b8481cba251ec4ff1ac2099d677921edd",
+  "conversation_id": "007",
+  "conversation_title": "007-Branch-1-V1视觉系统设计",
+  "current_filename": "4）SVP_A_LYNK7｜领克7｜拆解清单图.png",
+  "detail_page": "images/007-66dd3b2e9ccf/index.html",
+  "duplicate_content_ids": [],
+  "group_id": "G05A",
+  "group_title": "SVP 第 1 轮 A：不显式继承统一 SVP",
+  "id": "007-66dd3b2e9ccf",
+  "image_manifest_evidence": {
+    "path": "references/text2pic/conversations/007-Branch-1-V1视觉系统设计/IMAGE_MANIFEST.md",
+    "section": "6. 第五组：SVP 第 1 轮（8 张） / A 组"
+  },
+  "metadata_path": "metadata/007-66dd3b2e9ccf.json",
+  "original_filename": null,
+  "preview_dimensions": [
+    670,
+    1200
+  ],
+  "preview_path": "previews/007-66dd3b2e9ccf.jpg",
+  "rule_impact_evidence": {
+    "path": "references/text2pic/conversations/007-Branch-1-V1视觉系统设计/IMAGE_MANIFEST.md",
+    "section": "6. 第五组：SVP 第 1 轮（8 张） / A 组"
+  },
+  "source_dimensions_after_orientation": [
+    1143,
+    2048
+  ],
+  "source_format": "PNG",
+  "test_purpose": "观察不显式继承统一 SVP 时四图型的自然家族气质。",
+  "thumbnail_dimensions": [
+    234,
+    420
+  ],
+  "thumbnail_path": "thumbnails/007-66dd3b2e9ccf.jpg",
+  "user_feedback_evidence": {
+    "path": "references/text2pic/conversations/007-Branch-1-V1视觉系统设计/IMAGE_MANIFEST.md",
+    "section": "6. 第五组：SVP 第 1 轮（8 张） / A 组"
+  }
+}

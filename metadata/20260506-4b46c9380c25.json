@@ -1,0 +1,44 @@
+{
+  "canonical_bytes": 781567,
+  "canonical_expected_sha256": "ad857f16eee35c1ef51de4401619354e8e44bc43890ce111a3ff6177029ae723",
+  "canonical_original_path": "references/text2pic/conversations/20260506-图片风格总结分析/originals/images/G21_美观参考_暖色叙事结构_图1.png",
+  "canonical_sha256": "ad857f16eee35c1ef51de4401619354e8e44bc43890ce111a3ff6177029ae723",
+  "conversation_id": "20260506",
+  "conversation_title": "20260506-图片风格总结分析",
+  "current_filename": "G21_美观参考_暖色叙事结构_图1.png",
+  "detail_page": "images/20260506-4b46c9380c25/index.html",
+  "duplicate_content_ids": [],
+  "group_id": "G21",
+  "group_title": "后期第二层美观参考：暖色叙事结构 editorial",
+  "id": "20260506-4b46c9380c25",
+  "image_manifest_evidence": {
+    "path": "references/text2pic/conversations/20260506-图片风格总结分析/IMAGE_MANIFEST.md",
+    "section": "G21 后期第二层美观参考组：暖色叙事结构 editorial"
+  },
+  "metadata_path": "metadata/20260506-4b46c9380c25.json",
+  "original_filename": "image(61).png",
+  "preview_dimensions": [
+    572,
+    1024
+  ],
+  "preview_path": "previews/20260506-4b46c9380c25.jpg",
+  "rule_impact_evidence": {
+    "path": "references/text2pic/conversations/20260506-图片风格总结分析/IMAGE_MANIFEST.md",
+    "section": "G21 后期第二层美观参考组：暖色叙事结构 editorial"
+  },
+  "source_dimensions_after_orientation": [
+    572,
+    1024
+  ],
+  "source_format": "PNG",
+  "test_purpose": "提取暖色叙事结构 editorial 的共同第二层美观特征。",
+  "thumbnail_dimensions": [
+    235,
+    420
+  ],
+  "thumbnail_path": "thumbnails/20260506-4b46c9380c25.jpg",
+  "user_feedback_evidence": {
+    "path": "references/text2pic/conversations/20260506-图片风格总结分析/IMAGE_MANIFEST.md",
+    "section": "G21 后期第二层美观参考组：暖色叙事结构 editorial"
+  }
+}

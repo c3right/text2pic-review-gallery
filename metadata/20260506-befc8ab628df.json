@@ -1,0 +1,46 @@
+{
+  "canonical_bytes": 4074183,
+  "canonical_expected_sha256": "b0308f2c6a2a4642a5cdb2f3046706d640aa14b915e262d3997e3973e9331133",
+  "canonical_original_path": "references/text2pic/conversations/20260506-图片风格总结分析/originals/images/7）H_LYNK4｜阶段价值链图｜进入欧洲 → 高门槛市场落地验证 → 品牌能力证明(2).png",
+  "canonical_sha256": "b0308f2c6a2a4642a5cdb2f3046706d640aa14b915e262d3997e3973e9331133",
+  "conversation_id": "20260506",
+  "conversation_title": "20260506-图片风格总结分析",
+  "current_filename": "7）H_LYNK4｜阶段价值链图｜进入欧洲 → 高门槛市场落地验证 → 品牌能力证明(2).png",
+  "detail_page": "images/20260506-befc8ab628df/index.html",
+  "duplicate_content_ids": [
+    "007-3736a25d6d4f"
+  ],
+  "group_id": "G00",
+  "group_title": "初始两套视觉参考（W/H）",
+  "id": "20260506-befc8ab628df",
+  "image_manifest_evidence": {
+    "path": "references/text2pic/conversations/20260506-图片风格总结分析/IMAGE_MANIFEST.md",
+    "section": "G00 初始两套视觉参考（W/H）"
+  },
+  "metadata_path": "metadata/20260506-befc8ab628df.json",
+  "original_filename": null,
+  "preview_dimensions": [
+    670,
+    1200
+  ],
+  "preview_path": "previews/20260506-befc8ab628df.jpg",
+  "rule_impact_evidence": {
+    "path": "references/text2pic/conversations/20260506-图片风格总结分析/IMAGE_MANIFEST.md",
+    "section": "G00 初始两套视觉参考（W/H）"
+  },
+  "source_dimensions_after_orientation": [
+    1143,
+    2048
+  ],
+  "source_format": "PNG",
+  "test_purpose": "识别第二层美观与第一层结构表达应分离，并形成 W/H 参考起点。",
+  "thumbnail_dimensions": [
+    234,
+    420
+  ],
+  "thumbnail_path": "thumbnails/20260506-befc8ab628df.jpg",
+  "user_feedback_evidence": {
+    "path": "references/text2pic/conversations/20260506-图片风格总结分析/IMAGE_MANIFEST.md",
+    "section": "G00 初始两套视觉参考（W/H）"
+  }
+}

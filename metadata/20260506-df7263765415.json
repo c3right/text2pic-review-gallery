@@ -1,0 +1,44 @@
+{
+  "canonical_bytes": 1637421,
+  "canonical_expected_sha256": "1941b9acfdd89bf3c7de78ab32c5dc1fedef105a974b1505ad9ad03ba8194d7c",
+  "canonical_original_path": "references/text2pic/conversations/20260506-图片风格总结分析/originals/images/G14_完整规则回归_阶段价值链_模型2.png",
+  "canonical_sha256": "1941b9acfdd89bf3c7de78ab32c5dc1fedef105a974b1505ad9ad03ba8194d7c",
+  "conversation_id": "20260506",
+  "conversation_title": "20260506-图片风格总结分析",
+  "current_filename": "G14_完整规则回归_阶段价值链_模型2.png",
+  "detail_page": "images/20260506-df7263765415/index.html",
+  "duplicate_content_ids": [],
+  "group_id": "G14",
+  "group_title": "完整显式规则回归：阶段价值链",
+  "id": "20260506-df7263765415",
+  "image_manifest_evidence": {
+    "path": "references/text2pic/conversations/20260506-图片风格总结分析/IMAGE_MANIFEST.md",
+    "section": "G14 完整显式规则回归：阶段价值链"
+  },
+  "metadata_path": "metadata/20260506-df7263765415.json",
+  "original_filename": "image(47).png",
+  "preview_dimensions": [
+    675,
+    1200
+  ],
+  "preview_path": "previews/20260506-df7263765415.jpg",
+  "rule_impact_evidence": {
+    "path": "references/text2pic/conversations/20260506-图片风格总结分析/IMAGE_MANIFEST.md",
+    "section": "G14 完整显式规则回归：阶段价值链"
+  },
+  "source_dimensions_after_orientation": [
+    720,
+    1280
+  ],
+  "source_format": "PNG",
+  "test_purpose": "在信息骨架、版式、对象和元说明清洗后回归阶段价值链。",
+  "thumbnail_dimensions": [
+    236,
+    420
+  ],
+  "thumbnail_path": "thumbnails/20260506-df7263765415.jpg",
+  "user_feedback_evidence": {
+    "path": "references/text2pic/conversations/20260506-图片风格总结分析/IMAGE_MANIFEST.md",
+    "section": "G14 完整显式规则回归：阶段价值链"
+  }
+}

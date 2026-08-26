@@ -1,0 +1,44 @@
+{
+  "canonical_bytes": 3790667,
+  "canonical_expected_sha256": "936aab54f7ce85ddbd3993ab8cc566fbcef33ca9aa43789ad8850646b01dd707",
+  "canonical_original_path": "references/text2pic/conversations/008-Branch-2-V1视觉系统设计/originals/images/HD_1_外界误读.png",
+  "canonical_sha256": "936aab54f7ce85ddbd3993ab8cc566fbcef33ca9aa43789ad8850646b01dd707",
+  "conversation_id": "008",
+  "conversation_title": "008-Branch-2-V1视觉系统设计",
+  "current_filename": "HD_1_外界误读.png",
+  "detail_page": "images/008-5558ae1846b1/index.html",
+  "duplicate_content_ids": [],
+  "group_id": "HD",
+  "group_title": "SVP Round 3 / H-default",
+  "id": "008-5558ae1846b1",
+  "image_manifest_evidence": {
+    "path": "references/text2pic/conversations/008-Branch-2-V1视觉系统设计/IMAGE_MANIFEST.md",
+    "section": "2. 测试目的 + 4. 用户具体评价及规则影响"
+  },
+  "metadata_path": "metadata/008-5558ae1846b1.json",
+  "original_filename": null,
+  "preview_dimensions": [
+    670,
+    1200
+  ],
+  "preview_path": "previews/008-5558ae1846b1.jpg",
+  "rule_impact_evidence": {
+    "path": "references/text2pic/conversations/008-Branch-2-V1视觉系统设计/IMAGE_MANIFEST.md",
+    "section": "2. 测试目的 + 4. 用户具体评价及规则影响"
+  },
+  "source_dimensions_after_orientation": [
+    1143,
+    2048
+  ],
+  "source_format": "PNG",
+  "test_purpose": "验证 H-default 是否能成为全系统默认主线。",
+  "thumbnail_dimensions": [
+    234,
+    420
+  ],
+  "thumbnail_path": "thumbnails/008-5558ae1846b1.jpg",
+  "user_feedback_evidence": {
+    "path": "references/text2pic/conversations/008-Branch-2-V1视觉系统设计/IMAGE_MANIFEST.md",
+    "section": "2. 测试目的 + 4. 用户具体评价及规则影响"
+  }
+}
