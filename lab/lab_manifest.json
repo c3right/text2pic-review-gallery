@@ -1,0 +1,3164 @@
+{
+  "case_count": 25,
+  "cases": [
+    {
+      "case_id": "CASE-20260827-LEGACY-AUDI-BRAND-SPLIT-01",
+      "case_type": "regression",
+      "contact_sheet": "lab/contact_sheets/CASE-20260827-LEGACY-AUDI-BRAND-SPLIT-01.jpg",
+      "expected_effect": [
+        "双品牌、双渠道和身份区隔保持清晰，避免主体与关系混淆"
+      ],
+      "final_selection": null,
+      "image_type": "vertical-editorial-infographic",
+      "problem_statement": "历史 Nano Banana 竖版短视频配图基线：双品牌、双渠道和身份区隔保持清晰，避免主体与关系混淆",
+      "project": "hotspot-shortvideo",
+      "runs": [
+        {
+          "assets": [
+            {
+              "asset_id": "A01",
+              "bytes": 5137239,
+              "canonical_path": "originals/A01.png",
+              "case_id": "CASE-20260827-LEGACY-AUDI-BRAND-SPLIT-01",
+              "created_at": "2026-08-27T06:48:26Z",
+              "height": 2400,
+              "notes": [
+                "历史短视频分块段 01；源图片字节、尺寸与哈希在 ingest 时验证；模型、surface 及 Prompt→Run→Asset 关联来自用户回忆。"
+              ],
+              "original_filename": "奥迪南北分治_D3_分块段01_prompt.png",
+              "preview_path": "lab/previews/CASE-20260827-LEGACY-AUDI-BRAND-SPLIT-01-A01.jpg",
+              "provenance_confidence": "user_recalled",
+              "run_id": "R01",
+              "schema_version": "0.1.0",
+              "sha256": "3cd0f18befd51bc5d0b9e478900fffef1c7c2e6642d5adfffd3f0eef6eb8e1ee",
+              "source_format": "PNG",
+              "thumbnail_path": "lab/thumbnails/CASE-20260827-LEGACY-AUDI-BRAND-SPLIT-01-A01.jpg",
+              "user_feedback": [],
+              "width": 1792
+            }
+          ],
+          "evaluation": "unreviewed",
+          "evaluation_note": "Selected as a historical regression candidate; no formal Text2Pic Lab image review has been completed.",
+          "generation_surface": "gemini-web",
+          "model": "nano-banana",
+          "model_version": null,
+          "parameters": {},
+          "producer": "local-user",
+          "prompt_delta_notes": [],
+          "prompt_id": "P01",
+          "prompt_intended_model_target": "nano-banana",
+          "prompt_parent_prompt_id": null,
+          "prompt_provenance_confidence": "verified",
+          "prompt_public": true,
+          "prompt_sha256": "ea52c907ca2e17882a855e98abd64571c5d19f8f85fb82f58e904ae54b230990",
+          "prompt_summary": "历史任务[奥迪南北分治] D3 分块段 01 的归档 prompt。",
+          "prompt_text": "# D3 分块段 01 Prompt\n\n生成一张 3:4 竖版静态配图。\n\n整体采用顶部标题 + 中部左右对照 + 底部结论的三区结构。\n\n顶部居中放置标题\"南北奥迪·做了九年\"，字体适中不夸张。\n\n中部主体区分为左右两栏。左侧是一张深色实心大卡片，占据主体区约八成宽度中的六成以上；卡片内部是一辆大型深色轿车轮廓剪影，剪影下方标注\"近60万辆\"，字体较大。卡片左上角标注小字\"一汽奥迪\"。右侧是一张浅色半透明小卡片，面积约为左侧的四分之一；卡片内部是一辆小型浅色轿车轮廓剪影，剪影下方标注\"4-5万辆\"，字体明显小于左侧。卡片左上角标注小字\"上汽奥迪\"。左右卡片之间用一条细竖线分隔。\n\n左右两张卡片的下边缘各引出一条细弧线箭头，分别向左下和右下弯曲，汇聚到下方的一个宽幅横条容器两端。这个底部横条为深色底、略圆角，跨整个画面宽度。横条内上方是小字\"怎么解？\"，下方是醒目大字\"答案不是合并，而是让两边彻底分开\"。字色为浅色/白色。\n\n图中只允许出现这些文字：南北奥迪、做了九年、一汽奥迪、近60万辆、上汽奥迪、4-5万辆、怎么解？、答案不是合并、而是让两边彻底分开。除这些文字外不要新增任何说明性文字、数据来源、时间标注、百分比或品牌名。\n\n不要四环logo，不要AUDI字母标logo，不要柱状图、饼图或表格，不要真车照片，不要感叹号，不要水印，不要\"AI生成\"字样，不要无意义英文装饰。\n\n整体视觉采用 clean isometric business schematic，modular business illustration with light 3D structural feel，rational and tidy layout。左右卡片有轻微立体托举感，底部答案区保持扁平宽幅以稳定重心。色调克制：左侧深灰或深蓝稳重，右侧浅灰或米白轻量，底部深色底白色字。分隔线细而清晰，汇聚箭头轻而准确。不要科技HUD化，不要过度等距透视使卡片变形，不要纯冷蓝灰压场。\n",
+          "provenance_confidence": "user_recalled",
+          "provider": "google",
+          "run_id": "R01",
+          "skill_lineage": {
+            "skill": "shortvideo-image-prompt-generation",
+            "version": null
+          },
+          "source_adapter": "manual-historical-archive"
+        },
+        {
+          "assets": [
+            {
+              "asset_id": "A02",
+              "bytes": 5695778,
+              "canonical_path": "originals/A02.png",
+              "case_id": "CASE-20260827-LEGACY-AUDI-BRAND-SPLIT-01",
+              "created_at": "2026-08-27T06:48:28Z",
+              "height": 2400,
+              "notes": [
+                "历史短视频分块段 02；源图片字节、尺寸与哈希在 ingest 时验证；模型、surface 及 Prompt→Run→Asset 关联来自用户回忆。"
+              ],
+              "original_filename": "奥迪南北分治_D3_分块段02_prompt.png",
+              "preview_path": "lab/previews/CASE-20260827-LEGACY-AUDI-BRAND-SPLIT-01-A02.jpg",
+              "provenance_confidence": "user_recalled",
+              "run_id": "R02",
+              "schema_version": "0.1.0",
+              "sha256": "064a21fdffa12176ca656315841de35040fa00a2ebd52a0683a427dc15d1e852",
+              "source_format": "PNG",
+              "thumbnail_path": "lab/thumbnails/CASE-20260827-LEGACY-AUDI-BRAND-SPLIT-01-A02.jpg",
+              "user_feedback": [],
+              "width": 1792
+            }
+          ],
+          "evaluation": "unreviewed",
+          "evaluation_note": "Selected as a historical regression candidate; no formal Text2Pic Lab image review has been completed.",
+          "generation_surface": "gemini-web",
+          "model": "nano-banana",
+          "model_version": null,
+          "parameters": {},
+          "producer": "local-user",
+          "prompt_delta_notes": [],
+          "prompt_id": "P02",
+          "prompt_intended_model_target": "nano-banana",
+          "prompt_parent_prompt_id": null,
+          "prompt_provenance_confidence": "verified",
+          "prompt_public": true,
+          "prompt_sha256": "4ba883ab3b4e90126f8147539cfc8e4447ba278121478b30b65bbc321cb38829",
+          "prompt_summary": "历史任务[奥迪南北分治] D3 分块段 02 的归档 prompt。",
+          "prompt_text": "# D3 分块段 02 Prompt\n\n生成一张 3:4 竖版静态配图。\n\n整体采用顶部标题区 + 中部左右对照 + 底部纠偏的三区结构。\n\n顶部居中放置标题\"调整方案核心：品牌切分\"。标题上方放置一行更小的文字\"虽未得到官方证实，但据多家媒体披露\"，作为信源限定，不抢占视觉重心。\n\n中部主体区分为左右两张等大的品牌卡片，中间用一条竖向细长分隔带隔开。左侧卡片为深色稳重色调，左上角有四环简化几何图形——四个交叠的细圆环，非官方logo；卡片内部上下排列两个子项：上方\"燃油车\"配轿车和SUV的小图标组合，下方\"PPE平台高端电车\"配充电接口和流线型车轮廓，每子项旁有小字产品名简称作为辅助。卡片底部标注\"一汽奥迪\"。右侧卡片为浅色科技感色调，左上角有\"AUDI\"字母标简化表达；卡片内部是单一主体——\"纯电品牌\"，用充电中的电动车剪影和科技感细线条表达，旁边小字标注\"清空四环燃油后不再追加\"。卡片底部标注\"上汽奥迪\"。\n\n中轴分隔带是一条细竖线，中部标注\"品牌切分\"文字，上下各有一个对称的双向小箭头。\n\n底部是一个宽幅横条，浅底色深色字，与上方主体区之间有清晰分割线。横条内文字为\"这不是'油电分离'——一汽奥迪也在做电车\"。横条左端有一个小箭头向上回指，指向左侧卡片的PPE电车子项区域。\n\n图中只允许出现这些文字：调整方案核心、品牌切分、虽未得到官方证实但据多家媒体披露、四环标、一汽奥迪、燃油车、PPE平台高端电车、AUDI、上汽奥迪、纯电品牌、清空四环燃油后不再追加、这不是\"油电分离\"、一汽奥迪也在做电车。除这些文字外不要新增任何说明性文字、具体车型名称、销量数据或品牌名。\n\n不要四环官方logo，不要AUDI官方字母标logo，不要真车照片，不要数据图表，不要感叹号，不要水印，不要\"AI生成\"字样，不要无意义英文装饰。\n\n整体视觉采用 clean isometric business schematic，modular business illustration with light 3D structural feel。左右两张品牌卡片等大、有轻微立体托举感。左卡深色稳重传达传统豪华感，右卡浅色科技传达创新感，但不做成冷暖色对决。中轴分隔线细而清晰。底部纠偏区保持扁平，不分散对主体区的注意力。整体理性克制，不要科技HUD化，不要过度等距透视。\n",
+          "provenance_confidence": "user_recalled",
+          "provider": "google",
+          "run_id": "R02",
+          "skill_lineage": {
+            "skill": "shortvideo-image-prompt-generation",
+            "version": null
+          },
+          "source_adapter": "manual-historical-archive"
+        },
+        {
+          "assets": [
+            {
+              "asset_id": "A03",
+              "bytes": 4456663,
+              "canonical_path": "originals/A03.png",
+              "case_id": "CASE-20260827-LEGACY-AUDI-BRAND-SPLIT-01",
+              "created_at": "2026-08-27T06:48:29Z",
+              "height": 2400,
+              "notes": [
+                "历史短视频分块段 05；源图片字节、尺寸与哈希在 ingest 时验证；模型、surface 及 Prompt→Run→Asset 关联来自用户回忆。"
+              ],
+              "original_filename": "奥迪南北分治_D3_分块段05_prompt.png",
+              "preview_path": "lab/previews/CASE-20260827-LEGACY-AUDI-BRAND-SPLIT-01-A03.jpg",
+              "provenance_confidence": "user_recalled",
+              "run_id": "R03",
+              "schema_version": "0.1.0",
+              "sha256": "a4082e05f99545b3713050820d6b1585a1cc4f2783611dd38ea8547facffef8d",
+              "source_format": "PNG",
+              "thumbnail_path": "lab/thumbnails/CASE-20260827-LEGACY-AUDI-BRAND-SPLIT-01-A03.jpg",
+              "user_feedback": [],
+              "width": 1792
+            }
+          ],
+          "evaluation": "unreviewed",
+          "evaluation_note": "Selected as a historical regression candidate; no formal Text2Pic Lab image review has been completed.",
+          "generation_surface": "gemini-web",
+          "model": "nano-banana",
+          "model_version": null,
+          "parameters": {},
+          "producer": "local-user",
+          "prompt_delta_notes": [],
+          "prompt_id": "P03",
+          "prompt_intended_model_target": "nano-banana",
+          "prompt_parent_prompt_id": null,
+          "prompt_provenance_confidence": "verified",
+          "prompt_public": true,
+          "prompt_sha256": "7bb8df6278e62b856aadce82e56eebb2491c855b8d008b794e7c9109ec657c7e",
+          "prompt_summary": "历史任务[奥迪南北分治] D3 分块段 05 的归档 prompt。",
+          "prompt_text": "# D3 分块段 05 Prompt\n\n生成一张 3:4 竖版静态配图。\n\n整体采用顶部标题 + 中部左右双品牌定位卡 + 中轴关系 + 底部结论的四区结构。\n\n顶部居中放置标题\"为什么是分治、而不是合并？根本逻辑：用户群不重叠\"。\n\n中部主体区分为左右两张等大的品牌定位卡片，中间用一条细竖向分隔带隔开。\n\n左侧卡片为深色稳重色调。卡片内是一个小场景：一位成熟商务人士的侧影，姿态沉稳地站在一辆经典豪华轿车旁。轿车旁有轻量图标——小盾牌和勾选标记，暗示品质与可靠性。卡片内有四环简化几何图形——四个交叠的细圆环、非官方logo，标注文字\"成熟消费者\"\"品质与可靠性\"\"传统豪华基本盘\"。\n\n右侧卡片为浅色科技感色调。卡片内是一个小场景：一位年轻用户正在通过一块透明AR屏幕与一辆造型未来的电动车互动，屏幕上有简洁的数据流线条。卡片内有\"AUDI\"字母标简化表达，标注文字\"热衷前沿科技的群体\"\"新势力或其他品牌\"\"独立战场\"。\n\n中轴分隔带是一条细竖线，中部醒目标注\"用户群不重叠\"文字，两侧各有一个向外分开的小箭头，强调两个用户群体走向不同方向、不会重叠。\n\n底部是一个宽幅横条，深色底配浅色字。内部左右并列两个小标签：\"四环标：守传统豪华基本盘\"\"字母标：直接面向新势力消费群体\"。上方大字\"分治之后各自定位反而更清晰\"。\n\n图中只允许出现这些文字：为什么是分治而不是合并、根本逻辑、用户群不重叠、成熟消费者、品质与可靠性、传统豪华基本盘、AUDI、热衷前沿科技的群体、分治之后各自定位反而更清晰、四环标守住传统豪华基本盘、字母标直接面向新势力消费群体。除这些文字外不要新增任何说明性文字或其他品牌名。\n\n不要四环官方logo，不要AUDI官方字母标logo，不要真车照片，不要感叹号，不要水印，不要\"AI生成\"字样，不要无意义英文装饰。\n\n整体视觉采用 soft narrative structural editorial，gentle editorial illustration with modular clarity，warm but restrained。两张定位卡内的人物小场景柔和克制，不夸张情绪化。中轴关系标注清楚。底部结论区以稳定深色收束。不要做成广告海报风格，不要暖色过满。\n",
+          "provenance_confidence": "user_recalled",
+          "provider": "google",
+          "run_id": "R03",
+          "skill_lineage": {
+            "skill": "shortvideo-image-prompt-generation",
+            "version": null
+          },
+          "source_adapter": "manual-historical-archive"
+        }
+      ],
+      "status": "open",
+      "svp_mode": "legacy-d3",
+      "tags": [
+        "regression",
+        "legacy-shortvideo",
+        "nano-banana",
+        "gemini-web",
+        "奥迪南北分治",
+        "audi",
+        "brand-architecture",
+        "identity-split"
+      ],
+      "title": "Audi dual-brand identity split"
+    },
+    {
+      "case_id": "CASE-20260827-LEGACY-AUDI-EROSION-PRESSURE-01",
+      "case_type": "regression",
+      "contact_sheet": "lab/contact_sheets/CASE-20260827-LEGACY-AUDI-EROSION-PRESSURE-01.jpg",
+      "expected_effect": [
+        "表达传统豪华品牌份额侵蚀、价格压力和本土竞争，不丢失因果层级"
+      ],
+      "final_selection": null,
+      "image_type": "vertical-editorial-infographic",
+      "problem_statement": "历史 Nano Banana 竖版短视频配图基线：表达传统豪华品牌份额侵蚀、价格压力和本土竞争，不丢失因果层级",
+      "project": "hotspot-shortvideo",
+      "runs": [
+        {
+          "assets": [
+            {
+              "asset_id": "A01",
+              "bytes": 5106426,
+              "canonical_path": "originals/A01.png",
+              "case_id": "CASE-20260827-LEGACY-AUDI-EROSION-PRESSURE-01",
+              "created_at": "2026-08-27T06:48:31Z",
+              "height": 2400,
+              "notes": [
+                "历史短视频分块段 03；源图片字节、尺寸与哈希在 ingest 时验证；模型、surface 及 Prompt→Run→Asset 关联来自用户回忆。"
+              ],
+              "original_filename": "奥迪南北分治_D3_分块段03_prompt.png",
+              "preview_path": "lab/previews/CASE-20260827-LEGACY-AUDI-EROSION-PRESSURE-01-A01.jpg",
+              "provenance_confidence": "user_recalled",
+              "run_id": "R01",
+              "schema_version": "0.1.0",
+              "sha256": "8a4f41144f37b4f096b5ee16b39dd3a94ffd17027906fd2e93e93e72a3a09ff6",
+              "source_format": "PNG",
+              "thumbnail_path": "lab/thumbnails/CASE-20260827-LEGACY-AUDI-EROSION-PRESSURE-01-A01.jpg",
+              "user_feedback": [],
+              "width": 1792
+            }
+          ],
+          "evaluation": "unreviewed",
+          "evaluation_note": "Selected as a historical regression candidate; no formal Text2Pic Lab image review has been completed.",
+          "generation_surface": "gemini-web",
+          "model": "nano-banana",
+          "model_version": null,
+          "parameters": {},
+          "producer": "local-user",
+          "prompt_delta_notes": [],
+          "prompt_id": "P01",
+          "prompt_intended_model_target": "nano-banana",
+          "prompt_parent_prompt_id": null,
+          "prompt_provenance_confidence": "verified",
+          "prompt_public": true,
+          "prompt_sha256": "632e7be2b36cc0bac0e7e828d9b10c87d58617921bcb84f8764129448e2c854f",
+          "prompt_summary": "历史任务[奥迪南北分治] D3 分块段 03 的归档 prompt。",
+          "prompt_text": "# D3 分块段 03 Prompt\n\n生成一张 3:4 竖版静态配图。\n\n整体采用顶部标题 + 中部垂直时间线 + 底部结论的三区结构。\n\n顶部居中放置标题\"第一股：九年内耗\"。\n\n中部主体是一条自上而下的中央垂直细线，沿线挂着四个事件节点卡片，节点之间用向下的小箭头连接。四个节点卡片采用统一容器形式——每张卡片左侧是年份标签醒目显示，右侧是事件描述区。从上到下依次为：\n\n第一个节点，左侧标签\"2016\"，右侧卡片内画一只握手手势被另一只手轻轻推开的隐喻画面，下方标注文字\"上汽奥迪签约，一汽经销商集体反弹\"。\n\n第二个节点，左侧标签\"2017\"，右侧卡片内画一份文件或协议书，上面盖着一枚\"推迟\"字样的印章，下方标注文字\"三亚协议——权宜妥协，上汽产品推迟上市\"。\n\n第三个节点，无年份标签改用车型代号，卡片内画同一辆轿车剪影从中间分裂成左右两半、分别指向两侧的隐喻画面，下方标注文字\"A5L 同车两卖，两边都没跑通\"。\n\n第四个节点，左侧标签\"2025\"，右侧卡片内画一个简化的四环图形旁边出现一道细小裂痕，下方标注文字\"标识之争，矛盾公开化\"。\n\n中央竖线从最后一个节点向下继续延伸并微微弯曲，连接到下方的底部结论区。底部是一个宽幅横条，深色底浅色字，略圆角。横条内为大字\"九年间，精力持续花在内耗上，不是对外应对市场变化\"。\n\n图中只允许出现这些文字：为什么要走到这一步、第一股九年内耗、2016、上汽奥迪签约、一汽经销商集体反弹、2017、三亚协议、权宜妥协、上汽产品推迟上市、A5L、同车两卖、两边都没跑通、2025、标识之争、矛盾公开化、九年间精力持续花在内耗上不是对外应对市场变化。除这些文字外不要新增任何说明性文字、具体车型销量数字或百分比。\n\n不要四环官方logo，不要真车照片，不要感叹号，不要水印，不要\"AI生成\"字样，不要无意义英文装饰。\n\n整体视觉采用 soft narrative structural editorial，gentle editorial illustration with modular clarity，warm but restrained。中央时间线柔和流畅，四个节点卡片用柔和圆角卡片承载，整体色调偏暖灰或米白底，节点用轻微暖色强调但不饱和。底部结论区稍加深色以稳定收束。不要情绪海报化，不要暖色过满，时间线必须清楚节点不模糊。\n",
+          "provenance_confidence": "user_recalled",
+          "provider": "google",
+          "run_id": "R01",
+          "skill_lineage": {
+            "skill": "shortvideo-image-prompt-generation",
+            "version": null
+          },
+          "source_adapter": "manual-historical-archive"
+        },
+        {
+          "assets": [
+            {
+              "asset_id": "A02",
+              "bytes": 5539646,
+              "canonical_path": "originals/A02.png",
+              "case_id": "CASE-20260827-LEGACY-AUDI-EROSION-PRESSURE-01",
+              "created_at": "2026-08-27T06:48:32Z",
+              "height": 2400,
+              "notes": [
+                "历史短视频分块段 04；源图片字节、尺寸与哈希在 ingest 时验证；模型、surface 及 Prompt→Run→Asset 关联来自用户回忆。"
+              ],
+              "original_filename": "奥迪南北分治_D3_分块段04_prompt.png",
+              "preview_path": "lab/previews/CASE-20260827-LEGACY-AUDI-EROSION-PRESSURE-01-A02.jpg",
+              "provenance_confidence": "user_recalled",
+              "run_id": "R02",
+              "schema_version": "0.1.0",
+              "sha256": "1351b16cf7b70618d2889f14bdc4974c2f44d9e80361a3679c6a4f2fe1ab6711",
+              "source_format": "PNG",
+              "thumbnail_path": "lab/thumbnails/CASE-20260827-LEGACY-AUDI-EROSION-PRESSURE-01-A02.jpg",
+              "user_feedback": [],
+              "width": 1792
+            }
+          ],
+          "evaluation": "unreviewed",
+          "evaluation_note": "Selected as a historical regression candidate; no formal Text2Pic Lab image review has been completed.",
+          "generation_surface": "gemini-web",
+          "model": "nano-banana",
+          "model_version": null,
+          "parameters": {},
+          "producer": "local-user",
+          "prompt_delta_notes": [],
+          "prompt_id": "P02",
+          "prompt_intended_model_target": "nano-banana",
+          "prompt_parent_prompt_id": null,
+          "prompt_provenance_confidence": "verified",
+          "prompt_public": true,
+          "prompt_sha256": "0bd241d8c90c002d6ddbf3e977cc8934fbb745b8e745fff9caa7068014c5b9be",
+          "prompt_summary": "历史任务[奥迪南北分治] D3 分块段 04 的归档 prompt。",
+          "prompt_text": "# D3 分块段 04 Prompt\n\n生成一张 3:4 竖版静态配图。\n\n整体采用顶部标题 + 中部三层递进堆叠 + 底部结论的四区结构。\n\n顶部居中放置标题\"第二股，是大环境\"。\n\n中部主体区由三层水平层板自上而下堆叠组成，层板之间用轻量向下箭头连接。三层从上到下面积逐渐增大、色调从浅到深逐渐加重。\n\n第一层层板（最浅、最小）：一条向上飙升的粗曲线从左侧标注\"5%\"延伸到右侧标注\"50%\"，曲线箭头端刺穿一个旧框架或旧规则本的简化图形。层板内文字：\"新能源渗透率 5%→50%，市场底层逻辑已被改写\"。\n\n第二层层板（灰色、中等）：多个简化的轿车轮廓剪影排列在一道向前推进的波浪线上，几个剪影被甩在后面或半沉入浪中。层板内文字：\"合资品牌在这波浪潮中普遍掉队\"。\n\n第三层层板（深灰、最大）：一座简化城堡或城墙轮廓，墙体正被从外侧推进的土石方块一块块填平，城墙上方的旗帜倾斜。城墙下方并排标注三组数据\"奔驰-27%\"\"宝马-10%\"\"奥迪-12%\"。层板内文字：\"豪华市场承压，传统豪华的护城河正被新势力一块块填平\"。\n\n底部是一个宽幅横条，最深底色配白色大字。文字为\"外部竞争不会等你理完内务\"。\n\n图中只允许出现这些文字：第二股是大环境、新能源渗透率、5%→50%、市场底层逻辑已被改写、合资品牌在这波浪潮中普遍掉队、豪华市场承压、奔驰-27%、宝马-10%、奥迪-12%、传统豪华的护城河正被新势力一块块填平、外部竞争不会等你理完内务。除这些文字外不要新增任何说明性文字或其他品牌名。\n\n不要品牌官方logo，不要真车照片，不要感叹号，不要水印，不要\"AI生成\"字样，不要无意义英文装饰。\n\n整体视觉采用 clean isometric business schematic，modular business illustration with light 3D structural feel。三层层板有轻微立体托举感，色调从上到下由浅灰渐变为深灰，暗示压力向下累积。层板间向下箭头轻而明确。底部结论区最深以形成稳定收束。不要科技HUD化，不要过度3D使层板变成建筑构件，不要纯冷蓝灰压场。\n",
+          "provenance_confidence": "user_recalled",
+          "provider": "google",
+          "run_id": "R02",
+          "skill_lineage": {
+            "skill": "shortvideo-image-prompt-generation",
+            "version": null
+          },
+          "source_adapter": "manual-historical-archive"
+        }
+      ],
+      "status": "open",
+      "svp_mode": "legacy-d3",
+      "tags": [
+        "regression",
+        "legacy-shortvideo",
+        "nano-banana",
+        "gemini-web",
+        "奥迪南北分治",
+        "audi",
+        "market-pressure",
+        "causal-structure"
+      ],
+      "title": "Audi incumbent erosion pressure"
+    },
+    {
+      "case_id": "CASE-20260827-LEGACY-AUDI-VIABILITY-01",
+      "case_type": "regression",
+      "contact_sheet": "lab/contact_sheets/CASE-20260827-LEGACY-AUDI-VIABILITY-01.jpg",
+      "expected_effect": [
+        "在结论型画面中同时表达战略可行性、约束条件与长期品牌风险"
+      ],
+      "final_selection": null,
+      "image_type": "vertical-editorial-infographic",
+      "problem_statement": "历史 Nano Banana 竖版短视频配图基线：在结论型画面中同时表达战略可行性、约束条件与长期品牌风险",
+      "project": "hotspot-shortvideo",
+      "runs": [
+        {
+          "assets": [
+            {
+              "asset_id": "A01",
+              "bytes": 5751135,
+              "canonical_path": "originals/A01.png",
+              "case_id": "CASE-20260827-LEGACY-AUDI-VIABILITY-01",
+              "created_at": "2026-08-27T06:48:34Z",
+              "height": 2400,
+              "notes": [
+                "历史短视频分块段 06；源图片字节、尺寸与哈希在 ingest 时验证；模型、surface 及 Prompt→Run→Asset 关联来自用户回忆。"
+              ],
+              "original_filename": "奥迪南北分治_D3_分块段06_prompt.png",
+              "preview_path": "lab/previews/CASE-20260827-LEGACY-AUDI-VIABILITY-01-A01.jpg",
+              "provenance_confidence": "user_recalled",
+              "run_id": "R01",
+              "schema_version": "0.1.0",
+              "sha256": "aa484d3c393b26e64db835959f7f9b5209fe4c4d70dba2230e9a0eb6e5357471",
+              "source_format": "PNG",
+              "thumbnail_path": "lab/thumbnails/CASE-20260827-LEGACY-AUDI-VIABILITY-01-A01.jpg",
+              "user_feedback": [],
+              "width": 1792
+            }
+          ],
+          "evaluation": "unreviewed",
+          "evaluation_note": "Selected as a historical regression candidate; no formal Text2Pic Lab image review has been completed.",
+          "generation_surface": "gemini-web",
+          "model": "nano-banana",
+          "model_version": null,
+          "parameters": {},
+          "producer": "local-user",
+          "prompt_delta_notes": [],
+          "prompt_id": "P01",
+          "prompt_intended_model_target": "nano-banana",
+          "prompt_parent_prompt_id": null,
+          "prompt_provenance_confidence": "verified",
+          "prompt_public": true,
+          "prompt_sha256": "17a7805ef03af0ad280bfac2515471f967da4e04c5b4d3287ff7444fa02be777",
+          "prompt_summary": "历史任务[奥迪南北分治] D3 分块段 06 的归档 prompt。",
+          "prompt_text": "# D3 分块段 06 Prompt\n\n生成一张 3:4 竖版静态配图。\n\n整体采用顶部标题 + 中部上下分区对照 + 中间转折分隔的三区结构。\n\n顶部居中放置标题\"一汽奥迪\"。\n\n中部主体分为上下两个大区，中间用一条横贯画面的水平细线分隔，线的正中央标注一个\"但\"字。\n\n上半区底色为暖灰色调。内部横向并列三张等大的小卡片。第一张卡片内画一辆轿车剪影配一个向中心归拢的箭头，标注\"燃油车全线归拢\"。第二张卡片内画一个门店图标配数字600，标注\"约600家门店 规模效应增强\"。第三张卡片内画一条稳健的小幅上升趋势线，标注\"利润基本盘稳固\"。上半区左上角小字标注\"眼下的牌稳\"。\n\n下半区底色为冷灰色调。内部同样横向并列三张等大的小卡片。第一张卡片内画一条向右下方倾斜的趋势线，标注\"燃油大盘在萎缩\"。第二张卡片内画一个问号叠加在电车剪影上，标注\"四环电车能不能打出竞争力？\"。第三张卡片用虚线边框框住以示不确定，内部画一个问号，标注\"变量：上汽库存承接 目前没有定论\"。下半区左上角小字标注\"长远的牌没定\"。\n\n图中只允许出现这些文字：一汽奥迪、眼下的牌稳、燃油车全线归拢、约600家门店规模效应增强、利润基本盘稳固、但、长远的牌没定、燃油大盘在萎缩、四环电车能不能打出竞争力、变量上汽库存承接目前没有定论。除这些文字外不要新增任何说明性文字或数字。\n\n不要四环官方logo，不要真车照片，不要感叹号，不要水印，不要\"AI生成\"字样，不要无意义英文装饰。\n\n整体视觉采用 clean isometric business schematic，modular business illustration with light 3D structural feel。六张小卡片等大统一，有轻微立体托举感。上半区暖灰传达安定感，下半区冷灰传达不确定性。中间\"但\"字转折线清晰明确。整体理性克制，不要科技HUD化，不要过度等距透视。\n",
+          "provenance_confidence": "user_recalled",
+          "provider": "google",
+          "run_id": "R01",
+          "skill_lineage": {
+            "skill": "shortvideo-image-prompt-generation",
+            "version": null
+          },
+          "source_adapter": "manual-historical-archive"
+        },
+        {
+          "assets": [
+            {
+              "asset_id": "A02",
+              "bytes": 5758255,
+              "canonical_path": "originals/A02.png",
+              "case_id": "CASE-20260827-LEGACY-AUDI-VIABILITY-01",
+              "created_at": "2026-08-27T06:48:36Z",
+              "height": 2400,
+              "notes": [
+                "历史短视频分块段 07；源图片字节、尺寸与哈希在 ingest 时验证；模型、surface 及 Prompt→Run→Asset 关联来自用户回忆。"
+              ],
+              "original_filename": "奥迪南北分治_D3_分块段07_prompt.png",
+              "preview_path": "lab/previews/CASE-20260827-LEGACY-AUDI-VIABILITY-01-A02.jpg",
+              "provenance_confidence": "user_recalled",
+              "run_id": "R02",
+              "schema_version": "0.1.0",
+              "sha256": "e2d258f99e149956083222a1f58b81e77b64373e848b9bc0f6d415cca15630eb",
+              "source_format": "PNG",
+              "thumbnail_path": "lab/thumbnails/CASE-20260827-LEGACY-AUDI-VIABILITY-01-A02.jpg",
+              "user_feedback": [],
+              "width": 1792
+            }
+          ],
+          "evaluation": "unreviewed",
+          "evaluation_note": "Selected as a historical regression candidate; no formal Text2Pic Lab image review has been completed.",
+          "generation_surface": "gemini-web",
+          "model": "nano-banana",
+          "model_version": null,
+          "parameters": {},
+          "producer": "local-user",
+          "prompt_delta_notes": [],
+          "prompt_id": "P02",
+          "prompt_intended_model_target": "nano-banana",
+          "prompt_parent_prompt_id": null,
+          "prompt_provenance_confidence": "verified",
+          "prompt_public": true,
+          "prompt_sha256": "0de5ecf5f4e98d663d808ca5f431d6df4d0af209a8e2a90a3917be7828c74114",
+          "prompt_summary": "历史任务[奥迪南北分治] D3 分块段 07 的归档 prompt。",
+          "prompt_text": "# D3 分块段 07 Prompt\n\n生成一张 3:4 竖版静态配图。\n\n整体采用顶部标题 + 中部上下分区对照 + 中间转折分隔的三区结构，与分块段6保持相同的版式骨架以形成视觉对照。\n\n顶部居中放置标题\"上汽奥迪——没有回头路，但包袱也更轻\"。\n\n中部主体分为上下两个大区，中间用一条横贯画面的水平细线分隔，线的正中央标注\"但放长看\"。\n\n上半区底色为略带警示的暖灰色调。内部横向并列两张等大的小卡片。第一张卡片内画一个门店图标配数字220，标注\"约220家门店\"。第二张卡片内画一个简化的饼图示意——大部分面积被切走，旁边标注\"70%-80%收入来自四环燃油车\"，下方小字\"清库后现金流压力明显\"。上半区左上角小字标注\"短期阵痛绕不开\"。\n\n下半区底色为克制希望的浅色调。内部是一张较大的横向卡片，融合经典与科技的轿车剪影居中——左半侧是稳重流畅的经典线条，右半侧融入发光科技线条，两侧在中间自然融合。卡片内标注大字\"真正关键：产品能不能打出差异化\"，下方小字\"既有奥迪的底子，又有和新势力正面竞争的实力\"。\n\n图中只允许出现这些文字：上汽奥迪、没有回头路但包袱也更轻、短期阵痛绕不开、约220家门店、70%-80%收入来自四环燃油车、清库后现金流压力明显、但放长看、真正关键产品能不能打出差异化、既有奥迪的底子又有和新势力正面竞争的实力。除这些文字外不要新增任何说明性文字或数字。\n\n不要AUDI官方字母标logo，不要四环官方logo，不要真车照片，不要感叹号，不要水印，不要\"AI生成\"字样，不要无意义英文装饰。\n\n整体视觉采用 soft narrative structural editorial，gentle editorial illustration with modular clarity，warm but restrained。上区略带警示但不过度渲染情绪，下区有希望但不浮夸。中间转折线柔和。卡片有轻微圆角，整体克制。不要做成广告海报风格。\n",
+          "provenance_confidence": "user_recalled",
+          "provider": "google",
+          "run_id": "R02",
+          "skill_lineage": {
+            "skill": "shortvideo-image-prompt-generation",
+            "version": null
+          },
+          "source_adapter": "manual-historical-archive"
+        }
+      ],
+      "status": "open",
+      "svp_mode": "legacy-d3",
+      "tags": [
+        "regression",
+        "legacy-shortvideo",
+        "nano-banana",
+        "gemini-web",
+        "奥迪南北分治",
+        "audi",
+        "strategy-viability",
+        "conclusion"
+      ],
+      "title": "Audi split-strategy viability"
+    },
+    {
+      "case_id": "CASE-20260827-LEGACY-CHANNEL-GOVERNANCE-01",
+      "case_type": "regression",
+      "contact_sheet": "lab/contact_sheets/CASE-20260827-LEGACY-CHANNEL-GOVERNANCE-01.jpg",
+      "expected_effect": [
+        "表达渠道轻量化成立的治理条件与风险约束"
+      ],
+      "final_selection": null,
+      "image_type": "vertical-editorial-infographic",
+      "problem_statement": "历史 Nano Banana 竖版短视频配图基线：表达渠道轻量化成立的治理条件与风险约束",
+      "project": "hotspot-shortvideo",
+      "runs": [
+        {
+          "assets": [
+            {
+              "asset_id": "A01",
+              "bytes": 4081816,
+              "canonical_path": "originals/A01.png",
+              "case_id": "CASE-20260827-LEGACY-CHANNEL-GOVERNANCE-01",
+              "created_at": "2026-08-27T06:51:48Z",
+              "height": 2400,
+              "notes": [
+                "历史短视频分块段 08；源图片字节、尺寸与哈希在 ingest 时验证；模型、surface 及 Prompt→Run→Asset 关联来自用户回忆。"
+              ],
+              "original_filename": "渠道轻量化_D3_分块段08_prompt.png",
+              "preview_path": "lab/previews/CASE-20260827-LEGACY-CHANNEL-GOVERNANCE-01-A01.jpg",
+              "provenance_confidence": "user_recalled",
+              "run_id": "R01",
+              "schema_version": "0.1.0",
+              "sha256": "e7e9c09d8cea4b50affe90df07d56543642b80d4ef729fa9091b318411762da9",
+              "source_format": "PNG",
+              "thumbnail_path": "lab/thumbnails/CASE-20260827-LEGACY-CHANNEL-GOVERNANCE-01-A01.jpg",
+              "user_feedback": [],
+              "width": 1792
+            }
+          ],
+          "evaluation": "unreviewed",
+          "evaluation_note": "Selected as a historical regression candidate; no formal Text2Pic Lab image review has been completed.",
+          "generation_surface": "gemini-web",
+          "model": "nano-banana",
+          "model_version": null,
+          "parameters": {},
+          "producer": "local-user",
+          "prompt_delta_notes": [],
+          "prompt_id": "P01",
+          "prompt_intended_model_target": "nano-banana",
+          "prompt_parent_prompt_id": null,
+          "prompt_provenance_confidence": "verified",
+          "prompt_public": true,
+          "prompt_sha256": "73ac32fce11e909ca03bf79eb0beafa79772a25771ae915ffc71fedb54854eb6",
+          "prompt_summary": "历史任务[渠道轻量化] D3 分块段 08 的归档 prompt。",
+          "prompt_text": "# D3 分块段 08 Prompt\n\n生成一张 3:4 竖版静态配图。\n整体布局采用顶部居中标题 + 顶部错误入口条 + 中部 2x2 四类分工卡 + 底部效率结论条的结构，阅读顺序从上到下。\n容器结构包括：顶部窄横条；中部四张等大框架卡；底部横向短结论条。\n视觉区块内容：顶部错误入口条画降标准、降投入、降考核三个被压缩的小标签块，配轻向下让位箭头和弱化底色。中部四张框架卡分别画总部中枢、渠道连接、本地服务履约、风险共担天平等对象组合，四张卡统一尺寸、统一边界、作为主体。底部效率结论条画短结论横条，配由四卡汇入的短汇总线和轻正向箭头。\n关系表达：顶部错误入口条通过下行箭头让位于中部四类分工；四类分工通过短汇总线共同汇入底部效率结论条，必须让上错下对的结构层级清楚可见，不要画成串行审批流程。\n图中只允许出现这些文字：轻量化要从招商工具变成效率提升、降标准、降投入、降考核、总部直控、渠道承接、本地履约、风险分担、效率提升。\n不需要地图，不要出现任何地理区域轮廓或地图底图。\n不要 logo，不要海报化，不要水印，不要 AI 字样，不要无意义英文；不要出现管理长句和流程说明；不要把上方错误入口做得比主体更抢眼；不要让四张卡风格失衡；不要做成流程图面板化。\n整体视觉采用专业、理性、容器清楚的 clean editorial illustration，轻等距模块感，flat illustration，light texture。\n",
+          "provenance_confidence": "user_recalled",
+          "provider": "google",
+          "run_id": "R01",
+          "skill_lineage": {
+            "skill": "shortvideo-image-prompt-generation",
+            "version": null
+          },
+          "source_adapter": "manual-historical-archive"
+        },
+        {
+          "assets": [
+            {
+              "asset_id": "A02",
+              "bytes": 5973880,
+              "canonical_path": "originals/A02.png",
+              "case_id": "CASE-20260827-LEGACY-CHANNEL-GOVERNANCE-01",
+              "created_at": "2026-08-27T06:51:49Z",
+              "height": 2400,
+              "notes": [
+                "历史短视频分块段 09；源图片字节、尺寸与哈希在 ingest 时验证；模型、surface 及 Prompt→Run→Asset 关联来自用户回忆。"
+              ],
+              "original_filename": "渠道轻量化_D3_分块段09_prompt.png",
+              "preview_path": "lab/previews/CASE-20260827-LEGACY-CHANNEL-GOVERNANCE-01-A02.jpg",
+              "provenance_confidence": "user_recalled",
+              "run_id": "R02",
+              "schema_version": "0.1.0",
+              "sha256": "2617fa223449e497eff6cd648d03b0e80a2d60c0595133a47cd09e72fbe1efb7",
+              "source_format": "PNG",
+              "thumbnail_path": "lab/thumbnails/CASE-20260827-LEGACY-CHANNEL-GOVERNANCE-01-A02.jpg",
+              "user_feedback": [],
+              "width": 1792
+            }
+          ],
+          "evaluation": "unreviewed",
+          "evaluation_note": "Selected as a historical regression candidate; no formal Text2Pic Lab image review has been completed.",
+          "generation_surface": "gemini-web",
+          "model": "nano-banana",
+          "model_version": null,
+          "parameters": {},
+          "producer": "local-user",
+          "prompt_delta_notes": [],
+          "prompt_id": "P02",
+          "prompt_intended_model_target": "nano-banana",
+          "prompt_parent_prompt_id": null,
+          "prompt_provenance_confidence": "verified",
+          "prompt_public": true,
+          "prompt_sha256": "b3700615b59add6f06276d06b502a7ce7d8381a8cfc9e7684398bbf2eab7a31c",
+          "prompt_summary": "历史任务[渠道轻量化] D3 分块段 09 的归档 prompt。",
+          "prompt_text": "# D3 分块段 09 Prompt\n\n生成一张 3:4 竖版静态配图。\n整体布局采用顶部居中标题 + 中部左右平衡双栏 + 底部提问条的结构，阅读顺序是上、左、右、下。\n容器结构包括：左侧平衡卡；右侧平衡卡；底部窄横向提问条。\n视觉区块内容：左侧卡画进入门槛与试错成本被减轻的组合，配轻门槛、轻投入、小分支机会、轻向下箭头。右侧卡画品牌控制中枢、服务标准、分工管理组合，配控制节点、服务工位、分工连线、轻上提状态线。底部提问条画短提问横条和轻问号节点。\n关系表达：中部左右两张卡形成平衡对照关系，不使用强流程箭头；底部提问条单独收束，形成结尾弱互动。\n图中只允许出现这些文字：该轻的轻，该重的重、进入门槛、试错成本、品牌控制、服务标准、分工管理、哪些能力必须掌握在品牌手里？\n不需要地图，不要出现任何地理区域轮廓或地图底图。\n不要 logo，不要海报化，不要水印，不要 AI 字样，不要无意义英文；不要出现开店数量和行业复盘长句；不要把轻画成廉价或简陋；不要把右侧画成权力金字塔海报；不要把底部提问做成长段互动文案或口号海报。\n整体视觉采用柔和、克制、结构清楚的 clean editorial illustration，带轻叙事收束感，flat illustration，light texture。\n",
+          "provenance_confidence": "user_recalled",
+          "provider": "google",
+          "run_id": "R02",
+          "skill_lineage": {
+            "skill": "shortvideo-image-prompt-generation",
+            "version": null
+          },
+          "source_adapter": "manual-historical-archive"
+        }
+      ],
+      "status": "open",
+      "svp_mode": "legacy-d3",
+      "tags": [
+        "regression",
+        "legacy-shortvideo",
+        "nano-banana",
+        "gemini-web",
+        "渠道轻量化",
+        "channel",
+        "governance",
+        "conclusion"
+      ],
+      "title": "Channel governance conclusion"
+    },
+    {
+      "case_id": "CASE-20260827-LEGACY-CHANNEL-RESPONSIBILITY-01",
+      "case_type": "regression",
+      "contact_sheet": "lab/contact_sheets/CASE-20260827-LEGACY-CHANNEL-RESPONSIBILITY-01.jpg",
+      "expected_effect": [
+        "显示品牌方与渠道方的职责边界、控制权与利益关系"
+      ],
+      "final_selection": null,
+      "image_type": "vertical-editorial-infographic",
+      "problem_statement": "历史 Nano Banana 竖版短视频配图基线：显示品牌方与渠道方的职责边界、控制权与利益关系",
+      "project": "hotspot-shortvideo",
+      "runs": [
+        {
+          "assets": [
+            {
+              "asset_id": "A01",
+              "bytes": 6677380,
+              "canonical_path": "originals/A01.png",
+              "case_id": "CASE-20260827-LEGACY-CHANNEL-RESPONSIBILITY-01",
+              "created_at": "2026-08-27T06:51:44Z",
+              "height": 2400,
+              "notes": [
+                "历史短视频分块段 05；源图片字节、尺寸与哈希在 ingest 时验证；模型、surface 及 Prompt→Run→Asset 关联来自用户回忆。"
+              ],
+              "original_filename": "渠道轻量化_D3_分块段05_prompt.png",
+              "preview_path": "lab/previews/CASE-20260827-LEGACY-CHANNEL-RESPONSIBILITY-01-A01.jpg",
+              "provenance_confidence": "user_recalled",
+              "run_id": "R01",
+              "schema_version": "0.1.0",
+              "sha256": "02421d609373c17c04eaaf95da679ea3348face9d812e8272f1885109389c399",
+              "source_format": "PNG",
+              "thumbnail_path": "lab/thumbnails/CASE-20260827-LEGACY-CHANNEL-RESPONSIBILITY-01-A01.jpg",
+              "user_feedback": [],
+              "width": 1792
+            }
+          ],
+          "evaluation": "unreviewed",
+          "evaluation_note": "Selected as a historical regression candidate; no formal Text2Pic Lab image review has been completed.",
+          "generation_surface": "gemini-web",
+          "model": "nano-banana",
+          "model_version": null,
+          "parameters": {},
+          "producer": "local-user",
+          "prompt_delta_notes": [],
+          "prompt_id": "P01",
+          "prompt_intended_model_target": "nano-banana",
+          "prompt_parent_prompt_id": null,
+          "prompt_provenance_confidence": "verified",
+          "prompt_public": true,
+          "prompt_sha256": "e03f2dd28012119a3bf9efb2265e486c250ddae8c48a1ccb41cade59b671b82c",
+          "prompt_summary": "历史任务[渠道轻量化] D3 分块段 05 的归档 prompt。",
+          "prompt_text": "# D3 分块段 05 Prompt\n\n生成一张 3:4 竖版静态配图。\n整体布局采用顶部居中标题 + 中部左右双栏 + 中部独立交接区的结构，阅读顺序是左、中的交接、右。\n容器结构包括：左侧品牌直控大卡；中部独立交接区；右侧经销商服务大卡。\n视觉区块内容：左侧大卡画统一平台下单界面与统一价格牌，配品牌控制中枢、订单入口、轻平台连接线。中部交接区画握手或交接动作，配交接中的任务模块块体和细连接箭头。右侧大卡画试驾、交付、上牌、售后四类本地服务触点组合，配服务顾问、车辆、交付台、维修工位、轻本地网络线。\n关系表达：左侧直控内容通过中部交接动作连接到右侧服务网络，必须让品牌收回前端控制权、经销商承接本地服务的边界重划清楚可见，不要串成长流程图。\n图中只允许出现这些文字：试验轻：重划品牌与经销商边界、统一下单、统一价格、边界重划、试驾、交付、上牌、售后。\n不需要地图，不要出现任何地理区域轮廓或地图底图。\n不要 logo，不要海报化，不要水印，不要 AI 字样，不要无意义英文；不要出现代理制、直营胜利、品牌名说明；不要出现真实品牌 logo；不要做成电商广告图；不要只用抽象分割线代替交接动作；不要把右侧画成纯售后维修图。\n整体视觉采用清晰、专业、容器关系明确的 clean editorial illustration，轻立体模块感，结构表达优先，flat illustration，light texture。\n",
+          "provenance_confidence": "user_recalled",
+          "provider": "google",
+          "run_id": "R01",
+          "skill_lineage": {
+            "skill": "shortvideo-image-prompt-generation",
+            "version": null
+          },
+          "source_adapter": "manual-historical-archive"
+        },
+        {
+          "assets": [
+            {
+              "asset_id": "A02",
+              "bytes": 6194139,
+              "canonical_path": "originals/A02.png",
+              "case_id": "CASE-20260827-LEGACY-CHANNEL-RESPONSIBILITY-01",
+              "created_at": "2026-08-27T06:51:45Z",
+              "height": 2400,
+              "notes": [
+                "历史短视频分块段 07；源图片字节、尺寸与哈希在 ingest 时验证；模型、surface 及 Prompt→Run→Asset 关联来自用户回忆。"
+              ],
+              "original_filename": "渠道轻量化_D3_分块段07_prompt.png",
+              "preview_path": "lab/previews/CASE-20260827-LEGACY-CHANNEL-RESPONSIBILITY-01-A02.jpg",
+              "provenance_confidence": "user_recalled",
+              "run_id": "R02",
+              "schema_version": "0.1.0",
+              "sha256": "af3e0aa61cbcf266fe00bcaac4114b5bba6704d84c5cc7d99f87873a84eb90ad",
+              "source_format": "PNG",
+              "thumbnail_path": "lab/thumbnails/CASE-20260827-LEGACY-CHANNEL-RESPONSIBILITY-01-A02.jpg",
+              "user_feedback": [],
+              "width": 1792
+            }
+          ],
+          "evaluation": "unreviewed",
+          "evaluation_note": "Selected as a historical regression candidate; no formal Text2Pic Lab image review has been completed.",
+          "generation_surface": "gemini-web",
+          "model": "nano-banana",
+          "model_version": null,
+          "parameters": {},
+          "producer": "local-user",
+          "prompt_delta_notes": [],
+          "prompt_id": "P02",
+          "prompt_intended_model_target": "nano-banana",
+          "prompt_parent_prompt_id": null,
+          "prompt_provenance_confidence": "verified",
+          "prompt_public": true,
+          "prompt_sha256": "6a7663fb5048b749d7827dc183b7841c5081e57b6969b67509ab7f8d55e90803",
+          "prompt_summary": "历史任务[渠道轻量化] D3 分块段 07 的归档 prompt。",
+          "prompt_text": "# D3 分块段 07 Prompt\n\n生成一张 3:4 竖版静态配图。\n整体布局采用顶部居中标题 + 中部中心主判断卡 + 外围五张问题卡的放射结构，阅读顺序是标题、中心、周边顺时针。\n容器结构包括：中心大圆角主卡；外围五张小问题卡，围绕中心分布。\n视觉区块内容：中心主卡画轻门店外形与更复杂管理节点并置的中心组合，配总部管理中枢、边界线扩散、轻警示节点。外围五张问题卡分别画价格牌、库存箱、服务工位、多品牌门头、销售顾问状态，对应价格统一、库存分担、售后标准、多品牌资源、销售积极性。\n关系表达：中心主卡用放射短连接线连接外围五张问题卡，必须让门店变轻后管理边界反而更多的关系清楚可见。\n图中只允许出现这些文字：门店轻了，管理边界更多、门店轻了，管理不能轻、价格统一、库存分担、售后标准、多品牌资源、销售积极性。\n不需要地图，不要出现任何地理区域轮廓或地图底图。\n不要 logo，不要海报化，不要水印，不要 AI 字样，不要无意义英文；不要出现风险长文和问题解释长句；不要加出第六个问题；不要使用抽象问号堆代替具体对象；不要做成警报红色海报或危机海报。\n整体视觉采用清楚、克制、结构强的 clean editorial illustration，中心与外围层级分明，flat illustration，light texture。\n",
+          "provenance_confidence": "user_recalled",
+          "provider": "google",
+          "run_id": "R02",
+          "skill_lineage": {
+            "skill": "shortvideo-image-prompt-generation",
+            "version": null
+          },
+          "source_adapter": "manual-historical-archive"
+        }
+      ],
+      "status": "open",
+      "svp_mode": "legacy-d3",
+      "tags": [
+        "regression",
+        "legacy-shortvideo",
+        "nano-banana",
+        "gemini-web",
+        "渠道轻量化",
+        "channel",
+        "responsibility",
+        "governance"
+      ],
+      "title": "Channel responsibility boundary"
+    },
+    {
+      "case_id": "CASE-20260827-LEGACY-CHANNEL-RISK-SHIFT-01",
+      "case_type": "regression",
+      "contact_sheet": "lab/contact_sheets/CASE-20260827-LEGACY-CHANNEL-RISK-SHIFT-01.jpg",
+      "expected_effect": [
+        "表达库存、资金和经营风险如何在主体间转移"
+      ],
+      "final_selection": null,
+      "image_type": "vertical-editorial-infographic",
+      "problem_statement": "历史 Nano Banana 竖版短视频配图基线：表达库存、资金和经营风险如何在主体间转移",
+      "project": "hotspot-shortvideo",
+      "runs": [
+        {
+          "assets": [
+            {
+              "asset_id": "A01",
+              "bytes": 6307049,
+              "canonical_path": "originals/A01.png",
+              "case_id": "CASE-20260827-LEGACY-CHANNEL-RISK-SHIFT-01",
+              "created_at": "2026-08-27T06:51:40Z",
+              "height": 2400,
+              "notes": [
+                "历史短视频分块段 03；源图片字节、尺寸与哈希在 ingest 时验证；模型、surface 及 Prompt→Run→Asset 关联来自用户回忆。"
+              ],
+              "original_filename": "渠道轻量化_D3_分块段03_prompt.png",
+              "preview_path": "lab/previews/CASE-20260827-LEGACY-CHANNEL-RISK-SHIFT-01-A01.jpg",
+              "provenance_confidence": "user_recalled",
+              "run_id": "R01",
+              "schema_version": "0.1.0",
+              "sha256": "3f2444becbf60619b0667d7e952b6f0a13c7df29b414155ed3e4267c6d91585a",
+              "source_format": "PNG",
+              "thumbnail_path": "lab/thumbnails/CASE-20260827-LEGACY-CHANNEL-RISK-SHIFT-01-A01.jpg",
+              "user_feedback": [],
+              "width": 1792
+            }
+          ],
+          "evaluation": "unreviewed",
+          "evaluation_note": "Selected as a historical regression candidate; no formal Text2Pic Lab image review has been completed.",
+          "generation_surface": "gemini-web",
+          "model": "nano-banana",
+          "model_version": null,
+          "parameters": {},
+          "producer": "local-user",
+          "prompt_delta_notes": [],
+          "prompt_id": "P01",
+          "prompt_intended_model_target": "nano-banana",
+          "prompt_parent_prompt_id": null,
+          "prompt_provenance_confidence": "verified",
+          "prompt_public": true,
+          "prompt_sha256": "6af1cd778bb39832d80fcbe5c49e67d77c4f61b3c21b18415d6be07ae4661fad",
+          "prompt_summary": "历史任务[渠道轻量化] D3 分块段 03 的归档 prompt。",
+          "prompt_text": "# D3 分块段 03 Prompt\n\n生成一张 3:4 竖版静态配图。\n整体布局采用顶部居中标题 + 中部左右双栏对照 + 中部独立切换区 + 底部短结论条的结构，阅读顺序是左、中的切换、右、底部收束。\n容器结构包括：左侧重投入大卡；中部切换关系区；右侧低试错大卡；底部窄横向结论条。\n视觉区块内容：左侧大卡画高投入链条组合，包含新建店、库存箱、考核清单，配下压感箭头和单一品牌重押信号。中部关系区画从重到轻的粗切换箭头，配由重转轻的风险天平和轻方向标记。右侧大卡画轻投入组合，包含复用场地、低库存、免考核条件卡，配多一个选择的小分支箭头和开业补贴小标记。底部结论条画短结论横条和轻收束箭头。\n关系表达：左侧重投入通过中部粗切换箭头进入右侧低试错模式，底部结论条承接右侧判断，必须明确风险计算由重转轻的变化，不要做成审批流程箭头群。\n图中只允许出现这些文字：招商轻：降低经销商试错成本、重押一个品牌、风险计算变化、0 改建、低库存、半年免考核、低成本多一个选择、轻的是试错成本。\n不需要地图，不要出现任何地理区域轮廓或地图底图。\n不要广告感，不要 logo，不要水印，不要 AI 字样，不要无意义英文；不要出现招商政策细则和长句说明；不要堆政策条款；不要出现夸张金币元素；不要做成品牌招商广告版式或促销页。\n整体视觉采用理性、整洁、结构优先的 clean editorial illustration，受控几何感，模块分区清晰，flat illustration，light texture。\n",
+          "provenance_confidence": "user_recalled",
+          "provider": "google",
+          "run_id": "R01",
+          "skill_lineage": {
+            "skill": "shortvideo-image-prompt-generation",
+            "version": null
+          },
+          "source_adapter": "manual-historical-archive"
+        },
+        {
+          "assets": [
+            {
+              "asset_id": "A02",
+              "bytes": 4956187,
+              "canonical_path": "originals/A02.png",
+              "case_id": "CASE-20260827-LEGACY-CHANNEL-RISK-SHIFT-01",
+              "created_at": "2026-08-27T06:51:41Z",
+              "height": 2400,
+              "notes": [
+                "历史短视频分块段 04；源图片字节、尺寸与哈希在 ingest 时验证；模型、surface 及 Prompt→Run→Asset 关联来自用户回忆。"
+              ],
+              "original_filename": "渠道轻量化_D3_分块段04_prompt.png",
+              "preview_path": "lab/previews/CASE-20260827-LEGACY-CHANNEL-RISK-SHIFT-01-A02.jpg",
+              "provenance_confidence": "user_recalled",
+              "run_id": "R02",
+              "schema_version": "0.1.0",
+              "sha256": "d1e6ab90e797e47fdba24440865a3c25693a4f466fcff919b69746e4262cb629",
+              "source_format": "PNG",
+              "thumbnail_path": "lab/thumbnails/CASE-20260827-LEGACY-CHANNEL-RISK-SHIFT-01-A02.jpg",
+              "user_feedback": [],
+              "width": 1792
+            }
+          ],
+          "evaluation": "unreviewed",
+          "evaluation_note": "Selected as a historical regression candidate; no formal Text2Pic Lab image review has been completed.",
+          "generation_surface": "gemini-web",
+          "model": "nano-banana",
+          "model_version": null,
+          "parameters": {},
+          "producer": "local-user",
+          "prompt_delta_notes": [],
+          "prompt_id": "P02",
+          "prompt_intended_model_target": "nano-banana",
+          "prompt_parent_prompt_id": null,
+          "prompt_provenance_confidence": "verified",
+          "prompt_public": true,
+          "prompt_sha256": "f9f55df1e2e546a4adc7376151dc1e7db1c285ee2591a638f4793177032178ec",
+          "prompt_summary": "历史任务[渠道轻量化] D3 分块段 04 的归档 prompt。",
+          "prompt_text": "# D3 分块段 04 Prompt\n\n生成一张 3:4 竖版静态配图。\n整体布局采用顶部居中标题 + 顶部问题卡 + 中部三张横向机制卡 + 底部结果大卡的递进结构，阅读顺序从上到下。\n容器结构包括：顶部约束卡；中部三张小机制卡；底部大结果卡。\n视觉区块内容：顶部问题卡画小市场中的单品牌门店和稀薄客流，配空停车位、单一门头、压力信号、轻下沉区域标记。中部三张机制卡分别画多品牌门头组合、不压库库存箱、按订单发车的订单与车辆组合，配资金压力、库存压力、流量压力被拆散的小箭头和轻流程线。底部结果卡画重新有客流与服务能力的县域门店，配服务触点、稳定营业状态、轻正向状态线。\n关系表达：顶部问题卡向下进入三张机制卡；三张机制卡共同汇到下方结果卡，必须让压力被拆散后单点先活下来的递进关系清楚可见。\n图中只允许出现这些文字：下沉轻：让县域单点先活下来、单一品牌难撑店、多品牌、不压库、按订单发车、先活下来。\n不需要地图，不要出现任何地理区域轮廓或地图底图。\n不要 logo，不要海报化，不要水印，不要 AI 字样，不要无意义英文；不要出现全国覆盖、政策说明、新闻来源；不要把重点画成全国扩张版图；不要把门店画成衰败废弃门店；不要把中部机制画成复杂供应链流程图；不要把底部结果画成大规模扩张庆典图。\n整体视觉采用柔和、克制、轻叙事的 clean editorial illustration，递进结构清楚，场景化但不海报化，flat illustration，light texture。\n",
+          "provenance_confidence": "user_recalled",
+          "provider": "google",
+          "run_id": "R02",
+          "skill_lineage": {
+            "skill": "shortvideo-image-prompt-generation",
+            "version": null
+          },
+          "source_adapter": "manual-historical-archive"
+        }
+      ],
+      "status": "open",
+      "svp_mode": "legacy-d3",
+      "tags": [
+        "regression",
+        "legacy-shortvideo",
+        "nano-banana",
+        "gemini-web",
+        "渠道轻量化",
+        "channel",
+        "risk-transfer",
+        "causal-structure"
+      ],
+      "title": "Channel risk transfer"
+    },
+    {
+      "case_id": "CASE-20260827-LEGACY-CHANNEL-TAXONOMY-01",
+      "case_type": "regression",
+      "contact_sheet": "lab/contact_sheets/CASE-20260827-LEGACY-CHANNEL-TAXONOMY-01.jpg",
+      "expected_effect": [
+        "区分直营网点、代理和合作伙伴等渠道类型并保持关系准确"
+      ],
+      "final_selection": null,
+      "image_type": "vertical-editorial-infographic",
+      "problem_statement": "历史 Nano Banana 竖版短视频配图基线：区分直营网点、代理和合作伙伴等渠道类型并保持关系准确",
+      "project": "hotspot-shortvideo",
+      "runs": [
+        {
+          "assets": [
+            {
+              "asset_id": "A01",
+              "bytes": 5218061,
+              "canonical_path": "originals/A01.png",
+              "case_id": "CASE-20260827-LEGACY-CHANNEL-TAXONOMY-01",
+              "created_at": "2026-08-27T06:51:30Z",
+              "height": 2400,
+              "notes": [
+                "历史短视频分块段 01；源图片字节、尺寸与哈希在 ingest 时验证；模型、surface 及 Prompt→Run→Asset 关联来自用户回忆。"
+              ],
+              "original_filename": "渠道轻量化_D3_分块段01_prompt.png",
+              "preview_path": "lab/previews/CASE-20260827-LEGACY-CHANNEL-TAXONOMY-01-A01.jpg",
+              "provenance_confidence": "user_recalled",
+              "run_id": "R01",
+              "schema_version": "0.1.0",
+              "sha256": "aceef57fcbecd7eb99579a7cd977bfec15980825c261f96d98dec59f1a59cbed",
+              "source_format": "PNG",
+              "thumbnail_path": "lab/thumbnails/CASE-20260827-LEGACY-CHANNEL-TAXONOMY-01-A01.jpg",
+              "user_feedback": [],
+              "width": 1792
+            }
+          ],
+          "evaluation": "unreviewed",
+          "evaluation_note": "Selected as a historical regression candidate; no formal Text2Pic Lab image review has been completed.",
+          "generation_surface": "gemini-web",
+          "model": "nano-banana",
+          "model_version": null,
+          "parameters": {},
+          "producer": "local-user",
+          "prompt_delta_notes": [],
+          "prompt_id": "P01",
+          "prompt_intended_model_target": "nano-banana",
+          "prompt_parent_prompt_id": null,
+          "prompt_provenance_confidence": "verified",
+          "prompt_public": true,
+          "prompt_sha256": "bbac5fd46d12524ecfdea78b963a03ce8c59acca821236b2cbe2e2fd92dd0ebb",
+          "prompt_summary": "历史任务[渠道轻量化] D3 分块段 01 的归档 prompt。",
+          "prompt_text": "# D3 分块段 01 Prompt\n\n生成一张 3:4 竖版静态配图。\n整体布局采用顶部居中标题 + 顶部窄误读条 + 中部中心主体卡 + 外围五张任务卡的结构，阅读顺序从上到下，再由中心向外发散。\n容器结构包括：顶部窄横条三分段小标签；中部大圆角主体卡；环绕主体的一圈五张小任务卡。\n视觉区块内容：顶部误读条画三个简化误读小图标，分别对应小门店、小装修、小投入，配轻分隔线、弱化标签底块、轻问号符号。中部主体卡画一间简化的传统 4S 店前台与服务综合体，配店内车辆、服务台、库存区信号、轻运营流线。外围五张任务卡分别画展示、销售、库存、服务、风险，对应展台、成交握手、库存箱、维修工位、风险盾牌等小图标。\n关系表达：顶部误读条用短箭头下连中心主体；中心主体用 5 条发散线连接外围五张任务卡，必须让任务从 4S 店拆开的关系一眼可见。\n图中只允许出现这些文字：轻量化不是小店，是任务重分、4S 店、小店、小装修、小投入、展示、销售、库存、服务、风险。\n不需要地图，不要出现任何地理区域轮廓或地图底图。\n不要广告感，不要 logo，不要水印，不要 AI 字样，不要无意义英文；不要出现任何长句解释、新闻背景、品牌名；不要画成真实门店广告图，不要画成豪华门店效果图，不要把主体做得过于写实，不要让五张任务卡变成纯文字框。\n整体视觉采用柔和、克制、轻叙事的 clean editorial illustration，模块边界清楚但不过板，flat illustration，light texture，商业媒体插画感。\n",
+          "provenance_confidence": "user_recalled",
+          "provider": "google",
+          "run_id": "R01",
+          "skill_lineage": {
+            "skill": "shortvideo-image-prompt-generation",
+            "version": null
+          },
+          "source_adapter": "manual-historical-archive"
+        },
+        {
+          "assets": [
+            {
+              "asset_id": "A02",
+              "bytes": 5877388,
+              "canonical_path": "originals/A02.png",
+              "case_id": "CASE-20260827-LEGACY-CHANNEL-TAXONOMY-01",
+              "created_at": "2026-08-27T06:51:34Z",
+              "height": 2400,
+              "notes": [
+                "历史短视频分块段 02；源图片字节、尺寸与哈希在 ingest 时验证；模型、surface 及 Prompt→Run→Asset 关联来自用户回忆。"
+              ],
+              "original_filename": "渠道轻量化_D3_分块段02_prompt.png",
+              "preview_path": "lab/previews/CASE-20260827-LEGACY-CHANNEL-TAXONOMY-01-A02.jpg",
+              "provenance_confidence": "user_recalled",
+              "run_id": "R02",
+              "schema_version": "0.1.0",
+              "sha256": "d2a9e5137d0db2f943497bef87b94039b0b07efadb659023d648148e45f314e2",
+              "source_format": "PNG",
+              "thumbnail_path": "lab/thumbnails/CASE-20260827-LEGACY-CHANNEL-TAXONOMY-01-A02.jpg",
+              "user_feedback": [],
+              "width": 1792
+            }
+          ],
+          "evaluation": "unreviewed",
+          "evaluation_note": "Selected as a historical regression candidate; no formal Text2Pic Lab image review has been completed.",
+          "generation_surface": "gemini-web",
+          "model": "nano-banana",
+          "model_version": null,
+          "parameters": {},
+          "producer": "local-user",
+          "prompt_delta_notes": [],
+          "prompt_id": "P02",
+          "prompt_intended_model_target": "nano-banana",
+          "prompt_parent_prompt_id": null,
+          "prompt_provenance_confidence": "verified",
+          "prompt_public": true,
+          "prompt_sha256": "849f5636326d75bbbd67a1d72200cf16a81ce56df94e512638f91c68df77cfd8",
+          "prompt_summary": "历史任务[渠道轻量化] D3 分块段 02 的归档 prompt。",
+          "prompt_text": "# D3 分块段 02 Prompt\n\n生成一张 3:4 竖版静态配图。\n整体布局采用顶部居中标题 + 中上部三张并列案例卡 + 底部横向三压力条的结构，阅读顺序是左案例、中王例、右案例、底部压力条。\n容器结构包括：三张等大案例卡；中下部三条短连接箭头；底部三段对应压力条。\n视觉区块内容：左上案例卡画经销商合作门店网络的轻量招商场景，配门店点位、合作握手、小数字锚点、轻扩张箭头。中上案例卡画县域综合店与多品牌共存的轻量门店场景，配多品牌门头抽象块、县域门店、小数字锚点、覆盖扩散信号。右上案例卡画智驾中心式前端触点场景，配展示车辆、体验屏、小数字锚点、轻技术触点线条。底部三压力条分别画招商轻、下沉轻、试验轻，每段配最小类型图标。\n关系表达：三张案例卡各用一条短箭头向下连接到各自对应的压力条，连线必须一一对应，不要交叉混乱。\n图中只允许出现这些文字：三个案例对应三类压力、中升传祺、广汽县域、奥迪智驾中心、30+门店、600 家、90% 县域、两地试点、招商轻、下沉轻、试验轻。\n不需要地图，不要出现任何地理区域轮廓或地图底图。\n不要 logo，不要海报化，不要水印，不要 AI 字样，不要无意义英文；不要出现新闻来源、报道说明、长句注释；不要出现真实品牌 logo；不要把 30+ 门店画成已全国铺满，不要把目标口径画成既成事实全覆盖地图，不要把右侧案例做成科技展厅海报。\n整体视觉采用清晰、理性、模块边界明确的 clean editorial illustration，轻等距结构感但不过硬，flat illustration，light texture。\n",
+          "provenance_confidence": "user_recalled",
+          "provider": "google",
+          "run_id": "R02",
+          "skill_lineage": {
+            "skill": "shortvideo-image-prompt-generation",
+            "version": null
+          },
+          "source_adapter": "manual-historical-archive"
+        },
+        {
+          "assets": [
+            {
+              "asset_id": "A03",
+              "bytes": 6794220,
+              "canonical_path": "originals/A03.png",
+              "case_id": "CASE-20260827-LEGACY-CHANNEL-TAXONOMY-01",
+              "created_at": "2026-08-27T06:51:37Z",
+              "height": 2400,
+              "notes": [
+                "历史短视频分块段 06；源图片字节、尺寸与哈希在 ingest 时验证；模型、surface 及 Prompt→Run→Asset 关联来自用户回忆。"
+              ],
+              "original_filename": "渠道轻量化_D3_分块段06_prompt.png",
+              "preview_path": "lab/previews/CASE-20260827-LEGACY-CHANNEL-TAXONOMY-01-A03.jpg",
+              "provenance_confidence": "user_recalled",
+              "run_id": "R03",
+              "schema_version": "0.1.0",
+              "sha256": "d93cb9cbea9e7b8a099aa7a182dc2514a4d1853a75b073df0806f14fee97e6b2",
+              "source_format": "PNG",
+              "thumbnail_path": "lab/thumbnails/CASE-20260827-LEGACY-CHANNEL-TAXONOMY-01-A03.jpg",
+              "user_feedback": [],
+              "width": 1792
+            }
+          ],
+          "evaluation": "unreviewed",
+          "evaluation_note": "Selected as a historical regression candidate; no formal Text2Pic Lab image review has been completed.",
+          "generation_surface": "gemini-web",
+          "model": "nano-banana",
+          "model_version": null,
+          "parameters": {},
+          "producer": "local-user",
+          "prompt_delta_notes": [],
+          "prompt_id": "P03",
+          "prompt_intended_model_target": "nano-banana",
+          "prompt_parent_prompt_id": null,
+          "prompt_provenance_confidence": "verified",
+          "prompt_public": true,
+          "prompt_sha256": "1f2c4395e1309e633448ea6ac7a30d74d1b8ca2803a48e2a4fabc87fd114e0b6",
+          "prompt_summary": "历史任务[渠道轻量化] D3 分块段 06 的归档 prompt。",
+          "prompt_text": "# D3 分块段 06 Prompt\n\n生成一张 3:4 竖版静态配图。\n整体布局采用顶部居中标题 + 中部三张等大并列卡的结构，阅读顺序从左到右。\n容器结构包括：三张统一尺寸的圆角模块卡，左中右并列，整体粒度一致。\n视觉区块内容：左侧卡画轻投入招商组合，配低成本进入、小分支机会、轻向前箭头，对应招商轻和敢不敢进。中间卡画县域门店存活场景，配分摊后的流量与库存压力、轻稳定状态线，对应下沉轻和能不能养店。右侧卡画品牌直控与本地服务分工组合，配交接动作、服务网络、轻边界线，对应试验轻和怎么分工。\n关系表达：三张卡不使用主箭头，通过统一标题、统一尺寸和一致内部结构形成三种轻与三类问题的一一对应关系。\n图中只允许出现这些文字：三种轻，对应三类压力、招商轻、下沉轻、试验轻、敢不敢进、能不能养店、怎么分工。\n不需要地图，不要出现任何地理区域轮廓或地图底图。\n不要 logo，不要海报化，不要水印，不要 AI 字样，不要无意义英文；不要出现案例细节和长句解释；不要回放新闻案例；不要让三张卡的视觉粒度失衡。\n整体视觉采用理性、整洁、模块均衡的 clean editorial illustration，卡片边界统一，flat illustration，light texture。\n",
+          "provenance_confidence": "user_recalled",
+          "provider": "google",
+          "run_id": "R03",
+          "skill_lineage": {
+            "skill": "shortvideo-image-prompt-generation",
+            "version": null
+          },
+          "source_adapter": "manual-historical-archive"
+        }
+      ],
+      "status": "open",
+      "svp_mode": "legacy-d3",
+      "tags": [
+        "regression",
+        "legacy-shortvideo",
+        "nano-banana",
+        "gemini-web",
+        "渠道轻量化",
+        "channel",
+        "taxonomy",
+        "business-model"
+      ],
+      "title": "Lightweight channel taxonomy"
+    },
+    {
+      "case_id": "CASE-20260827-LEGACY-CHERY-BOUNDARY-RISK-01",
+      "case_type": "regression",
+      "contact_sheet": "lab/contact_sheets/CASE-20260827-LEGACY-CHERY-BOUNDARY-RISK-01.jpg",
+      "expected_effect": [
+        "案例、政策约束和 unknown 信息缺口明确分离，保留免责边界并避免未披露事项确定化"
+      ],
+      "final_selection": null,
+      "image_type": "vertical-editorial-infographic",
+      "problem_statement": "历史 Nano Banana 竖版短视频配图基线：并列表达原产地与品牌边界风险、DR 案例锚点、日本补贴约束和 EMT 生产方式未披露，且不把风险提醒画成 EMT 已发生问题。",
+      "project": "hotspot-shortvideo",
+      "runs": [
+        {
+          "assets": [
+            {
+              "asset_id": "A05",
+              "bytes": 496087,
+              "canonical_path": "originals/A05.png",
+              "case_id": "CASE-20260827-LEGACY-CHERY-BOUNDARY-RISK-01",
+              "created_at": "2026-08-27T08:30:05Z",
+              "height": 1024,
+              "notes": [
+                "历史短视频分块段 05；2026-08-27 已按主体、结构、关键文字、关系方向和段落意图核对；模型、surface 及 Prompt→Run→Asset 关联来自用户回忆。"
+              ],
+              "original_filename": "奇瑞曲线入日_D3_分块段05_prompt.png",
+              "preview_path": "lab/previews/CASE-20260827-LEGACY-CHERY-BOUNDARY-RISK-01-A05.jpg",
+              "provenance_confidence": "user_recalled",
+              "run_id": "R05",
+              "schema_version": "0.1.0",
+              "sha256": "64ccee343d2ac6ce360248b685e6cebe56915538d8f28be48ad24c666357e1ab",
+              "source_format": "PNG",
+              "thumbnail_path": "lab/thumbnails/CASE-20260827-LEGACY-CHERY-BOUNDARY-RISK-01-A05.jpg",
+              "user_feedback": [],
+              "width": 765
+            }
+          ],
+          "evaluation": "partial",
+          "evaluation_note": "2026-08-27 逐图复核确认 Prompt 与图片语义对应；仅完成关联与回归价值审查，未宣称全面视觉质量验收。",
+          "generation_surface": "gemini-web",
+          "model": "nano-banana",
+          "model_version": null,
+          "parameters": {},
+          "producer": "local-user",
+          "prompt_delta_notes": [],
+          "prompt_id": "P05",
+          "prompt_intended_model_target": null,
+          "prompt_parent_prompt_id": null,
+          "prompt_provenance_confidence": "verified",
+          "prompt_public": true,
+          "prompt_sha256": "283e0dd12c4a94dbe6d2f4f61efa819744b6820f6c7a48af40090a96710dd3a7",
+          "prompt_summary": "历史任务[奇瑞曲线入日] D3 分块段 05 的归档 prompt；源文件与 adopted run r-20260519-170925-seg2img 一致。",
+          "prompt_text": "# D3 最终执行 Prompt — 分块段 05\n\n---\n\n生成一张 3:4 竖版静态配图。\n\n整体采用自上而下的三段递进结构。整张图分成三个纵向区域：上部为风险机制三阶递进区，中部为 DR 案例警示大卡片，底部为结论收束窄横条。各区之间用向下串联箭头连接。\n\n顶部居中放置主标题\"风险揭示\"，标题清楚但不要过大。\n\n上部风险机制区由三张横向串联小卡片组成，从左到右排列，卡片之间用串联箭头连接。\n第一张小卡片内画一个本地前台盾牌符号。\n第二张小卡片内画一个跨国后台地球符号。\n第三张小卡片内画一个边界放大镜和清晰边界线符号。\n三张卡片共同传达\"前台越本地→后台越跨国→边界越要清楚\"的递进关系。\n\n中部放一张独立的宽体大卡片，卡片背景用轻微的暖橙色调与上下区域形成区分。卡片内展示 DR 案例警示画面：左侧为意大利 DR 标识与一辆中国生产的车辆示意，车辆上贴有\"意大利产\"产地标签但与实际产地形成对比冲突；右侧用醒目的较大字体标出\"600 万欧元\"罚款金额。卡片内标注\"中国产 ≠ 意大利产\"字样。卡片接受上方风险机制区引出的向下箭头。\n\n底部放一条窄结论收束横条。横条内画一只放大镜，放大镜左右两侧分别放置\"原产地\"和\"品牌\"两个标签，中间表现被放大的审视视线。横条接受中部 DR 案例卡引出的向下箭头。横条内标注文字\"原产地与品牌分属两国 → 被放大审视\"。\n\n图中只允许出现这些文字：\"风险揭示\"、\"DR\"、\"600 万欧元\"、\"中国产 ≠ 意大利产\"、\"原产地与品牌分属两国 → 被放大审视\"。除这些文字外不要新增任何说明性文字。不要水印，不要\"AI生成\"字样，不要品牌官方 logo，不要无意义英文装饰。\n\n整体视觉采用柔和、克制的 soft narrative structural editorial，gentle editorial illustration with modular clarity，flat illustration，light texture，结构清楚但不过硬，保留轻人物/场景感，温暖但克制。\n",
+          "provenance_confidence": "user_recalled",
+          "provider": "google",
+          "run_id": "R05",
+          "skill_lineage": null,
+          "source_adapter": "manual-historical-archive"
+        },
+        {
+          "assets": [
+            {
+              "asset_id": "A06",
+              "bytes": 5238401,
+              "canonical_path": "originals/A06.png",
+              "case_id": "CASE-20260827-LEGACY-CHERY-BOUNDARY-RISK-01",
+              "created_at": "2026-08-27T08:30:10Z",
+              "height": 2400,
+              "notes": [
+                "历史短视频分块段 06；2026-08-27 已按主体、结构、关键文字、关系方向和段落意图核对；模型、surface 及 Prompt→Run→Asset 关联来自用户回忆。 图片存在横转纵布局变化与品牌标识偏差。"
+              ],
+              "original_filename": "奇瑞曲线入日_D3_分块段06_prompt.png",
+              "preview_path": "lab/previews/CASE-20260827-LEGACY-CHERY-BOUNDARY-RISK-01-A06.jpg",
+              "provenance_confidence": "user_recalled",
+              "run_id": "R06",
+              "schema_version": "0.1.0",
+              "sha256": "91636641dc677c386e9be7e4038ce7afb9245f2305a2bf412581c42a79735012",
+              "source_format": "PNG",
+              "thumbnail_path": "lab/thumbnails/CASE-20260827-LEGACY-CHERY-BOUNDARY-RISK-01-A06.jpg",
+              "user_feedback": [],
+              "width": 1792
+            }
+          ],
+          "evaluation": "partial",
+          "evaluation_note": "2026-08-27 逐图复核确认 Prompt 与图片语义对应；仅完成关联与回归价值审查，未宣称全面视觉质量验收。 Renderer 将横向三卡改为纵向三层并出现品牌标识，记录为执行偏差。",
+          "generation_surface": "gemini-web",
+          "model": "nano-banana",
+          "model_version": null,
+          "parameters": {},
+          "producer": "local-user",
+          "prompt_delta_notes": [],
+          "prompt_id": "P06",
+          "prompt_intended_model_target": null,
+          "prompt_parent_prompt_id": null,
+          "prompt_provenance_confidence": "verified",
+          "prompt_public": true,
+          "prompt_sha256": "927cfa4b8a717f9b840b2b52a37bc87b23f78230176e10a80e7d1bd745749331",
+          "prompt_summary": "历史任务[奇瑞曲线入日] D3 分块段 06 的归档 prompt；源文件与 adopted run r-20260519-170925-seg2img 一致。",
+          "prompt_text": "# D3 最终执行 Prompt — 分块段 06\n\n---\n\n生成一张 3:4 竖版静态配图。\n\n整体采用从左到右的三段递进结构。顶部居中放置主标题\"补贴逻辑 · 信息缺口\"，标题清楚但不要过大。\n\n标题下方横向排列三张等大递进卡片，大小一致，间距均匀，从左到右依次为补贴逻辑卡、比亚迪约束卡、信息缺口卡。卡片之间用横向串联箭头连接，箭头从左贯穿到右。\n\n左侧第一张卡片标题写\"补贴逻辑\"。卡片内画一份日本 EV 补贴政策文件，文件旁附评估维度示意条（标注本地化深度、生产方式、供应链等维度），旁边画一个被划掉的\"车标=补贴\"错误等号和一个正确的\"本地化深度→补贴\"指向示意。背景可带日本地图极淡轮廓。\n\n中间第二张卡片标题写\"比亚迪\"。卡片内画 BYD 简洁标识和一个向下的补贴下降趋势箭头，斜下方标注小标签\"Reuters\"，表明信息来源。卡片左侧接受补贴逻辑卡引来的箭头，右侧引出指向信息缺口卡的箭头。\n\n右侧第三张卡片标题写\"EMT 生产方式\"。卡片内并列展示三种生产方式：左侧画货船图标代表\"整车进口\"、中间画组装线图标代表\"有限组装\"、右侧画工厂图标代表\"深度本地化\"。三个选项上方统一覆盖一层半透明遮罩，遮罩上标注\"未披露\"字样。卡片内附带小型\"EMT 首款车\"标签。卡片左侧接受比亚迪约束卡引来的箭头。\n\n图中只允许出现这些文字：\"补贴逻辑 · 信息缺口\"、\"补贴逻辑\"、\"比亚迪\"、\"Reuters\"、\"EMT 生产方式\"、\"整车进口\"、\"有限组装\"、\"深度本地化\"、\"未披露\"。除这些文字外不要新增任何说明性文字。不要水印，不要\"AI生成\"字样，不要品牌官方 logo，不要无意义英文装饰。\n\n整体视觉采用清晰、理性的 clean isometric business schematic，modular business illustration with light 3D structural feel，flat illustration，light texture，容器关系清楚，模块边界明确，整体色调冷静中性。\n",
+          "provenance_confidence": "user_recalled",
+          "provider": "google",
+          "run_id": "R06",
+          "skill_lineage": null,
+          "source_adapter": "manual-historical-archive"
+        }
+      ],
+      "status": "open",
+      "svp_mode": "legacy-d3",
+      "tags": [
+        "regression",
+        "legacy-shortvideo",
+        "nano-banana",
+        "gemini-web",
+        "奇瑞曲线入日",
+        "chery",
+        "emt",
+        "provenance",
+        "policy",
+        "unknown-boundary",
+        "risk-framing"
+      ],
+      "title": "Chery EMT provenance policy and disclosure boundary"
+    },
+    {
+      "case_id": "CASE-20260827-LEGACY-CHERY-ENTRY-IDENTITY-01",
+      "case_type": "regression",
+      "contact_sheet": "lab/contact_sheets/CASE-20260827-LEGACY-CHERY-ENTRY-IDENTITY-01.jpg",
+      "expected_effect": [
+        "身份反差、前台主体与渠道支柱清晰，避免品牌、经营责任和渠道角色混淆"
+      ],
+      "final_selection": null,
+      "image_type": "vertical-editorial-infographic",
+      "problem_statement": "历史 Nano Banana 竖版短视频配图基线：在不把本地合作写成既定经营事实的前提下，清晰表达日本前台身份、奇瑞技术背景与本地渠道承接。",
+      "project": "hotspot-shortvideo",
+      "runs": [
+        {
+          "assets": [
+            {
+              "asset_id": "A01",
+              "bytes": 5693236,
+              "canonical_path": "originals/A01.png",
+              "case_id": "CASE-20260827-LEGACY-CHERY-ENTRY-IDENTITY-01",
+              "created_at": "2026-08-27T08:29:54Z",
+              "height": 2400,
+              "notes": [
+                "历史短视频分块段 01；2026-08-27 已按主体、结构、关键文字、关系方向和段落意图核对；模型、surface 及 Prompt→Run→Asset 关联来自用户回忆。"
+              ],
+              "original_filename": "奇瑞曲线入日_D3_分块段01_prompt.png",
+              "preview_path": "lab/previews/CASE-20260827-LEGACY-CHERY-ENTRY-IDENTITY-01-A01.jpg",
+              "provenance_confidence": "user_recalled",
+              "run_id": "R01",
+              "schema_version": "0.1.0",
+              "sha256": "d1e61416680459cd5364d78933a9497d2882492f34f67efe930b322c2df970b4",
+              "source_format": "PNG",
+              "thumbnail_path": "lab/thumbnails/CASE-20260827-LEGACY-CHERY-ENTRY-IDENTITY-01-A01.jpg",
+              "user_feedback": [],
+              "width": 1792
+            }
+          ],
+          "evaluation": "partial",
+          "evaluation_note": "2026-08-27 逐图复核确认 Prompt 与图片语义对应；仅完成关联与回归价值审查，未宣称全面视觉质量验收。",
+          "generation_surface": "gemini-web",
+          "model": "nano-banana",
+          "model_version": null,
+          "parameters": {},
+          "producer": "local-user",
+          "prompt_delta_notes": [],
+          "prompt_id": "P01",
+          "prompt_intended_model_target": null,
+          "prompt_parent_prompt_id": null,
+          "prompt_provenance_confidence": "verified",
+          "prompt_public": true,
+          "prompt_sha256": "67f93a925a3c213bb7f86e84e0205a022dd3c2b73bc00f6a2310a9faf6d7e16c",
+          "prompt_summary": "历史任务[奇瑞曲线入日] D3 分块段 01 的归档 prompt；源文件与 adopted run r-20260519-170925-seg2img 一致。",
+          "prompt_text": "生成一张 3:4 竖版静态配图。\n\n整张图采用上下两段式布局，由上方的场景区和下方的反转区组成，中间用一条横向分隔线连接。\n\n上方场景区占据画幅约65%。场景区内绘制抽象化的日本列岛轮廓（柔和渐变底色，不使用精确国界）。一条弧形道路从左下角延伸至日本列岛，一辆流线型电动轿车行驶在路上，正接近日本。车身上原本应放置品牌标识的位置覆盖着一个醒目的红色否定标记（带斜杠的否定圆）。场景区中分布文字\"奇瑞进日本了\"。\n\n中部为一条粗体横向分隔线，贯穿整个画幅，将上方场景区与下部反转区明确分隔。\n\n下方反转区占据画幅约25%，使用与上部形成反差的底色。区内居中放置文字\"但不挂奇瑞标\"，配以简洁的红色否定斜杠装饰强调。\n\n图中只允许出现这些文字：\n\"奇瑞进日本了\"\n\"但不挂奇瑞标\"\n除这些文字外不要新增任何说明性文字。\n使用抽象日本列岛轮廓，不要精确地图国界。\n不要水印，不要\"AI生成\"字样，不要品牌官方logo，不要额外英文装饰。\n\n整体视觉采用柔和、克制、轻叙事、结构清楚的 editorial illustration，flat illustration，light texture。温暖但克制的色调，叙事感强但结构清晰。\n",
+          "provenance_confidence": "user_recalled",
+          "provider": "google",
+          "run_id": "R01",
+          "skill_lineage": null,
+          "source_adapter": "manual-historical-archive"
+        },
+        {
+          "assets": [
+            {
+              "asset_id": "A03",
+              "bytes": 6213820,
+              "canonical_path": "originals/A03.png",
+              "case_id": "CASE-20260827-LEGACY-CHERY-ENTRY-IDENTITY-01",
+              "created_at": "2026-08-27T08:29:55Z",
+              "height": 2400,
+              "notes": [
+                "历史短视频分块段 03；2026-08-27 已按主体、结构、关键文字、关系方向和段落意图核对；模型、surface 及 Prompt→Run→Asset 关联来自用户回忆。"
+              ],
+              "original_filename": "奇瑞曲线入日_D3_分块段03_prompt.png",
+              "preview_path": "lab/previews/CASE-20260827-LEGACY-CHERY-ENTRY-IDENTITY-01-A03.jpg",
+              "provenance_confidence": "user_recalled",
+              "run_id": "R03",
+              "schema_version": "0.1.0",
+              "sha256": "5976aa1dc36c162e8336e4b5c2c5178fc1c964b103e668481357fe9888762d48",
+              "source_format": "PNG",
+              "thumbnail_path": "lab/thumbnails/CASE-20260827-LEGACY-CHERY-ENTRY-IDENTITY-01-A03.jpg",
+              "user_feedback": [],
+              "width": 1792
+            }
+          ],
+          "evaluation": "partial",
+          "evaluation_note": "2026-08-27 逐图复核确认 Prompt 与图片语义对应；仅完成关联与回归价值审查，未宣称全面视觉质量验收。",
+          "generation_surface": "gemini-web",
+          "model": "nano-banana",
+          "model_version": null,
+          "parameters": {},
+          "producer": "local-user",
+          "prompt_delta_notes": [],
+          "prompt_id": "P03",
+          "prompt_intended_model_target": null,
+          "prompt_parent_prompt_id": null,
+          "prompt_provenance_confidence": "verified",
+          "prompt_public": true,
+          "prompt_sha256": "04dfdf5e5dd030fe6dc9b858a6665f79a162a3eb4e172d875aeb58149dfdf667",
+          "prompt_summary": "历史任务[奇瑞曲线入日] D3 分块段 03 的归档 prompt；源文件与 adopted run r-20260519-170925-seg2img 一致。",
+          "prompt_text": "生成一张 3:4 竖版静态配图。\n\n整体采用顶部标题 + 中部左右双列并列结构的布局。\n\n顶部为标题区域，居中放置标题文字。\n\n中部为左右两列等宽的竖向模块，中间有清晰的分隔线。两列底部不做汇总，保持并行关系。\n\n左列标签\"前台身份\"，内分上下两个子区域。上部子区域画一扇开启的入场门，门上标注\"日本品牌\"，门前有一道已降低的屏障表示信任门槛降低。下部子区域画一个\"改写开场\"的标记符号，表示换标改变了进入日本的起手式。\n\n右列标签\"渠道承接\"，内分上下两个子区域。上部子区域画汽车维修服务场景（举升机、工具和车辆），标注\"澳德巴克斯\"和\"深耕汽车用品维修\"。下部子区域画一家新能源门店外观示意，标注\"已运营新能源门店\"和\"不是第一次碰新能源\"。\n\n左右两列之间用垂直中分线分隔，底部不做汇总结论，保持两列并行关系，共同构成 EMT 进入结构。\n\n图中只允许出现这些文字：\n\"EMT进入结构\"\n\"前台身份\"\n\"渠道承接\"\n\"日本品牌\"\n\"改写开场\"\n\"澳德巴克斯\"\n\"深耕汽车用品维修\"\n\"已运营新能源门店\"\n\"不是第一次碰新能源\"\n除这些文字外不要新增任何说明性文字。\n不要使用精确地图。\n不要品牌官方logo（包括丰田、本田、日产、比亚迪等实际品牌标识）。\n不要水印，不要\"AI生成\"字样，不要品牌官方logo，不要额外英文装饰。\n\n整体视觉采用清晰、理性、模块边界明确的等距图表达方式，modular business illustration with light 3D structural feel，flat illustration，light texture。模块和容器关系清楚，结构表达优先。\n",
+          "provenance_confidence": "user_recalled",
+          "provider": "google",
+          "run_id": "R03",
+          "skill_lineage": null,
+          "source_adapter": "manual-historical-archive"
+        }
+      ],
+      "status": "open",
+      "svp_mode": "legacy-d3",
+      "tags": [
+        "regression",
+        "legacy-shortvideo",
+        "nano-banana",
+        "gemini-web",
+        "奇瑞曲线入日",
+        "chery",
+        "emt",
+        "market-entry",
+        "identity",
+        "channel"
+      ],
+      "title": "Chery EMT local identity and channel entry"
+    },
+    {
+      "case_id": "CASE-20260827-LEGACY-CHERY-LAYERED-ARCHITECTURE-01",
+      "case_type": "regression",
+      "contact_sheet": "lab/contact_sheets/CASE-20260827-LEGACY-CHERY-LAYERED-ARCHITECTURE-01.jpg",
+      "expected_effect": [
+        "三方角色层级和技术复用到成本节省的因果结构稳定，避免主体错位与层级坍塌"
+      ],
+      "final_selection": null,
+      "image_type": "vertical-editorial-infographic",
+      "problem_statement": "历史 Nano Banana 竖版短视频配图基线：将 EMT 前台、奇瑞技术和本地伙伴渠道的角色边界，以及技术复用带来的三类进入成本，表达成可读的分层结构。",
+      "project": "hotspot-shortvideo",
+      "runs": [
+        {
+          "assets": [
+            {
+              "asset_id": "A02",
+              "bytes": 5554198,
+              "canonical_path": "originals/A02.png",
+              "case_id": "CASE-20260827-LEGACY-CHERY-LAYERED-ARCHITECTURE-01",
+              "created_at": "2026-08-27T08:29:57Z",
+              "height": 2400,
+              "notes": [
+                "历史短视频分块段 02；2026-08-27 已按主体、结构、关键文字、关系方向和段落意图核对；模型、surface 及 Prompt→Run→Asset 关联来自用户回忆。"
+              ],
+              "original_filename": "奇瑞曲线入日_D3_分块段02_prompt.png",
+              "preview_path": "lab/previews/CASE-20260827-LEGACY-CHERY-LAYERED-ARCHITECTURE-01-A02.jpg",
+              "provenance_confidence": "user_recalled",
+              "run_id": "R02",
+              "schema_version": "0.1.0",
+              "sha256": "2bd6b55e16a27ee0490923eab9c112220799d9aa00678064b1b0c38472e10724",
+              "source_format": "PNG",
+              "thumbnail_path": "lab/thumbnails/CASE-20260827-LEGACY-CHERY-LAYERED-ARCHITECTURE-01-A02.jpg",
+              "user_feedback": [],
+              "width": 1792
+            }
+          ],
+          "evaluation": "partial",
+          "evaluation_note": "2026-08-27 逐图复核确认 Prompt 与图片语义对应；仅完成关联与回归价值审查，未宣称全面视觉质量验收。",
+          "generation_surface": "gemini-web",
+          "model": "nano-banana",
+          "model_version": null,
+          "parameters": {},
+          "producer": "local-user",
+          "prompt_delta_notes": [],
+          "prompt_id": "P02",
+          "prompt_intended_model_target": null,
+          "prompt_parent_prompt_id": null,
+          "prompt_provenance_confidence": "verified",
+          "prompt_public": true,
+          "prompt_sha256": "98e1111adbd062a47993be168ae9967491d47d0ba0bfa17949abdc320c89b4a8",
+          "prompt_summary": "历史任务[奇瑞曲线入日] D3 分块段 02 的归档 prompt；源文件与 adopted run r-20260519-170925-seg2img 一致。",
+          "prompt_text": "生成一张 3:4 竖版静态配图。\n\n整体采用顶部标题 + 中部三张等大竖向并列卡片 + 底部信息横条的结构。\n\n顶部为标题区域，居中放置标题文字。\n\n中部为三张等大的竖向圆角卡片，横向并列排列，间距均匀。三张卡片大小一致，处于同一水平高度，表达平行并列关系。\n\n左侧卡片顶部标签标注\"前台 / 日本品牌\"。卡片主体画一个 podium 展示台，台上放置风格化的日本品牌标识元素，卡片角落标注\"EMT项目\"和\"站前台\"。\n\n中间卡片顶部标签标注\"技术 / 奇瑞\"。卡片主体画 EV 动力系统示意（抽象电池组 + 电机图标），标注\"电动车技术\"和\"股东方之一，不参与经营\"。\n\n右侧卡片顶部标签标注\"渠道 / 本地合作方\"。卡片主体画日本列岛抽象轮廓（非精确地图），散布几个连接触点，搭配握手图标，标注\"接触用户\"。\n\n三张卡片之间没有连接箭头，通过等大等距的布局表达平行并列关系，共同组成 EMT 项目结构。\n\n底部做一条较窄的信息横条，注明\"2027年交付首款EV\"和\"不是普通出海，是拆开重组\"。\n\n图中只允许出现这些文字：\n\"EMT三层结构\"\n\"前台 / 日本品牌\"\n\"技术 / 奇瑞\"\n\"渠道 / 本地合作方\"\n\"EMT项目\"\n\"站前台\"\n\"电动车技术\"\n\"股东方之一，不参与经营\"\n\"接触用户\"\n\"2027年交付首款EV\"\n\"不是普通出海，是拆开重组\"\n除这些文字外不要新增任何说明性文字。\n使用抽象日本轮廓，不要精确地图国界。\n不要水印，不要\"AI生成\"字样，不要品牌官方logo，不要额外英文装饰。\n\n整体视觉采用清晰、理性、模块边界明确的等距图表达方式，modular business illustration with light 3D structural feel，flat illustration，light texture。模块和容器关系清楚，结构表达优先。\n",
+          "provenance_confidence": "user_recalled",
+          "provider": "google",
+          "run_id": "R02",
+          "skill_lineage": null,
+          "source_adapter": "manual-historical-archive"
+        },
+        {
+          "assets": [
+            {
+              "asset_id": "A04",
+              "bytes": 617612,
+              "canonical_path": "originals/A04.png",
+              "case_id": "CASE-20260827-LEGACY-CHERY-LAYERED-ARCHITECTURE-01",
+              "created_at": "2026-08-27T08:29:59Z",
+              "height": 1024,
+              "notes": [
+                "历史短视频分块段 04；2026-08-27 已按主体、结构、关键文字、关系方向和段落意图核对；模型、surface 及 Prompt→Run→Asset 关联来自用户回忆。"
+              ],
+              "original_filename": "奇瑞曲线入日_D3_分块段04_prompt.png",
+              "preview_path": "lab/previews/CASE-20260827-LEGACY-CHERY-LAYERED-ARCHITECTURE-01-A04.jpg",
+              "provenance_confidence": "user_recalled",
+              "run_id": "R04",
+              "schema_version": "0.1.0",
+              "sha256": "cc22302e6b012c272a0326a975a7faae698a70387aa58853c4f129a4f58abc38",
+              "source_format": "PNG",
+              "thumbnail_path": "lab/thumbnails/CASE-20260827-LEGACY-CHERY-LAYERED-ARCHITECTURE-01-A04.jpg",
+              "user_feedback": [],
+              "width": 765
+            }
+          ],
+          "evaluation": "partial",
+          "evaluation_note": "2026-08-27 逐图复核确认 Prompt 与图片语义对应；仅完成关联与回归价值审查，未宣称全面视觉质量验收。",
+          "generation_surface": "gemini-web",
+          "model": "nano-banana",
+          "model_version": null,
+          "parameters": {},
+          "producer": "local-user",
+          "prompt_delta_notes": [],
+          "prompt_id": "P04",
+          "prompt_intended_model_target": null,
+          "prompt_parent_prompt_id": null,
+          "prompt_provenance_confidence": "verified",
+          "prompt_public": true,
+          "prompt_sha256": "f2918b30b3cbc6d8d5458e2e4d99cee4ece4290bc5e57a6e0dd845abe5615ecb",
+          "prompt_summary": "历史任务[奇瑞曲线入日] D3 分块段 04 的归档 prompt；源文件与 adopted run r-20260519-170925-seg2img 一致。",
+          "prompt_text": "# D3 最终执行 Prompt — 分块段 04\n\n---\n\n生成一张 3:4 竖版静态配图。\n\n整体采用自上而下的归纳结构。整张图分成上下两层：上层放一张横向宽松大卡片，下层放三张等宽并列小卡片。上层大卡片底部引出三支向下分叉箭头，分别指向下层三张并列小卡片。箭头方向清晰，从粗到细分叉。\n\n顶部居中放置主标题\"技术底座 + 省下成本\"，标题清楚但不要过大，不要压过主体。\n\n上层大卡片标题写\"技术复用 · 奇瑞中国 EV 能力\"。卡片内部画模块化电池底盘和三电系统的抽象展示组合，带有\"已验证\"的完成标记；卡片背景带中国地图极淡轮廓底纹和一条已完成打勾路径线；卡片内附带\"不从头开发\"标签箭头。\n\n下层的三张并列小卡片从左到右排列，大小一致，间距均匀。\n\n左侧小卡片标题写\"品牌从零建\"。卡片内部画一个空白圆标加上铅笔草图线稿，旁边放一个被划掉的大额建品牌成本示意标签。暗示品牌不需要从零设计。\n\n中间小卡片标题写\"渠道从零铺\"。卡片内部画一个空白网络节点图，只有少量已存在节点，旁边放一个被划掉的大额建店成本示意标签。暗示渠道不需要从零铺设。\n\n右侧小卡片标题写\"产品从零开发\"。卡片内部画一张空白图纸加上简单一两笔草图线稿，旁边放一个被划掉的大额研发成本示意标签。暗示产品不需要从零开发。\n\n三个分叉箭头从上层大卡片底部引出，指向三张下层小卡片，箭头旁边标注\"省下\"一词。\n\n图中只允许出现这些文字：\"技术底座 + 省下成本\"、\"技术复用 · 奇瑞中国 EV 能力\"、\"品牌从零建\"、\"渠道从零铺\"、\"产品从零开发\"、\"省下\"。除这些文字外不要新增任何说明性文字。不要水印，不要\"AI生成\"字样，不要品牌官方 logo，不要无意义英文装饰。\n\n整体视觉采用清晰、理性的 clean isometric business schematic，modular business illustration with light 3D structural feel，flat illustration，light texture，容器边界清楚，模块感强，轻立体但不过硬。\n",
+          "provenance_confidence": "user_recalled",
+          "provider": "google",
+          "run_id": "R04",
+          "skill_lineage": null,
+          "source_adapter": "manual-historical-archive"
+        }
+      ],
+      "status": "open",
+      "svp_mode": "legacy-d3",
+      "tags": [
+        "regression",
+        "legacy-shortvideo",
+        "nano-banana",
+        "gemini-web",
+        "奇瑞曲线入日",
+        "chery",
+        "emt",
+        "role-stack",
+        "cost-architecture",
+        "causal-layering"
+      ],
+      "title": "Chery EMT layered role and cost architecture"
+    },
+    {
+      "case_id": "CASE-20260827-LEGACY-CHERY-ROUTE-OUTCOME-01",
+      "case_type": "regression",
+      "contact_sheet": "lab/contact_sheets/CASE-20260827-LEGACY-CHERY-ROUTE-OUTCOME-01.jpg",
+      "expected_effect": [
+        "路线对比、1.0 到 2.0 阶段升级和两条结果分支层次清晰，结论不被装饰元素稀释"
+      ],
+      "final_selection": null,
+      "image_type": "vertical-editorial-infographic",
+      "problem_statement": "历史 Nano Banana 竖版短视频配图基线：对比正面进入与曲线进入的收益代价，上升到出海结构设计，并用交车后责任的条件分支收束。",
+      "project": "hotspot-shortvideo",
+      "runs": [
+        {
+          "assets": [
+            {
+              "asset_id": "A07",
+              "bytes": 5726257,
+              "canonical_path": "originals/A07.png",
+              "case_id": "CASE-20260827-LEGACY-CHERY-ROUTE-OUTCOME-01",
+              "created_at": "2026-08-27T08:30:14Z",
+              "height": 2400,
+              "notes": [
+                "历史短视频分块段 07；2026-08-27 已按主体、结构、关键文字、关系方向和段落意图核对；模型、surface 及 Prompt→Run→Asset 关联来自用户回忆。"
+              ],
+              "original_filename": "奇瑞曲线入日_D3_分块段07_prompt.png",
+              "preview_path": "lab/previews/CASE-20260827-LEGACY-CHERY-ROUTE-OUTCOME-01-A07.jpg",
+              "provenance_confidence": "user_recalled",
+              "run_id": "R07",
+              "schema_version": "0.1.0",
+              "sha256": "6b8b74f16902351b8c42736345ad1480c077d0fb66a93f2da6affed82982191a",
+              "source_format": "PNG",
+              "thumbnail_path": "lab/thumbnails/CASE-20260827-LEGACY-CHERY-ROUTE-OUTCOME-01-A07.jpg",
+              "user_feedback": [],
+              "width": 1792
+            }
+          ],
+          "evaluation": "partial",
+          "evaluation_note": "2026-08-27 逐图复核确认 Prompt 与图片语义对应；仅完成关联与回归价值审查，未宣称全面视觉质量验收。",
+          "generation_surface": "gemini-web",
+          "model": "nano-banana",
+          "model_version": null,
+          "parameters": {},
+          "producer": "local-user",
+          "prompt_delta_notes": [],
+          "prompt_id": "P07",
+          "prompt_intended_model_target": null,
+          "prompt_parent_prompt_id": null,
+          "prompt_provenance_confidence": "verified",
+          "prompt_public": true,
+          "prompt_sha256": "c6e8d243e4e43778b849b54d733f9c271d2ad4dd2d74defc79c477b2e7d0e067",
+          "prompt_summary": "历史任务[奇瑞曲线入日] D3 分块段 07 的归档 prompt；源文件与 adopted run r-20260519-170925-seg2img 一致。",
+          "prompt_text": "# D3 分块段 07 最终执行 Prompt\n\n生成一张 3:4 竖版静态配图。\n\n整张图采用顶部标题 + 中部左右对照双栏卡片 + 底部通栏横条的三段式结构。\n\n顶部放一个窄标题横条，标题文字为\"两条路，两种成本\"，标题清楚但不要过大，不要压过主体。\n\n中部是核心对照区：左右各一张等大的圆角卡片，中间用一条垂直细线分割。\n两张卡片底色不同——左侧卡片为蓝色系浅底色，右侧卡片为银灰色系浅底色，底色差异自然表达\"两条路\"的对照关系。\n\n左侧卡片上方标注\"比亚迪·正面进\"。卡片内部依次排列三个图标加文字的组合：\n一个建筑基础/钢筋图标配文字\"投入重\"；\n一个内循环箭头图标配文字\"积累归自己\"；\n一个台阶/门栏图标配文字\"直面认知门槛\"。\n卡片右下角可补充轻标签\"品牌渠道自建\"。\n\n右侧卡片上方标注\"奇瑞·曲线进\"。卡片内部依次排列三个图标加文字的组合：\n一个羽毛/轻量图标配文字\"更轻更快\"；\n一个虚线圈/边界虚线框图标配文字\"品牌归属模糊\"；\n一个问号标记/模糊箭头图标配文字\"责任边界模糊\"。\n\n两张卡片的关系：左右对照，视觉等重，中间垂直分割线明确边界，没有任何一方看起来是\"正确答案\"。\n\n底部独立做一个通栏横条容器，底色与上部主体区明显区分。横条内部左侧展示\"Mazda\"到\"Toyota\"的从左到右 OEM 供应箭头关系，配小型汽车图标示意，文字标注\"Mazda2 Hybrid\"和\"Toyota OEM\"。横条右侧用较小字号展示收束句\"贴牌不新鲜，真正的问题是边界清不清楚\"。\n\n图中只允许出现这些文字：\n\"两条路，两种成本\"\n\"比亚迪·正面进\"\n\"奇瑞·曲线进\"\n\"投入重\"\n\"积累归自己\"\n\"直面认知门槛\"\n\"品牌渠道自建\"\n\"更轻更快\"\n\"品牌归属模糊\"\n\"责任边界模糊\"\n\"Mazda2 Hybrid\"\n\"Toyota OEM\"\n\"贴牌不新鲜，真正的问题是边界清不清楚\"\n\n除这些文字外不要新增任何说明性文字。\n不要水印，不要\"AI生成\"字样，不要品牌官方 logo，不要真实品牌车标，不要无意义英文装饰，不要画成对抗/竞争关系。\n\n整体视觉采用 clean isometric business schematic, modular business illustration with light 3D structural feel, rational tidy professional, clear containers and controlled geometry, flat illustration, light texture。\n",
+          "provenance_confidence": "user_recalled",
+          "provider": "google",
+          "run_id": "R07",
+          "skill_lineage": null,
+          "source_adapter": "manual-historical-archive"
+        },
+        {
+          "assets": [
+            {
+              "asset_id": "A08",
+              "bytes": 5608225,
+              "canonical_path": "originals/A08.png",
+              "case_id": "CASE-20260827-LEGACY-CHERY-ROUTE-OUTCOME-01",
+              "created_at": "2026-08-27T08:30:16Z",
+              "height": 2400,
+              "notes": [
+                "历史短视频分块段 08；2026-08-27 已按主体、结构、关键文字、关系方向和段落意图核对；模型、surface 及 Prompt→Run→Asset 关联来自用户回忆。"
+              ],
+              "original_filename": "奇瑞曲线入日_D3_分块段08_prompt.png",
+              "preview_path": "lab/previews/CASE-20260827-LEGACY-CHERY-ROUTE-OUTCOME-01-A08.jpg",
+              "provenance_confidence": "user_recalled",
+              "run_id": "R08",
+              "schema_version": "0.1.0",
+              "sha256": "b7aaad50800b8cd9e912acca78fdfd5683802036218fe4c3d75104b9312a9ab7",
+              "source_format": "PNG",
+              "thumbnail_path": "lab/thumbnails/CASE-20260827-LEGACY-CHERY-ROUTE-OUTCOME-01-A08.jpg",
+              "user_feedback": [],
+              "width": 1792
+            }
+          ],
+          "evaluation": "partial",
+          "evaluation_note": "2026-08-27 逐图复核确认 Prompt 与图片语义对应；仅完成关联与回归价值审查，未宣称全面视觉质量验收。",
+          "generation_surface": "gemini-web",
+          "model": "nano-banana",
+          "model_version": null,
+          "parameters": {},
+          "producer": "local-user",
+          "prompt_delta_notes": [],
+          "prompt_id": "P08",
+          "prompt_intended_model_target": null,
+          "prompt_parent_prompt_id": null,
+          "prompt_provenance_confidence": "verified",
+          "prompt_public": true,
+          "prompt_sha256": "e3f786816a3165020c9c7834a2f2be0d1f30c945175cc06afa8b35f911b63e99",
+          "prompt_summary": "历史任务[奇瑞曲线入日] D3 分块段 08 的归档 prompt；源文件与 adopted run r-20260519-170925-seg2img 一致。",
+          "prompt_text": "# D3 分块段 08 最终执行 Prompt\n\n生成一张 3:4 竖版静态配图。\n\n整张图采用顶部标题 + 中部阶段递进结构 + 下方金句突出区的三段式布局。\n\n顶部放一个窄标题横条，标题文字为\"奇瑞EMT不只是进日本\"，标题清楚但不要过大，不要压过主体。\n\n中部偏上区域是阶段递进区，从左到右依次排列三部分：左侧阶段卡 → 居中粗递进箭头 → 右侧阶段卡。左右阶段卡均为圆角卡片，大小一致，视觉等重。\n\n左侧阶段卡标题写\"1.0\"，卡片内标注\"卖车\"二字，配一个车辆驶出/出口符号图标，底部可补充轻标签\"出海 1.0\"。\n\n右侧阶段卡标题写\"2.0\"，卡片内标注\"设计进入结构\"六字，配三个小模块图标排列（人形代表前台、齿轮代表技术、握手代表服务），底部可补充轻标签\"出海 2.0\"。\n\n居中递进箭头为一支粗体向右箭头，箭头内部或上方可标注\"升级\"二字，表达从 1.0 到 2.0 的阶段跨越关系，不要画成转向或切换箭头。\n\n中部偏下区域是金句核心区，用一个较大面积的文字区块（带高亮浅底色）独立突出。金句区内部以最大字号展示\"谁站前台、谁供技术、谁接服务\"14字，可按语义分三行排列——第一行\"谁站前台\"配微小的人形图标、第二行\"谁供技术\"配微小的齿轮图标、第三行\"谁接服务\"配微小的握手图标。三个\"谁\"字视觉权重均衡，不要某个被弱化。金句区不要加任何额外解释文字，不要用引号包围金句。\n\n金句区与上方递进区的关系：整体阅读路径为从左到右读完递进后，视线自然下移到金句区作为结论重心。\n\n图中只允许出现这些文字：\n\"奇瑞EMT不只是进日本\"\n\"1.0\"\n\"卖车\"\n\"2.0\"\n\"设计进入结构\"\n\"谁站前台、谁供技术、谁接服务\"\n\n除这些文字外不要新增任何说明性文字。\n不要水印，不要\"AI生成\"字样，不要品牌官方 logo，不要无意义英文装饰。\n\n整体视觉采用 soft narrative structural editorial, gentle editorial illustration with modular clarity, warm but restrained, structured yet not rigid, suitable for business narrative scenes with light modular support, flat illustration, light texture。\n",
+          "provenance_confidence": "user_recalled",
+          "provider": "google",
+          "run_id": "R08",
+          "skill_lineage": null,
+          "source_adapter": "manual-historical-archive"
+        },
+        {
+          "assets": [
+            {
+              "asset_id": "A09",
+              "bytes": 5836617,
+              "canonical_path": "originals/A09.png",
+              "case_id": "CASE-20260827-LEGACY-CHERY-ROUTE-OUTCOME-01",
+              "created_at": "2026-08-27T08:30:18Z",
+              "height": 2400,
+              "notes": [
+                "历史短视频分块段 09；2026-08-27 已按主体、结构、关键文字、关系方向和段落意图核对；模型、surface 及 Prompt→Run→Asset 关联来自用户回忆。"
+              ],
+              "original_filename": "奇瑞曲线入日_D3_分块段09_prompt.png",
+              "preview_path": "lab/previews/CASE-20260827-LEGACY-CHERY-ROUTE-OUTCOME-01-A09.jpg",
+              "provenance_confidence": "user_recalled",
+              "run_id": "R09",
+              "schema_version": "0.1.0",
+              "sha256": "ff45c412af444a4099485d1964cf418b8c5021df83d89a0e9731d5a30369e654",
+              "source_format": "PNG",
+              "thumbnail_path": "lab/thumbnails/CASE-20260827-LEGACY-CHERY-ROUTE-OUTCOME-01-A09.jpg",
+              "user_feedback": [],
+              "width": 1792
+            }
+          ],
+          "evaluation": "partial",
+          "evaluation_note": "2026-08-27 逐图复核确认 Prompt 与图片语义对应；仅完成关联与回归价值审查，未宣称全面视觉质量验收。",
+          "generation_surface": "gemini-web",
+          "model": "nano-banana",
+          "model_version": null,
+          "parameters": {},
+          "producer": "local-user",
+          "prompt_delta_notes": [],
+          "prompt_id": "P09",
+          "prompt_intended_model_target": null,
+          "prompt_parent_prompt_id": null,
+          "prompt_provenance_confidence": "verified",
+          "prompt_public": true,
+          "prompt_sha256": "0881474334208466e143697d87724b3ed4a1fcccf98437126cbe5438d4223507",
+          "prompt_summary": "历史任务[奇瑞曲线入日] D3 分块段 09 的归档 prompt；源文件与 adopted run r-20260519-170925-seg2img 一致。",
+          "prompt_text": "# D3 分块段 09 最终执行 Prompt\n\n生成一张 3:4 竖版静态配图。\n\n整张图采用顶部标题 + 中部条件分支结构 + 底部金句收束区的三段式布局。\n\n顶部放一个窄标题横条，标题文字为\"关键变量在交车之后\"，标题清楚但不要过大，不要压过主体。\n\n中部是条件分支核心区，采用\"上 Y 型\"结构。\n最上方是一个菱形判断节点卡，节点内标注文字\"交车之后\"和问号图标。该节点作为分叉起点。\n\n从菱形节点向下分出两条分支路径，每条路径用箭头指引方向。\n\n上分支路径（风险路径）：一张横向圆角卡片，底色偏警示色倾向的浅色。卡片标题\"只换前台\"，配前台面具/换标动作图标，下方用指向箭头连接底部标注\"风险放大\"，配放大镜/警示标记作为辅助符号。整体表达中性条件展示，不要过度灾难化或恐怖化。\n\n下分支路径（样本路径）：一张横向圆角卡片，底色偏正向色倾向的浅色。卡片内依次排列三个小图标（汽车代表产品、手势代表服务、协同符号代表本地化），标注\"产品服务本地化跟上\"，下方用指向箭头连接底部标注\"新样本路径\"，配勾选/路径标记作为辅助符号。整体表达中性条件展示，不要画成过度乐观或广告化表达。\n\n两条分支卡片大小一致，位置分别在上方靠左（上分支）和上方靠右（下分支），从菱形节点自然分叉，视觉权重均衡，不构成一好一坏的判断，而是\"不同条件导致不同结果\"的中性条件展示。\n\n底部通栏做一个金句收束区横条，底色用高亮色或深底色与上部主体区明显区分。金句区内以大号字展示\"车标只是入口，考试交车之后才开始\"，配入口门框/车标图标和考试/答卷图标作为轻辅助。两条分支路径在视觉上自然汇聚到该金句区。不要用引号包围金句，不要加额外解释文字。\n\n图中只允许出现这些文字：\n\"关键变量在交车之后\"\n\"交车之后\"\n\"只换前台\"\n\"风险放大\"\n\"产品服务本地化跟上\"\n\"新样本路径\"\n\"车标只是入口，考试交车之后才开始\"\n\n除这些文字外不要新增任何说明性文字。\n不要水印，不要\"AI生成\"字样，不要品牌官方 logo，不要无意义英文装饰。\n\n整体视觉采用 soft narrative structural editorial, gentle editorial illustration with modular clarity, warm but restrained, structured yet not rigid, suitable for business narrative scenes with light modular support, flat illustration, light texture。\n",
+          "provenance_confidence": "user_recalled",
+          "provider": "google",
+          "run_id": "R09",
+          "skill_lineage": null,
+          "source_adapter": "manual-historical-archive"
+        }
+      ],
+      "status": "open",
+      "svp_mode": "legacy-d3",
+      "tags": [
+        "regression",
+        "legacy-shortvideo",
+        "nano-banana",
+        "gemini-web",
+        "奇瑞曲线入日",
+        "chery",
+        "emt",
+        "route-comparison",
+        "stage-transition",
+        "outcome-branch",
+        "responsibility"
+      ],
+      "title": "Chery market-entry route and post-delivery outcome"
+    },
+    {
+      "case_id": "CASE-20260827-LEGACY-EU-ENTRY-ROUTES-01",
+      "case_type": "regression",
+      "contact_sheet": "lab/contact_sheets/CASE-20260827-LEGACY-EU-ENTRY-ROUTES-01.jpg",
+      "expected_effect": [
+        "比较出口、合作与本地产能等进入路径和选择逻辑"
+      ],
+      "final_selection": null,
+      "image_type": "vertical-editorial-infographic",
+      "problem_statement": "历史 Nano Banana 竖版短视频配图基线：比较出口、合作与本地产能等进入路径和选择逻辑",
+      "project": "hotspot-shortvideo",
+      "runs": [
+        {
+          "assets": [
+            {
+              "asset_id": "A01",
+              "bytes": 6112785,
+              "canonical_path": "originals/A01.png",
+              "case_id": "CASE-20260827-LEGACY-EU-ENTRY-ROUTES-01",
+              "created_at": "2026-08-27T06:51:57Z",
+              "height": 2400,
+              "notes": [
+                "历史短视频分块段 04；源图片字节、尺寸与哈希在 ingest 时验证；模型、surface 及 Prompt→Run→Asset 关联来自用户回忆。"
+              ],
+              "original_filename": "中国车企欧洲产能落地_D3_分块段04_prompt.png",
+              "preview_path": "lab/previews/CASE-20260827-LEGACY-EU-ENTRY-ROUTES-01-A01.jpg",
+              "provenance_confidence": "user_recalled",
+              "run_id": "R01",
+              "schema_version": "0.1.0",
+              "sha256": "c6a32092750bffba7bdb049ff7dcd56a1bef96fe6e1089d9fcb4b7e948e9895c",
+              "source_format": "PNG",
+              "thumbnail_path": "lab/thumbnails/CASE-20260827-LEGACY-EU-ENTRY-ROUTES-01-A01.jpg",
+              "user_feedback": [],
+              "width": 1792
+            }
+          ],
+          "evaluation": "unreviewed",
+          "evaluation_note": "Selected as a historical regression candidate; no formal Text2Pic Lab image review has been completed.",
+          "generation_surface": "gemini-web",
+          "model": "nano-banana",
+          "model_version": null,
+          "parameters": {},
+          "producer": "local-user",
+          "prompt_delta_notes": [],
+          "prompt_id": "P01",
+          "prompt_intended_model_target": "nano-banana",
+          "prompt_parent_prompt_id": null,
+          "prompt_provenance_confidence": "verified",
+          "prompt_public": true,
+          "prompt_sha256": "ebd8b14460fe10e71aa6a0b31569ad5e4a91a7396fcfdffef927c537d02e1667",
+          "prompt_summary": "历史任务[中国车企欧洲产能落地] D3 分块段 04 的归档 prompt。",
+          "prompt_text": "# D3 分块段04 Prompt\n\n生成一张 3:4 竖版静态配图。\n\n整张图采用顶部标题+左右双栏对比结构。欧洲地图轮廓作为浅色底纹铺满整个中部背景。\n\n顶部放主标题，写\"两种路径并行\"。\n\n左栏为一个圆角模块卡片，标题写\"独资\"。卡片内部画一个在匈牙利的比亚迪工厂场景，建筑上方有\"15万辆\"标牌，旁边放一个独立掌控/自主运营的图标（如单手握方向盘）。卡片下方标注\"比亚迪·匈牙利\"。\n\n右栏为一个同尺寸圆角模块卡片，标题写\"合资\"。卡片内部画一个中西双方握手合作的场景（奇瑞和西班牙EV Motors），背景为巴塞罗那工厂建筑轮廓，旁边有一辆EBRO S700车型。卡片下方标注\"奇瑞·巴塞罗那\"。\n\n两个卡片高度一致、间距均匀，中间用一条细垂直线分隔表示对比关系。欧洲地图底纹上标注匈牙利和西班牙两个国家位置的圆点标记。\n\n图中只允许出现这些文字：\"两种路径并行\"、\"独资\"、\"比亚迪·匈牙利\"、\"15万辆\"、\"自己说了算\"、\"合资\"、\"奇瑞·巴塞罗那\"、\"15万辆\"、\"技术换品牌\"。除这些文字外不要新增任何说明性文字。不要水印，不要\"AI生成\"字样，不要品牌官方logo，不要无意义英文装饰。地图使用欧洲轮廓，不要出现中国地图或全球地图。\n\n整体视觉采用清晰理性的clean editorial illustration，模块边界清楚、轻立体但不过硬，flat illustration，light texture，整体专业干净结构优先。\n",
+          "provenance_confidence": "user_recalled",
+          "provider": "google",
+          "run_id": "R01",
+          "skill_lineage": {
+            "skill": "shortvideo-image-prompt-generation",
+            "version": null
+          },
+          "source_adapter": "manual-historical-archive"
+        },
+        {
+          "assets": [
+            {
+              "asset_id": "A02",
+              "bytes": 4229407,
+              "canonical_path": "originals/A02.png",
+              "case_id": "CASE-20260827-LEGACY-EU-ENTRY-ROUTES-01",
+              "created_at": "2026-08-27T06:51:59Z",
+              "height": 2400,
+              "notes": [
+                "历史短视频分块段 05；源图片字节、尺寸与哈希在 ingest 时验证；模型、surface 及 Prompt→Run→Asset 关联来自用户回忆。"
+              ],
+              "original_filename": "中国车企欧洲产能落地_D3_分块段05_prompt.png",
+              "preview_path": "lab/previews/CASE-20260827-LEGACY-EU-ENTRY-ROUTES-01-A02.jpg",
+              "provenance_confidence": "user_recalled",
+              "run_id": "R02",
+              "schema_version": "0.1.0",
+              "sha256": "65c8cda4196f4b316a71baba66c012a1eb0c2c2c5dd856b334f80596195ad955",
+              "source_format": "PNG",
+              "thumbnail_path": "lab/thumbnails/CASE-20260827-LEGACY-EU-ENTRY-ROUTES-01-A02.jpg",
+              "user_feedback": [],
+              "width": 1792
+            }
+          ],
+          "evaluation": "unreviewed",
+          "evaluation_note": "Selected as a historical regression candidate; no formal Text2Pic Lab image review has been completed.",
+          "generation_surface": "gemini-web",
+          "model": "nano-banana",
+          "model_version": null,
+          "parameters": {},
+          "producer": "local-user",
+          "prompt_delta_notes": [],
+          "prompt_id": "P02",
+          "prompt_intended_model_target": "nano-banana",
+          "prompt_parent_prompt_id": null,
+          "prompt_provenance_confidence": "verified",
+          "prompt_public": true,
+          "prompt_sha256": "a4d400d68a7ab19199dbe71bc1ea119f023ac896979b0f9b9c01bf5412c02cb1",
+          "prompt_summary": "历史任务[中国车企欧洲产能落地] D3 分块段 05 的归档 prompt。",
+          "prompt_text": "# D3 分块段05 Prompt\n\n生成一张 3:4 竖版静态配图。\n\n整张图采用顶部标题+中部案例大卡片+底部核心判断区的三段结构。西班牙地图轮廓作为浅色底纹铺满中部背景。\n\n顶部放主标题，写\"第三条路：零跑反向合资\"。\n\n中部为一个占主体的大案例卡片，内部左边画一辆零跑B10车型，右边画一座Stellantis萨拉戈萨工厂建筑，中间用一条共线生产示意线连接（表示B10在Stellantis工厂生产）。卡片下方再画一条虚线箭头指向\"马德里工厂\"转让文件图标，表示所有权转移。\n\n底部为一个突出的缎带或徽章形状的核心判断区，使用高亮色，写\"全球首次：中国伙伴获欧洲工厂所有权\"。徽章上可以加一个小星星或里程碑图标。\n\n西班牙地图底纹上标注两个城市坐标：萨拉戈萨（北部）和马德里（中部），用圆点标记。\n\n图中只允许出现这些文字：\"第三条路：零跑反向合资\"、\"B10·萨拉戈萨\"、\"马德里工厂\"、\"全球首次：中国伙伴获欧洲工厂所有权\"。除这些文字外不要新增任何说明性文字。不要水印，不要\"AI生成\"字样，不要品牌官方logo，不要无意义英文装饰。地图使用西班牙轮廓，不要出现中国地图或全球地图。\n\n整体视觉采用清晰理性的clean editorial illustration，模块边界清楚、轻立体但不过硬，flat illustration，light texture，整体专业干净结构优先。\n",
+          "provenance_confidence": "user_recalled",
+          "provider": "google",
+          "run_id": "R02",
+          "skill_lineage": {
+            "skill": "shortvideo-image-prompt-generation",
+            "version": null
+          },
+          "source_adapter": "manual-historical-archive"
+        },
+        {
+          "assets": [
+            {
+              "asset_id": "A03",
+              "bytes": 6435349,
+              "canonical_path": "originals/A03.png",
+              "case_id": "CASE-20260827-LEGACY-EU-ENTRY-ROUTES-01",
+              "created_at": "2026-08-27T06:52:00Z",
+              "height": 2400,
+              "notes": [
+                "历史短视频分块段 09；源图片字节、尺寸与哈希在 ingest 时验证；模型、surface 及 Prompt→Run→Asset 关联来自用户回忆。"
+              ],
+              "original_filename": "中国车企欧洲产能落地_D3_分块段09_prompt.png",
+              "preview_path": "lab/previews/CASE-20260827-LEGACY-EU-ENTRY-ROUTES-01-A03.jpg",
+              "provenance_confidence": "user_recalled",
+              "run_id": "R03",
+              "schema_version": "0.1.0",
+              "sha256": "9e6031608a813731c2cd0a0140083bf8a25281b5dab82c5a196a1aca6a076c09",
+              "source_format": "PNG",
+              "thumbnail_path": "lab/thumbnails/CASE-20260827-LEGACY-EU-ENTRY-ROUTES-01-A03.jpg",
+              "user_feedback": [],
+              "width": 1792
+            }
+          ],
+          "evaluation": "unreviewed",
+          "evaluation_note": "Selected as a historical regression candidate; no formal Text2Pic Lab image review has been completed.",
+          "generation_surface": "gemini-web",
+          "model": "nano-banana",
+          "model_version": null,
+          "parameters": {},
+          "producer": "local-user",
+          "prompt_delta_notes": [],
+          "prompt_id": "P03",
+          "prompt_intended_model_target": "nano-banana",
+          "prompt_parent_prompt_id": null,
+          "prompt_provenance_confidence": "verified",
+          "prompt_public": true,
+          "prompt_sha256": "c82005ab4848b395898f4d87530e94fe4ad9a629ecb82379abfe5ad452e8845e",
+          "prompt_summary": "历史任务[中国车企欧洲产能落地] D3 分块段 09 的归档 prompt。",
+          "prompt_text": "# D3 分块段09 Prompt\n\n生成一张 3:4 竖版静态配图。\n\n整张图采用顶部标题+中部三张路径回顾卡片+底部互动区的结构。\n\n顶部放主标题，写\"买厂容易，扎根难。你觉得哪条路更靠谱？\"\n\n中部为三张等高的横向路径回顾卡片，上下排列，大小一致。\n\n上侧卡片标题写\"独资\"。卡片内部画一座工厂建筑+一个掌控方向盘图标，代表比亚迪模式。\n\n中间卡片标题写\"合资\"。卡片内部画两只手握在一起的合作图标+一座合作工厂建筑，代表奇瑞模式。\n\n下侧卡片标题写\"反向合资\"。卡片内部画一座工厂所有权正在移交/转让的动作画面（如一手交钥匙、一手接），代表零跑模式。\n\n底部互动区为一个或多个评论气泡图形，气泡内写\"评论区聊聊\"。\n\n全图色调与前面8张图保持一致。\n\n图中只允许出现这些文字：\"买厂容易，扎根难。你觉得哪条路更靠谱？\"、\"独资\"、\"合资\"、\"反向合资\"、\"评论区聊聊\"。除这些文字外不要新增任何说明性文字。不要水印，不要\"AI生成\"字样，不要品牌官方logo，不要无意义英文装饰。\n\n整体视觉采用清晰理性的clean editorial illustration，模块边界清楚、轻立体但不过硬，flat illustration，light texture，整体专业干净结构优先。\n",
+          "provenance_confidence": "user_recalled",
+          "provider": "google",
+          "run_id": "R03",
+          "skill_lineage": {
+            "skill": "shortvideo-image-prompt-generation",
+            "version": null
+          },
+          "source_adapter": "manual-historical-archive"
+        }
+      ],
+      "status": "open",
+      "svp_mode": "legacy-d3",
+      "tags": [
+        "regression",
+        "legacy-shortvideo",
+        "nano-banana",
+        "gemini-web",
+        "中国车企欧洲产能落地",
+        "europe",
+        "entry-routes",
+        "capacity"
+      ],
+      "title": "Europe capacity entry routes"
+    },
+    {
+      "case_id": "CASE-20260827-LEGACY-EU-LOCATION-POWER-01",
+      "case_type": "regression",
+      "contact_sheet": "lab/contact_sheets/CASE-20260827-LEGACY-EU-LOCATION-POWER-01.jpg",
+      "expected_effect": [
+        "在地图和产业关系构图中表达选址、能源及供应链约束"
+      ],
+      "final_selection": null,
+      "image_type": "vertical-editorial-infographic",
+      "problem_statement": "历史 Nano Banana 竖版短视频配图基线：在地图和产业关系构图中表达选址、能源及供应链约束",
+      "project": "hotspot-shortvideo",
+      "runs": [
+        {
+          "assets": [
+            {
+              "asset_id": "A01",
+              "bytes": 6432752,
+              "canonical_path": "originals/A01.png",
+              "case_id": "CASE-20260827-LEGACY-EU-LOCATION-POWER-01",
+              "created_at": "2026-08-27T06:52:02Z",
+              "height": 2400,
+              "notes": [
+                "历史短视频分块段 06；源图片字节、尺寸与哈希在 ingest 时验证；模型、surface 及 Prompt→Run→Asset 关联来自用户回忆。"
+              ],
+              "original_filename": "中国车企欧洲产能落地_D3_分块段06_prompt.png",
+              "preview_path": "lab/previews/CASE-20260827-LEGACY-EU-LOCATION-POWER-01-A01.jpg",
+              "provenance_confidence": "user_recalled",
+              "run_id": "R01",
+              "schema_version": "0.1.0",
+              "sha256": "56d870d2c24ced3864d796105803e6577114fea9b2afaf73abe1899de2236f64",
+              "source_format": "PNG",
+              "thumbnail_path": "lab/thumbnails/CASE-20260827-LEGACY-EU-LOCATION-POWER-01-A01.jpg",
+              "user_feedback": [],
+              "width": 1792
+            }
+          ],
+          "evaluation": "unreviewed",
+          "evaluation_note": "Selected as a historical regression candidate; no formal Text2Pic Lab image review has been completed.",
+          "generation_surface": "gemini-web",
+          "model": "nano-banana",
+          "model_version": null,
+          "parameters": {},
+          "producer": "local-user",
+          "prompt_delta_notes": [],
+          "prompt_id": "P01",
+          "prompt_intended_model_target": "nano-banana",
+          "prompt_parent_prompt_id": null,
+          "prompt_provenance_confidence": "verified",
+          "prompt_public": true,
+          "prompt_sha256": "c80f2a2996831d7994bc237d039358b7be1bc2fdf4e2223280845bcd86b9db2f",
+          "prompt_summary": "历史任务[中国车企欧洲产能落地] D3 分块段 06 的归档 prompt。",
+          "prompt_text": "# D3 分块段06 Prompt\n\n生成一张 3:4 竖版静态配图。\n\n整张图采用顶部标题+中部三张并列因素卡片+底部结论区的结构。三张卡片通过三条汇入箭头连接到下方结论区。西班牙地图轮廓作为浅色底纹铺满背景。\n\n顶部放主标题，写\"为什么是西班牙\"。\n\n左侧卡片标题写\"产业基础扎实\"。卡片内部画一条汽车生产线局部+齿轮和工具的组合，卡片右下角标注\"年产量227万辆\"。\n\n中间卡片标题写\"成本优势显著\"。卡片内部画一个天平，天平左侧较重（代表德国的高时薪，放一个钱袋符号），右侧较轻（代表西班牙的低时薪），天平向德国侧倾斜。天平下方放一个\"效率近3倍\"的小标牌。\n\n右侧卡片标题写\"政策环境友好\"。卡片内部画一座政府风格建筑+一份补贴文件图标+一个小小的握手图标（示意桑切斯4次访华），卡片右下角标注\"税收减免+补贴\"。\n\n三张卡片下方各引出一条箭头，三条箭头汇入底部结论区。底部结论区为深色横条，写\"西班牙市占率超10%，欧洲平均两倍\"。\n\n图中只允许出现这些文字：\"为什么是西班牙\"、\"产业基础扎实\"、\"年产量227万辆\"、\"成本优势显著\"、\"时薪德国一半\"、\"效率欧盟近3倍\"、\"政策环境友好\"、\"4年4次访华\"、\"税收减免补贴\"、\"西班牙市占率超10%\"、\"欧洲平均两倍\"。除这些文字外不要新增任何说明性文字。不要水印，不要\"AI生成\"字样，不要品牌官方logo，不要无意义英文装饰。地图使用西班牙轮廓，不要出现中国地图。\n\n整体视觉采用清晰理性的clean editorial illustration，模块边界清楚、轻立体但不过硬，flat illustration，light texture，整体专业干净结构优先。\n",
+          "provenance_confidence": "user_recalled",
+          "provider": "google",
+          "run_id": "R01",
+          "skill_lineage": {
+            "skill": "shortvideo-image-prompt-generation",
+            "version": null
+          },
+          "source_adapter": "manual-historical-archive"
+        },
+        {
+          "assets": [
+            {
+              "asset_id": "A02",
+              "bytes": 6614084,
+              "canonical_path": "originals/A02.png",
+              "case_id": "CASE-20260827-LEGACY-EU-LOCATION-POWER-01",
+              "created_at": "2026-08-27T06:52:04Z",
+              "height": 2400,
+              "notes": [
+                "历史短视频分块段 07；源图片字节、尺寸与哈希在 ingest 时验证；模型、surface 及 Prompt→Run→Asset 关联来自用户回忆。"
+              ],
+              "original_filename": "中国车企欧洲产能落地_D3_分块段07_prompt.png",
+              "preview_path": "lab/previews/CASE-20260827-LEGACY-EU-LOCATION-POWER-01-A02.jpg",
+              "provenance_confidence": "user_recalled",
+              "run_id": "R02",
+              "schema_version": "0.1.0",
+              "sha256": "ab905a76cb4738f1269d08c996fc4845ed0ba0713753f87a11a6ba82e28476eb",
+              "source_format": "PNG",
+              "thumbnail_path": "lab/thumbnails/CASE-20260827-LEGACY-EU-LOCATION-POWER-01-A02.jpg",
+              "user_feedback": [],
+              "width": 1792
+            }
+          ],
+          "evaluation": "unreviewed",
+          "evaluation_note": "Selected as a historical regression candidate; no formal Text2Pic Lab image review has been completed.",
+          "generation_surface": "gemini-web",
+          "model": "nano-banana",
+          "model_version": null,
+          "parameters": {},
+          "producer": "local-user",
+          "prompt_delta_notes": [],
+          "prompt_id": "P02",
+          "prompt_intended_model_target": "nano-banana",
+          "prompt_parent_prompt_id": null,
+          "prompt_provenance_confidence": "verified",
+          "prompt_public": true,
+          "prompt_sha256": "bbc1df9bcc3a46e27e2b06fbce914f019173ced17523f51f148cb0a0a88ca880",
+          "prompt_summary": "历史任务[中国车企欧洲产能落地] D3 分块段 07 的归档 prompt。",
+          "prompt_text": "# D3 分块段07 Prompt\n\n生成一张 3:4 竖版静态配图。\n\n整张图采用左中右三段式+底部引语区的结构。\n\n顶部放主标题,内写\"产业权力翻转\"。\n\n左侧为一个圆角卡片，卡片内部画一个会议签约场景：中方代表和外方代表围坐桌旁，姿态为中方学习/外方主导，桌上放一份协议文件，卡片上方写\"三十年前 市场换技术\"作为模块标签（非上图文字，仅作为内容提示）。\n\n中部为翻转关系区：一个大天平从左向右倾斜反转，或一个大号切换箭头从左指向右，方向清晰显示力量从左侧转移到右侧，箭头/天平周围有轻微发光或转移光效。这是全图的视觉焦点。\n\n右侧为一个圆角卡片，卡片内部画中国工程师团队站在智能平台/三电技术示意图前，背景是一座欧洲工厂建筑和渠道网络示意线，卡片上方写\"现在 技术换市场\"作为模块标签。\n\n底部为一个独立的引语横条区域，保持简洁，内写\"跟中国合作，能更快更省推出有竞争力的电动车\"。\n\n全图结构强调\"翻转\"这个核心动作。不要出现真实品牌logo。\n\n图中只允许出现这些文字：\"三十年前 市场换技术\", \"现在 技术换市场\", \"产业权力翻转\",\"跟中国合作，能更快更省推出有竞争力的电动车\"。除主标题外不要新增任何说明性文字。不要水印，不要\"AI生成\"字样，不要品牌官方logo，不要无意义英文装饰。\n\n整体视觉采用清晰理性的clean editorial illustration，模块边界清楚、轻立体但不过硬，flat illustration，light texture，整体专业干净结构优先。\n",
+          "provenance_confidence": "user_recalled",
+          "provider": "google",
+          "run_id": "R02",
+          "skill_lineage": {
+            "skill": "shortvideo-image-prompt-generation",
+            "version": null
+          },
+          "source_adapter": "manual-historical-archive"
+        }
+      ],
+      "status": "open",
+      "svp_mode": "legacy-d3",
+      "tags": [
+        "regression",
+        "legacy-shortvideo",
+        "nano-banana",
+        "gemini-web",
+        "中国车企欧洲产能落地",
+        "europe",
+        "location",
+        "energy",
+        "supply-chain"
+      ],
+      "title": "Europe location and power map"
+    },
+    {
+      "case_id": "CASE-20260827-LEGACY-EU-PRESSURE-CASCADE-01",
+      "case_type": "regression",
+      "contact_sheet": "lab/contact_sheets/CASE-20260827-LEGACY-EU-PRESSURE-CASCADE-01.jpg",
+      "expected_effect": [
+        "用连续因果结构表达关税、合规和市场压力如何推动欧洲本地化"
+      ],
+      "final_selection": null,
+      "image_type": "vertical-editorial-infographic",
+      "problem_statement": "历史 Nano Banana 竖版短视频配图基线：用连续因果结构表达关税、合规和市场压力如何推动欧洲本地化",
+      "project": "hotspot-shortvideo",
+      "runs": [
+        {
+          "assets": [
+            {
+              "asset_id": "A01",
+              "bytes": 6532723,
+              "canonical_path": "originals/A01.png",
+              "case_id": "CASE-20260827-LEGACY-EU-PRESSURE-CASCADE-01",
+              "created_at": "2026-08-27T06:51:51Z",
+              "height": 2400,
+              "notes": [
+                "历史短视频分块段 01；源图片字节、尺寸与哈希在 ingest 时验证；模型、surface 及 Prompt→Run→Asset 关联来自用户回忆。"
+              ],
+              "original_filename": "中国车企欧洲产能落地_D3_分块段01_prompt.png",
+              "preview_path": "lab/previews/CASE-20260827-LEGACY-EU-PRESSURE-CASCADE-01-A01.jpg",
+              "provenance_confidence": "user_recalled",
+              "run_id": "R01",
+              "schema_version": "0.1.0",
+              "sha256": "a788a8d847580788df19f3c92e4f169dc67b3e8f9c87ea1e0d914340c3f87b63",
+              "source_format": "PNG",
+              "thumbnail_path": "lab/thumbnails/CASE-20260827-LEGACY-EU-PRESSURE-CASCADE-01-A01.jpg",
+              "user_feedback": [],
+              "width": 1792
+            }
+          ],
+          "evaluation": "unreviewed",
+          "evaluation_note": "Selected as a historical regression candidate; no formal Text2Pic Lab image review has been completed.",
+          "generation_surface": "gemini-web",
+          "model": "nano-banana",
+          "model_version": null,
+          "parameters": {},
+          "producer": "local-user",
+          "prompt_delta_notes": [],
+          "prompt_id": "P01",
+          "prompt_intended_model_target": "nano-banana",
+          "prompt_parent_prompt_id": null,
+          "prompt_provenance_confidence": "verified",
+          "prompt_public": true,
+          "prompt_sha256": "a831d507733691be4a4a07a47139a6093fdae3a08b96486bd2aa9f9a5a21f86b",
+          "prompt_summary": "历史任务[中国车企欧洲产能落地] D3 分块段 01 的归档 prompt。",
+          "prompt_text": "# D3 分块段01 Prompt\n\n生成一张 3:4 竖版静态配图。\n\n整张图采用左中右三段结构：左侧场景卡片、中部翻转箭头、右侧场景卡片。三部分在水平方向居中排列，宽度均衡。\n\n左侧卡片标题区域写\"三十年前\"，卡片内部画面为：一个会议室场景，中方代表与外方代表坐在会议桌前握手，桌上放着一份合作协议文件，外方代表姿态主导、中方代表姿态诚恳学习。卡片背景为暖色调、较正式的办公氛围。\n\n中部为一个粗体的翻转方向箭头，从左指向右，箭头主体为深色，箭头中心位置有发光渐变效果，表示力量转移。箭头下方或中央位置写\"剧本翻过来了\"。\n\n右侧卡片标题区域写\"今天\"，卡片内部画面为：欧洲现代工厂门前，一组中欧团队正在握手交接，旁边有一辆中国品牌电动汽车，背景为欧洲工厂建筑和一条生产线。卡片背景为冷色调、干净现代的工厂氛围。\n\n三张卡片高度一致，间距均匀。左侧和右侧卡片内部为完整小场景叙事，中部为纯关系表达。\n\n图中只允许出现这些文字：\"三十年前\"、\"今天\"、\"剧本翻过来了\"。除这些文字外不要新增任何说明性文字。不要水印，不要\"AI生成\"字样，不要品牌官方logo，不要无意义英文装饰。\n\n整体视觉采用清晰理性的clean editorial illustration，模块边界清楚、轻立体但不过硬，flat illustration，light texture，整体专业干净结构优先。\n",
+          "provenance_confidence": "user_recalled",
+          "provider": "google",
+          "run_id": "R01",
+          "skill_lineage": {
+            "skill": "shortvideo-image-prompt-generation",
+            "version": null
+          },
+          "source_adapter": "manual-historical-archive"
+        },
+        {
+          "assets": [
+            {
+              "asset_id": "A02",
+              "bytes": 5483042,
+              "canonical_path": "originals/A02.png",
+              "case_id": "CASE-20260827-LEGACY-EU-PRESSURE-CASCADE-01",
+              "created_at": "2026-08-27T06:51:53Z",
+              "height": 2400,
+              "notes": [
+                "历史短视频分块段 02；源图片字节、尺寸与哈希在 ingest 时验证；模型、surface 及 Prompt→Run→Asset 关联来自用户回忆。"
+              ],
+              "original_filename": "中国车企欧洲产能落地_D3_分块段02_prompt.png",
+              "preview_path": "lab/previews/CASE-20260827-LEGACY-EU-PRESSURE-CASCADE-01-A02.jpg",
+              "provenance_confidence": "user_recalled",
+              "run_id": "R02",
+              "schema_version": "0.1.0",
+              "sha256": "e9d790992da8462b489bc6ded51db539b4ea018d3b6744b71283e8dc36f730b3",
+              "source_format": "PNG",
+              "thumbnail_path": "lab/thumbnails/CASE-20260827-LEGACY-EU-PRESSURE-CASCADE-01-A02.jpg",
+              "user_feedback": [],
+              "width": 1792
+            }
+          ],
+          "evaluation": "unreviewed",
+          "evaluation_note": "Selected as a historical regression candidate; no formal Text2Pic Lab image review has been completed.",
+          "generation_surface": "gemini-web",
+          "model": "nano-banana",
+          "model_version": null,
+          "parameters": {},
+          "producer": "local-user",
+          "prompt_delta_notes": [],
+          "prompt_id": "P02",
+          "prompt_intended_model_target": "nano-banana",
+          "prompt_parent_prompt_id": null,
+          "prompt_provenance_confidence": "verified",
+          "prompt_public": true,
+          "prompt_sha256": "c695bf86120de0c4bf34d2aed8e7264ef66721e05d58c73ebd621744f1b24ecb",
+          "prompt_summary": "历史任务[中国车企欧洲产能落地] D3 分块段 02 的归档 prompt。",
+          "prompt_text": "# D3 分块段02 Prompt\n\n生成一张 3:4 竖版静态配图。\n\n整张图采用自上而下三段递进结构，三张等大的圆角数据卡片依次排列，卡片之间用粗箭头连接。\n\n顶部放主标题，标题写\"欧洲产能雪崩\"。\n\n第一张卡片标题写\"福特瓦伦西亚\"。卡片内部画：一个工厂图标，旁边一条从40万降到9.85万的下降折线曲线，红色向下箭头，旁边放\"25%\"的圆形标牌。\n\n第二张卡片标题写\"Stellantis亏损\"。卡片内部画：一个欧元符号钱袋，旁边用大号红色数字写\"223亿\"，下方一个明显下降箭头，表示巨额亏损。卡片整体视觉偏警示感。\n\n第三张卡片标题写\"兜售工厂\"。卡片内部画：四个工厂建筑图标排列，每个工厂上贴\"出售\"标签，旁边有一个指向右下方的箭头（示意寻找买家）。\n\n三张卡片之间用向下的粗箭头连接，表示因果递进关系。\n\n三张卡片下方做一个较窄的结论横条，颜色比卡片深，写\"欧洲产能严重过剩\"。\n\n图中只允许出现这些文字：\"欧洲产能雪崩\"、\"福特瓦伦西亚\"、\"40万辆→9.85万辆\"、\"利用率25%\"、\"Stellantis亏损\"、\"净亏223亿欧元\"、\"兜售工厂\"、\"4座闲置工厂\"、\"欧洲产能严重过剩\"。除这些文字外不要新增任何说明性文字。不要水印，不要\"AI生成\"字样，不要品牌官方logo，不要无意义英文装饰。\n\n整体视觉采用清晰理性的clean editorial illustration，模块边界清楚、轻立体但不过硬，flat illustration，light texture，整体专业干净结构优先。\n",
+          "provenance_confidence": "user_recalled",
+          "provider": "google",
+          "run_id": "R02",
+          "skill_lineage": {
+            "skill": "shortvideo-image-prompt-generation",
+            "version": null
+          },
+          "source_adapter": "manual-historical-archive"
+        },
+        {
+          "assets": [
+            {
+              "asset_id": "A03",
+              "bytes": 4980833,
+              "canonical_path": "originals/A03.png",
+              "case_id": "CASE-20260827-LEGACY-EU-PRESSURE-CASCADE-01",
+              "created_at": "2026-08-27T06:51:54Z",
+              "height": 2400,
+              "notes": [
+                "历史短视频分块段 03；源图片字节、尺寸与哈希在 ingest 时验证；模型、surface 及 Prompt→Run→Asset 关联来自用户回忆。"
+              ],
+              "original_filename": "中国车企欧洲产能落地_D3_分块段03_prompt.png",
+              "preview_path": "lab/previews/CASE-20260827-LEGACY-EU-PRESSURE-CASCADE-01-A03.jpg",
+              "provenance_confidence": "user_recalled",
+              "run_id": "R03",
+              "schema_version": "0.1.0",
+              "sha256": "90a0aa5995eae7c75a4860d8f38536a9065639ef077b4785185091ee8030711b",
+              "source_format": "PNG",
+              "thumbnail_path": "lab/thumbnails/CASE-20260827-LEGACY-EU-PRESSURE-CASCADE-01-A03.jpg",
+              "user_feedback": [],
+              "width": 1792
+            }
+          ],
+          "evaluation": "unreviewed",
+          "evaluation_note": "Selected as a historical regression candidate; no formal Text2Pic Lab image review has been completed.",
+          "generation_surface": "gemini-web",
+          "model": "nano-banana",
+          "model_version": null,
+          "parameters": {},
+          "producer": "local-user",
+          "prompt_delta_notes": [],
+          "prompt_id": "P03",
+          "prompt_intended_model_target": "nano-banana",
+          "prompt_parent_prompt_id": null,
+          "prompt_provenance_confidence": "verified",
+          "prompt_public": true,
+          "prompt_sha256": "8b1ce630b55baaf3411a49df7b01138bce32ba0616030204afee168841a7d35c",
+          "prompt_summary": "历史任务[中国车企欧洲产能落地] D3 分块段 03 的归档 prompt。",
+          "prompt_text": "# D3 分块段03 Prompt\n\n生成一张 3:4 竖版静态配图。\n\n整张图采用自上而下三段递进结构，三张卡片依次排列。前两张卡片为等大并排的数据卡片，第三张卡片宽度占据全幅、做壁垒状处理以体现\"阻碍\"感。卡片之间用箭头连接。\n\n顶部放主标题，写\"中国品牌欧洲爆发\"。\n\n第一张卡片标题写\"销量翻番\"。卡片内部画：多辆中国品牌电动汽车并排排列（抽象表现），上方一个大号向上箭头，旁边写\"81万辆\"，箭头底部写\"同比翻番\"。\n\n第二张卡片标题写\"市占率突破\"。卡片内部画：一个圆形占比饼图（15%部分高亮填色），背景为欧洲地图轮廓做底纹。旁边一个上升趋势线。\n\n两张卡片之间用向下箭头连接。\n\n第三张卡片做成壁垒/屏障视觉效果，标题写\"关税承压\"。卡片内部画：一堵高墙或屏障，墙上贴一个醒目的\"45%\"税率标牌，墙后隐约可见欧洲市场轮廓。整张卡片视觉上有被阻挡的感觉。\n\n第三张卡片下方做结论横条，写\"卖得越多，关税越疼\"。\n\n图中只允许出现这些文字：\"中国品牌欧洲爆发\"、\"销量翻番\"、\"81万辆，同比翻番\"、\"市占率突破\"、\"EV市占率15%\"、\"关税承压\"、\"综合税率最高45%\"、\"卖得越多，关税越疼\"。除这些文字外不要新增任何说明性文字。不要水印，不要\"AI生成\"字样，不要品牌官方logo，不要无意义英文装饰。\n\n整体视觉采用清晰理性的clean editorial illustration，模块边界清楚、轻立体但不过硬，flat illustration，light texture，整体专业干净结构优先。\n",
+          "provenance_confidence": "user_recalled",
+          "provider": "google",
+          "run_id": "R03",
+          "skill_lineage": {
+            "skill": "shortvideo-image-prompt-generation",
+            "version": null
+          },
+          "source_adapter": "manual-historical-archive"
+        }
+      ],
+      "status": "open",
+      "svp_mode": "legacy-d3",
+      "tags": [
+        "regression",
+        "legacy-shortvideo",
+        "nano-banana",
+        "gemini-web",
+        "中国车企欧洲产能落地",
+        "europe",
+        "localization",
+        "pressure-cascade"
+      ],
+      "title": "Europe localization pressure cascade"
+    },
+    {
+      "case_id": "CASE-20260827-LEGACY-EU-ROOTING-COMPLIANCE-01",
+      "case_type": "regression",
+      "contact_sheet": "lab/contact_sheets/CASE-20260827-LEGACY-EU-ROOTING-COMPLIANCE-01.jpg",
+      "expected_effect": [
+        "将本地扎根、合规义务和长期经营能力整合为明确结论"
+      ],
+      "final_selection": null,
+      "image_type": "vertical-editorial-infographic",
+      "problem_statement": "历史 Nano Banana 竖版短视频配图基线：将本地扎根、合规义务和长期经营能力整合为明确结论",
+      "project": "hotspot-shortvideo",
+      "runs": [
+        {
+          "assets": [
+            {
+              "asset_id": "A01",
+              "bytes": 6024073,
+              "canonical_path": "originals/A01.png",
+              "case_id": "CASE-20260827-LEGACY-EU-ROOTING-COMPLIANCE-01",
+              "created_at": "2026-08-27T06:52:06Z",
+              "height": 2400,
+              "notes": [
+                "历史短视频分块段 08；源图片字节、尺寸与哈希在 ingest 时验证；模型、surface 及 Prompt→Run→Asset 关联来自用户回忆。"
+              ],
+              "original_filename": "中国车企欧洲产能落地_D3_分块段08_prompt.png",
+              "preview_path": "lab/previews/CASE-20260827-LEGACY-EU-ROOTING-COMPLIANCE-01-A01.jpg",
+              "provenance_confidence": "user_recalled",
+              "run_id": "R01",
+              "schema_version": "0.1.0",
+              "sha256": "573b995e9e47e1e3da14b366d5d3c5823f2a7f8576895b785d89e4895773af46",
+              "source_format": "PNG",
+              "thumbnail_path": "lab/thumbnails/CASE-20260827-LEGACY-EU-ROOTING-COMPLIANCE-01-A01.jpg",
+              "user_feedback": [],
+              "width": 1792
+            }
+          ],
+          "evaluation": "unreviewed",
+          "evaluation_note": "Selected as a historical regression candidate; no formal Text2Pic Lab image review has been completed.",
+          "generation_surface": "gemini-web",
+          "model": "nano-banana",
+          "model_version": null,
+          "parameters": {},
+          "producer": "local-user",
+          "prompt_delta_notes": [],
+          "prompt_id": "P01",
+          "prompt_intended_model_target": "nano-banana",
+          "prompt_parent_prompt_id": null,
+          "prompt_provenance_confidence": "verified",
+          "prompt_public": true,
+          "prompt_sha256": "95b0bf55c5ead3ecdfe5b945e58e49cdd8deea357fb176be9bd1157486c11fee",
+          "prompt_summary": "历史任务[中国车企欧洲产能落地] D3 分块段 08 的归档 prompt。",
+          "prompt_text": "# D3 分块段08 Prompt\n\n生成一张 3:4 竖版静态配图。\n\n整张图采用顶部标题+中部两张等大横向挑战卡片+底部结论条的结构。\n\n顶部放主标题，写\"买厂容易，扎根难\"。\n\n上侧挑战卡片标题写\"挑战一：文化磨合\"。卡片内部画一个中方管理者与欧洲工会代表面对面坐在会议桌两侧、氛围有分歧感，一人双手交叉、一人摊手。卡片底部写\"工会拉锯半年\"、角落写\"中方管技术，本地管人事\"。\n\n下侧挑战卡片标题写\"挑战二：合规加码\"。卡片内部画一份IAA法规文件封面+一个70%合规通过门（带检查标记的门框）+一份审查清单图标。卡片底部写\"IAA要求70%零部件欧盟产\"。\n\n两张卡片下方做一条收束横条，写\"买厂只是第一步\"。\n\n图中只允许出现这些文字：\"买厂容易，扎根难\"、\"挑战一：文化磨合\"、\"工会拉锯半年\"、\"中方管技术，本地管人事\"、\"挑战二：合规加码\"、\"IAA要求70%零部件欧盟产\"、\"买厂只是第一步\"。除这些文字外不要新增任何说明性文字。不要水印，不要\"AI生成\"字样，不要品牌官方logo，不要无意义英文装饰。\n\n整体视觉采用清晰理性的clean editorial illustration，模块边界清楚、轻立体但不过硬，flat illustration，light texture，整体专业干净结构优先。\n",
+          "provenance_confidence": "user_recalled",
+          "provider": "google",
+          "run_id": "R01",
+          "skill_lineage": {
+            "skill": "shortvideo-image-prompt-generation",
+            "version": null
+          },
+          "source_adapter": "manual-historical-archive"
+        }
+      ],
+      "status": "open",
+      "svp_mode": "legacy-d3",
+      "tags": [
+        "regression",
+        "legacy-shortvideo",
+        "nano-banana",
+        "gemini-web",
+        "中国车企欧洲产能落地",
+        "europe",
+        "compliance",
+        "local-rooting"
+      ],
+      "title": "Europe rooting and compliance"
+    },
+    {
+      "case_id": "CASE-20260827-LEGACY-GLOBAL-CAPABILITY-STACK-01",
+      "case_type": "regression",
+      "contact_sheet": "lab/contact_sheets/CASE-20260827-LEGACY-GLOBAL-CAPABILITY-STACK-01.jpg",
+      "expected_effect": [
+        "用模块化结构呈现产品、渠道、服务和组织能力栈"
+      ],
+      "final_selection": null,
+      "image_type": "vertical-editorial-infographic",
+      "problem_statement": "历史 Nano Banana 竖版短视频配图基线：用模块化结构呈现产品、渠道、服务和组织能力栈",
+      "project": "hotspot-shortvideo",
+      "runs": [
+        {
+          "assets": [
+            {
+              "asset_id": "A01",
+              "bytes": 6303926,
+              "canonical_path": "originals/A01.png",
+              "case_id": "CASE-20260827-LEGACY-GLOBAL-CAPABILITY-STACK-01",
+              "created_at": "2026-08-27T06:51:03Z",
+              "height": 2400,
+              "notes": [
+                "历史短视频分块段 04；源图片字节、尺寸与哈希在 ingest 时验证；模型、surface 及 Prompt→Run→Asset 关联来自用户回忆。 current prompt 与 README 声明 run 存在漂移，未将声明 run 视为 verified provenance。"
+              ],
+              "original_filename": "D3_分块段04_prompt.png",
+              "preview_path": "lab/previews/CASE-20260827-LEGACY-GLOBAL-CAPABILITY-STACK-01-A01.jpg",
+              "provenance_confidence": "user_recalled",
+              "run_id": "R01",
+              "schema_version": "0.1.0",
+              "sha256": "3b6b9f278703b83bdc3603ac5c6060ab5d51747da943e626e7075c61c18e414a",
+              "source_format": "PNG",
+              "thumbnail_path": "lab/thumbnails/CASE-20260827-LEGACY-GLOBAL-CAPABILITY-STACK-01-A01.jpg",
+              "user_feedback": [],
+              "width": 1792
+            }
+          ],
+          "evaluation": "unreviewed",
+          "evaluation_note": "Selected as a historical regression candidate; no formal Text2Pic Lab image review has been completed.",
+          "generation_surface": "gemini-web",
+          "model": "nano-banana",
+          "model_version": null,
+          "parameters": {},
+          "producer": "local-user",
+          "prompt_delta_notes": [],
+          "prompt_id": "P01",
+          "prompt_intended_model_target": "nano-banana",
+          "prompt_parent_prompt_id": null,
+          "prompt_provenance_confidence": "user_recalled",
+          "prompt_public": true,
+          "prompt_sha256": "03b73b2b43e4a526afbb2a878d66881cbda964b4faacaa744cd452c497ded959",
+          "prompt_summary": "历史任务[跨国车企出口] D3 分块段 04 的归档 prompt。 current prompt 与 README 声明 run 存在漂移，关联仅按用户回忆保存。",
+          "prompt_text": "# 分块段 04 Prompt\n\n生成一张 3:4 竖式静态配图。顶部放主标题“中国不只是低成本”。\n\n标题下方自上而下放三张纵向大卡片，保持结构稳定、间距清楚。\n\n第一张卡片标题写“供应链全”。卡片内部画多层供应链节点围绕一辆新能源车或电池总成，配零部件节点、短连线和产业协同信号，可带轻产业圈边界，可放“本土化率 95%”这句短文字。重点是中国供应链密度，不要只剩散点网络，没有制造对象。\n\n第二张卡片标题写“反应快”。卡片内部画高效率产线上的车辆下线场景，配计时器、快速节奏产线和效率信号，可放“30 多秒下线一台车”这句短文字。不要画成夸张机械科幻图。\n\n第三张卡片标题写“技术成熟”。卡片内部画工程师围绕本土技术底座与新产品草图协作，配研发桌面、模块化平台和优化信号，可放“研发周期缩短 30%”“成本结构优化 40%”这两句短文字。不要只画一块抽象芯片。\n\n三张卡片按上中下顺序排列，用轻递进连接线保持同一能力链。如使用地图，只用中国产业圈示意，保持中国全球底座语境，不要用欧美本土制造地图替代中国语境。\n\n图中只允许出现这些文字：“中国不只是低成本”“供应链全”“反应快”“技术成熟”“本土化率 95%”“30 多秒下线一台车”“研发周期缩短 30%”“成本结构优化 40%”。除这些文字外，不要新增任何说明性文字。不要水印，不要“AI生成”字样，不要品牌官方 logo，不要额外英文装饰。\n\n整体视觉采用清晰、理性、结构稳定、卡片边界明确但不过硬的 clean editorial illustration，flat illustration，light texture.",
+          "provenance_confidence": "user_recalled",
+          "provider": "google",
+          "run_id": "R01",
+          "skill_lineage": {
+            "skill": "shortvideo-image-prompt-generation",
+            "version": null
+          },
+          "source_adapter": "manual-historical-archive"
+        }
+      ],
+      "status": "open",
+      "svp_mode": "legacy-d3",
+      "tags": [
+        "regression",
+        "legacy-shortvideo",
+        "nano-banana",
+        "gemini-web",
+        "跨国车企出口",
+        "globalization",
+        "capability-stack",
+        "modular-structure"
+      ],
+      "title": "Global capability stack"
+    },
+    {
+      "case_id": "CASE-20260827-LEGACY-GLOBAL-NETWORK-01",
+      "case_type": "regression",
+      "contact_sheet": "lab/contact_sheets/CASE-20260827-LEGACY-GLOBAL-NETWORK-01.jpg",
+      "expected_effect": [
+        "表达跨区域经营网络、节点连接和本地协同，避免网络拓扑稀释"
+      ],
+      "final_selection": null,
+      "image_type": "vertical-editorial-infographic",
+      "problem_statement": "历史 Nano Banana 竖版短视频配图基线：表达跨区域经营网络、节点连接和本地协同，避免网络拓扑稀释",
+      "project": "hotspot-shortvideo",
+      "runs": [
+        {
+          "assets": [
+            {
+              "asset_id": "A01",
+              "bytes": 6234665,
+              "canonical_path": "originals/A01.png",
+              "case_id": "CASE-20260827-LEGACY-GLOBAL-NETWORK-01",
+              "created_at": "2026-08-27T06:51:06Z",
+              "height": 2400,
+              "notes": [
+                "历史短视频分块段 05；源图片字节、尺寸与哈希在 ingest 时验证；模型、surface 及 Prompt→Run→Asset 关联来自用户回忆。"
+              ],
+              "original_filename": "D3_分块段05_prompt.png",
+              "preview_path": "lab/previews/CASE-20260827-LEGACY-GLOBAL-NETWORK-01-A01.jpg",
+              "provenance_confidence": "user_recalled",
+              "run_id": "R01",
+              "schema_version": "0.1.0",
+              "sha256": "73c750c7e76a3cc19437c346e0193046da14c9a95d987b18b863b38cbb611ef2",
+              "source_format": "PNG",
+              "thumbnail_path": "lab/thumbnails/CASE-20260827-LEGACY-GLOBAL-NETWORK-01-A01.jpg",
+              "user_feedback": [],
+              "width": 1792
+            }
+          ],
+          "evaluation": "unreviewed",
+          "evaluation_note": "Selected as a historical regression candidate; no formal Text2Pic Lab image review has been completed.",
+          "generation_surface": "gemini-web",
+          "model": "nano-banana",
+          "model_version": null,
+          "parameters": {},
+          "producer": "local-user",
+          "prompt_delta_notes": [],
+          "prompt_id": "P01",
+          "prompt_intended_model_target": "nano-banana",
+          "prompt_parent_prompt_id": null,
+          "prompt_provenance_confidence": "verified",
+          "prompt_public": true,
+          "prompt_sha256": "af3d29aea8253a18140be484d8eeb4b45127311b654735dc96bd260b40de4d98",
+          "prompt_summary": "历史任务[跨国车企出口] D3 分块段 05 的归档 prompt。",
+          "prompt_text": "# 分块段 05 Prompt\n\n生成一张 3:4 竖式静态配图。顶部放主标题“中国团队开始进入全球定义”。\n\n标题下方采用上下两段结构。上方放一张横向大卡片，标题写“组织动作”。卡片内部画企业战略版图、中国节点被接入全球出口路径的结构，配进出口公司文件和组织连线，重点是中国节点进入全球出口体系。不要画成纯 PPT 组织架构图。\n\n下方放一张横向大卡片，标题写“车型外放”。卡片内部画 N7 车型与向拉美、东盟流向的出口箭头，配中国团队、海外目的地节点和轻港口或运输线索。上方组织动作通过一条向下承接线导向下方车型外放，形成同一条升级链。不要把车型外放画成普通本地上市海报。\n\n地图使用全球流向示意图，语境明确为中国开发、流向拉美与东盟，不要画成中国国内销售地图。\n\n图中只允许出现这些文字：“中国团队开始进入全球定义”“组织动作”“车型外放”“N7”。除这些文字外，不要新增任何说明性文字。不要水印，不要“AI生成”字样，不要品牌官方 logo，不要额外英文装饰。\n\n整体视觉采用柔和、克制、轻叙事、上下承接关系清楚的 clean editorial illustration，flat illustration，light texture.",
+          "provenance_confidence": "user_recalled",
+          "provider": "google",
+          "run_id": "R01",
+          "skill_lineage": {
+            "skill": "shortvideo-image-prompt-generation",
+            "version": null
+          },
+          "source_adapter": "manual-historical-archive"
+        },
+        {
+          "assets": [
+            {
+              "asset_id": "A02",
+              "bytes": 5471035,
+              "canonical_path": "originals/A02.png",
+              "case_id": "CASE-20260827-LEGACY-GLOBAL-NETWORK-01",
+              "created_at": "2026-08-27T06:51:08Z",
+              "height": 2400,
+              "notes": [
+                "历史短视频分块段 08；源图片字节、尺寸与哈希在 ingest 时验证；模型、surface 及 Prompt→Run→Asset 关联来自用户回忆。"
+              ],
+              "original_filename": "D3_分块段08_prompt.png",
+              "preview_path": "lab/previews/CASE-20260827-LEGACY-GLOBAL-NETWORK-01-A02.jpg",
+              "provenance_confidence": "user_recalled",
+              "run_id": "R02",
+              "schema_version": "0.1.0",
+              "sha256": "f89a72261fa611873b57aacde117409a7882ae1e08e253701b14836fae9c1a2c",
+              "source_format": "PNG",
+              "thumbnail_path": "lab/thumbnails/CASE-20260827-LEGACY-GLOBAL-NETWORK-01-A02.jpg",
+              "user_feedback": [],
+              "width": 1792
+            }
+          ],
+          "evaluation": "unreviewed",
+          "evaluation_note": "Selected as a historical regression candidate; no formal Text2Pic Lab image review has been completed.",
+          "generation_surface": "gemini-web",
+          "model": "nano-banana",
+          "model_version": null,
+          "parameters": {},
+          "producer": "local-user",
+          "prompt_delta_notes": [],
+          "prompt_id": "P02",
+          "prompt_intended_model_target": "nano-banana",
+          "prompt_parent_prompt_id": null,
+          "prompt_provenance_confidence": "verified",
+          "prompt_public": true,
+          "prompt_sha256": "e871a1a7be958748bec6e279115b7d1455330d191ab407505555c572a6550201",
+          "prompt_summary": "历史任务[跨国车企出口] D3 分块段 08 的归档 prompt。",
+          "prompt_text": "# 分块段 08 Prompt\n\n生成一张 3:4 竖式静态配图。顶部放主标题“真正拉开差距的是接入能力”。\n\n标题下方采用左中右连接结构。左侧放一张竖向大卡片，标题写“中国能力池”。卡片内部画研发桌面、供应链节点、制造产线三组能力锚点，配向中部汇聚的连线，不要把三项能力压成单一图标。\n\n中部放一个独立关系连接区，不放标题。中部画多股能力连线汇入一个接口枢纽，配接头、连接节点和方向箭头，把接入动作明确画出来。不要做成抽象主轴或光束特效。\n\n右侧放一张竖向大卡片，标题写“全球体系”。卡片内部画全球渠道网络与服务体系主容器，配门店点位、服务节点和本地规则文件。重点是右侧承接中部接入动作，不要只剩抽象地球。\n\n整张图必须让观众一眼看懂：左侧中国能力，经由中部接入连接区，真正接进右侧全球渠道与服务体系。地图使用全球网络地图，语境明确为中国能力接入全球体系，不要只画中国本地网络，也不要只画欧洲单区域地图。\n\n图中只允许出现这些文字：“真正拉开差距的是接入能力”“中国能力池”“全球体系”。除这些文字外，不要新增任何说明性文字。不要水印，不要“AI生成”字样，不要品牌官方 logo，不要额外英文装饰。\n\n整体视觉采用清晰、理性、连接动作明确、结尾有收束感的 clean editorial illustration，flat illustration，light texture.",
+          "provenance_confidence": "user_recalled",
+          "provider": "google",
+          "run_id": "R02",
+          "skill_lineage": {
+            "skill": "shortvideo-image-prompt-generation",
+            "version": null
+          },
+          "source_adapter": "manual-historical-archive"
+        }
+      ],
+      "status": "open",
+      "svp_mode": "legacy-d3",
+      "tags": [
+        "regression",
+        "legacy-shortvideo",
+        "nano-banana",
+        "gemini-web",
+        "跨国车企出口",
+        "globalization",
+        "operating-network",
+        "topology"
+      ],
+      "title": "Global operating network"
+    },
+    {
+      "case_id": "CASE-20260827-LEGACY-GLOBAL-OUTCOME-THRESHOLD-01",
+      "case_type": "regression",
+      "contact_sheet": "lab/contact_sheets/CASE-20260827-LEGACY-GLOBAL-OUTCOME-THRESHOLD-01.jpg",
+      "expected_effect": [
+        "将规模、盈利、扎根等结果门槛转译为可比较的视觉判断"
+      ],
+      "final_selection": null,
+      "image_type": "vertical-editorial-infographic",
+      "problem_statement": "历史 Nano Banana 竖版短视频配图基线：将规模、盈利、扎根等结果门槛转译为可比较的视觉判断",
+      "project": "hotspot-shortvideo",
+      "runs": [
+        {
+          "assets": [
+            {
+              "asset_id": "A01",
+              "bytes": 7029456,
+              "canonical_path": "originals/A01.png",
+              "case_id": "CASE-20260827-LEGACY-GLOBAL-OUTCOME-THRESHOLD-01",
+              "created_at": "2026-08-27T06:51:10Z",
+              "height": 2400,
+              "notes": [
+                "历史短视频分块段 06；源图片字节、尺寸与哈希在 ingest 时验证；模型、surface 及 Prompt→Run→Asset 关联来自用户回忆。 current prompt 与 README 声明 run 存在漂移，未将声明 run 视为 verified provenance。"
+              ],
+              "original_filename": "D3_分块段06_prompt.png",
+              "preview_path": "lab/previews/CASE-20260827-LEGACY-GLOBAL-OUTCOME-THRESHOLD-01-A01.jpg",
+              "provenance_confidence": "user_recalled",
+              "run_id": "R01",
+              "schema_version": "0.1.0",
+              "sha256": "8242dfff25e5546be568831454df2a024ab8f4051c2660f8ead6fbe91e92294b",
+              "source_format": "PNG",
+              "thumbnail_path": "lab/thumbnails/CASE-20260827-LEGACY-GLOBAL-OUTCOME-THRESHOLD-01-A01.jpg",
+              "user_feedback": [],
+              "width": 1792
+            }
+          ],
+          "evaluation": "unreviewed",
+          "evaluation_note": "Selected as a historical regression candidate; no formal Text2Pic Lab image review has been completed.",
+          "generation_surface": "gemini-web",
+          "model": "nano-banana",
+          "model_version": null,
+          "parameters": {},
+          "producer": "local-user",
+          "prompt_delta_notes": [],
+          "prompt_id": "P01",
+          "prompt_intended_model_target": "nano-banana",
+          "prompt_parent_prompt_id": null,
+          "prompt_provenance_confidence": "user_recalled",
+          "prompt_public": true,
+          "prompt_sha256": "8138750e1fe6c71c6a852935d009a9b17326a77742821048fac6818199738092",
+          "prompt_summary": "历史任务[跨国车企出口] D3 分块段 06 的归档 prompt。 current prompt 与 README 声明 run 存在漂移，关联仅按用户回忆保存。",
+          "prompt_text": "# 分块段 06 Prompt\n\n生成一张 3:4 竖式静态配图。顶部放主标题“出口已经开始兑现经营结果”。\n\n标题下方采用左右两张等重案例卡结构。\n\n左侧卡片标题写“特斯拉上海”。卡片内部画上海工厂产线与驶向港口的出口车辆，配集装箱码头和向外流向箭头，可放“全年交付 85.1 万台”“占全球 52%”这两句短文字。重点是中国工厂已经成为全球中心工厂，不要只画一座工厂外立面。\n\n右侧卡片标题写“福特中国”。卡片内部画出口车辆流向与利润仪表盘，配增长箭头和收益信号，可放“出口超 16 万辆”“利润约 10 亿元”这两句短文字。重点是出口规模与利润兑现已经落地，不要只有钱币图标，没有出口对象。\n\n左右两张卡不需要重箭头，通过并列关系共同证明同一个判断：左边是能做出来，右边是能赚出来。\n\n图中只允许出现这些文字：“出口已经开始兑现经营结果”“特斯拉上海”“福特中国”“全年交付 85.1 万台”“占全球 52%”“出口超 16 万辆”“利润约 10 亿元”。除这些文字外，不要新增任何说明性文字。不要水印，不要“AI生成”字样，不要品牌官方 logo，不要额外英文装饰。\n\n整体视觉采用清晰、理性、模块均衡、结果信息清楚的 clean editorial illustration，flat illustration，light texture.",
+          "provenance_confidence": "user_recalled",
+          "provider": "google",
+          "run_id": "R01",
+          "skill_lineage": {
+            "skill": "shortvideo-image-prompt-generation",
+            "version": null
+          },
+          "source_adapter": "manual-historical-archive"
+        },
+        {
+          "assets": [
+            {
+              "asset_id": "A02",
+              "bytes": 6092719,
+              "canonical_path": "originals/A02.png",
+              "case_id": "CASE-20260827-LEGACY-GLOBAL-OUTCOME-THRESHOLD-01",
+              "created_at": "2026-08-27T06:51:16Z",
+              "height": 2400,
+              "notes": [
+                "历史短视频分块段 07；源图片字节、尺寸与哈希在 ingest 时验证；模型、surface 及 Prompt→Run→Asset 关联来自用户回忆。"
+              ],
+              "original_filename": "D3_分块段07_prompt.png",
+              "preview_path": "lab/previews/CASE-20260827-LEGACY-GLOBAL-OUTCOME-THRESHOLD-01-A02.jpg",
+              "provenance_confidence": "user_recalled",
+              "run_id": "R02",
+              "schema_version": "0.1.0",
+              "sha256": "f0a3b96d92a3f2598bda68374ee3844c1b809b0e8178f5699828e5f596da36ca",
+              "source_format": "PNG",
+              "thumbnail_path": "lab/thumbnails/CASE-20260827-LEGACY-GLOBAL-OUTCOME-THRESHOLD-01-A02.jpg",
+              "user_feedback": [],
+              "width": 1792
+            }
+          ],
+          "evaluation": "unreviewed",
+          "evaluation_note": "Selected as a historical regression candidate; no formal Text2Pic Lab image review has been completed.",
+          "generation_surface": "gemini-web",
+          "model": "nano-banana",
+          "model_version": null,
+          "parameters": {},
+          "producer": "local-user",
+          "prompt_delta_notes": [],
+          "prompt_id": "P02",
+          "prompt_intended_model_target": "nano-banana",
+          "prompt_parent_prompt_id": null,
+          "prompt_provenance_confidence": "verified",
+          "prompt_public": true,
+          "prompt_sha256": "53ef09a9c8b1c2b8167adf36c4df5f9aec7d5724f3171641826aea3e6152f0f7",
+          "prompt_summary": "历史任务[跨国车企出口] D3 分块段 07 的归档 prompt。",
+          "prompt_text": "# 分块段 07 Prompt\n\n生成一张 3:4 竖式静态配图。顶部放主标题“出口红利并不平均”。\n\n标题下方采用上对照、下收束结构。上方放左右两张对照卡。\n\n左侧卡片标题写“翻倍增长”。卡片内部画向上抬升的出口柱状或车辆流向，配增长箭头、正向经营信号和少量扩张节点。不要画成庆典海报。\n\n右侧卡片标题写“接近腰斩”。卡片内部画下滑折线或断崖式车辆流向，配收缩节点和低迷信号。不要做成灾难事故画面。\n\n最底部放一条横向门槛区，标题写“外部门槛”。门槛区内部拆成三段并列小模块：第一段画法规与税率，指向反补贴税；第二段画门店与维修节点，指向服务网络；第三段画文件与核验动作，指向本地规则。上方左右两张对照卡通过轻下压线汇到下方门槛区，让观众看懂：分化背后是硬门槛。\n\n如使用地图，只在服务网络小模块里使用欧洲小地图，保持海外出口与欧洲落地门槛语境，不要画成中国本地渠道图。\n\n图中只允许出现这些文字：“出口红利并不平均”“翻倍增长”“接近腰斩”“外部门槛”。除这些文字外，不要新增任何说明性文字。不要水印，不要“AI生成”字样，不要品牌官方 logo，不要额外英文装饰。\n\n整体视觉采用清晰、理性、对照明确、带轻压制感但不过度沉重的 clean editorial illustration，flat illustration，light texture.",
+          "provenance_confidence": "user_recalled",
+          "provider": "google",
+          "run_id": "R02",
+          "skill_lineage": {
+            "skill": "shortvideo-image-prompt-generation",
+            "version": null
+          },
+          "source_adapter": "manual-historical-archive"
+        }
+      ],
+      "status": "open",
+      "svp_mode": "legacy-d3",
+      "tags": [
+        "regression",
+        "legacy-shortvideo",
+        "nano-banana",
+        "gemini-web",
+        "跨国车企出口",
+        "globalization",
+        "outcome-threshold",
+        "business-result"
+      ],
+      "title": "Global outcome threshold"
+    },
+    {
+      "case_id": "CASE-20260827-LEGACY-GLOBAL-ROLE-TRANSITION-01",
+      "case_type": "regression",
+      "contact_sheet": "lab/contact_sheets/CASE-20260827-LEGACY-GLOBAL-ROLE-TRANSITION-01.jpg",
+      "expected_effect": [
+        "表达从产品出口到跨国经营角色升级的阶段变化和方向感"
+      ],
+      "final_selection": null,
+      "image_type": "vertical-editorial-infographic",
+      "problem_statement": "历史 Nano Banana 竖版短视频配图基线：表达从产品出口到跨国经营角色升级的阶段变化和方向感",
+      "project": "hotspot-shortvideo",
+      "runs": [
+        {
+          "assets": [
+            {
+              "asset_id": "A01",
+              "bytes": 5956967,
+              "canonical_path": "originals/A01.png",
+              "case_id": "CASE-20260827-LEGACY-GLOBAL-ROLE-TRANSITION-01",
+              "created_at": "2026-08-27T06:50:55Z",
+              "height": 2400,
+              "notes": [
+                "历史短视频分块段 02；源图片字节、尺寸与哈希在 ingest 时验证；模型、surface 及 Prompt→Run→Asset 关联来自用户回忆。"
+              ],
+              "original_filename": "D3_分块段02_prompt.png",
+              "preview_path": "lab/previews/CASE-20260827-LEGACY-GLOBAL-ROLE-TRANSITION-01-A01.jpg",
+              "provenance_confidence": "user_recalled",
+              "run_id": "R01",
+              "schema_version": "0.1.0",
+              "sha256": "651dab0ce15dd8ecbade74040e14d18c05981d252b7ab912a3893455052036a8",
+              "source_format": "PNG",
+              "thumbnail_path": "lab/thumbnails/CASE-20260827-LEGACY-GLOBAL-ROLE-TRANSITION-01-A01.jpg",
+              "user_feedback": [],
+              "width": 1792
+            }
+          ],
+          "evaluation": "unreviewed",
+          "evaluation_note": "Selected as a historical regression candidate; no formal Text2Pic Lab image review has been completed.",
+          "generation_surface": "gemini-web",
+          "model": "nano-banana",
+          "model_version": null,
+          "parameters": {},
+          "producer": "local-user",
+          "prompt_delta_notes": [],
+          "prompt_id": "P01",
+          "prompt_intended_model_target": "nano-banana",
+          "prompt_parent_prompt_id": null,
+          "prompt_provenance_confidence": "verified",
+          "prompt_public": true,
+          "prompt_sha256": "3ef689707761e4f412c73a9e88b5da22e7bd2c458229ba8d0b8bafb869c13f05",
+          "prompt_summary": "历史任务[跨国车企出口] D3 分块段 02 的归档 prompt。",
+          "prompt_text": "# 分块段 02 Prompt\n\n生成一张 3:4 竖式静态配图。顶部放主标题“这不是清库存，是角色在变”。\n\n标题下方采用上下两段结构。上方放一张横向大数据卡片，内部画出口车辆流向、大号数据锚点、上升趋势线和轻出口箭头，可带少量集装箱或港口发运信号。上方卡片中清楚放出“104.5 万辆”“7.9%”这两个数字。\n\n下方放一张横向大卡片，画中国工厂与研发、制造、出口三类能力共同并列，配向外连接箭头和轻全球节点，把判断落到中国区角色升级。上方数据卡通过一条轻向下箭头或趋势延续线压向下方角色变化卡，形成先证据后判断的关系。\n\n如使用地图，只用全球流向小示意，保持中国制造向海外出口语境，不要画成中国内销地图，不要做成抽象地球球体，不要只画一座工厂。\n\n图中只允许出现这些文字：“这不是清库存，是角色在变”“104.5 万辆”“7.9%”。除这些文字外，不要新增任何说明性文字。不要水印，不要“AI生成”字样，不要品牌官方 logo，不要额外英文装饰。\n\n整体视觉采用清晰、理性、模块边界明确、信息重点突出的 clean editorial illustration，flat illustration，light texture.",
+          "provenance_confidence": "user_recalled",
+          "provider": "google",
+          "run_id": "R01",
+          "skill_lineage": {
+            "skill": "shortvideo-image-prompt-generation",
+            "version": null
+          },
+          "source_adapter": "manual-historical-archive"
+        },
+        {
+          "assets": [
+            {
+              "asset_id": "A02",
+              "bytes": 6588853,
+              "canonical_path": "originals/A02.png",
+              "case_id": "CASE-20260827-LEGACY-GLOBAL-ROLE-TRANSITION-01",
+              "created_at": "2026-08-27T06:50:58Z",
+              "height": 2400,
+              "notes": [
+                "历史短视频分块段 03；源图片字节、尺寸与哈希在 ingest 时验证；模型、surface 及 Prompt→Run→Asset 关联来自用户回忆。 current prompt 与 README 声明 run 存在漂移，未将声明 run 视为 verified provenance。"
+              ],
+              "original_filename": "D3_分块段03_prompt.png",
+              "preview_path": "lab/previews/CASE-20260827-LEGACY-GLOBAL-ROLE-TRANSITION-01-A02.jpg",
+              "provenance_confidence": "user_recalled",
+              "run_id": "R02",
+              "schema_version": "0.1.0",
+              "sha256": "09be5c20d2741187e15f561ae243a825c6ef1e8d03cce0c4bbda47ffb9f3547a",
+              "source_format": "PNG",
+              "thumbnail_path": "lab/thumbnails/CASE-20260827-LEGACY-GLOBAL-ROLE-TRANSITION-01-A02.jpg",
+              "user_feedback": [],
+              "width": 1792
+            }
+          ],
+          "evaluation": "unreviewed",
+          "evaluation_note": "Selected as a historical regression candidate; no formal Text2Pic Lab image review has been completed.",
+          "generation_surface": "gemini-web",
+          "model": "nano-banana",
+          "model_version": null,
+          "parameters": {},
+          "producer": "local-user",
+          "prompt_delta_notes": [],
+          "prompt_id": "P02",
+          "prompt_intended_model_target": "nano-banana",
+          "prompt_parent_prompt_id": null,
+          "prompt_provenance_confidence": "user_recalled",
+          "prompt_public": true,
+          "prompt_sha256": "fab4c51770cc26bbd43d462d60c0d1c6112d0ee5f7c93b0efe102fdc5f6672f3",
+          "prompt_summary": "历史任务[跨国车企出口] D3 分块段 03 的归档 prompt。 current prompt 与 README 声明 run 存在漂移，关联仅按用户回忆保存。",
+          "prompt_text": "# 分块段 03 Prompt\n\n生成一张 3:4 竖式静态配图。顶部放主标题“只做本地销售，已经跑不起来”。\n\n标题下方采用左右对照加底部收束结构。左侧放一张竖向大卡片，标题写“自主品牌抬升”，内部画中国品牌销量柱状抬升图、车辆队列、上升箭头和份额圆环，可配“2093.6 万辆”“市占率69.5%”两个数字。不要做成股市图表页。\n\n右侧放一张竖向大卡片，标题写“跨国车企在华产能利用率下滑”，内部画低利用率工厂与稀疏产线，配下滑折线、空工位、停滞产线信号，可配“掉到56%”数字。重点是跨国车企在中国工厂的利用率压力，不要误读成单纯销量下滑。不要画成废弃工厂灾难图。\n\n最底部单独放一条横向结论条，写“只做本地销售，已经跑不起来”。左侧和右侧两张卡通过轻向下汇聚线压向底部结论条，让观众同时看到上升压力和空转压力最终指向同一个后果。\n\n图中只允许出现这些文字：“只做本地销售，已经跑不起来”“自主品牌抬升”“跨国车企在华产能利用率下滑”“2093.6 万辆”“市占率69.5%”“掉到56%”。除这些文字外，不要新增任何说明性文字。不要水印，不要“AI生成”字样，不要品牌官方 logo，不要额外英文装饰。\n\n整体视觉采用清晰、理性、对照强、底部收束明确的 clean editorial illustration，flat illustration，light texture.",
+          "provenance_confidence": "user_recalled",
+          "provider": "google",
+          "run_id": "R02",
+          "skill_lineage": {
+            "skill": "shortvideo-image-prompt-generation",
+            "version": null
+          },
+          "source_adapter": "manual-historical-archive"
+        }
+      ],
+      "status": "open",
+      "svp_mode": "legacy-d3",
+      "tags": [
+        "regression",
+        "legacy-shortvideo",
+        "nano-banana",
+        "gemini-web",
+        "跨国车企出口",
+        "globalization",
+        "role-transition",
+        "export"
+      ],
+      "title": "Global automaker role transition"
+    },
+    {
+      "case_id": "CASE-20260827-LEGACY-JP-CONCLUSION-HIERARCHY-01",
+      "case_type": "regression",
+      "contact_sheet": "lab/contact_sheets/CASE-20260827-LEGACY-JP-CONCLUSION-HIERARCHY-01.jpg",
+      "expected_effect": [
+        "结论页形成明确主次、判断和行动含义"
+      ],
+      "final_selection": null,
+      "image_type": "vertical-editorial-infographic",
+      "problem_statement": "历史 Nano Banana 竖版短视频配图基线：结论页形成明确主次、判断和行动含义",
+      "project": "hotspot-shortvideo",
+      "runs": [
+        {
+          "assets": [
+            {
+              "asset_id": "A01",
+              "bytes": 6054727,
+              "canonical_path": "originals/A01.png",
+              "case_id": "CASE-20260827-LEGACY-JP-CONCLUSION-HIERARCHY-01",
+              "created_at": "2026-08-27T06:50:51Z",
+              "height": 2400,
+              "notes": [
+                "历史短视频分块段 10；源图片字节、尺寸与哈希在 ingest 时验证；模型、surface 及 Prompt→Run→Asset 关联来自用户回忆。"
+              ],
+              "original_filename": "进入日本市场_D3_分块段10_prompt.png",
+              "preview_path": "lab/previews/CASE-20260827-LEGACY-JP-CONCLUSION-HIERARCHY-01-A01.jpg",
+              "provenance_confidence": "user_recalled",
+              "run_id": "R01",
+              "schema_version": "0.1.0",
+              "sha256": "e1db64547e06e8fb7083a6cc305b45585456035fe4a170dae31df6fdc60e64d1",
+              "source_format": "PNG",
+              "thumbnail_path": "lab/thumbnails/CASE-20260827-LEGACY-JP-CONCLUSION-HIERARCHY-01-A01.jpg",
+              "user_feedback": [],
+              "width": 1792
+            }
+          ],
+          "evaluation": "unreviewed",
+          "evaluation_note": "Selected as a historical regression candidate; no formal Text2Pic Lab image review has been completed.",
+          "generation_surface": "gemini-web",
+          "model": "nano-banana",
+          "model_version": null,
+          "parameters": {},
+          "producer": "local-user",
+          "prompt_delta_notes": [],
+          "prompt_id": "P01",
+          "prompt_intended_model_target": "nano-banana",
+          "prompt_parent_prompt_id": null,
+          "prompt_provenance_confidence": "verified",
+          "prompt_public": true,
+          "prompt_sha256": "ecf74df199891ae9520b71270a9e47cb7abc921f3ff86dc20eca70c927b00d7c",
+          "prompt_summary": "历史任务[进入日本市场] D3 分块段 10 的归档 prompt。",
+          "prompt_text": "生成一张 3:4 竖版静态配图。\n\n整体采用顶部标题 + 中层三个垂直并列内容条（自上而下）+ 底部互动区的结构。\n\n顶部标题：\"最终判断\"\n\n第一层：绿色确认勾图标+\"机会窗口真实\"，配市场/图表小符号。第二层：三重屏障堆叠图标+\"三重壁垒真实\"，偏中性色。第三层（加粗/突出）：齿轮链条+上升箭头图标+\"供应链才是长期变量\"，偏亮色突出。\n\n第三层要明显比前两层更突出，表示这是核心判断升级。\n\n底部互动区：问号图标+\"你怎么看？日本市场现在值得进吗？\"文字，与上层之间有轻微间距区分。\n\n三层之间的阅读顺序为自上而下逐层扫读。\n\n图中只允许出现这些文字：\"最终判断\"、\"机会窗口真实\"、\"三重壁垒真实\"、\"供应链才是长期变量\"、\"你怎么看？日本市场现在值得进吗？\"。\n\n不要额外新增文字，不要水印，不要\"AI生成\"字样，不要品牌官方 logo，不要无意义英文装饰。\n\n整体视觉采用 clean isometric business schematic，modular business illustration with light 3D structural feel，flat illustration，light texture，理性、克制、整齐。\n",
+          "provenance_confidence": "user_recalled",
+          "provider": "google",
+          "run_id": "R01",
+          "skill_lineage": {
+            "skill": "shortvideo-image-prompt-generation",
+            "version": null
+          },
+          "source_adapter": "manual-historical-archive"
+        }
+      ],
+      "status": "open",
+      "svp_mode": "legacy-d3",
+      "tags": [
+        "regression",
+        "legacy-shortvideo",
+        "nano-banana",
+        "gemini-web",
+        "进入日本市场",
+        "japan",
+        "conclusion",
+        "information-hierarchy"
+      ],
+      "title": "Japan entry conclusion hierarchy"
+    },
+    {
+      "case_id": "CASE-20260827-LEGACY-JP-ENTRY-BARRIERS-01",
+      "case_type": "regression",
+      "contact_sheet": "lab/contact_sheets/CASE-20260827-LEGACY-JP-ENTRY-BARRIERS-01.jpg",
+      "expected_effect": [
+        "覆盖渠道、品牌认知和服务体系等多层进入壁垒"
+      ],
+      "final_selection": null,
+      "image_type": "vertical-editorial-infographic",
+      "problem_statement": "历史 Nano Banana 竖版短视频配图基线：覆盖渠道、品牌认知和服务体系等多层进入壁垒",
+      "project": "hotspot-shortvideo",
+      "runs": [
+        {
+          "assets": [
+            {
+              "asset_id": "A01",
+              "bytes": 5857941,
+              "canonical_path": "originals/A01.png",
+              "case_id": "CASE-20260827-LEGACY-JP-ENTRY-BARRIERS-01",
+              "created_at": "2026-08-27T06:50:22Z",
+              "height": 2400,
+              "notes": [
+                "历史短视频分块段 05；源图片字节、尺寸与哈希在 ingest 时验证；模型、surface 及 Prompt→Run→Asset 关联来自用户回忆。"
+              ],
+              "original_filename": "进入日本市场_D3_分块段05_prompt.png",
+              "preview_path": "lab/previews/CASE-20260827-LEGACY-JP-ENTRY-BARRIERS-01-A01.jpg",
+              "provenance_confidence": "user_recalled",
+              "run_id": "R01",
+              "schema_version": "0.1.0",
+              "sha256": "f38247744cd27ac54436c890739efabf2702d5816028d3336918a3cbab873c73",
+              "source_format": "PNG",
+              "thumbnail_path": "lab/thumbnails/CASE-20260827-LEGACY-JP-ENTRY-BARRIERS-01-A01.jpg",
+              "user_feedback": [],
+              "width": 1792
+            }
+          ],
+          "evaluation": "unreviewed",
+          "evaluation_note": "Selected as a historical regression candidate; no formal Text2Pic Lab image review has been completed.",
+          "generation_surface": "gemini-web",
+          "model": "nano-banana",
+          "model_version": null,
+          "parameters": {},
+          "producer": "local-user",
+          "prompt_delta_notes": [],
+          "prompt_id": "P01",
+          "prompt_intended_model_target": "nano-banana",
+          "prompt_parent_prompt_id": null,
+          "prompt_provenance_confidence": "verified",
+          "prompt_public": true,
+          "prompt_sha256": "c5d8b00bd0830f062329fa616e388b6f4a91b9360be0bcb89e807b16acb02c1a",
+          "prompt_summary": "历史任务[进入日本市场] D3 分块段 05 的归档 prompt。",
+          "prompt_text": "生成一张 3:4 竖版静态配图。\n\n整体采用顶部标题 + 上下两层层板并列结构，中间用分隔线区分。\n\n顶部标题：\"还有两道墙\"\n\n上层主题\"品牌忠诚\"。画丰田和本田的品牌符号简笔，配消费者群体轮廓，旁边显示数字对比条：\"34款混动可选\" vs \"仅6款纯电可选\"，下方标注\"日系市占率>90%\"。\n\n下层主题\"渠道门槛\"。画单家门头建筑，旁边显示进度条\"70/100\"，差值\"还差30家\"，下方标注\"从零建渠道是地狱难度\"。\n\n上层和下层的层板之间用一条细分隔线区分，表示两道墙是并列关系。\n\n图中只允许出现这些文字：\"还有两道墙\"、\"品牌忠诚\"、\"34款混动\"、\"6款纯电\"、\">90%\"、\"渠道门槛\"、\"70家\"、\"还差30家\"。\n\n不要额外新增文字，不要水印，不要\"AI生成\"字样，不要品牌官方 logo，不要无意义英文装饰。\n\n整体视觉采用 clean isometric business schematic，modular business illustration with light 3D structural feel，flat illustration，light texture，理性、克制、整齐。\n",
+          "provenance_confidence": "user_recalled",
+          "provider": "google",
+          "run_id": "R01",
+          "skill_lineage": {
+            "skill": "shortvideo-image-prompt-generation",
+            "version": null
+          },
+          "source_adapter": "manual-historical-archive"
+        },
+        {
+          "assets": [
+            {
+              "asset_id": "A02",
+              "bytes": 4203862,
+              "canonical_path": "originals/A02.png",
+              "case_id": "CASE-20260827-LEGACY-JP-ENTRY-BARRIERS-01",
+              "created_at": "2026-08-27T06:50:27Z",
+              "height": 2400,
+              "notes": [
+                "历史短视频分块段 06；源图片字节、尺寸与哈希在 ingest 时验证；模型、surface 及 Prompt→Run→Asset 关联来自用户回忆。"
+              ],
+              "original_filename": "进入日本市场_D3_分块段06_prompt.png",
+              "preview_path": "lab/previews/CASE-20260827-LEGACY-JP-ENTRY-BARRIERS-01-A02.jpg",
+              "provenance_confidence": "user_recalled",
+              "run_id": "R02",
+              "schema_version": "0.1.0",
+              "sha256": "1206505cd9721155c4211183b7953ec4c2fff33123f81212c0a5f3961d591233",
+              "source_format": "PNG",
+              "thumbnail_path": "lab/thumbnails/CASE-20260827-LEGACY-JP-ENTRY-BARRIERS-01-A02.jpg",
+              "user_feedback": [],
+              "width": 1792
+            }
+          ],
+          "evaluation": "unreviewed",
+          "evaluation_note": "Selected as a historical regression candidate; no formal Text2Pic Lab image review has been completed.",
+          "generation_surface": "gemini-web",
+          "model": "nano-banana",
+          "model_version": null,
+          "parameters": {},
+          "producer": "local-user",
+          "prompt_delta_notes": [],
+          "prompt_id": "P02",
+          "prompt_intended_model_target": "nano-banana",
+          "prompt_parent_prompt_id": null,
+          "prompt_provenance_confidence": "verified",
+          "prompt_public": true,
+          "prompt_sha256": "8ede4c923adf4958136f0edca9d61ac49867bf092ca8814c18417f0a4e30a6d4",
+          "prompt_summary": "历史任务[进入日本市场] D3 分块段 06 的归档 prompt。",
+          "prompt_text": "生成一张 3:4 竖版静态配图。\n\n整体采用顶部标题 + 左右双区 + 底部结论横条的结构。日本地图轮廓作为全图浅色半透明底纹。\n\n顶部标题：\"唯一已落地的——BYD\"\n\n左侧为场景区：BYD门店门头简笔场景，旁边显示\"4,536辆\"和\"+62%同比增长\"，日本地图上有零星门店点位标记。右侧为数据对比区：柱状对比图，左侧高柱\"Toyota 2000\"（标记纯电月销），右侧矮柱\"BYD 400\"，柱体颜色区分。\n\n底部结论横条：文字\"自建品牌路径的增长天花板\"。\n\n图中只允许出现这些文字：\"唯一已落地的——BYD\"、\"4,536辆\"、\"+62%\"、\"Toyota 2000\"、\"BYD 400\"、\"自建品牌路径的增长天花板\"。\n\n地图范围：日本列岛轮廓，抽象简化，仅作为背景底纹。\n\n不要额外新增文字，不要水印，不要\"AI生成\"字样，不要品牌官方 logo，不要无意义英文装饰。\n\n整体视觉采用 clean isometric business schematic，modular business illustration with light 3D structural feel，flat illustration，light texture，理性、克制、整齐。\n",
+          "provenance_confidence": "user_recalled",
+          "provider": "google",
+          "run_id": "R02",
+          "skill_lineage": {
+            "skill": "shortvideo-image-prompt-generation",
+            "version": null
+          },
+          "source_adapter": "manual-historical-archive"
+        },
+        {
+          "assets": [
+            {
+              "asset_id": "A03",
+              "bytes": 5752225,
+              "canonical_path": "originals/A03.png",
+              "case_id": "CASE-20260827-LEGACY-JP-ENTRY-BARRIERS-01",
+              "created_at": "2026-08-27T06:50:33Z",
+              "height": 2400,
+              "notes": [
+                "历史短视频分块段 07；源图片字节、尺寸与哈希在 ingest 时验证；模型、surface 及 Prompt→Run→Asset 关联来自用户回忆。"
+              ],
+              "original_filename": "进入日本市场_D3_分块段07_prompt.png",
+              "preview_path": "lab/previews/CASE-20260827-LEGACY-JP-ENTRY-BARRIERS-01-A03.jpg",
+              "provenance_confidence": "user_recalled",
+              "run_id": "R03",
+              "schema_version": "0.1.0",
+              "sha256": "93de6e61e77414be2de2d41bcac823163600841f04abce28cff0c6c53f667ea7",
+              "source_format": "PNG",
+              "thumbnail_path": "lab/thumbnails/CASE-20260827-LEGACY-JP-ENTRY-BARRIERS-01-A03.jpg",
+              "user_feedback": [],
+              "width": 1792
+            }
+          ],
+          "evaluation": "unreviewed",
+          "evaluation_note": "Selected as a historical regression candidate; no formal Text2Pic Lab image review has been completed.",
+          "generation_surface": "gemini-web",
+          "model": "nano-banana",
+          "model_version": null,
+          "parameters": {},
+          "producer": "local-user",
+          "prompt_delta_notes": [],
+          "prompt_id": "P03",
+          "prompt_intended_model_target": "nano-banana",
+          "prompt_parent_prompt_id": null,
+          "prompt_provenance_confidence": "verified",
+          "prompt_public": true,
+          "prompt_sha256": "e1ad35882c5cb66139039bd2c6aa3db0f2afec20dd4ef84933a5ce177307b1be",
+          "prompt_summary": "历史任务[进入日本市场] D3 分块段 07 的归档 prompt。",
+          "prompt_text": "生成一张 3:4 竖版静态配图。\n\n整体采用顶部标题 + 三张等大横向卡片并列 + 底部状态标识条的结构。\n\n顶部标题：\"计划中的三种路径\"\n\n左卡片标题\"奇瑞\"，卡片内画门店网络图标+握手符号，下方小字\"借本地渠道\"。中卡片标题\"广汽\"，卡片内画车队简笔+办公建筑，下方小字\"企业用车\"。右卡片标题\"极氪\"，卡片内画豪华车型轮廓，下方小字\"高端路线\"。\n\n三张卡片之间为并列关系，无明显连接。\n\n底部状态条：黄色/灰色标签条，文字\"未交付·仍在计划阶段\"。\n\n图中只允许出现这些文字：\"计划中的三种路径\"、\"奇瑞\"、\"借本地渠道\"、\"广汽\"、\"企业用车\"、\"极氪\"、\"高端路线\"、\"未交付·仍在计划阶段\"。\n\n不要额外新增文字，不要水印，不要\"AI生成\"字样，不要品牌官方 logo，不要无意义英文装饰。\n\n整体视觉采用 clean isometric business schematic，modular business illustration with light 3D structural feel，flat illustration，light texture，理性、克制、整齐。\n",
+          "provenance_confidence": "user_recalled",
+          "provider": "google",
+          "run_id": "R03",
+          "skill_lineage": {
+            "skill": "shortvideo-image-prompt-generation",
+            "version": null
+          },
+          "source_adapter": "manual-historical-archive"
+        }
+      ],
+      "status": "open",
+      "svp_mode": "legacy-d3",
+      "tags": [
+        "regression",
+        "legacy-shortvideo",
+        "nano-banana",
+        "gemini-web",
+        "进入日本市场",
+        "japan",
+        "entry-barriers",
+        "channel"
+      ],
+      "title": "Japan layered entry barriers"
+    },
+    {
+      "case_id": "CASE-20260827-LEGACY-JP-MARKET-OPPORTUNITY-01",
+      "case_type": "regression",
+      "contact_sheet": "lab/contact_sheets/CASE-20260827-LEGACY-JP-MARKET-OPPORTUNITY-01.jpg",
+      "expected_effect": [
+        "用地图、市场符号和机会窗口表达进入日本市场的吸引力与现实张力"
+      ],
+      "final_selection": null,
+      "image_type": "vertical-editorial-infographic",
+      "problem_statement": "历史 Nano Banana 竖版短视频配图基线：用地图、市场符号和机会窗口表达进入日本市场的吸引力与现实张力",
+      "project": "hotspot-shortvideo",
+      "runs": [
+        {
+          "assets": [
+            {
+              "asset_id": "A01",
+              "bytes": 5588259,
+              "canonical_path": "originals/A01.png",
+              "case_id": "CASE-20260827-LEGACY-JP-MARKET-OPPORTUNITY-01",
+              "created_at": "2026-08-27T06:48:37Z",
+              "height": 2400,
+              "notes": [
+                "历史短视频分块段 01；源图片字节、尺寸与哈希在 ingest 时验证；模型、surface 及 Prompt→Run→Asset 关联来自用户回忆。"
+              ],
+              "original_filename": "进入日本市场_D3_分块段01_prompt.png",
+              "preview_path": "lab/previews/CASE-20260827-LEGACY-JP-MARKET-OPPORTUNITY-01-A01.jpg",
+              "provenance_confidence": "user_recalled",
+              "run_id": "R01",
+              "schema_version": "0.1.0",
+              "sha256": "10df15d3362c9ac0bba38a2c27f51d082120832d37b137322ca63d1cda106e1c",
+              "source_format": "PNG",
+              "thumbnail_path": "lab/thumbnails/CASE-20260827-LEGACY-JP-MARKET-OPPORTUNITY-01-A01.jpg",
+              "user_feedback": [],
+              "width": 1792
+            }
+          ],
+          "evaluation": "unreviewed",
+          "evaluation_note": "Selected as a historical regression candidate; no formal Text2Pic Lab image review has been completed.",
+          "generation_surface": "gemini-web",
+          "model": "nano-banana",
+          "model_version": null,
+          "parameters": {},
+          "producer": "local-user",
+          "prompt_delta_notes": [],
+          "prompt_id": "P01",
+          "prompt_intended_model_target": "nano-banana",
+          "prompt_parent_prompt_id": null,
+          "prompt_provenance_confidence": "verified",
+          "prompt_public": true,
+          "prompt_sha256": "061ab23cc5b650d632043fc3601393068f844b2fbfb2cd85ab1866a22d87a764",
+          "prompt_summary": "历史任务[进入日本市场] D3 分块段 01 的归档 prompt。",
+          "prompt_text": "生成一张 3:4 竖版静态配图。\n\n整体采用双数据对比 + 底部结论横条的结构。日本列岛地图轮廓作为全图半透明浅色背景，覆盖整张图。两个核心数据分别左右分列，悬浮在地图上方，底部有一条窄结论横条。\n\n左侧数据区：大数字\"450万\"，配一个小型车辆图标，下方小字标注\"全球第四大汽车市场\"。\n右侧数据区：大数字\"不到3%\"，配一个小型充电桩图标，下方小字标注\"NEV渗透率\"。\n\n两个数据区之间隐含对比关系，不需要箭头，通过位置和大小的对称来体现。\n\n底部结论横条：一条较窄的横向条，文字\"中国品牌都想进，但想站稳脚跟远没那么简单\"。\n\n图中只允许出现这些文字：\"450万\"、\"不到3%\"、\"全球第四大汽车市场\"、\"NEV渗透率\"、\"中国品牌都想进，但想站稳脚跟远没那么简单\"。\n\n地图范围：日本列岛轮廓，抽象简化风格，不要详细行政边界，不要其他东亚国家。\n\n不要额外新增文字，不要水印，不要\"AI生成\"字样，不要品牌官方 logo，不要无意义英文装饰。\n\n整体视觉采用 clean isometric business schematic，modular business illustration with light 3D structural feel，flat illustration，light texture，理性、克制、整齐。\n",
+          "provenance_confidence": "user_recalled",
+          "provider": "google",
+          "run_id": "R01",
+          "skill_lineage": {
+            "skill": "shortvideo-image-prompt-generation",
+            "version": null
+          },
+          "source_adapter": "manual-historical-archive"
+        },
+        {
+          "assets": [
+            {
+              "asset_id": "A02",
+              "bytes": 5228834,
+              "canonical_path": "originals/A02.png",
+              "case_id": "CASE-20260827-LEGACY-JP-MARKET-OPPORTUNITY-01",
+              "created_at": "2026-08-27T06:48:39Z",
+              "height": 2400,
+              "notes": [
+                "历史短视频分块段 02；源图片字节、尺寸与哈希在 ingest 时验证；模型、surface 及 Prompt→Run→Asset 关联来自用户回忆。"
+              ],
+              "original_filename": "进入日本市场_D3_分块段02_prompt.png",
+              "preview_path": "lab/previews/CASE-20260827-LEGACY-JP-MARKET-OPPORTUNITY-01-A02.jpg",
+              "provenance_confidence": "user_recalled",
+              "run_id": "R02",
+              "schema_version": "0.1.0",
+              "sha256": "fd27d30c97ef0171d0daeec5e3ec69dd3185f9e050fb27b34fbca75a6aa580d4",
+              "source_format": "PNG",
+              "thumbnail_path": "lab/thumbnails/CASE-20260827-LEGACY-JP-MARKET-OPPORTUNITY-01-A02.jpg",
+              "user_feedback": [],
+              "width": 1792
+            }
+          ],
+          "evaluation": "unreviewed",
+          "evaluation_note": "Selected as a historical regression candidate; no formal Text2Pic Lab image review has been completed.",
+          "generation_surface": "gemini-web",
+          "model": "nano-banana",
+          "model_version": null,
+          "parameters": {},
+          "producer": "local-user",
+          "prompt_delta_notes": [],
+          "prompt_id": "P02",
+          "prompt_intended_model_target": "nano-banana",
+          "prompt_parent_prompt_id": null,
+          "prompt_provenance_confidence": "verified",
+          "prompt_public": true,
+          "prompt_sha256": "52901f83515e0b19e61dc0fcd43644bad61e9053196cd32ca06bfebee7b1e980",
+          "prompt_summary": "历史任务[进入日本市场] D3 分块段 02 的归档 prompt。",
+          "prompt_text": "生成一张 3:4 竖版静态配图。\n\n整体采用顶部标题 + 中部两张等大横向卡片并列 + 底部结论横条的结构。两张卡片分别从左下和右下通过小箭头汇入底部结论区。\n\n顶部标题：\"为什么中国车企想进日本？\"\n\n左卡片标题\"市场规模\"，卡片内部：大数字\"450万\"，配车辆图标，下方\"全球第四\"标注。右卡片标题\"增长势头\"，卡片内部：上升箭头配充电桩图标，标注\"34%增速\"、\"车型9倍\"、\"补贴加码\"。\n\n底部结论横条：文字\"市场红利前夜\"。\n\n两张卡片之间用并列表述关系，各自底部有箭头汇向下方结论区。\n\n图中只允许出现这些文字：\"为什么中国车企想进日本？\"、\"市场规模\"、\"450万\"、\"全球第四\"、\"增长势头\"、\"34%\"、\"车型9倍\"、\"补贴加码\"、\"市场红利前夜\"。\n\n不要额外新增文字，不要水印，不要\"AI生成\"字样，不要品牌官方 logo，不要无意义英文装饰。\n\n整体视觉采用 clean isometric business schematic，modular business illustration with light 3D structural feel，flat illustration，light texture，理性、克制、整齐。\n",
+          "provenance_confidence": "user_recalled",
+          "provider": "google",
+          "run_id": "R02",
+          "skill_lineage": {
+            "skill": "shortvideo-image-prompt-generation",
+            "version": null
+          },
+          "source_adapter": "manual-historical-archive"
+        }
+      ],
+      "status": "open",
+      "svp_mode": "legacy-d3",
+      "tags": [
+        "regression",
+        "legacy-shortvideo",
+        "nano-banana",
+        "gemini-web",
+        "进入日本市场",
+        "japan",
+        "market-entry",
+        "opportunity"
+      ],
+      "title": "Japan market opportunity framing"
+    },
+    {
+      "case_id": "CASE-20260827-LEGACY-JP-REVERSE-IMPORT-01",
+      "case_type": "regression",
+      "contact_sheet": "lab/contact_sheets/CASE-20260827-LEGACY-JP-REVERSE-IMPORT-01.jpg",
+      "expected_effect": [
+        "表达反向进口、全球生产网络与日本市场落点之间的方向和逻辑"
+      ],
+      "final_selection": null,
+      "image_type": "vertical-editorial-infographic",
+      "problem_statement": "历史 Nano Banana 竖版短视频配图基线：表达反向进口、全球生产网络与日本市场落点之间的方向和逻辑",
+      "project": "hotspot-shortvideo",
+      "runs": [
+        {
+          "assets": [
+            {
+              "asset_id": "A01",
+              "bytes": 6596997,
+              "canonical_path": "originals/A01.png",
+              "case_id": "CASE-20260827-LEGACY-JP-REVERSE-IMPORT-01",
+              "created_at": "2026-08-27T06:50:41Z",
+              "height": 2400,
+              "notes": [
+                "历史短视频分块段 08；源图片字节、尺寸与哈希在 ingest 时验证；模型、surface 及 Prompt→Run→Asset 关联来自用户回忆。"
+              ],
+              "original_filename": "进入日本市场_D3_分块段08_prompt.png",
+              "preview_path": "lab/previews/CASE-20260827-LEGACY-JP-REVERSE-IMPORT-01-A01.jpg",
+              "provenance_confidence": "user_recalled",
+              "run_id": "R01",
+              "schema_version": "0.1.0",
+              "sha256": "dec941223c5113ef73bc55048baae9fe85bffc077b18bf2c7012123f46aac9a0",
+              "source_format": "PNG",
+              "thumbnail_path": "lab/thumbnails/CASE-20260827-LEGACY-JP-REVERSE-IMPORT-01-A01.jpg",
+              "user_feedback": [],
+              "width": 1792
+            }
+          ],
+          "evaluation": "unreviewed",
+          "evaluation_note": "Selected as a historical regression candidate; no formal Text2Pic Lab image review has been completed.",
+          "generation_surface": "gemini-web",
+          "model": "nano-banana",
+          "model_version": null,
+          "parameters": {},
+          "producer": "local-user",
+          "prompt_delta_notes": [],
+          "prompt_id": "P01",
+          "prompt_intended_model_target": "nano-banana",
+          "prompt_parent_prompt_id": null,
+          "prompt_provenance_confidence": "verified",
+          "prompt_public": true,
+          "prompt_sha256": "75d90fb677c5deb721bf9be6cfeab1d30b3dbd931a96fabb82d56e7541d84900",
+          "prompt_summary": "历史任务[进入日本市场] D3 分块段 08 的归档 prompt。",
+          "prompt_text": "生成一张 3:4 竖版静态配图。\n\n整体采用顶部标题 + 左中右三区横向结构：左侧场景 + 中部关系区 + 右侧场景。\n\n顶部标题：\"中国供应链反向攻入日本\"\n\n左侧场景区（中国侧）：画工厂建筑简笔，旁边有汽车车型轮廓（Insight），右上角有中国地图轮廓（小面积浅色半透明）。中部关系区：画一个从左到右的粗箭头，箭头上方标注\"反向进口\"。右侧场景区（日本侧）：画门店/消费者场景，旁边有与左侧相同的车型轮廓，左上角有日本地图轮廓（小面积浅色半透明）。下方统一标注\"日本车企第一次把中国制造的车搬回本土\"。\n\n关系表达：粗箭头从左到右连接两侧场景，表示反向流动方向。\n\n图中只允许出现这些文字：\"中国供应链反向攻入日本\"、\"反向进口\"、\"第一次\"。\n\n地图范围：中国地图轮廓（小面积浅底）和日本地图轮廓（小面积浅底），均抽象简化。不要画成普通的中国对日出口场景，要突出\"日本车企自己反向进口\"。\n\n不要额外新增文字，不要水印，不要\"AI生成\"字样，不要品牌官方 logo，不要无意义英文装饰。\n\n整体视觉采用 clean isometric business schematic，modular business illustration with light 3D structural feel，flat illustration，light texture，理性、克制、整齐。\n",
+          "provenance_confidence": "user_recalled",
+          "provider": "google",
+          "run_id": "R01",
+          "skill_lineage": {
+            "skill": "shortvideo-image-prompt-generation",
+            "version": null
+          },
+          "source_adapter": "manual-historical-archive"
+        },
+        {
+          "assets": [
+            {
+              "asset_id": "A02",
+              "bytes": 5014404,
+              "canonical_path": "originals/A02.png",
+              "case_id": "CASE-20260827-LEGACY-JP-REVERSE-IMPORT-01",
+              "created_at": "2026-08-27T06:50:45Z",
+              "height": 2400,
+              "notes": [
+                "历史短视频分块段 09；源图片字节、尺寸与哈希在 ingest 时验证；模型、surface 及 Prompt→Run→Asset 关联来自用户回忆。"
+              ],
+              "original_filename": "进入日本市场_D3_分块段09_prompt.png",
+              "preview_path": "lab/previews/CASE-20260827-LEGACY-JP-REVERSE-IMPORT-01-A02.jpg",
+              "provenance_confidence": "user_recalled",
+              "run_id": "R02",
+              "schema_version": "0.1.0",
+              "sha256": "6570363668c6535306cbebf5a6938e9ea729370fb16192d9c02ff7c658478f2a",
+              "source_format": "PNG",
+              "thumbnail_path": "lab/thumbnails/CASE-20260827-LEGACY-JP-REVERSE-IMPORT-01-A02.jpg",
+              "user_feedback": [],
+              "width": 1792
+            }
+          ],
+          "evaluation": "unreviewed",
+          "evaluation_note": "Selected as a historical regression candidate; no formal Text2Pic Lab image review has been completed.",
+          "generation_surface": "gemini-web",
+          "model": "nano-banana",
+          "model_version": null,
+          "parameters": {},
+          "producer": "local-user",
+          "prompt_delta_notes": [],
+          "prompt_id": "P02",
+          "prompt_intended_model_target": "nano-banana",
+          "prompt_parent_prompt_id": null,
+          "prompt_provenance_confidence": "verified",
+          "prompt_public": true,
+          "prompt_sha256": "ea58df34986428eef931603a7b1b339dddcfe3400c72707df915eb3686c7b000",
+          "prompt_summary": "历史任务[进入日本市场] D3 分块段 09 的归档 prompt。",
+          "prompt_text": "生成一张 3:4 竖版静态配图。\n\n整体采用顶部标题 + 中央价差变化主视觉区 + 底部结论横条的结构。\n\n顶部标题：\"用了中国零部件之后\"\n\n中央主视觉区：左侧显示宽距离，两个品牌符号（BYD 与日系品牌）之间标\"200-300万\"，右侧显示窄距离，两个品牌符号之间标\"20万\"，中间用从宽到窄的渐变/收缩箭头连接，表示价差缩窄的趋势。品牌符号为抽象简洁的图形标识。\n\n底部结论横条：锁链符号配文字\"零部件一旦进入体系，想换掉的成本极高——更具结构性影响\"。\n\n中央与结论之间用向下箭头连接。\n\n图中只允许出现这些文字：\"用了中国零部件之后\"、\"200万\"、\"300万\"、\"20万\"、\"更具结构性影响\"。\n\n不要额外新增文字，不要水印，不要\"AI生成\"字样，不要品牌官方 logo，不要无意义英文装饰。\n\n整体视觉采用 clean isometric business schematic，modular business illustration with light 3D structural feel，flat illustration，light texture，理性、克制、整齐。\n",
+          "provenance_confidence": "user_recalled",
+          "provider": "google",
+          "run_id": "R02",
+          "skill_lineage": {
+            "skill": "shortvideo-image-prompt-generation",
+            "version": null
+          },
+          "source_adapter": "manual-historical-archive"
+        }
+      ],
+      "status": "open",
+      "svp_mode": "legacy-d3",
+      "tags": [
+        "regression",
+        "legacy-shortvideo",
+        "nano-banana",
+        "gemini-web",
+        "进入日本市场",
+        "japan",
+        "reverse-import",
+        "global-network"
+      ],
+      "title": "Japan reverse-import strategy"
+    },
+    {
+      "case_id": "CASE-20260827-LEGACY-JP-SUBSIDY-BARRIER-01",
+      "case_type": "regression",
+      "contact_sheet": "lab/contact_sheets/CASE-20260827-LEGACY-JP-SUBSIDY-BARRIER-01.jpg",
+      "expected_effect": [
+        "把补贴、制度门槛和市场准入限制转译为准确且有层级的视觉隐喻"
+      ],
+      "final_selection": null,
+      "image_type": "vertical-editorial-infographic",
+      "problem_statement": "历史 Nano Banana 竖版短视频配图基线：把补贴、制度门槛和市场准入限制转译为准确且有层级的视觉隐喻",
+      "project": "hotspot-shortvideo",
+      "runs": [
+        {
+          "assets": [
+            {
+              "asset_id": "A01",
+              "bytes": 5988589,
+              "canonical_path": "originals/A01.png",
+              "case_id": "CASE-20260827-LEGACY-JP-SUBSIDY-BARRIER-01",
+              "created_at": "2026-08-27T06:50:16Z",
+              "height": 2400,
+              "notes": [
+                "历史短视频分块段 04；源图片字节、尺寸与哈希在 ingest 时验证；模型、surface 及 Prompt→Run→Asset 关联来自用户回忆。"
+              ],
+              "original_filename": "进入日本市场_D3_分块段04_prompt.png",
+              "preview_path": "lab/previews/CASE-20260827-LEGACY-JP-SUBSIDY-BARRIER-01-A01.jpg",
+              "provenance_confidence": "user_recalled",
+              "run_id": "R01",
+              "schema_version": "0.1.0",
+              "sha256": "f06ff4ff8fd88c4c5c2e53d83428e0456d36ab736f04be4815201e91184dc2dc",
+              "source_format": "PNG",
+              "thumbnail_path": "lab/thumbnails/CASE-20260827-LEGACY-JP-SUBSIDY-BARRIER-01-A01.jpg",
+              "user_feedback": [],
+              "width": 1792
+            }
+          ],
+          "evaluation": "unreviewed",
+          "evaluation_note": "Selected as a historical regression candidate; no formal Text2Pic Lab image review has been completed.",
+          "generation_surface": "gemini-web",
+          "model": "nano-banana",
+          "model_version": null,
+          "parameters": {},
+          "producer": "local-user",
+          "prompt_delta_notes": [],
+          "prompt_id": "P01",
+          "prompt_intended_model_target": "nano-banana",
+          "prompt_parent_prompt_id": null,
+          "prompt_provenance_confidence": "verified",
+          "prompt_public": true,
+          "prompt_sha256": "0dfd2bdc6a463fa322043b75eb44c151c1c10e30d73bee929a21bbcce6618dad",
+          "prompt_summary": "历史任务[进入日本市场] D3 分块段 04 的归档 prompt。",
+          "prompt_text": "生成一张 3:4 竖版静态配图。\n\n整体采用顶部标题 + 左右对比双卡 + 底部结论横条的结构。两张卡片之间用失衡的天平符号表示制度倾斜。\n\n顶部标题：\"第一道墙——补贴壁垒\"\n\n左卡片（偏亮色，优势方）主题\"Toyota bz4X\"，画车型轮廓，大数字\"130万\"，下方\"日元补贴\"。右卡片（偏暗色，劣势方）主题\"BYD\"，画车型轮廓，大数字\"15万\"，下方\"日元补贴\"。两卡之间画一个倾斜的天平符号，Toyota一侧下沉，BYD一侧翘起，天平上方标注\"8倍差\"。\n\n底部结论横条：文字\"车再好，身份不对也白搭\"。\n\n图中只允许出现这些文字：\"第一道墙——补贴壁垒\"、\"Toyota bz4X\"、\"130万\"、\"BYD\"、\"15万\"、\"8倍\"、\"车再好，身份不对也白搭\"。\n\n不要额外新增文字，不要水印，不要\"AI生成\"字样，不要品牌官方 logo，不要无意义英文装饰。\n\n整体视觉采用 clean isometric business schematic，modular business illustration with light 3D structural feel，flat illustration，light texture，理性、克制、整齐。\n",
+          "provenance_confidence": "user_recalled",
+          "provider": "google",
+          "run_id": "R01",
+          "skill_lineage": {
+            "skill": "shortvideo-image-prompt-generation",
+            "version": null
+          },
+          "source_adapter": "manual-historical-archive"
+        }
+      ],
+      "status": "open",
+      "svp_mode": "legacy-d3",
+      "tags": [
+        "regression",
+        "legacy-shortvideo",
+        "nano-banana",
+        "gemini-web",
+        "进入日本市场",
+        "japan",
+        "subsidy",
+        "policy-barrier"
+      ],
+      "title": "Japan subsidy barrier"
+    },
+    {
+      "case_id": "CASE-20260827-LEGACY-JP-SUPPLY-CHAIN-01",
+      "case_type": "regression",
+      "contact_sheet": "lab/contact_sheets/CASE-20260827-LEGACY-JP-SUPPLY-CHAIN-01.jpg",
+      "expected_effect": [
+        "表达供应链、本地化和产业协同关系，节点密集但不失可读性"
+      ],
+      "final_selection": null,
+      "image_type": "vertical-editorial-infographic",
+      "problem_statement": "历史 Nano Banana 竖版短视频配图基线：表达供应链、本地化和产业协同关系，节点密集但不失可读性",
+      "project": "hotspot-shortvideo",
+      "runs": [
+        {
+          "assets": [
+            {
+              "asset_id": "A01",
+              "bytes": 6023392,
+              "canonical_path": "originals/A01.png",
+              "case_id": "CASE-20260827-LEGACY-JP-SUPPLY-CHAIN-01",
+              "created_at": "2026-08-27T06:48:41Z",
+              "height": 2400,
+              "notes": [
+                "历史短视频分块段 03；源图片字节、尺寸与哈希在 ingest 时验证；模型、surface 及 Prompt→Run→Asset 关联来自用户回忆。"
+              ],
+              "original_filename": "进入日本市场_D3_分块段03_prompt.png",
+              "preview_path": "lab/previews/CASE-20260827-LEGACY-JP-SUPPLY-CHAIN-01-A01.jpg",
+              "provenance_confidence": "user_recalled",
+              "run_id": "R01",
+              "schema_version": "0.1.0",
+              "sha256": "ae85abc48f7718aba199b4b3065d145f890eda0547047ea8e1a9f2ab91fef3d2",
+              "source_format": "PNG",
+              "thumbnail_path": "lab/thumbnails/CASE-20260827-LEGACY-JP-SUPPLY-CHAIN-01-A01.jpg",
+              "user_feedback": [],
+              "width": 1792
+            }
+          ],
+          "evaluation": "unreviewed",
+          "evaluation_note": "Selected as a historical regression candidate; no formal Text2Pic Lab image review has been completed.",
+          "generation_surface": "gemini-web",
+          "model": "nano-banana",
+          "model_version": null,
+          "parameters": {},
+          "producer": "local-user",
+          "prompt_delta_notes": [],
+          "prompt_id": "P01",
+          "prompt_intended_model_target": "nano-banana",
+          "prompt_parent_prompt_id": null,
+          "prompt_provenance_confidence": "verified",
+          "prompt_public": true,
+          "prompt_sha256": "c02d1b2ad4770671a2bf1fcd16db1db6c87f90c02ae3d6d6fa9b1e3ba367f943",
+          "prompt_summary": "历史任务[进入日本市场] D3 分块段 03 的归档 prompt。",
+          "prompt_text": "生成一张 3:4 竖版静态配图。\n\n整体采用顶部标题 + 左中右三张等大模块卡横向递进结构。\n\n顶部标题：\"系列制供应链正在松动\"\n\n左卡片：主题\"旧系列制\"，画一组咬合紧密的齿轮，表现封闭循环感，齿轮颜色偏灰暗。中卡片：主题\"裂缝出现\"，齿轮出现裂纹和断裂，标注\"484家供应商生存警告\"和\"破产十年最高\"，齿轮颜色带裂痕效果。右卡片：主题\"进入空间\"，齿轮断裂处出现亮光和缺口，有箭头从缺口指向外部，颜色偏亮。\n\n左到中之间用断裂箭头连接，中到右之间用开放箭头连接，两种箭头的视觉风格不同——断裂箭头是虚线/碎裂感，开放箭头是实线/方向感。\n\n图中只允许出现这些文字：\"系列制供应链正在松动\"、\"旧系列制\"、\"裂缝出现\"、\"484家供应商生存警告\"、\"破产十年最高\"、\"进入空间\"。\n\n不要额外新增文字，不要水印，不要\"AI生成\"字样，不要品牌官方 logo，不要无意义英文装饰。\n\n整体视觉采用 clean isometric business schematic，modular business illustration with light 3D structural feel，flat illustration，light texture，理性、克制、整齐。\n",
+          "provenance_confidence": "user_recalled",
+          "provider": "google",
+          "run_id": "R01",
+          "skill_lineage": {
+            "skill": "shortvideo-image-prompt-generation",
+            "version": null
+          },
+          "source_adapter": "manual-historical-archive"
+        }
+      ],
+      "status": "open",
+      "svp_mode": "legacy-d3",
+      "tags": [
+        "regression",
+        "legacy-shortvideo",
+        "nano-banana",
+        "gemini-web",
+        "进入日本市场",
+        "japan",
+        "supply-chain",
+        "localization"
+      ],
+      "title": "Japan supply-chain localization"
+    }
+  ],
+  "schema_version": "0.1.0"
+}
