@@ -1,0 +1,58 @@
+{
+  "publication_schema": "sc004-p3-derived-asset-v1",
+  "layer": "public_derived_review_only",
+  "work_id": "SC-004",
+  "stage": "P3",
+  "experiment": "grounding",
+  "case_id": "CASE-20260829-SC004-P3-T05-G21",
+  "source_case_id": "T05",
+  "case_role": "control",
+  "task": "responsibility redistribution",
+  "task_zh": "责任再分配",
+  "source_segment": "Channel-lightweight/01",
+  "style_route": "G21",
+  "historical_group": "W",
+  "north_star": "G21 / W",
+  "single_variable": "grounding",
+  "arm": "G2",
+  "repeat": 1,
+  "asset_id": "A3T05G201",
+  "run_id": "R3T05G201",
+  "prompt_id": "P3T05G2",
+  "prompt_sha256": "e9371aa5c1c22c3c55e5a3142afd31f3f9d9a6299e079b93cbd4b74bc7f7e912",
+  "frozen_prompt_manifest_sha256": "c8ec5ff629e7839c875efbd6be8c3cfc3c51016d0b9e7cd91e84f106a537abdc",
+  "frozen_execution_manifest_sha256": "2742e1b206e719b541ef54534f7f34079947ebfbe089dd3fe8cf9cb5db67b38b",
+  "renderer": "doubao-seedream-5-0-lite-260128",
+  "canvas": "3:4",
+  "size": "2K",
+  "watermark": false,
+  "active_renderer_modifier": "NONE",
+  "source_output_sha256": "3415359458e53e8f15fb206599d5127d15fa00d0ed6a6542099f2049ea0e2fdf",
+  "source_output_dimensions": [
+    1728,
+    2304
+  ],
+  "source_output_format": "JPEG",
+  "derived_files": {
+    "preview": "../../previews/A3T05G201-preview.jpg",
+    "thumbnail": "../../thumbnails/A3T05G201-thumb.jpg",
+    "metadata": "../../metadata/A3T05G201.json"
+  },
+  "derived_dimensions": {
+    "preview": [
+      900,
+      1200
+    ],
+    "thumbnail": [
+      360,
+      480
+    ]
+  },
+  "public_disclosure": {
+    "canonical_originals": 0,
+    "canonical_original_path": null,
+    "prompt_text": false,
+    "source_absolute_paths": false,
+    "visual_conclusion": null
+  }
+}

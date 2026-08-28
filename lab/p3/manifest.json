@@ -1,0 +1,555 @@
+{
+  "publication_schema": "sc004-p3-derived-publication-v1",
+  "layer": "public_derived_review_only",
+  "work_id": "SC-004",
+  "stage": "P3",
+  "experiment": "grounding",
+  "publication_date": "2026-08-29",
+  "frozen_prompt_manifest_sha256": "c8ec5ff629e7839c875efbd6be8c3cfc3c51016d0b9e7cd91e84f106a537abdc",
+  "frozen_execution_manifest_sha256": "2742e1b206e719b541ef54534f7f34079947ebfbe089dd3fe8cf9cb5db67b38b",
+  "source_result": {
+    "planned_runs": 48,
+    "successful_images": 48,
+    "no_image_failures": 0,
+    "canonical_source": "SC-004 P3 private canonical run outputs"
+  },
+  "public_safety": {
+    "canonical_originals_published": 0,
+    "prompt_text_published": false,
+    "absolute_source_paths_published": false,
+    "visual_conclusions_published": false
+  },
+  "display_contract": {
+    "cases": 4,
+    "arms": [
+      "B",
+      "G1",
+      "G2"
+    ],
+    "repeats_per_arm": 4,
+    "grouping": "4 cases × B/G1/G2 × 4 repeats",
+    "single_variable": "grounding"
+  },
+  "cases": [
+    {
+      "case_id": "CASE-20260829-SC004-P3-T06-G21",
+      "source_case_id": "T06",
+      "task": "county service-point survival",
+      "task_zh": "县域服务点生存",
+      "source_segment": "Channel-lightweight/04",
+      "style_route": "G21",
+      "historical_group": "W",
+      "north_star": "G21 / W",
+      "case_role": "target",
+      "single_variable": "grounding",
+      "arms": {
+        "B": [
+          {
+            "asset_id": "A3T06B01",
+            "run_id": "R3T06B01",
+            "repeat": 1,
+            "preview": "../../previews/A3T06B01-preview.jpg",
+            "thumbnail": "../../thumbnails/A3T06B01-thumb.jpg",
+            "metadata": "../../metadata/A3T06B01.json",
+            "prompt_sha256": "3f660b02deb67b983e78e69aa22b46d0a361b98729c2b936dc24124cae4ff80d"
+          },
+          {
+            "asset_id": "A3T06B02",
+            "run_id": "R3T06B02",
+            "repeat": 2,
+            "preview": "../../previews/A3T06B02-preview.jpg",
+            "thumbnail": "../../thumbnails/A3T06B02-thumb.jpg",
+            "metadata": "../../metadata/A3T06B02.json",
+            "prompt_sha256": "3f660b02deb67b983e78e69aa22b46d0a361b98729c2b936dc24124cae4ff80d"
+          },
+          {
+            "asset_id": "A3T06B03",
+            "run_id": "R3T06B03",
+            "repeat": 3,
+            "preview": "../../previews/A3T06B03-preview.jpg",
+            "thumbnail": "../../thumbnails/A3T06B03-thumb.jpg",
+            "metadata": "../../metadata/A3T06B03.json",
+            "prompt_sha256": "3f660b02deb67b983e78e69aa22b46d0a361b98729c2b936dc24124cae4ff80d"
+          },
+          {
+            "asset_id": "A3T06B04",
+            "run_id": "R3T06B04",
+            "repeat": 4,
+            "preview": "../../previews/A3T06B04-preview.jpg",
+            "thumbnail": "../../thumbnails/A3T06B04-thumb.jpg",
+            "metadata": "../../metadata/A3T06B04.json",
+            "prompt_sha256": "3f660b02deb67b983e78e69aa22b46d0a361b98729c2b936dc24124cae4ff80d"
+          }
+        ],
+        "G1": [
+          {
+            "asset_id": "A3T06G101",
+            "run_id": "R3T06G101",
+            "repeat": 1,
+            "preview": "../../previews/A3T06G101-preview.jpg",
+            "thumbnail": "../../thumbnails/A3T06G101-thumb.jpg",
+            "metadata": "../../metadata/A3T06G101.json",
+            "prompt_sha256": "dac57616007fed6a9b837050809fffbce49e8a642645fbbd2e9c7f4134df7e5f"
+          },
+          {
+            "asset_id": "A3T06G102",
+            "run_id": "R3T06G102",
+            "repeat": 2,
+            "preview": "../../previews/A3T06G102-preview.jpg",
+            "thumbnail": "../../thumbnails/A3T06G102-thumb.jpg",
+            "metadata": "../../metadata/A3T06G102.json",
+            "prompt_sha256": "dac57616007fed6a9b837050809fffbce49e8a642645fbbd2e9c7f4134df7e5f"
+          },
+          {
+            "asset_id": "A3T06G103",
+            "run_id": "R3T06G103",
+            "repeat": 3,
+            "preview": "../../previews/A3T06G103-preview.jpg",
+            "thumbnail": "../../thumbnails/A3T06G103-thumb.jpg",
+            "metadata": "../../metadata/A3T06G103.json",
+            "prompt_sha256": "dac57616007fed6a9b837050809fffbce49e8a642645fbbd2e9c7f4134df7e5f"
+          },
+          {
+            "asset_id": "A3T06G104",
+            "run_id": "R3T06G104",
+            "repeat": 4,
+            "preview": "../../previews/A3T06G104-preview.jpg",
+            "thumbnail": "../../thumbnails/A3T06G104-thumb.jpg",
+            "metadata": "../../metadata/A3T06G104.json",
+            "prompt_sha256": "dac57616007fed6a9b837050809fffbce49e8a642645fbbd2e9c7f4134df7e5f"
+          }
+        ],
+        "G2": [
+          {
+            "asset_id": "A3T06G201",
+            "run_id": "R3T06G201",
+            "repeat": 1,
+            "preview": "../../previews/A3T06G201-preview.jpg",
+            "thumbnail": "../../thumbnails/A3T06G201-thumb.jpg",
+            "metadata": "../../metadata/A3T06G201.json",
+            "prompt_sha256": "67fda3cfaa22b76dea39a545f50a818b8dd3e96d5030281bf677a598aff759c1"
+          },
+          {
+            "asset_id": "A3T06G202",
+            "run_id": "R3T06G202",
+            "repeat": 2,
+            "preview": "../../previews/A3T06G202-preview.jpg",
+            "thumbnail": "../../thumbnails/A3T06G202-thumb.jpg",
+            "metadata": "../../metadata/A3T06G202.json",
+            "prompt_sha256": "67fda3cfaa22b76dea39a545f50a818b8dd3e96d5030281bf677a598aff759c1"
+          },
+          {
+            "asset_id": "A3T06G203",
+            "run_id": "R3T06G203",
+            "repeat": 3,
+            "preview": "../../previews/A3T06G203-preview.jpg",
+            "thumbnail": "../../thumbnails/A3T06G203-thumb.jpg",
+            "metadata": "../../metadata/A3T06G203.json",
+            "prompt_sha256": "67fda3cfaa22b76dea39a545f50a818b8dd3e96d5030281bf677a598aff759c1"
+          },
+          {
+            "asset_id": "A3T06G204",
+            "run_id": "R3T06G204",
+            "repeat": 4,
+            "preview": "../../previews/A3T06G204-preview.jpg",
+            "thumbnail": "../../thumbnails/A3T06G204-thumb.jpg",
+            "metadata": "../../metadata/A3T06G204.json",
+            "prompt_sha256": "67fda3cfaa22b76dea39a545f50a818b8dd3e96d5030281bf677a598aff759c1"
+          }
+        ]
+      },
+      "contact_sheet": "contact_sheets/CASE-20260829-SC004-P3-T06-G21.jpg",
+      "page": "cases/CASE-20260829-SC004-P3-T06-G21/index.html"
+    },
+    {
+      "case_id": "CASE-20260829-SC004-P3-T04-G22",
+      "source_case_id": "T04",
+      "task": "supply-chain long-term variable",
+      "task_zh": "供应链长期变量",
+      "source_segment": "Japan-entry/10",
+      "style_route": "G22",
+      "historical_group": "H",
+      "north_star": "G22 / H",
+      "case_role": "target",
+      "single_variable": "grounding",
+      "arms": {
+        "B": [
+          {
+            "asset_id": "A3T04B01",
+            "run_id": "R3T04B01",
+            "repeat": 1,
+            "preview": "../../previews/A3T04B01-preview.jpg",
+            "thumbnail": "../../thumbnails/A3T04B01-thumb.jpg",
+            "metadata": "../../metadata/A3T04B01.json",
+            "prompt_sha256": "a40631bbd1a73ffea584cc3584f1de40926b4751b45991611476cf84d803f6d9"
+          },
+          {
+            "asset_id": "A3T04B02",
+            "run_id": "R3T04B02",
+            "repeat": 2,
+            "preview": "../../previews/A3T04B02-preview.jpg",
+            "thumbnail": "../../thumbnails/A3T04B02-thumb.jpg",
+            "metadata": "../../metadata/A3T04B02.json",
+            "prompt_sha256": "a40631bbd1a73ffea584cc3584f1de40926b4751b45991611476cf84d803f6d9"
+          },
+          {
+            "asset_id": "A3T04B03",
+            "run_id": "R3T04B03",
+            "repeat": 3,
+            "preview": "../../previews/A3T04B03-preview.jpg",
+            "thumbnail": "../../thumbnails/A3T04B03-thumb.jpg",
+            "metadata": "../../metadata/A3T04B03.json",
+            "prompt_sha256": "a40631bbd1a73ffea584cc3584f1de40926b4751b45991611476cf84d803f6d9"
+          },
+          {
+            "asset_id": "A3T04B04",
+            "run_id": "R3T04B04",
+            "repeat": 4,
+            "preview": "../../previews/A3T04B04-preview.jpg",
+            "thumbnail": "../../thumbnails/A3T04B04-thumb.jpg",
+            "metadata": "../../metadata/A3T04B04.json",
+            "prompt_sha256": "a40631bbd1a73ffea584cc3584f1de40926b4751b45991611476cf84d803f6d9"
+          }
+        ],
+        "G1": [
+          {
+            "asset_id": "A3T04G101",
+            "run_id": "R3T04G101",
+            "repeat": 1,
+            "preview": "../../previews/A3T04G101-preview.jpg",
+            "thumbnail": "../../thumbnails/A3T04G101-thumb.jpg",
+            "metadata": "../../metadata/A3T04G101.json",
+            "prompt_sha256": "6375103bb946784bbeaf7b96dbd12480e2cc6dff1e6d093eb07933ff31b33921"
+          },
+          {
+            "asset_id": "A3T04G102",
+            "run_id": "R3T04G102",
+            "repeat": 2,
+            "preview": "../../previews/A3T04G102-preview.jpg",
+            "thumbnail": "../../thumbnails/A3T04G102-thumb.jpg",
+            "metadata": "../../metadata/A3T04G102.json",
+            "prompt_sha256": "6375103bb946784bbeaf7b96dbd12480e2cc6dff1e6d093eb07933ff31b33921"
+          },
+          {
+            "asset_id": "A3T04G103",
+            "run_id": "R3T04G103",
+            "repeat": 3,
+            "preview": "../../previews/A3T04G103-preview.jpg",
+            "thumbnail": "../../thumbnails/A3T04G103-thumb.jpg",
+            "metadata": "../../metadata/A3T04G103.json",
+            "prompt_sha256": "6375103bb946784bbeaf7b96dbd12480e2cc6dff1e6d093eb07933ff31b33921"
+          },
+          {
+            "asset_id": "A3T04G104",
+            "run_id": "R3T04G104",
+            "repeat": 4,
+            "preview": "../../previews/A3T04G104-preview.jpg",
+            "thumbnail": "../../thumbnails/A3T04G104-thumb.jpg",
+            "metadata": "../../metadata/A3T04G104.json",
+            "prompt_sha256": "6375103bb946784bbeaf7b96dbd12480e2cc6dff1e6d093eb07933ff31b33921"
+          }
+        ],
+        "G2": [
+          {
+            "asset_id": "A3T04G201",
+            "run_id": "R3T04G201",
+            "repeat": 1,
+            "preview": "../../previews/A3T04G201-preview.jpg",
+            "thumbnail": "../../thumbnails/A3T04G201-thumb.jpg",
+            "metadata": "../../metadata/A3T04G201.json",
+            "prompt_sha256": "4f48970f1312be029571fb20c70a0152b2e7e95da41a3e6d6b9c448a6838fb97"
+          },
+          {
+            "asset_id": "A3T04G202",
+            "run_id": "R3T04G202",
+            "repeat": 2,
+            "preview": "../../previews/A3T04G202-preview.jpg",
+            "thumbnail": "../../thumbnails/A3T04G202-thumb.jpg",
+            "metadata": "../../metadata/A3T04G202.json",
+            "prompt_sha256": "4f48970f1312be029571fb20c70a0152b2e7e95da41a3e6d6b9c448a6838fb97"
+          },
+          {
+            "asset_id": "A3T04G203",
+            "run_id": "R3T04G203",
+            "repeat": 3,
+            "preview": "../../previews/A3T04G203-preview.jpg",
+            "thumbnail": "../../thumbnails/A3T04G203-thumb.jpg",
+            "metadata": "../../metadata/A3T04G203.json",
+            "prompt_sha256": "4f48970f1312be029571fb20c70a0152b2e7e95da41a3e6d6b9c448a6838fb97"
+          },
+          {
+            "asset_id": "A3T04G204",
+            "run_id": "R3T04G204",
+            "repeat": 4,
+            "preview": "../../previews/A3T04G204-preview.jpg",
+            "thumbnail": "../../thumbnails/A3T04G204-thumb.jpg",
+            "metadata": "../../metadata/A3T04G204.json",
+            "prompt_sha256": "4f48970f1312be029571fb20c70a0152b2e7e95da41a3e6d6b9c448a6838fb97"
+          }
+        ]
+      },
+      "contact_sheet": "contact_sheets/CASE-20260829-SC004-P3-T04-G22.jpg",
+      "page": "cases/CASE-20260829-SC004-P3-T04-G22/index.html"
+    },
+    {
+      "case_id": "CASE-20260829-SC004-P3-T05-G21",
+      "source_case_id": "T05",
+      "task": "responsibility redistribution",
+      "task_zh": "责任再分配",
+      "source_segment": "Channel-lightweight/01",
+      "style_route": "G21",
+      "historical_group": "W",
+      "north_star": "G21 / W",
+      "case_role": "control",
+      "single_variable": "grounding",
+      "arms": {
+        "B": [
+          {
+            "asset_id": "A3T05B01",
+            "run_id": "R3T05B01",
+            "repeat": 1,
+            "preview": "../../previews/A3T05B01-preview.jpg",
+            "thumbnail": "../../thumbnails/A3T05B01-thumb.jpg",
+            "metadata": "../../metadata/A3T05B01.json",
+            "prompt_sha256": "e9371aa5c1c22c3c55e5a3142afd31f3f9d9a6299e079b93cbd4b74bc7f7e912"
+          },
+          {
+            "asset_id": "A3T05B02",
+            "run_id": "R3T05B02",
+            "repeat": 2,
+            "preview": "../../previews/A3T05B02-preview.jpg",
+            "thumbnail": "../../thumbnails/A3T05B02-thumb.jpg",
+            "metadata": "../../metadata/A3T05B02.json",
+            "prompt_sha256": "e9371aa5c1c22c3c55e5a3142afd31f3f9d9a6299e079b93cbd4b74bc7f7e912"
+          },
+          {
+            "asset_id": "A3T05B03",
+            "run_id": "R3T05B03",
+            "repeat": 3,
+            "preview": "../../previews/A3T05B03-preview.jpg",
+            "thumbnail": "../../thumbnails/A3T05B03-thumb.jpg",
+            "metadata": "../../metadata/A3T05B03.json",
+            "prompt_sha256": "e9371aa5c1c22c3c55e5a3142afd31f3f9d9a6299e079b93cbd4b74bc7f7e912"
+          },
+          {
+            "asset_id": "A3T05B04",
+            "run_id": "R3T05B04",
+            "repeat": 4,
+            "preview": "../../previews/A3T05B04-preview.jpg",
+            "thumbnail": "../../thumbnails/A3T05B04-thumb.jpg",
+            "metadata": "../../metadata/A3T05B04.json",
+            "prompt_sha256": "e9371aa5c1c22c3c55e5a3142afd31f3f9d9a6299e079b93cbd4b74bc7f7e912"
+          }
+        ],
+        "G1": [
+          {
+            "asset_id": "A3T05G101",
+            "run_id": "R3T05G101",
+            "repeat": 1,
+            "preview": "../../previews/A3T05G101-preview.jpg",
+            "thumbnail": "../../thumbnails/A3T05G101-thumb.jpg",
+            "metadata": "../../metadata/A3T05G101.json",
+            "prompt_sha256": "e9371aa5c1c22c3c55e5a3142afd31f3f9d9a6299e079b93cbd4b74bc7f7e912"
+          },
+          {
+            "asset_id": "A3T05G102",
+            "run_id": "R3T05G102",
+            "repeat": 2,
+            "preview": "../../previews/A3T05G102-preview.jpg",
+            "thumbnail": "../../thumbnails/A3T05G102-thumb.jpg",
+            "metadata": "../../metadata/A3T05G102.json",
+            "prompt_sha256": "e9371aa5c1c22c3c55e5a3142afd31f3f9d9a6299e079b93cbd4b74bc7f7e912"
+          },
+          {
+            "asset_id": "A3T05G103",
+            "run_id": "R3T05G103",
+            "repeat": 3,
+            "preview": "../../previews/A3T05G103-preview.jpg",
+            "thumbnail": "../../thumbnails/A3T05G103-thumb.jpg",
+            "metadata": "../../metadata/A3T05G103.json",
+            "prompt_sha256": "e9371aa5c1c22c3c55e5a3142afd31f3f9d9a6299e079b93cbd4b74bc7f7e912"
+          },
+          {
+            "asset_id": "A3T05G104",
+            "run_id": "R3T05G104",
+            "repeat": 4,
+            "preview": "../../previews/A3T05G104-preview.jpg",
+            "thumbnail": "../../thumbnails/A3T05G104-thumb.jpg",
+            "metadata": "../../metadata/A3T05G104.json",
+            "prompt_sha256": "e9371aa5c1c22c3c55e5a3142afd31f3f9d9a6299e079b93cbd4b74bc7f7e912"
+          }
+        ],
+        "G2": [
+          {
+            "asset_id": "A3T05G201",
+            "run_id": "R3T05G201",
+            "repeat": 1,
+            "preview": "../../previews/A3T05G201-preview.jpg",
+            "thumbnail": "../../thumbnails/A3T05G201-thumb.jpg",
+            "metadata": "../../metadata/A3T05G201.json",
+            "prompt_sha256": "e9371aa5c1c22c3c55e5a3142afd31f3f9d9a6299e079b93cbd4b74bc7f7e912"
+          },
+          {
+            "asset_id": "A3T05G202",
+            "run_id": "R3T05G202",
+            "repeat": 2,
+            "preview": "../../previews/A3T05G202-preview.jpg",
+            "thumbnail": "../../thumbnails/A3T05G202-thumb.jpg",
+            "metadata": "../../metadata/A3T05G202.json",
+            "prompt_sha256": "e9371aa5c1c22c3c55e5a3142afd31f3f9d9a6299e079b93cbd4b74bc7f7e912"
+          },
+          {
+            "asset_id": "A3T05G203",
+            "run_id": "R3T05G203",
+            "repeat": 3,
+            "preview": "../../previews/A3T05G203-preview.jpg",
+            "thumbnail": "../../thumbnails/A3T05G203-thumb.jpg",
+            "metadata": "../../metadata/A3T05G203.json",
+            "prompt_sha256": "e9371aa5c1c22c3c55e5a3142afd31f3f9d9a6299e079b93cbd4b74bc7f7e912"
+          },
+          {
+            "asset_id": "A3T05G204",
+            "run_id": "R3T05G204",
+            "repeat": 4,
+            "preview": "../../previews/A3T05G204-preview.jpg",
+            "thumbnail": "../../thumbnails/A3T05G204-thumb.jpg",
+            "metadata": "../../metadata/A3T05G204.json",
+            "prompt_sha256": "e9371aa5c1c22c3c55e5a3142afd31f3f9d9a6299e079b93cbd4b74bc7f7e912"
+          }
+        ]
+      },
+      "contact_sheet": "contact_sheets/CASE-20260829-SC004-P3-T05-G21.jpg",
+      "page": "cases/CASE-20260829-SC004-P3-T05-G21/index.html"
+    },
+    {
+      "case_id": "CASE-20260829-SC004-P3-T10-G22",
+      "source_case_id": "T10",
+      "task": "capability matrix",
+      "task_zh": "能力矩阵",
+      "source_segment": "New-force-second-brand/11",
+      "style_route": "G22",
+      "historical_group": "H",
+      "north_star": "G22 / H",
+      "case_role": "control",
+      "single_variable": "grounding",
+      "arms": {
+        "B": [
+          {
+            "asset_id": "A3T10B01",
+            "run_id": "R3T10B01",
+            "repeat": 1,
+            "preview": "../../previews/A3T10B01-preview.jpg",
+            "thumbnail": "../../thumbnails/A3T10B01-thumb.jpg",
+            "metadata": "../../metadata/A3T10B01.json",
+            "prompt_sha256": "4c82240eebe5ea302b2f7ca6392285f9291e435adc906bbf452211adb34eb01e"
+          },
+          {
+            "asset_id": "A3T10B02",
+            "run_id": "R3T10B02",
+            "repeat": 2,
+            "preview": "../../previews/A3T10B02-preview.jpg",
+            "thumbnail": "../../thumbnails/A3T10B02-thumb.jpg",
+            "metadata": "../../metadata/A3T10B02.json",
+            "prompt_sha256": "4c82240eebe5ea302b2f7ca6392285f9291e435adc906bbf452211adb34eb01e"
+          },
+          {
+            "asset_id": "A3T10B03",
+            "run_id": "R3T10B03",
+            "repeat": 3,
+            "preview": "../../previews/A3T10B03-preview.jpg",
+            "thumbnail": "../../thumbnails/A3T10B03-thumb.jpg",
+            "metadata": "../../metadata/A3T10B03.json",
+            "prompt_sha256": "4c82240eebe5ea302b2f7ca6392285f9291e435adc906bbf452211adb34eb01e"
+          },
+          {
+            "asset_id": "A3T10B04",
+            "run_id": "R3T10B04",
+            "repeat": 4,
+            "preview": "../../previews/A3T10B04-preview.jpg",
+            "thumbnail": "../../thumbnails/A3T10B04-thumb.jpg",
+            "metadata": "../../metadata/A3T10B04.json",
+            "prompt_sha256": "4c82240eebe5ea302b2f7ca6392285f9291e435adc906bbf452211adb34eb01e"
+          }
+        ],
+        "G1": [
+          {
+            "asset_id": "A3T10G101",
+            "run_id": "R3T10G101",
+            "repeat": 1,
+            "preview": "../../previews/A3T10G101-preview.jpg",
+            "thumbnail": "../../thumbnails/A3T10G101-thumb.jpg",
+            "metadata": "../../metadata/A3T10G101.json",
+            "prompt_sha256": "4c82240eebe5ea302b2f7ca6392285f9291e435adc906bbf452211adb34eb01e"
+          },
+          {
+            "asset_id": "A3T10G102",
+            "run_id": "R3T10G102",
+            "repeat": 2,
+            "preview": "../../previews/A3T10G102-preview.jpg",
+            "thumbnail": "../../thumbnails/A3T10G102-thumb.jpg",
+            "metadata": "../../metadata/A3T10G102.json",
+            "prompt_sha256": "4c82240eebe5ea302b2f7ca6392285f9291e435adc906bbf452211adb34eb01e"
+          },
+          {
+            "asset_id": "A3T10G103",
+            "run_id": "R3T10G103",
+            "repeat": 3,
+            "preview": "../../previews/A3T10G103-preview.jpg",
+            "thumbnail": "../../thumbnails/A3T10G103-thumb.jpg",
+            "metadata": "../../metadata/A3T10G103.json",
+            "prompt_sha256": "4c82240eebe5ea302b2f7ca6392285f9291e435adc906bbf452211adb34eb01e"
+          },
+          {
+            "asset_id": "A3T10G104",
+            "run_id": "R3T10G104",
+            "repeat": 4,
+            "preview": "../../previews/A3T10G104-preview.jpg",
+            "thumbnail": "../../thumbnails/A3T10G104-thumb.jpg",
+            "metadata": "../../metadata/A3T10G104.json",
+            "prompt_sha256": "4c82240eebe5ea302b2f7ca6392285f9291e435adc906bbf452211adb34eb01e"
+          }
+        ],
+        "G2": [
+          {
+            "asset_id": "A3T10G201",
+            "run_id": "R3T10G201",
+            "repeat": 1,
+            "preview": "../../previews/A3T10G201-preview.jpg",
+            "thumbnail": "../../thumbnails/A3T10G201-thumb.jpg",
+            "metadata": "../../metadata/A3T10G201.json",
+            "prompt_sha256": "4c82240eebe5ea302b2f7ca6392285f9291e435adc906bbf452211adb34eb01e"
+          },
+          {
+            "asset_id": "A3T10G202",
+            "run_id": "R3T10G202",
+            "repeat": 2,
+            "preview": "../../previews/A3T10G202-preview.jpg",
+            "thumbnail": "../../thumbnails/A3T10G202-thumb.jpg",
+            "metadata": "../../metadata/A3T10G202.json",
+            "prompt_sha256": "4c82240eebe5ea302b2f7ca6392285f9291e435adc906bbf452211adb34eb01e"
+          },
+          {
+            "asset_id": "A3T10G203",
+            "run_id": "R3T10G203",
+            "repeat": 3,
+            "preview": "../../previews/A3T10G203-preview.jpg",
+            "thumbnail": "../../thumbnails/A3T10G203-thumb.jpg",
+            "metadata": "../../metadata/A3T10G203.json",
+            "prompt_sha256": "4c82240eebe5ea302b2f7ca6392285f9291e435adc906bbf452211adb34eb01e"
+          },
+          {
+            "asset_id": "A3T10G204",
+            "run_id": "R3T10G204",
+            "repeat": 4,
+            "preview": "../../previews/A3T10G204-preview.jpg",
+            "thumbnail": "../../thumbnails/A3T10G204-thumb.jpg",
+            "metadata": "../../metadata/A3T10G204.json",
+            "prompt_sha256": "4c82240eebe5ea302b2f7ca6392285f9291e435adc906bbf452211adb34eb01e"
+          }
+        ]
+      },
+      "contact_sheet": "contact_sheets/CASE-20260829-SC004-P3-T10-G22.jpg",
+      "page": "cases/CASE-20260829-SC004-P3-T10-G22/index.html"
+    }
+  ]
+}

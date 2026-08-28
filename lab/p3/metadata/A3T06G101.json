@@ -1,0 +1,58 @@
+{
+  "publication_schema": "sc004-p3-derived-asset-v1",
+  "layer": "public_derived_review_only",
+  "work_id": "SC-004",
+  "stage": "P3",
+  "experiment": "grounding",
+  "case_id": "CASE-20260829-SC004-P3-T06-G21",
+  "source_case_id": "T06",
+  "case_role": "target",
+  "task": "county service-point survival",
+  "task_zh": "县域服务点生存",
+  "source_segment": "Channel-lightweight/04",
+  "style_route": "G21",
+  "historical_group": "W",
+  "north_star": "G21 / W",
+  "single_variable": "grounding",
+  "arm": "G1",
+  "repeat": 1,
+  "asset_id": "A3T06G101",
+  "run_id": "R3T06G101",
+  "prompt_id": "P3T06G1",
+  "prompt_sha256": "dac57616007fed6a9b837050809fffbce49e8a642645fbbd2e9c7f4134df7e5f",
+  "frozen_prompt_manifest_sha256": "c8ec5ff629e7839c875efbd6be8c3cfc3c51016d0b9e7cd91e84f106a537abdc",
+  "frozen_execution_manifest_sha256": "2742e1b206e719b541ef54534f7f34079947ebfbe089dd3fe8cf9cb5db67b38b",
+  "renderer": "doubao-seedream-5-0-lite-260128",
+  "canvas": "3:4",
+  "size": "2K",
+  "watermark": false,
+  "active_renderer_modifier": "NONE",
+  "source_output_sha256": "36d8587b2e211c4b5ec1b2fa5f1e9657f065aa0ebd37771c13c49c4ef4c676a6",
+  "source_output_dimensions": [
+    1728,
+    2304
+  ],
+  "source_output_format": "JPEG",
+  "derived_files": {
+    "preview": "../../previews/A3T06G101-preview.jpg",
+    "thumbnail": "../../thumbnails/A3T06G101-thumb.jpg",
+    "metadata": "../../metadata/A3T06G101.json"
+  },
+  "derived_dimensions": {
+    "preview": [
+      900,
+      1200
+    ],
+    "thumbnail": [
+      360,
+      480
+    ]
+  },
+  "public_disclosure": {
+    "canonical_originals": 0,
+    "canonical_original_path": null,
+    "prompt_text": false,
+    "source_absolute_paths": false,
+    "visual_conclusion": null
+  }
+}

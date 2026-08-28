@@ -1,0 +1,58 @@
+{
+  "publication_schema": "sc004-p3-derived-asset-v1",
+  "layer": "public_derived_review_only",
+  "work_id": "SC-004",
+  "stage": "P3",
+  "experiment": "grounding",
+  "case_id": "CASE-20260829-SC004-P3-T04-G22",
+  "source_case_id": "T04",
+  "case_role": "target",
+  "task": "supply-chain long-term variable",
+  "task_zh": "供应链长期变量",
+  "source_segment": "Japan-entry/10",
+  "style_route": "G22",
+  "historical_group": "H",
+  "north_star": "G22 / H",
+  "single_variable": "grounding",
+  "arm": "B",
+  "repeat": 4,
+  "asset_id": "A3T04B04",
+  "run_id": "R3T04B04",
+  "prompt_id": "P3T04B",
+  "prompt_sha256": "a40631bbd1a73ffea584cc3584f1de40926b4751b45991611476cf84d803f6d9",
+  "frozen_prompt_manifest_sha256": "c8ec5ff629e7839c875efbd6be8c3cfc3c51016d0b9e7cd91e84f106a537abdc",
+  "frozen_execution_manifest_sha256": "2742e1b206e719b541ef54534f7f34079947ebfbe089dd3fe8cf9cb5db67b38b",
+  "renderer": "doubao-seedream-5-0-lite-260128",
+  "canvas": "3:4",
+  "size": "2K",
+  "watermark": false,
+  "active_renderer_modifier": "NONE",
+  "source_output_sha256": "6a2e7d86aa3a0b33bb5bfbf3fcefd2ff2657d940f28536189b44967dea90b617",
+  "source_output_dimensions": [
+    1728,
+    2304
+  ],
+  "source_output_format": "JPEG",
+  "derived_files": {
+    "preview": "../../previews/A3T04B04-preview.jpg",
+    "thumbnail": "../../thumbnails/A3T04B04-thumb.jpg",
+    "metadata": "../../metadata/A3T04B04.json"
+  },
+  "derived_dimensions": {
+    "preview": [
+      900,
+      1200
+    ],
+    "thumbnail": [
+      360,
+      480
+    ]
+  },
+  "public_disclosure": {
+    "canonical_originals": 0,
+    "canonical_original_path": null,
+    "prompt_text": false,
+    "source_absolute_paths": false,
+    "visual_conclusion": null
+  }
+}

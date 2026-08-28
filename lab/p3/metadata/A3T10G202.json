@@ -1,0 +1,58 @@
+{
+  "publication_schema": "sc004-p3-derived-asset-v1",
+  "layer": "public_derived_review_only",
+  "work_id": "SC-004",
+  "stage": "P3",
+  "experiment": "grounding",
+  "case_id": "CASE-20260829-SC004-P3-T10-G22",
+  "source_case_id": "T10",
+  "case_role": "control",
+  "task": "capability matrix",
+  "task_zh": "能力矩阵",
+  "source_segment": "New-force-second-brand/11",
+  "style_route": "G22",
+  "historical_group": "H",
+  "north_star": "G22 / H",
+  "single_variable": "grounding",
+  "arm": "G2",
+  "repeat": 2,
+  "asset_id": "A3T10G202",
+  "run_id": "R3T10G202",
+  "prompt_id": "P3T10G2",
+  "prompt_sha256": "4c82240eebe5ea302b2f7ca6392285f9291e435adc906bbf452211adb34eb01e",
+  "frozen_prompt_manifest_sha256": "c8ec5ff629e7839c875efbd6be8c3cfc3c51016d0b9e7cd91e84f106a537abdc",
+  "frozen_execution_manifest_sha256": "2742e1b206e719b541ef54534f7f34079947ebfbe089dd3fe8cf9cb5db67b38b",
+  "renderer": "doubao-seedream-5-0-lite-260128",
+  "canvas": "3:4",
+  "size": "2K",
+  "watermark": false,
+  "active_renderer_modifier": "NONE",
+  "source_output_sha256": "8b45a19fbb1c4ead715b5479530daa084f7ca4bd04f8edaa96e87aeb9d93d32b",
+  "source_output_dimensions": [
+    1728,
+    2304
+  ],
+  "source_output_format": "JPEG",
+  "derived_files": {
+    "preview": "../../previews/A3T10G202-preview.jpg",
+    "thumbnail": "../../thumbnails/A3T10G202-thumb.jpg",
+    "metadata": "../../metadata/A3T10G202.json"
+  },
+  "derived_dimensions": {
+    "preview": [
+      900,
+      1200
+    ],
+    "thumbnail": [
+      360,
+      480
+    ]
+  },
+  "public_disclosure": {
+    "canonical_originals": 0,
+    "canonical_original_path": null,
+    "prompt_text": false,
+    "source_absolute_paths": false,
+    "visual_conclusion": null
+  }
+}
