@@ -1,5 +1,5 @@
 {
-  "case_count": 29,
+  "case_count": 39,
   "cases": [
     {
       "case_id": "CASE-20260827-LEGACY-AUDI-BRAND-SPLIT-01",
@@ -6142,6 +6142,2786 @@
         "T10"
       ],
       "title": "P1 T10 capability matrix palette experiment"
+    },
+    {
+      "case_id": "CASE-20260828-SC004-P2-T01",
+      "case_type": "experiment",
+      "contact_sheet": "lab/contact_sheets/CASE-20260828-SC004-P2-T01.jpg",
+      "expected_effect": [
+        "Preserve the equal comparison, low penetration relation, and no-premature-barrier conclusion"
+      ],
+      "final_selection": null,
+      "image_type": "shortvideo-business-illustration",
+      "problem_statement": "Measure current-Skill baseline on the Japanese market scale versus low new-energy penetration contradiction",
+      "project": "hotspot/SC-004",
+      "runs": [
+        {
+          "assets": [
+            {
+              "asset_id": "AU201",
+              "bytes": 267491,
+              "canonical_path": "originals/AU201.jpg",
+              "case_id": "CASE-20260828-SC004-P2-T01",
+              "created_at": "2026-08-28T00:31:43Z",
+              "height": 2304,
+              "notes": [
+                "SC-004 P2 T01 U2 independent run 1; canonical binary from frozen P2 output"
+              ],
+              "original_filename": "segment-2101-v1-01.jpg",
+              "preview_path": "lab/previews/CASE-20260828-SC004-P2-T01-AU201.jpg",
+              "provenance_confidence": "verified",
+              "run_id": "RP2-T01-U2-R01",
+              "schema_version": "0.1.0",
+              "sha256": "76fc4d0b90a8e1f857598647f2a60c06392a60d446d7566f976c74bbd8e08746",
+              "source_format": "JPEG",
+              "thumbnail_path": "lab/thumbnails/CASE-20260828-SC004-P2-T01-AU201.jpg",
+              "user_feedback": [
+                "verdict=acceptable; attribution=none"
+              ],
+              "width": 1728
+            }
+          ],
+          "evaluation": "pass",
+          "evaluation_note": "Equal data cards, the large-market/low-penetration contradiction, and the bottom conclusion are clear.",
+          "generation_surface": "local-api-adapter",
+          "model": "doubao-seedream-5-0-lite-260128",
+          "model_version": "260128",
+          "parameters": {
+            "canonical_decision_gate": "gpt-5.6-sol/medium",
+            "canvas": "3:4",
+            "execution_model_role": "gpt-5.6-luna/max",
+            "independent_repeat": 1,
+            "machine_run_id": "P2-T01-U2-R01",
+            "p2_prompt_mutation_allowed": false,
+            "patch_scope": "none_baseline",
+            "sequential_image_generation": "disabled",
+            "series_palette": "u2_cool-neutral-business",
+            "size": "2K",
+            "style_route": "G22",
+            "watermark": false
+          },
+          "producer": "codex-sc004",
+          "prompt_delta_notes": [],
+          "prompt_id": "PU2",
+          "prompt_intended_model_target": "doubao-seedream-5-0-lite-260128",
+          "prompt_parent_prompt_id": null,
+          "prompt_provenance_confidence": "verified",
+          "prompt_public": true,
+          "prompt_sha256": "e4b3c79765075a45e276f7be75c91fe2b0be928929540a66b0a7f68c8da91c17",
+          "prompt_summary": "P2 T01 adopted-U2 current-Skill baseline; patch_scope=none_baseline",
+          "prompt_text": "生成一张 3:4 竖版静态商业结构图。\n核心信息：日本汽车市场年销 450 万辆，但新能源渗透率不到 3%，形成大市场与低渗透并存的矛盾；空白很大，但站稳并不简单。\n信息结构：comparison。顶部标题，中部左右两张等权数据卡，底部矛盾结论横条。\n版式与阅读顺序：先读标题，再读左侧市场规模卡和右侧新能源渗透卡，最后读底部结论。左卡用密集但规整的通用汽车流和市场容器表达规模；右卡用一小段高亮新能源份额对比大面积未渗透区域，不画饼图之外的额外数据。\n关系必须画清：两张数据卡等权并列，用中央矛盾符号连接，强调大市场与低渗透同时成立；不得提前画出补贴、品牌或渠道三道壁垒。\n图中只允许出现这些文字：日本汽车市场；年销450万辆；新能源渗透率不到3%；大市场；低渗透；空白市场；想站稳并不简单。\n不画地图或日本地理轮廓。不要 logo、商标、品牌名、水印、AI 字样、无意义英文、新闻来源、额外百分比或白名单外文字。不要把画面做成已经成功进入市场的庆典场景。\nIllustration style: clean isometric business schematic illustration, flat base with light pseudo-isometric depth, precise clean linework, simplified geometry, controlled perspective, subtle shadows, systematic, organized, restrained and professional, high readability.\nSeries palette: cool-neutral muted business palette, light neutral gray background, soft blue-gray primary color, desaturated teal and sage secondary colors, restrained soft-gold accent, dark charcoal linework, low saturation, clean tonal separation, professional and calm.\n",
+          "provenance_confidence": "verified",
+          "provider": "volcengine-ark",
+          "run_id": "RP2-T01-U2-R01",
+          "skill_lineage": {
+            "skill": "shortvideo-image-prompt-generation",
+            "version": "SC-004@35072b0"
+          },
+          "source_adapter": "local-file"
+        },
+        {
+          "assets": [
+            {
+              "asset_id": "AU202",
+              "bytes": 355491,
+              "canonical_path": "originals/AU202.jpg",
+              "case_id": "CASE-20260828-SC004-P2-T01",
+              "created_at": "2026-08-28T00:31:44Z",
+              "height": 2304,
+              "notes": [
+                "SC-004 P2 T01 U2 independent run 2; canonical binary from frozen P2 output"
+              ],
+              "original_filename": "segment-2101-v1-01.jpg",
+              "preview_path": "lab/previews/CASE-20260828-SC004-P2-T01-AU202.jpg",
+              "provenance_confidence": "verified",
+              "run_id": "RP2-T01-U2-R02",
+              "schema_version": "0.1.0",
+              "sha256": "be49ce2b7abce0d6f30e223cb0423c8253087d0dfd185aa536eece87afc8a7a9",
+              "source_format": "JPEG",
+              "thumbnail_path": "lab/thumbnails/CASE-20260828-SC004-P2-T01-AU202.jpg",
+              "user_feedback": [
+                "verdict=acceptable; attribution=none"
+              ],
+              "width": 1728
+            }
+          ],
+          "evaluation": "pass",
+          "evaluation_note": "Market scale and low new-energy penetration compare clearly; central contradiction and bottom close remain readable.",
+          "generation_surface": "local-api-adapter",
+          "model": "doubao-seedream-5-0-lite-260128",
+          "model_version": "260128",
+          "parameters": {
+            "canonical_decision_gate": "gpt-5.6-sol/medium",
+            "canvas": "3:4",
+            "execution_model_role": "gpt-5.6-luna/max",
+            "independent_repeat": 2,
+            "machine_run_id": "P2-T01-U2-R02",
+            "p2_prompt_mutation_allowed": false,
+            "patch_scope": "none_baseline",
+            "sequential_image_generation": "disabled",
+            "series_palette": "u2_cool-neutral-business",
+            "size": "2K",
+            "style_route": "G22",
+            "watermark": false
+          },
+          "producer": "codex-sc004",
+          "prompt_delta_notes": [],
+          "prompt_id": "PU2",
+          "prompt_intended_model_target": "doubao-seedream-5-0-lite-260128",
+          "prompt_parent_prompt_id": null,
+          "prompt_provenance_confidence": "verified",
+          "prompt_public": true,
+          "prompt_sha256": "e4b3c79765075a45e276f7be75c91fe2b0be928929540a66b0a7f68c8da91c17",
+          "prompt_summary": "P2 T01 adopted-U2 current-Skill baseline; patch_scope=none_baseline",
+          "prompt_text": "生成一张 3:4 竖版静态商业结构图。\n核心信息：日本汽车市场年销 450 万辆，但新能源渗透率不到 3%，形成大市场与低渗透并存的矛盾；空白很大，但站稳并不简单。\n信息结构：comparison。顶部标题，中部左右两张等权数据卡，底部矛盾结论横条。\n版式与阅读顺序：先读标题，再读左侧市场规模卡和右侧新能源渗透卡，最后读底部结论。左卡用密集但规整的通用汽车流和市场容器表达规模；右卡用一小段高亮新能源份额对比大面积未渗透区域，不画饼图之外的额外数据。\n关系必须画清：两张数据卡等权并列，用中央矛盾符号连接，强调大市场与低渗透同时成立；不得提前画出补贴、品牌或渠道三道壁垒。\n图中只允许出现这些文字：日本汽车市场；年销450万辆；新能源渗透率不到3%；大市场；低渗透；空白市场；想站稳并不简单。\n不画地图或日本地理轮廓。不要 logo、商标、品牌名、水印、AI 字样、无意义英文、新闻来源、额外百分比或白名单外文字。不要把画面做成已经成功进入市场的庆典场景。\nIllustration style: clean isometric business schematic illustration, flat base with light pseudo-isometric depth, precise clean linework, simplified geometry, controlled perspective, subtle shadows, systematic, organized, restrained and professional, high readability.\nSeries palette: cool-neutral muted business palette, light neutral gray background, soft blue-gray primary color, desaturated teal and sage secondary colors, restrained soft-gold accent, dark charcoal linework, low saturation, clean tonal separation, professional and calm.\n",
+          "provenance_confidence": "verified",
+          "provider": "volcengine-ark",
+          "run_id": "RP2-T01-U2-R02",
+          "skill_lineage": {
+            "skill": "shortvideo-image-prompt-generation",
+            "version": "SC-004@35072b0"
+          },
+          "source_adapter": "local-file"
+        },
+        {
+          "assets": [
+            {
+              "asset_id": "AU203",
+              "bytes": 298221,
+              "canonical_path": "originals/AU203.jpg",
+              "case_id": "CASE-20260828-SC004-P2-T01",
+              "created_at": "2026-08-28T00:31:45Z",
+              "height": 2304,
+              "notes": [
+                "SC-004 P2 T01 U2 independent run 3; canonical binary from frozen P2 output"
+              ],
+              "original_filename": "segment-2101-v1-01.jpg",
+              "preview_path": "lab/previews/CASE-20260828-SC004-P2-T01-AU203.jpg",
+              "provenance_confidence": "verified",
+              "run_id": "RP2-T01-U2-R03",
+              "schema_version": "0.1.0",
+              "sha256": "a895d4d1e5956154c2bff9a2625ea4d00da8aec6aed6c6150ccda18ab0587f8e",
+              "source_format": "JPEG",
+              "thumbnail_path": "lab/thumbnails/CASE-20260828-SC004-P2-T01-AU203.jpg",
+              "user_feedback": [
+                "verdict=acceptable; attribution=none"
+              ],
+              "width": 1728
+            }
+          ],
+          "evaluation": "pass",
+          "evaluation_note": "The dual-card structure and empty-market/standing-is-hard hierarchy are preserved.",
+          "generation_surface": "local-api-adapter",
+          "model": "doubao-seedream-5-0-lite-260128",
+          "model_version": "260128",
+          "parameters": {
+            "canonical_decision_gate": "gpt-5.6-sol/medium",
+            "canvas": "3:4",
+            "execution_model_role": "gpt-5.6-luna/max",
+            "independent_repeat": 3,
+            "machine_run_id": "P2-T01-U2-R03",
+            "p2_prompt_mutation_allowed": false,
+            "patch_scope": "none_baseline",
+            "sequential_image_generation": "disabled",
+            "series_palette": "u2_cool-neutral-business",
+            "size": "2K",
+            "style_route": "G22",
+            "watermark": false
+          },
+          "producer": "codex-sc004",
+          "prompt_delta_notes": [],
+          "prompt_id": "PU2",
+          "prompt_intended_model_target": "doubao-seedream-5-0-lite-260128",
+          "prompt_parent_prompt_id": null,
+          "prompt_provenance_confidence": "verified",
+          "prompt_public": true,
+          "prompt_sha256": "e4b3c79765075a45e276f7be75c91fe2b0be928929540a66b0a7f68c8da91c17",
+          "prompt_summary": "P2 T01 adopted-U2 current-Skill baseline; patch_scope=none_baseline",
+          "prompt_text": "生成一张 3:4 竖版静态商业结构图。\n核心信息：日本汽车市场年销 450 万辆，但新能源渗透率不到 3%，形成大市场与低渗透并存的矛盾；空白很大，但站稳并不简单。\n信息结构：comparison。顶部标题，中部左右两张等权数据卡，底部矛盾结论横条。\n版式与阅读顺序：先读标题，再读左侧市场规模卡和右侧新能源渗透卡，最后读底部结论。左卡用密集但规整的通用汽车流和市场容器表达规模；右卡用一小段高亮新能源份额对比大面积未渗透区域，不画饼图之外的额外数据。\n关系必须画清：两张数据卡等权并列，用中央矛盾符号连接，强调大市场与低渗透同时成立；不得提前画出补贴、品牌或渠道三道壁垒。\n图中只允许出现这些文字：日本汽车市场；年销450万辆；新能源渗透率不到3%；大市场；低渗透；空白市场；想站稳并不简单。\n不画地图或日本地理轮廓。不要 logo、商标、品牌名、水印、AI 字样、无意义英文、新闻来源、额外百分比或白名单外文字。不要把画面做成已经成功进入市场的庆典场景。\nIllustration style: clean isometric business schematic illustration, flat base with light pseudo-isometric depth, precise clean linework, simplified geometry, controlled perspective, subtle shadows, systematic, organized, restrained and professional, high readability.\nSeries palette: cool-neutral muted business palette, light neutral gray background, soft blue-gray primary color, desaturated teal and sage secondary colors, restrained soft-gold accent, dark charcoal linework, low saturation, clean tonal separation, professional and calm.\n",
+          "provenance_confidence": "verified",
+          "provider": "volcengine-ark",
+          "run_id": "RP2-T01-U2-R03",
+          "skill_lineage": {
+            "skill": "shortvideo-image-prompt-generation",
+            "version": "SC-004@35072b0"
+          },
+          "source_adapter": "local-file"
+        },
+        {
+          "assets": [
+            {
+              "asset_id": "AU204",
+              "bytes": 345175,
+              "canonical_path": "originals/AU204.jpg",
+              "case_id": "CASE-20260828-SC004-P2-T01",
+              "created_at": "2026-08-28T00:31:46Z",
+              "height": 2304,
+              "notes": [
+                "SC-004 P2 T01 U2 independent run 4; canonical binary from frozen P2 output"
+              ],
+              "original_filename": "segment-2101-v1-01.jpg",
+              "preview_path": "lab/previews/CASE-20260828-SC004-P2-T01-AU204.jpg",
+              "provenance_confidence": "verified",
+              "run_id": "RP2-T01-U2-R04",
+              "schema_version": "0.1.0",
+              "sha256": "1e5a57af6b52eb8c4d2334eb2e4d8e1e901931327c0b4e1555a9fce7243c7a4f",
+              "source_format": "JPEG",
+              "thumbnail_path": "lab/thumbnails/CASE-20260828-SC004-P2-T01-AU204.jpg",
+              "user_feedback": [
+                "verdict=acceptable; attribution=none"
+              ],
+              "width": 1728
+            }
+          ],
+          "evaluation": "pass",
+          "evaluation_note": "Data cards, central comparison, and bottom conclusion remain; no celebratory market-entry scene.",
+          "generation_surface": "local-api-adapter",
+          "model": "doubao-seedream-5-0-lite-260128",
+          "model_version": "260128",
+          "parameters": {
+            "canonical_decision_gate": "gpt-5.6-sol/medium",
+            "canvas": "3:4",
+            "execution_model_role": "gpt-5.6-luna/max",
+            "independent_repeat": 4,
+            "machine_run_id": "P2-T01-U2-R04",
+            "p2_prompt_mutation_allowed": false,
+            "patch_scope": "none_baseline",
+            "sequential_image_generation": "disabled",
+            "series_palette": "u2_cool-neutral-business",
+            "size": "2K",
+            "style_route": "G22",
+            "watermark": false
+          },
+          "producer": "codex-sc004",
+          "prompt_delta_notes": [],
+          "prompt_id": "PU2",
+          "prompt_intended_model_target": "doubao-seedream-5-0-lite-260128",
+          "prompt_parent_prompt_id": null,
+          "prompt_provenance_confidence": "verified",
+          "prompt_public": true,
+          "prompt_sha256": "e4b3c79765075a45e276f7be75c91fe2b0be928929540a66b0a7f68c8da91c17",
+          "prompt_summary": "P2 T01 adopted-U2 current-Skill baseline; patch_scope=none_baseline",
+          "prompt_text": "生成一张 3:4 竖版静态商业结构图。\n核心信息：日本汽车市场年销 450 万辆，但新能源渗透率不到 3%，形成大市场与低渗透并存的矛盾；空白很大，但站稳并不简单。\n信息结构：comparison。顶部标题，中部左右两张等权数据卡，底部矛盾结论横条。\n版式与阅读顺序：先读标题，再读左侧市场规模卡和右侧新能源渗透卡，最后读底部结论。左卡用密集但规整的通用汽车流和市场容器表达规模；右卡用一小段高亮新能源份额对比大面积未渗透区域，不画饼图之外的额外数据。\n关系必须画清：两张数据卡等权并列，用中央矛盾符号连接，强调大市场与低渗透同时成立；不得提前画出补贴、品牌或渠道三道壁垒。\n图中只允许出现这些文字：日本汽车市场；年销450万辆；新能源渗透率不到3%；大市场；低渗透；空白市场；想站稳并不简单。\n不画地图或日本地理轮廓。不要 logo、商标、品牌名、水印、AI 字样、无意义英文、新闻来源、额外百分比或白名单外文字。不要把画面做成已经成功进入市场的庆典场景。\nIllustration style: clean isometric business schematic illustration, flat base with light pseudo-isometric depth, precise clean linework, simplified geometry, controlled perspective, subtle shadows, systematic, organized, restrained and professional, high readability.\nSeries palette: cool-neutral muted business palette, light neutral gray background, soft blue-gray primary color, desaturated teal and sage secondary colors, restrained soft-gold accent, dark charcoal linework, low saturation, clean tonal separation, professional and calm.\n",
+          "provenance_confidence": "verified",
+          "provider": "volcengine-ark",
+          "run_id": "RP2-T01-U2-R04",
+          "skill_lineage": {
+            "skill": "shortvideo-image-prompt-generation",
+            "version": "SC-004@35072b0"
+          },
+          "source_adapter": "local-file"
+        }
+      ],
+      "status": "open",
+      "svp_mode": "3:4",
+      "tags": [
+        "SC-004",
+        "P2-current-skill-baseline",
+        "T01"
+      ],
+      "title": "P2 T01 Japanese market scale and penetration current-Skill baseline"
+    },
+    {
+      "case_id": "CASE-20260828-SC004-P2-T02",
+      "case_type": "experiment",
+      "contact_sheet": "lab/contact_sheets/CASE-20260828-SC004-P2-T02.jpg",
+      "expected_effect": [
+        "Preserve both subsidy amounts, eightfold imbalance, and plain-text brand boundary"
+      ],
+      "final_selection": null,
+      "image_type": "shortvideo-business-illustration",
+      "problem_statement": "Measure current-Skill baseline on subsidy imbalance, plain-text brands, and scale relation",
+      "project": "hotspot/SC-004",
+      "runs": [
+        {
+          "assets": [
+            {
+              "asset_id": "AU201",
+              "bytes": 248312,
+              "canonical_path": "originals/AU201.jpg",
+              "case_id": "CASE-20260828-SC004-P2-T02",
+              "created_at": "2026-08-28T00:31:48Z",
+              "height": 2304,
+              "notes": [
+                "SC-004 P2 T02 U2 independent run 1; canonical binary from frozen P2 output"
+              ],
+              "original_filename": "segment-2102-v1-01.jpg",
+              "preview_path": "lab/previews/CASE-20260828-SC004-P2-T02-AU201.jpg",
+              "provenance_confidence": "verified",
+              "run_id": "RP2-T02-U2-R01",
+              "schema_version": "0.1.0",
+              "sha256": "c649c23f3a7acc7139ed9f275eeda1ec8e0db28021bf30cebf9cf9cc76d56e66",
+              "source_format": "JPEG",
+              "thumbnail_path": "lab/thumbnails/CASE-20260828-SC004-P2-T02-AU201.jpg",
+              "user_feedback": [
+                "verdict=acceptable; attribution=none"
+              ],
+              "width": 1728
+            }
+          ],
+          "evaluation": "pass",
+          "evaluation_note": "Toyota bZ4X, BYD, 130/15 amounts and the eightfold relation are readable; brand labels remain plain text.",
+          "generation_surface": "local-api-adapter",
+          "model": "doubao-seedream-5-0-lite-260128",
+          "model_version": "260128",
+          "parameters": {
+            "canonical_decision_gate": "gpt-5.6-sol/medium",
+            "canvas": "3:4",
+            "execution_model_role": "gpt-5.6-luna/max",
+            "independent_repeat": 1,
+            "machine_run_id": "P2-T02-U2-R01",
+            "p2_prompt_mutation_allowed": false,
+            "patch_scope": "none_baseline",
+            "sequential_image_generation": "disabled",
+            "series_palette": "u2_cool-neutral-business",
+            "size": "2K",
+            "style_route": "G22",
+            "watermark": false
+          },
+          "producer": "codex-sc004",
+          "prompt_delta_notes": [],
+          "prompt_id": "PU2",
+          "prompt_intended_model_target": "doubao-seedream-5-0-lite-260128",
+          "prompt_parent_prompt_id": null,
+          "prompt_provenance_confidence": "verified",
+          "prompt_public": true,
+          "prompt_sha256": "aec5a253791a0cc32afc50b0c7da196e222d5f2a10abf9d7aed9171863996c82",
+          "prompt_summary": "P2 T02 adopted-U2 current-Skill baseline; patch_scope=none_baseline",
+          "prompt_text": "生成一张 3:4 竖版静态商业结构图。\n核心信息：日本补贴制度对本土品牌明显倾斜，Toyota bZ4X 获得 130万日元，BYD 只有 15万日元，相差 8倍。\n信息结构：comparison。顶部标题，中部左右两张等尺寸车型与补贴卡，中央一只明显倾斜的天平，底部结论横条。\n版式与阅读顺序：先读标题，再左右比较补贴数字，最后读底部判断。左卡只画通用电动车轮廓并排版 Toyota bZ4X 与 130万日元；右卡只画不同的通用电动车轮廓并排版 BYD 与 15万日元。品牌名称只能是普通排版文字，车辆不得带官方标识。\n关系必须画清：中央天平向 Toyota bZ4X 一侧下沉，BYD 一侧抬起；8倍位于天平关系中心，体现制度失衡，不表达车型性能差异。\n图中只允许出现这些文字：第一道墙——补贴壁垒；Toyota bZ4X；130万日元；BYD；15万日元；8倍；身份不对也白搭。\n不画地图。不要官方 logo、商标符号、车辆品牌徽章、水印、AI 字样、无意义英文、CEV 解释、新闻来源、补充数据或白名单外文字。不要把比较误画成产品性能优劣。\nIllustration style: clean isometric business schematic illustration, flat base with light pseudo-isometric depth, precise clean linework, simplified geometry, controlled perspective, subtle shadows, systematic, organized, restrained and professional, high readability.\nSeries palette: cool-neutral muted business palette, light neutral gray background, soft blue-gray primary color, desaturated teal and sage secondary colors, restrained soft-gold accent, dark charcoal linework, low saturation, clean tonal separation, professional and calm.\n",
+          "provenance_confidence": "verified",
+          "provider": "volcengine-ark",
+          "run_id": "RP2-T02-U2-R01",
+          "skill_lineage": {
+            "skill": "shortvideo-image-prompt-generation",
+            "version": "SC-004@35072b0"
+          },
+          "source_adapter": "local-file"
+        },
+        {
+          "assets": [
+            {
+              "asset_id": "AU202",
+              "bytes": 246521,
+              "canonical_path": "originals/AU202.jpg",
+              "case_id": "CASE-20260828-SC004-P2-T02",
+              "created_at": "2026-08-28T00:31:49Z",
+              "height": 2304,
+              "notes": [
+                "SC-004 P2 T02 U2 independent run 2; canonical binary from frozen P2 output"
+              ],
+              "original_filename": "segment-2102-v1-01.jpg",
+              "preview_path": "lab/previews/CASE-20260828-SC004-P2-T02-AU202.jpg",
+              "provenance_confidence": "verified",
+              "run_id": "RP2-T02-U2-R02",
+              "schema_version": "0.1.0",
+              "sha256": "ed0f0b5422d67b3ccc857f39a0c04027619b191c74c1d3a77b686731233c7587",
+              "source_format": "JPEG",
+              "thumbnail_path": "lab/thumbnails/CASE-20260828-SC004-P2-T02-AU202.jpg",
+              "user_feedback": [
+                "verdict=acceptable; attribution=none"
+              ],
+              "width": 1728
+            }
+          ],
+          "evaluation": "pass",
+          "evaluation_note": "Both subsidy values and the tilted-scale relation are clear; BYD remains ordinary text.",
+          "generation_surface": "local-api-adapter",
+          "model": "doubao-seedream-5-0-lite-260128",
+          "model_version": "260128",
+          "parameters": {
+            "canonical_decision_gate": "gpt-5.6-sol/medium",
+            "canvas": "3:4",
+            "execution_model_role": "gpt-5.6-luna/max",
+            "independent_repeat": 2,
+            "machine_run_id": "P2-T02-U2-R02",
+            "p2_prompt_mutation_allowed": false,
+            "patch_scope": "none_baseline",
+            "sequential_image_generation": "disabled",
+            "series_palette": "u2_cool-neutral-business",
+            "size": "2K",
+            "style_route": "G22",
+            "watermark": false
+          },
+          "producer": "codex-sc004",
+          "prompt_delta_notes": [],
+          "prompt_id": "PU2",
+          "prompt_intended_model_target": "doubao-seedream-5-0-lite-260128",
+          "prompt_parent_prompt_id": null,
+          "prompt_provenance_confidence": "verified",
+          "prompt_public": true,
+          "prompt_sha256": "aec5a253791a0cc32afc50b0c7da196e222d5f2a10abf9d7aed9171863996c82",
+          "prompt_summary": "P2 T02 adopted-U2 current-Skill baseline; patch_scope=none_baseline",
+          "prompt_text": "生成一张 3:4 竖版静态商业结构图。\n核心信息：日本补贴制度对本土品牌明显倾斜，Toyota bZ4X 获得 130万日元，BYD 只有 15万日元，相差 8倍。\n信息结构：comparison。顶部标题，中部左右两张等尺寸车型与补贴卡，中央一只明显倾斜的天平，底部结论横条。\n版式与阅读顺序：先读标题，再左右比较补贴数字，最后读底部判断。左卡只画通用电动车轮廓并排版 Toyota bZ4X 与 130万日元；右卡只画不同的通用电动车轮廓并排版 BYD 与 15万日元。品牌名称只能是普通排版文字，车辆不得带官方标识。\n关系必须画清：中央天平向 Toyota bZ4X 一侧下沉，BYD 一侧抬起；8倍位于天平关系中心，体现制度失衡，不表达车型性能差异。\n图中只允许出现这些文字：第一道墙——补贴壁垒；Toyota bZ4X；130万日元；BYD；15万日元；8倍；身份不对也白搭。\n不画地图。不要官方 logo、商标符号、车辆品牌徽章、水印、AI 字样、无意义英文、CEV 解释、新闻来源、补充数据或白名单外文字。不要把比较误画成产品性能优劣。\nIllustration style: clean isometric business schematic illustration, flat base with light pseudo-isometric depth, precise clean linework, simplified geometry, controlled perspective, subtle shadows, systematic, organized, restrained and professional, high readability.\nSeries palette: cool-neutral muted business palette, light neutral gray background, soft blue-gray primary color, desaturated teal and sage secondary colors, restrained soft-gold accent, dark charcoal linework, low saturation, clean tonal separation, professional and calm.\n",
+          "provenance_confidence": "verified",
+          "provider": "volcengine-ark",
+          "run_id": "RP2-T02-U2-R02",
+          "skill_lineage": {
+            "skill": "shortvideo-image-prompt-generation",
+            "version": "SC-004@35072b0"
+          },
+          "source_adapter": "local-file"
+        },
+        {
+          "assets": [
+            {
+              "asset_id": "AU203",
+              "bytes": 262108,
+              "canonical_path": "originals/AU203.jpg",
+              "case_id": "CASE-20260828-SC004-P2-T02",
+              "created_at": "2026-08-28T00:31:50Z",
+              "height": 2304,
+              "notes": [
+                "SC-004 P2 T02 U2 independent run 3; canonical binary from frozen P2 output"
+              ],
+              "original_filename": "segment-2102-v1-01.jpg",
+              "preview_path": "lab/previews/CASE-20260828-SC004-P2-T02-AU203.jpg",
+              "provenance_confidence": "verified",
+              "run_id": "RP2-T02-U2-R03",
+              "schema_version": "0.1.0",
+              "sha256": "c8ec4359c96a68196ed8f0304bcef1634757dede90e6c0eb3df551f14dc6c306",
+              "source_format": "JPEG",
+              "thumbnail_path": "lab/thumbnails/CASE-20260828-SC004-P2-T02-AU203.jpg",
+              "user_feedback": [
+                "verdict=failure; attribution=renderer_constraint_violation"
+              ],
+              "width": 1728
+            }
+          ],
+          "evaluation": "fail",
+          "evaluation_note": "BYD is rendered as a recognizable stylized wordmark, violating the plain-text brand boundary.",
+          "generation_surface": "local-api-adapter",
+          "model": "doubao-seedream-5-0-lite-260128",
+          "model_version": "260128",
+          "parameters": {
+            "canonical_decision_gate": "gpt-5.6-sol/medium",
+            "canvas": "3:4",
+            "execution_model_role": "gpt-5.6-luna/max",
+            "independent_repeat": 3,
+            "machine_run_id": "P2-T02-U2-R03",
+            "p2_prompt_mutation_allowed": false,
+            "patch_scope": "none_baseline",
+            "sequential_image_generation": "disabled",
+            "series_palette": "u2_cool-neutral-business",
+            "size": "2K",
+            "style_route": "G22",
+            "watermark": false
+          },
+          "producer": "codex-sc004",
+          "prompt_delta_notes": [],
+          "prompt_id": "PU2",
+          "prompt_intended_model_target": "doubao-seedream-5-0-lite-260128",
+          "prompt_parent_prompt_id": null,
+          "prompt_provenance_confidence": "verified",
+          "prompt_public": true,
+          "prompt_sha256": "aec5a253791a0cc32afc50b0c7da196e222d5f2a10abf9d7aed9171863996c82",
+          "prompt_summary": "P2 T02 adopted-U2 current-Skill baseline; patch_scope=none_baseline",
+          "prompt_text": "生成一张 3:4 竖版静态商业结构图。\n核心信息：日本补贴制度对本土品牌明显倾斜，Toyota bZ4X 获得 130万日元，BYD 只有 15万日元，相差 8倍。\n信息结构：comparison。顶部标题，中部左右两张等尺寸车型与补贴卡，中央一只明显倾斜的天平，底部结论横条。\n版式与阅读顺序：先读标题，再左右比较补贴数字，最后读底部判断。左卡只画通用电动车轮廓并排版 Toyota bZ4X 与 130万日元；右卡只画不同的通用电动车轮廓并排版 BYD 与 15万日元。品牌名称只能是普通排版文字，车辆不得带官方标识。\n关系必须画清：中央天平向 Toyota bZ4X 一侧下沉，BYD 一侧抬起；8倍位于天平关系中心，体现制度失衡，不表达车型性能差异。\n图中只允许出现这些文字：第一道墙——补贴壁垒；Toyota bZ4X；130万日元；BYD；15万日元；8倍；身份不对也白搭。\n不画地图。不要官方 logo、商标符号、车辆品牌徽章、水印、AI 字样、无意义英文、CEV 解释、新闻来源、补充数据或白名单外文字。不要把比较误画成产品性能优劣。\nIllustration style: clean isometric business schematic illustration, flat base with light pseudo-isometric depth, precise clean linework, simplified geometry, controlled perspective, subtle shadows, systematic, organized, restrained and professional, high readability.\nSeries palette: cool-neutral muted business palette, light neutral gray background, soft blue-gray primary color, desaturated teal and sage secondary colors, restrained soft-gold accent, dark charcoal linework, low saturation, clean tonal separation, professional and calm.\n",
+          "provenance_confidence": "verified",
+          "provider": "volcengine-ark",
+          "run_id": "RP2-T02-U2-R03",
+          "skill_lineage": {
+            "skill": "shortvideo-image-prompt-generation",
+            "version": "SC-004@35072b0"
+          },
+          "source_adapter": "local-file"
+        },
+        {
+          "assets": [
+            {
+              "asset_id": "AU204",
+              "bytes": 253824,
+              "canonical_path": "originals/AU204.jpg",
+              "case_id": "CASE-20260828-SC004-P2-T02",
+              "created_at": "2026-08-28T00:31:51Z",
+              "height": 2304,
+              "notes": [
+                "SC-004 P2 T02 U2 independent run 4; canonical binary from frozen P2 output"
+              ],
+              "original_filename": "segment-2102-v1-01.jpg",
+              "preview_path": "lab/previews/CASE-20260828-SC004-P2-T02-AU204.jpg",
+              "provenance_confidence": "verified",
+              "run_id": "RP2-T02-U2-R04",
+              "schema_version": "0.1.0",
+              "sha256": "1136fb4c78ce10db385181dfa5c897a7faecb949ec32517e07962bf6fa3254ce",
+              "source_format": "JPEG",
+              "thumbnail_path": "lab/thumbnails/CASE-20260828-SC004-P2-T02-AU204.jpg",
+              "user_feedback": [
+                "verdict=failure; attribution=renderer_constraint_violation"
+              ],
+              "width": 1728
+            }
+          ],
+          "evaluation": "fail",
+          "evaluation_note": "BYD is rendered as a logotype/badge-like form; the numeric and scale relation remains but the hard brand boundary fails.",
+          "generation_surface": "local-api-adapter",
+          "model": "doubao-seedream-5-0-lite-260128",
+          "model_version": "260128",
+          "parameters": {
+            "canonical_decision_gate": "gpt-5.6-sol/medium",
+            "canvas": "3:4",
+            "execution_model_role": "gpt-5.6-luna/max",
+            "independent_repeat": 4,
+            "machine_run_id": "P2-T02-U2-R04",
+            "p2_prompt_mutation_allowed": false,
+            "patch_scope": "none_baseline",
+            "sequential_image_generation": "disabled",
+            "series_palette": "u2_cool-neutral-business",
+            "size": "2K",
+            "style_route": "G22",
+            "watermark": false
+          },
+          "producer": "codex-sc004",
+          "prompt_delta_notes": [],
+          "prompt_id": "PU2",
+          "prompt_intended_model_target": "doubao-seedream-5-0-lite-260128",
+          "prompt_parent_prompt_id": null,
+          "prompt_provenance_confidence": "verified",
+          "prompt_public": true,
+          "prompt_sha256": "aec5a253791a0cc32afc50b0c7da196e222d5f2a10abf9d7aed9171863996c82",
+          "prompt_summary": "P2 T02 adopted-U2 current-Skill baseline; patch_scope=none_baseline",
+          "prompt_text": "生成一张 3:4 竖版静态商业结构图。\n核心信息：日本补贴制度对本土品牌明显倾斜，Toyota bZ4X 获得 130万日元，BYD 只有 15万日元，相差 8倍。\n信息结构：comparison。顶部标题，中部左右两张等尺寸车型与补贴卡，中央一只明显倾斜的天平，底部结论横条。\n版式与阅读顺序：先读标题，再左右比较补贴数字，最后读底部判断。左卡只画通用电动车轮廓并排版 Toyota bZ4X 与 130万日元；右卡只画不同的通用电动车轮廓并排版 BYD 与 15万日元。品牌名称只能是普通排版文字，车辆不得带官方标识。\n关系必须画清：中央天平向 Toyota bZ4X 一侧下沉，BYD 一侧抬起；8倍位于天平关系中心，体现制度失衡，不表达车型性能差异。\n图中只允许出现这些文字：第一道墙——补贴壁垒；Toyota bZ4X；130万日元；BYD；15万日元；8倍；身份不对也白搭。\n不画地图。不要官方 logo、商标符号、车辆品牌徽章、水印、AI 字样、无意义英文、CEV 解释、新闻来源、补充数据或白名单外文字。不要把比较误画成产品性能优劣。\nIllustration style: clean isometric business schematic illustration, flat base with light pseudo-isometric depth, precise clean linework, simplified geometry, controlled perspective, subtle shadows, systematic, organized, restrained and professional, high readability.\nSeries palette: cool-neutral muted business palette, light neutral gray background, soft blue-gray primary color, desaturated teal and sage secondary colors, restrained soft-gold accent, dark charcoal linework, low saturation, clean tonal separation, professional and calm.\n",
+          "provenance_confidence": "verified",
+          "provider": "volcengine-ark",
+          "run_id": "RP2-T02-U2-R04",
+          "skill_lineage": {
+            "skill": "shortvideo-image-prompt-generation",
+            "version": "SC-004@35072b0"
+          },
+          "source_adapter": "local-file"
+        }
+      ],
+      "status": "open",
+      "svp_mode": "3:4",
+      "tags": [
+        "SC-004",
+        "P2-current-skill-baseline",
+        "T02"
+      ],
+      "title": "P2 T02 subsidy imbalance current-Skill baseline"
+    },
+    {
+      "case_id": "CASE-20260828-SC004-P2-T03",
+      "case_type": "experiment",
+      "contact_sheet": "lab/contact_sheets/CASE-20260828-SC004-P2-T03.jpg",
+      "expected_effect": [
+        "Preserve three parallel routes, non-delivery status, and two execution conditions"
+      ],
+      "final_selection": null,
+      "image_type": "shortvideo-business-illustration",
+      "problem_statement": "Measure current-Skill baseline on parallel entry routes and planned status",
+      "project": "hotspot/SC-004",
+      "runs": [
+        {
+          "assets": [
+            {
+              "asset_id": "AU201",
+              "bytes": 234443,
+              "canonical_path": "originals/AU201.jpg",
+              "case_id": "CASE-20260828-SC004-P2-T03",
+              "created_at": "2026-08-28T00:31:52Z",
+              "height": 2304,
+              "notes": [
+                "SC-004 P2 T03 U2 independent run 1; canonical binary from frozen P2 output"
+              ],
+              "original_filename": "segment-2103-v1-01.jpg",
+              "preview_path": "lab/previews/CASE-20260828-SC004-P2-T03-AU201.jpg",
+              "provenance_confidence": "verified",
+              "run_id": "RP2-T03-U2-R01",
+              "schema_version": "0.1.0",
+              "sha256": "c867dacd2ee8295a27fee516293aaab056fd6c09c88925343b15f66552c70d7a",
+              "source_format": "JPEG",
+              "thumbnail_path": "lab/thumbnails/CASE-20260828-SC004-P2-T03-AU201.jpg",
+              "user_feedback": [
+                "verdict=acceptable; attribution=none"
+              ],
+              "width": 1728
+            }
+          ],
+          "evaluation": "pass",
+          "evaluation_note": "Chery, GAC, and Zeekr remain three parallel routes with planned/not-delivered status and two conditions.",
+          "generation_surface": "local-api-adapter",
+          "model": "doubao-seedream-5-0-lite-260128",
+          "model_version": "260128",
+          "parameters": {
+            "canonical_decision_gate": "gpt-5.6-sol/medium",
+            "canvas": "3:4",
+            "execution_model_role": "gpt-5.6-luna/max",
+            "independent_repeat": 1,
+            "machine_run_id": "P2-T03-U2-R01",
+            "p2_prompt_mutation_allowed": false,
+            "patch_scope": "none_baseline",
+            "sequential_image_generation": "disabled",
+            "series_palette": "u2_cool-neutral-business",
+            "size": "2K",
+            "style_route": "G22",
+            "watermark": false
+          },
+          "producer": "codex-sc004",
+          "prompt_delta_notes": [],
+          "prompt_id": "PU2",
+          "prompt_intended_model_target": "doubao-seedream-5-0-lite-260128",
+          "prompt_parent_prompt_id": null,
+          "prompt_provenance_confidence": "verified",
+          "prompt_public": true,
+          "prompt_sha256": "460504b71243dbf084580464384ab8e49fd72be5e163fb46dfa00f08a1b8419e",
+          "prompt_summary": "P2 T03 adopted-U2 current-Skill baseline; patch_scope=none_baseline",
+          "prompt_text": "生成一张 3:4 竖版静态商业结构图。\n核心信息：奇瑞、广汽、极氪分别尝试本地渠道、企业用车和高端路线，但都仍在计划阶段、尚未交付，兑现取决于本土化深度与渠道执行力。\n信息结构：comparison。顶部标题，中部三张等宽路径卡，底部状态与条件收束带。\n版式与阅读顺序：先读标题，再从左到右读三条路径，最后读底部共同状态和两项兑现条件。奇瑞卡用本地合作渠道节点表达；广汽卡用企业车队与订单入口表达；极氪卡用克制的高端价格阶梯表达。品牌名只能用普通排版文字。\n关系必须画清：三张路径卡保持并列，不画成先后顺序；三条细线共同汇入底部计划状态，再由两条条件线连接本土化深度与渠道执行力。\n图中只允许出现这些文字：三种进入路径；奇瑞；本地渠道；广汽；企业用车；极氪；高端路线；计划阶段；尚未交付；本土化深度；渠道执行力。\n不画地图。不要官方 logo、商标符号、车辆徽章、水印、AI 字样、无意义英文、订单数字、销量数据、新闻来源或白名单外文字。不要表达任何路径已经兑现或成功。\nIllustration style: clean isometric business schematic illustration, flat base with light pseudo-isometric depth, precise clean linework, simplified geometry, controlled perspective, subtle shadows, systematic, organized, restrained and professional, high readability.\nSeries palette: cool-neutral muted business palette, light neutral gray background, soft blue-gray primary color, desaturated teal and sage secondary colors, restrained soft-gold accent, dark charcoal linework, low saturation, clean tonal separation, professional and calm.\n",
+          "provenance_confidence": "verified",
+          "provider": "volcengine-ark",
+          "run_id": "RP2-T03-U2-R01",
+          "skill_lineage": {
+            "skill": "shortvideo-image-prompt-generation",
+            "version": "SC-004@35072b0"
+          },
+          "source_adapter": "local-file"
+        },
+        {
+          "assets": [
+            {
+              "asset_id": "AU202",
+              "bytes": 186090,
+              "canonical_path": "originals/AU202.jpg",
+              "case_id": "CASE-20260828-SC004-P2-T03",
+              "created_at": "2026-08-28T00:31:53Z",
+              "height": 2304,
+              "notes": [
+                "SC-004 P2 T03 U2 independent run 2; canonical binary from frozen P2 output"
+              ],
+              "original_filename": "segment-2103-v1-01.jpg",
+              "preview_path": "lab/previews/CASE-20260828-SC004-P2-T03-AU202.jpg",
+              "provenance_confidence": "verified",
+              "run_id": "RP2-T03-U2-R02",
+              "schema_version": "0.1.0",
+              "sha256": "cb75b06601d1b8c655e17884f6df5cb9f32787dd1daf5b292a3e0f66f507c966",
+              "source_format": "JPEG",
+              "thumbnail_path": "lab/thumbnails/CASE-20260828-SC004-P2-T03-AU202.jpg",
+              "user_feedback": [
+                "verdict=acceptable; attribution=none"
+              ],
+              "width": 1728
+            }
+          ],
+          "evaluation": "pass",
+          "evaluation_note": "Three routes converge on planned status and then split to localization depth and channel execution; no sequential ordering.",
+          "generation_surface": "local-api-adapter",
+          "model": "doubao-seedream-5-0-lite-260128",
+          "model_version": "260128",
+          "parameters": {
+            "canonical_decision_gate": "gpt-5.6-sol/medium",
+            "canvas": "3:4",
+            "execution_model_role": "gpt-5.6-luna/max",
+            "independent_repeat": 2,
+            "machine_run_id": "P2-T03-U2-R02",
+            "p2_prompt_mutation_allowed": false,
+            "patch_scope": "none_baseline",
+            "sequential_image_generation": "disabled",
+            "series_palette": "u2_cool-neutral-business",
+            "size": "2K",
+            "style_route": "G22",
+            "watermark": false
+          },
+          "producer": "codex-sc004",
+          "prompt_delta_notes": [],
+          "prompt_id": "PU2",
+          "prompt_intended_model_target": "doubao-seedream-5-0-lite-260128",
+          "prompt_parent_prompt_id": null,
+          "prompt_provenance_confidence": "verified",
+          "prompt_public": true,
+          "prompt_sha256": "460504b71243dbf084580464384ab8e49fd72be5e163fb46dfa00f08a1b8419e",
+          "prompt_summary": "P2 T03 adopted-U2 current-Skill baseline; patch_scope=none_baseline",
+          "prompt_text": "生成一张 3:4 竖版静态商业结构图。\n核心信息：奇瑞、广汽、极氪分别尝试本地渠道、企业用车和高端路线，但都仍在计划阶段、尚未交付，兑现取决于本土化深度与渠道执行力。\n信息结构：comparison。顶部标题，中部三张等宽路径卡，底部状态与条件收束带。\n版式与阅读顺序：先读标题，再从左到右读三条路径，最后读底部共同状态和两项兑现条件。奇瑞卡用本地合作渠道节点表达；广汽卡用企业车队与订单入口表达；极氪卡用克制的高端价格阶梯表达。品牌名只能用普通排版文字。\n关系必须画清：三张路径卡保持并列，不画成先后顺序；三条细线共同汇入底部计划状态，再由两条条件线连接本土化深度与渠道执行力。\n图中只允许出现这些文字：三种进入路径；奇瑞；本地渠道；广汽；企业用车；极氪；高端路线；计划阶段；尚未交付；本土化深度；渠道执行力。\n不画地图。不要官方 logo、商标符号、车辆徽章、水印、AI 字样、无意义英文、订单数字、销量数据、新闻来源或白名单外文字。不要表达任何路径已经兑现或成功。\nIllustration style: clean isometric business schematic illustration, flat base with light pseudo-isometric depth, precise clean linework, simplified geometry, controlled perspective, subtle shadows, systematic, organized, restrained and professional, high readability.\nSeries palette: cool-neutral muted business palette, light neutral gray background, soft blue-gray primary color, desaturated teal and sage secondary colors, restrained soft-gold accent, dark charcoal linework, low saturation, clean tonal separation, professional and calm.\n",
+          "provenance_confidence": "verified",
+          "provider": "volcengine-ark",
+          "run_id": "RP2-T03-U2-R02",
+          "skill_lineage": {
+            "skill": "shortvideo-image-prompt-generation",
+            "version": "SC-004@35072b0"
+          },
+          "source_adapter": "local-file"
+        },
+        {
+          "assets": [
+            {
+              "asset_id": "AU203",
+              "bytes": 227100,
+              "canonical_path": "originals/AU203.jpg",
+              "case_id": "CASE-20260828-SC004-P2-T03",
+              "created_at": "2026-08-28T00:31:54Z",
+              "height": 2304,
+              "notes": [
+                "SC-004 P2 T03 U2 independent run 3; canonical binary from frozen P2 output"
+              ],
+              "original_filename": "segment-2103-v1-01.jpg",
+              "preview_path": "lab/previews/CASE-20260828-SC004-P2-T03-AU203.jpg",
+              "provenance_confidence": "verified",
+              "run_id": "RP2-T03-U2-R03",
+              "schema_version": "0.1.0",
+              "sha256": "2cac81357cf704c366ac4bab994b8cfae51794dbc0ef817af865e9fde8be9cb4",
+              "source_format": "JPEG",
+              "thumbnail_path": "lab/thumbnails/CASE-20260828-SC004-P2-T03-AU203.jpg",
+              "user_feedback": [
+                "verdict=acceptable; attribution=none"
+              ],
+              "width": 1728
+            }
+          ],
+          "evaluation": "pass",
+          "evaluation_note": "Three equal route cards and the two execution conditions remain legible.",
+          "generation_surface": "local-api-adapter",
+          "model": "doubao-seedream-5-0-lite-260128",
+          "model_version": "260128",
+          "parameters": {
+            "canonical_decision_gate": "gpt-5.6-sol/medium",
+            "canvas": "3:4",
+            "execution_model_role": "gpt-5.6-luna/max",
+            "independent_repeat": 3,
+            "machine_run_id": "P2-T03-U2-R03",
+            "p2_prompt_mutation_allowed": false,
+            "patch_scope": "none_baseline",
+            "sequential_image_generation": "disabled",
+            "series_palette": "u2_cool-neutral-business",
+            "size": "2K",
+            "style_route": "G22",
+            "watermark": false
+          },
+          "producer": "codex-sc004",
+          "prompt_delta_notes": [],
+          "prompt_id": "PU2",
+          "prompt_intended_model_target": "doubao-seedream-5-0-lite-260128",
+          "prompt_parent_prompt_id": null,
+          "prompt_provenance_confidence": "verified",
+          "prompt_public": true,
+          "prompt_sha256": "460504b71243dbf084580464384ab8e49fd72be5e163fb46dfa00f08a1b8419e",
+          "prompt_summary": "P2 T03 adopted-U2 current-Skill baseline; patch_scope=none_baseline",
+          "prompt_text": "生成一张 3:4 竖版静态商业结构图。\n核心信息：奇瑞、广汽、极氪分别尝试本地渠道、企业用车和高端路线，但都仍在计划阶段、尚未交付，兑现取决于本土化深度与渠道执行力。\n信息结构：comparison。顶部标题，中部三张等宽路径卡，底部状态与条件收束带。\n版式与阅读顺序：先读标题，再从左到右读三条路径，最后读底部共同状态和两项兑现条件。奇瑞卡用本地合作渠道节点表达；广汽卡用企业车队与订单入口表达；极氪卡用克制的高端价格阶梯表达。品牌名只能用普通排版文字。\n关系必须画清：三张路径卡保持并列，不画成先后顺序；三条细线共同汇入底部计划状态，再由两条条件线连接本土化深度与渠道执行力。\n图中只允许出现这些文字：三种进入路径；奇瑞；本地渠道；广汽；企业用车；极氪；高端路线；计划阶段；尚未交付；本土化深度；渠道执行力。\n不画地图。不要官方 logo、商标符号、车辆徽章、水印、AI 字样、无意义英文、订单数字、销量数据、新闻来源或白名单外文字。不要表达任何路径已经兑现或成功。\nIllustration style: clean isometric business schematic illustration, flat base with light pseudo-isometric depth, precise clean linework, simplified geometry, controlled perspective, subtle shadows, systematic, organized, restrained and professional, high readability.\nSeries palette: cool-neutral muted business palette, light neutral gray background, soft blue-gray primary color, desaturated teal and sage secondary colors, restrained soft-gold accent, dark charcoal linework, low saturation, clean tonal separation, professional and calm.\n",
+          "provenance_confidence": "verified",
+          "provider": "volcengine-ark",
+          "run_id": "RP2-T03-U2-R03",
+          "skill_lineage": {
+            "skill": "shortvideo-image-prompt-generation",
+            "version": "SC-004@35072b0"
+          },
+          "source_adapter": "local-file"
+        },
+        {
+          "assets": [
+            {
+              "asset_id": "AU204",
+              "bytes": 211447,
+              "canonical_path": "originals/AU204.jpg",
+              "case_id": "CASE-20260828-SC004-P2-T03",
+              "created_at": "2026-08-28T00:31:55Z",
+              "height": 2304,
+              "notes": [
+                "SC-004 P2 T03 U2 independent run 4; canonical binary from frozen P2 output"
+              ],
+              "original_filename": "segment-2103-v1-01.jpg",
+              "preview_path": "lab/previews/CASE-20260828-SC004-P2-T03-AU204.jpg",
+              "provenance_confidence": "verified",
+              "run_id": "RP2-T03-U2-R04",
+              "schema_version": "0.1.0",
+              "sha256": "fbf01f3c957677acc7db0fbcb07446a273867e3ff0a71b7b8abb8c25c07e5067",
+              "source_format": "JPEG",
+              "thumbnail_path": "lab/thumbnails/CASE-20260828-SC004-P2-T03-AU204.jpg",
+              "user_feedback": [
+                "verdict=acceptable; attribution=none"
+              ],
+              "width": 1728
+            }
+          ],
+          "evaluation": "pass",
+          "evaluation_note": "The three-route/common-status closure is complete; brand names are plain text and no extra data appears.",
+          "generation_surface": "local-api-adapter",
+          "model": "doubao-seedream-5-0-lite-260128",
+          "model_version": "260128",
+          "parameters": {
+            "canonical_decision_gate": "gpt-5.6-sol/medium",
+            "canvas": "3:4",
+            "execution_model_role": "gpt-5.6-luna/max",
+            "independent_repeat": 4,
+            "machine_run_id": "P2-T03-U2-R04",
+            "p2_prompt_mutation_allowed": false,
+            "patch_scope": "none_baseline",
+            "sequential_image_generation": "disabled",
+            "series_palette": "u2_cool-neutral-business",
+            "size": "2K",
+            "style_route": "G22",
+            "watermark": false
+          },
+          "producer": "codex-sc004",
+          "prompt_delta_notes": [],
+          "prompt_id": "PU2",
+          "prompt_intended_model_target": "doubao-seedream-5-0-lite-260128",
+          "prompt_parent_prompt_id": null,
+          "prompt_provenance_confidence": "verified",
+          "prompt_public": true,
+          "prompt_sha256": "460504b71243dbf084580464384ab8e49fd72be5e163fb46dfa00f08a1b8419e",
+          "prompt_summary": "P2 T03 adopted-U2 current-Skill baseline; patch_scope=none_baseline",
+          "prompt_text": "生成一张 3:4 竖版静态商业结构图。\n核心信息：奇瑞、广汽、极氪分别尝试本地渠道、企业用车和高端路线，但都仍在计划阶段、尚未交付，兑现取决于本土化深度与渠道执行力。\n信息结构：comparison。顶部标题，中部三张等宽路径卡，底部状态与条件收束带。\n版式与阅读顺序：先读标题，再从左到右读三条路径，最后读底部共同状态和两项兑现条件。奇瑞卡用本地合作渠道节点表达；广汽卡用企业车队与订单入口表达；极氪卡用克制的高端价格阶梯表达。品牌名只能用普通排版文字。\n关系必须画清：三张路径卡保持并列，不画成先后顺序；三条细线共同汇入底部计划状态，再由两条条件线连接本土化深度与渠道执行力。\n图中只允许出现这些文字：三种进入路径；奇瑞；本地渠道；广汽；企业用车；极氪；高端路线；计划阶段；尚未交付；本土化深度；渠道执行力。\n不画地图。不要官方 logo、商标符号、车辆徽章、水印、AI 字样、无意义英文、订单数字、销量数据、新闻来源或白名单外文字。不要表达任何路径已经兑现或成功。\nIllustration style: clean isometric business schematic illustration, flat base with light pseudo-isometric depth, precise clean linework, simplified geometry, controlled perspective, subtle shadows, systematic, organized, restrained and professional, high readability.\nSeries palette: cool-neutral muted business palette, light neutral gray background, soft blue-gray primary color, desaturated teal and sage secondary colors, restrained soft-gold accent, dark charcoal linework, low saturation, clean tonal separation, professional and calm.\n",
+          "provenance_confidence": "verified",
+          "provider": "volcengine-ark",
+          "run_id": "RP2-T03-U2-R04",
+          "skill_lineage": {
+            "skill": "shortvideo-image-prompt-generation",
+            "version": "SC-004@35072b0"
+          },
+          "source_adapter": "local-file"
+        }
+      ],
+      "status": "open",
+      "svp_mode": "3:4",
+      "tags": [
+        "SC-004",
+        "P2-current-skill-baseline",
+        "T03"
+      ],
+      "title": "P2 T03 three entry routes current-Skill baseline"
+    },
+    {
+      "case_id": "CASE-20260828-SC004-P2-T04",
+      "case_type": "experiment",
+      "contact_sheet": "lab/contact_sheets/CASE-20260828-SC004-P2-T04.jpg",
+      "expected_effect": [
+        "Preserve opportunity and barriers together and the long-term parts-to-system relation"
+      ],
+      "final_selection": null,
+      "image_type": "shortvideo-business-illustration",
+      "problem_statement": "Measure current-Skill baseline on opportunity, barriers, and internal supply-chain variable",
+      "project": "hotspot/SC-004",
+      "runs": [
+        {
+          "assets": [
+            {
+              "asset_id": "AU201",
+              "bytes": 165215,
+              "canonical_path": "originals/AU201.jpg",
+              "case_id": "CASE-20260828-SC004-P2-T04",
+              "created_at": "2026-08-28T00:31:56Z",
+              "height": 2304,
+              "notes": [
+                "SC-004 P2 T04 U2 independent run 1; canonical binary from frozen P2 output"
+              ],
+              "original_filename": "segment-2104-v1-01.jpg",
+              "preview_path": "lab/previews/CASE-20260828-SC004-P2-T04-AU201.jpg",
+              "provenance_confidence": "verified",
+              "run_id": "RP2-T04-U2-R01",
+              "schema_version": "0.1.0",
+              "sha256": "e7db8e0a598781933da2547f260b3678496889858249499aea874eb82df97f73",
+              "source_format": "JPEG",
+              "thumbnail_path": "lab/thumbnails/CASE-20260828-SC004-P2-T04-AU201.jpg",
+              "user_feedback": [
+                "verdict=acceptable; attribution=none"
+              ],
+              "width": 1728
+            }
+          ],
+          "evaluation": "pass",
+          "evaluation_note": "Opportunity and triple barriers coexist; the three barriers are equal and the long-term descent to parts/system interior is clear.",
+          "generation_surface": "local-api-adapter",
+          "model": "doubao-seedream-5-0-lite-260128",
+          "model_version": "260128",
+          "parameters": {
+            "canonical_decision_gate": "gpt-5.6-sol/medium",
+            "canvas": "3:4",
+            "execution_model_role": "gpt-5.6-luna/max",
+            "independent_repeat": 1,
+            "machine_run_id": "P2-T04-U2-R01",
+            "p2_prompt_mutation_allowed": false,
+            "patch_scope": "none_baseline",
+            "sequential_image_generation": "disabled",
+            "series_palette": "u2_cool-neutral-business",
+            "size": "2K",
+            "style_route": "G22",
+            "watermark": false
+          },
+          "producer": "codex-sc004",
+          "prompt_delta_notes": [],
+          "prompt_id": "PU2",
+          "prompt_intended_model_target": "doubao-seedream-5-0-lite-260128",
+          "prompt_parent_prompt_id": null,
+          "prompt_provenance_confidence": "verified",
+          "prompt_public": true,
+          "prompt_sha256": "a40631bbd1a73ffea584cc3584f1de40926b4751b45991611476cf84d803f6d9",
+          "prompt_summary": "P2 T04 adopted-U2 current-Skill baseline; patch_scope=none_baseline",
+          "prompt_text": "生成一张 3:4 竖版静态商业结构图。\n核心信息：日本市场的机会窗口和补贴、品牌、渠道三重壁垒都真实存在；长期变量不是街头多卖几千辆车，而是中国零部件从体系内部改变竞争格局。\n信息结构：hierarchy。顶部双重事实层，中部三道并列壁垒，底部从整车表层下沉到供应链内部的长期变量层。\n版式与阅读顺序：先读顶部机会窗口真实与三重壁垒真实，再读中部补贴、品牌、渠道三张等权卡，最后沿一条向下深入的路径读到底部中国零部件与体系内部。底部用供应链节点进入工业系统底座的机制画面，不画街景销量。\n关系必须画清：机会窗口与三重壁垒同时成立，不互相抵消；三道壁垒之下，一条独立纵向路径进入体系内部，表示长期关注层级从整车销售转向供应链结构。\n图中只允许出现这些文字：机会窗口真实；三重壁垒真实；补贴；品牌；渠道；中国零部件；体系内部；长期变量。\n不画地图。不要 logo、商标、水印、AI 字样、无意义英文、品牌案例、销量数字、互动提问、新闻来源或白名单外文字。不要把供应链画成已经完全取代日本体系。\nIllustration style: clean isometric business schematic illustration, flat base with light pseudo-isometric depth, precise clean linework, simplified geometry, controlled perspective, subtle shadows, systematic, organized, restrained and professional, high readability.\nSeries palette: cool-neutral muted business palette, light neutral gray background, soft blue-gray primary color, desaturated teal and sage secondary colors, restrained soft-gold accent, dark charcoal linework, low saturation, clean tonal separation, professional and calm.\n",
+          "provenance_confidence": "verified",
+          "provider": "volcengine-ark",
+          "run_id": "RP2-T04-U2-R01",
+          "skill_lineage": {
+            "skill": "shortvideo-image-prompt-generation",
+            "version": "SC-004@35072b0"
+          },
+          "source_adapter": "local-file"
+        },
+        {
+          "assets": [
+            {
+              "asset_id": "AU202",
+              "bytes": 213943,
+              "canonical_path": "originals/AU202.jpg",
+              "case_id": "CASE-20260828-SC004-P2-T04",
+              "created_at": "2026-08-28T00:31:57Z",
+              "height": 2304,
+              "notes": [
+                "SC-004 P2 T04 U2 independent run 2; canonical binary from frozen P2 output"
+              ],
+              "original_filename": "segment-2104-v1-01.jpg",
+              "preview_path": "lab/previews/CASE-20260828-SC004-P2-T04-AU202.jpg",
+              "provenance_confidence": "verified",
+              "run_id": "RP2-T04-U2-R02",
+              "schema_version": "0.1.0",
+              "sha256": "3242e0b24d804f85fa3febcd687e8638021ddcc092bdb608389d5a18bb68db4b",
+              "source_format": "JPEG",
+              "thumbnail_path": "lab/thumbnails/CASE-20260828-SC004-P2-T04-AU202.jpg",
+              "user_feedback": [
+                "verdict=acceptable; attribution=none"
+              ],
+              "width": 1728
+            }
+          ],
+          "evaluation": "pass",
+          "evaluation_note": "Top facts, three barriers, and the supply-chain mechanism layer have clear hierarchy.",
+          "generation_surface": "local-api-adapter",
+          "model": "doubao-seedream-5-0-lite-260128",
+          "model_version": "260128",
+          "parameters": {
+            "canonical_decision_gate": "gpt-5.6-sol/medium",
+            "canvas": "3:4",
+            "execution_model_role": "gpt-5.6-luna/max",
+            "independent_repeat": 2,
+            "machine_run_id": "P2-T04-U2-R02",
+            "p2_prompt_mutation_allowed": false,
+            "patch_scope": "none_baseline",
+            "sequential_image_generation": "disabled",
+            "series_palette": "u2_cool-neutral-business",
+            "size": "2K",
+            "style_route": "G22",
+            "watermark": false
+          },
+          "producer": "codex-sc004",
+          "prompt_delta_notes": [],
+          "prompt_id": "PU2",
+          "prompt_intended_model_target": "doubao-seedream-5-0-lite-260128",
+          "prompt_parent_prompt_id": null,
+          "prompt_provenance_confidence": "verified",
+          "prompt_public": true,
+          "prompt_sha256": "a40631bbd1a73ffea584cc3584f1de40926b4751b45991611476cf84d803f6d9",
+          "prompt_summary": "P2 T04 adopted-U2 current-Skill baseline; patch_scope=none_baseline",
+          "prompt_text": "生成一张 3:4 竖版静态商业结构图。\n核心信息：日本市场的机会窗口和补贴、品牌、渠道三重壁垒都真实存在；长期变量不是街头多卖几千辆车，而是中国零部件从体系内部改变竞争格局。\n信息结构：hierarchy。顶部双重事实层，中部三道并列壁垒，底部从整车表层下沉到供应链内部的长期变量层。\n版式与阅读顺序：先读顶部机会窗口真实与三重壁垒真实，再读中部补贴、品牌、渠道三张等权卡，最后沿一条向下深入的路径读到底部中国零部件与体系内部。底部用供应链节点进入工业系统底座的机制画面，不画街景销量。\n关系必须画清：机会窗口与三重壁垒同时成立，不互相抵消；三道壁垒之下，一条独立纵向路径进入体系内部，表示长期关注层级从整车销售转向供应链结构。\n图中只允许出现这些文字：机会窗口真实；三重壁垒真实；补贴；品牌；渠道；中国零部件；体系内部；长期变量。\n不画地图。不要 logo、商标、水印、AI 字样、无意义英文、品牌案例、销量数字、互动提问、新闻来源或白名单外文字。不要把供应链画成已经完全取代日本体系。\nIllustration style: clean isometric business schematic illustration, flat base with light pseudo-isometric depth, precise clean linework, simplified geometry, controlled perspective, subtle shadows, systematic, organized, restrained and professional, high readability.\nSeries palette: cool-neutral muted business palette, light neutral gray background, soft blue-gray primary color, desaturated teal and sage secondary colors, restrained soft-gold accent, dark charcoal linework, low saturation, clean tonal separation, professional and calm.\n",
+          "provenance_confidence": "verified",
+          "provider": "volcengine-ark",
+          "run_id": "RP2-T04-U2-R02",
+          "skill_lineage": {
+            "skill": "shortvideo-image-prompt-generation",
+            "version": "SC-004@35072b0"
+          },
+          "source_adapter": "local-file"
+        },
+        {
+          "assets": [
+            {
+              "asset_id": "AU203",
+              "bytes": 219557,
+              "canonical_path": "originals/AU203.jpg",
+              "case_id": "CASE-20260828-SC004-P2-T04",
+              "created_at": "2026-08-28T00:31:58Z",
+              "height": 2304,
+              "notes": [
+                "SC-004 P2 T04 U2 independent run 3; canonical binary from frozen P2 output"
+              ],
+              "original_filename": "segment-2104-v1-01.jpg",
+              "preview_path": "lab/previews/CASE-20260828-SC004-P2-T04-AU203.jpg",
+              "provenance_confidence": "verified",
+              "run_id": "RP2-T04-U2-R03",
+              "schema_version": "0.1.0",
+              "sha256": "c3defcb7f470691c445ca46c9f598d20b369ab798f26fc6e7987d1693b34a2f5",
+              "source_format": "JPEG",
+              "thumbnail_path": "lab/thumbnails/CASE-20260828-SC004-P2-T04-AU203.jpg",
+              "user_feedback": [
+                "verdict=near-pass; attribution=renderer_stochastic_or_prompt_grounding_candidate"
+              ],
+              "width": 1728
+            }
+          ],
+          "evaluation": "partial",
+          "evaluation_note": "Core facts and barriers remain, but the lower China-parts to system-interior mechanism is small on mobile.",
+          "generation_surface": "local-api-adapter",
+          "model": "doubao-seedream-5-0-lite-260128",
+          "model_version": "260128",
+          "parameters": {
+            "canonical_decision_gate": "gpt-5.6-sol/medium",
+            "canvas": "3:4",
+            "execution_model_role": "gpt-5.6-luna/max",
+            "independent_repeat": 3,
+            "machine_run_id": "P2-T04-U2-R03",
+            "p2_prompt_mutation_allowed": false,
+            "patch_scope": "none_baseline",
+            "sequential_image_generation": "disabled",
+            "series_palette": "u2_cool-neutral-business",
+            "size": "2K",
+            "style_route": "G22",
+            "watermark": false
+          },
+          "producer": "codex-sc004",
+          "prompt_delta_notes": [],
+          "prompt_id": "PU2",
+          "prompt_intended_model_target": "doubao-seedream-5-0-lite-260128",
+          "prompt_parent_prompt_id": null,
+          "prompt_provenance_confidence": "verified",
+          "prompt_public": true,
+          "prompt_sha256": "a40631bbd1a73ffea584cc3584f1de40926b4751b45991611476cf84d803f6d9",
+          "prompt_summary": "P2 T04 adopted-U2 current-Skill baseline; patch_scope=none_baseline",
+          "prompt_text": "生成一张 3:4 竖版静态商业结构图。\n核心信息：日本市场的机会窗口和补贴、品牌、渠道三重壁垒都真实存在；长期变量不是街头多卖几千辆车，而是中国零部件从体系内部改变竞争格局。\n信息结构：hierarchy。顶部双重事实层，中部三道并列壁垒，底部从整车表层下沉到供应链内部的长期变量层。\n版式与阅读顺序：先读顶部机会窗口真实与三重壁垒真实，再读中部补贴、品牌、渠道三张等权卡，最后沿一条向下深入的路径读到底部中国零部件与体系内部。底部用供应链节点进入工业系统底座的机制画面，不画街景销量。\n关系必须画清：机会窗口与三重壁垒同时成立，不互相抵消；三道壁垒之下，一条独立纵向路径进入体系内部，表示长期关注层级从整车销售转向供应链结构。\n图中只允许出现这些文字：机会窗口真实；三重壁垒真实；补贴；品牌；渠道；中国零部件；体系内部；长期变量。\n不画地图。不要 logo、商标、水印、AI 字样、无意义英文、品牌案例、销量数字、互动提问、新闻来源或白名单外文字。不要把供应链画成已经完全取代日本体系。\nIllustration style: clean isometric business schematic illustration, flat base with light pseudo-isometric depth, precise clean linework, simplified geometry, controlled perspective, subtle shadows, systematic, organized, restrained and professional, high readability.\nSeries palette: cool-neutral muted business palette, light neutral gray background, soft blue-gray primary color, desaturated teal and sage secondary colors, restrained soft-gold accent, dark charcoal linework, low saturation, clean tonal separation, professional and calm.\n",
+          "provenance_confidence": "verified",
+          "provider": "volcengine-ark",
+          "run_id": "RP2-T04-U2-R03",
+          "skill_lineage": {
+            "skill": "shortvideo-image-prompt-generation",
+            "version": "SC-004@35072b0"
+          },
+          "source_adapter": "local-file"
+        },
+        {
+          "assets": [
+            {
+              "asset_id": "AU204",
+              "bytes": 195886,
+              "canonical_path": "originals/AU204.jpg",
+              "case_id": "CASE-20260828-SC004-P2-T04",
+              "created_at": "2026-08-28T00:31:59Z",
+              "height": 2304,
+              "notes": [
+                "SC-004 P2 T04 U2 independent run 4; canonical binary from frozen P2 output"
+              ],
+              "original_filename": "segment-2104-v1-01.jpg",
+              "preview_path": "lab/previews/CASE-20260828-SC004-P2-T04-AU204.jpg",
+              "provenance_confidence": "verified",
+              "run_id": "RP2-T04-U2-R04",
+              "schema_version": "0.1.0",
+              "sha256": "8f6e7816c7ca403d38203315e185a9a7150197a01f1143e20cb1d28701bb4703",
+              "source_format": "JPEG",
+              "thumbnail_path": "lab/thumbnails/CASE-20260828-SC004-P2-T04-AU204.jpg",
+              "user_feedback": [
+                "verdict=near-pass; attribution=renderer_stochastic_or_prompt_grounding_candidate"
+              ],
+              "width": 1728
+            }
+          ],
+          "evaluation": "partial",
+          "evaluation_note": "Top and middle layers are clear; the bottom parts/system-interior relationship is split into modules and less direct.",
+          "generation_surface": "local-api-adapter",
+          "model": "doubao-seedream-5-0-lite-260128",
+          "model_version": "260128",
+          "parameters": {
+            "canonical_decision_gate": "gpt-5.6-sol/medium",
+            "canvas": "3:4",
+            "execution_model_role": "gpt-5.6-luna/max",
+            "independent_repeat": 4,
+            "machine_run_id": "P2-T04-U2-R04",
+            "p2_prompt_mutation_allowed": false,
+            "patch_scope": "none_baseline",
+            "sequential_image_generation": "disabled",
+            "series_palette": "u2_cool-neutral-business",
+            "size": "2K",
+            "style_route": "G22",
+            "watermark": false
+          },
+          "producer": "codex-sc004",
+          "prompt_delta_notes": [],
+          "prompt_id": "PU2",
+          "prompt_intended_model_target": "doubao-seedream-5-0-lite-260128",
+          "prompt_parent_prompt_id": null,
+          "prompt_provenance_confidence": "verified",
+          "prompt_public": true,
+          "prompt_sha256": "a40631bbd1a73ffea584cc3584f1de40926b4751b45991611476cf84d803f6d9",
+          "prompt_summary": "P2 T04 adopted-U2 current-Skill baseline; patch_scope=none_baseline",
+          "prompt_text": "生成一张 3:4 竖版静态商业结构图。\n核心信息：日本市场的机会窗口和补贴、品牌、渠道三重壁垒都真实存在；长期变量不是街头多卖几千辆车，而是中国零部件从体系内部改变竞争格局。\n信息结构：hierarchy。顶部双重事实层，中部三道并列壁垒，底部从整车表层下沉到供应链内部的长期变量层。\n版式与阅读顺序：先读顶部机会窗口真实与三重壁垒真实，再读中部补贴、品牌、渠道三张等权卡，最后沿一条向下深入的路径读到底部中国零部件与体系内部。底部用供应链节点进入工业系统底座的机制画面，不画街景销量。\n关系必须画清：机会窗口与三重壁垒同时成立，不互相抵消；三道壁垒之下，一条独立纵向路径进入体系内部，表示长期关注层级从整车销售转向供应链结构。\n图中只允许出现这些文字：机会窗口真实；三重壁垒真实；补贴；品牌；渠道；中国零部件；体系内部；长期变量。\n不画地图。不要 logo、商标、水印、AI 字样、无意义英文、品牌案例、销量数字、互动提问、新闻来源或白名单外文字。不要把供应链画成已经完全取代日本体系。\nIllustration style: clean isometric business schematic illustration, flat base with light pseudo-isometric depth, precise clean linework, simplified geometry, controlled perspective, subtle shadows, systematic, organized, restrained and professional, high readability.\nSeries palette: cool-neutral muted business palette, light neutral gray background, soft blue-gray primary color, desaturated teal and sage secondary colors, restrained soft-gold accent, dark charcoal linework, low saturation, clean tonal separation, professional and calm.\n",
+          "provenance_confidence": "verified",
+          "provider": "volcengine-ark",
+          "run_id": "RP2-T04-U2-R04",
+          "skill_lineage": {
+            "skill": "shortvideo-image-prompt-generation",
+            "version": "SC-004@35072b0"
+          },
+          "source_adapter": "local-file"
+        }
+      ],
+      "status": "open",
+      "svp_mode": "3:4",
+      "tags": [
+        "SC-004",
+        "P2-current-skill-baseline",
+        "T04"
+      ],
+      "title": "P2 T04 supply-chain long-term variable current-Skill baseline"
+    },
+    {
+      "case_id": "CASE-20260828-SC004-P2-T05",
+      "case_type": "experiment",
+      "contact_sheet": "lab/contact_sheets/CASE-20260828-SC004-P2-T05.jpg",
+      "expected_effect": [
+        "Preserve the correction, central 4S body, and five equal duties"
+      ],
+      "final_selection": null,
+      "image_type": "shortvideo-business-illustration",
+      "problem_statement": "Measure current-Skill baseline on 4S task redistribution and five-way responsibility split",
+      "project": "hotspot/SC-004",
+      "runs": [
+        {
+          "assets": [
+            {
+              "asset_id": "AU201",
+              "bytes": 227840,
+              "canonical_path": "originals/AU201.jpg",
+              "case_id": "CASE-20260828-SC004-P2-T05",
+              "created_at": "2026-08-28T00:32:01Z",
+              "height": 2304,
+              "notes": [
+                "SC-004 P2 T05 U2 independent run 1; canonical binary from frozen P2 output"
+              ],
+              "original_filename": "segment-2105-v1-01.jpg",
+              "preview_path": "lab/previews/CASE-20260828-SC004-P2-T05-AU201.jpg",
+              "provenance_confidence": "verified",
+              "run_id": "RP2-T05-U2-R01",
+              "schema_version": "0.1.0",
+              "sha256": "2c2c71a73dcefd6cbc648e0d8d045b38103d25b9fbc757f976e55f570248283a",
+              "source_format": "JPEG",
+              "thumbnail_path": "lab/thumbnails/CASE-20260828-SC004-P2-T05-AU201.jpg",
+              "user_feedback": [
+                "verdict=near-pass; attribution=renderer_stochastic_or_prompt_grounding_candidate"
+              ],
+              "width": 1728
+            }
+          ],
+          "evaluation": "partial",
+          "evaluation_note": "All five duties and the central 4S store remain, but the left risk card is close to the edge and feels cropped.",
+          "generation_surface": "local-api-adapter",
+          "model": "doubao-seedream-5-0-lite-260128",
+          "model_version": "260128",
+          "parameters": {
+            "canonical_decision_gate": "gpt-5.6-sol/medium",
+            "canvas": "3:4",
+            "execution_model_role": "gpt-5.6-luna/max",
+            "independent_repeat": 1,
+            "machine_run_id": "P2-T05-U2-R01",
+            "p2_prompt_mutation_allowed": false,
+            "patch_scope": "none_baseline",
+            "sequential_image_generation": "disabled",
+            "series_palette": "u2_cool-neutral-business",
+            "size": "2K",
+            "style_route": "G21",
+            "watermark": false
+          },
+          "producer": "codex-sc004",
+          "prompt_delta_notes": [],
+          "prompt_id": "PU2",
+          "prompt_intended_model_target": "doubao-seedream-5-0-lite-260128",
+          "prompt_parent_prompt_id": null,
+          "prompt_provenance_confidence": "verified",
+          "prompt_public": true,
+          "prompt_sha256": "e9371aa5c1c22c3c55e5a3142afd31f3f9d9a6299e079b93cbd4b74bc7f7e912",
+          "prompt_summary": "P2 T05 adopted-U2 current-Skill baseline; patch_scope=none_baseline",
+          "prompt_text": "生成一张 3:4 竖版静态商业编辑插画。\n核心信息：轻量化不是把门店做小，而是把一家传统 4S 店承担的任务重新分配。\n信息结构：framework。顶部是误读纠偏窄条，中部是一张传统 4S 店主体卡，外围是五张职责卡。\n版式与阅读顺序：先读顶部误读纠偏，再读中央 4S 店，最后沿五条清晰发散线读外围职责。顶部只用小门店、小装修、小投入的三个简化图标表达误读，不为它们增加文字标签。中央画简化的 4S 店综合服务场景。外围五张职责卡分别用投资决策、库存箱、统一价签、服务工位、风险盾牌的视觉对象表达任务。\n关系必须画清：顶部误读条用一条向下纠偏箭头指向中央主体；中央主体用五条等权发散线连接五张职责卡，表现原来集中在一家店的任务被拆开重分。\n图中只允许出现这些文字：轻量化不是小店，是任务重分；4S店；投资；库存；价格；服务；风险。\n不画地图或任何地理轮廓。不要 logo、商标、水印、AI 字样、无意义英文、新闻来源、长句解释或白名单外文字。不要把画面做成门店广告、豪华展厅效果图或纯文字 PPT 卡片。\nIllustration style: soft narrative structural editorial illustration, flat illustration with light depth, clean thin outlines, simplified rounded forms, subtle shadows, gentle commercial editorial feel, airy, calm, restrained and professional, story-driven but structure-preserving.\nSeries palette: cool-neutral muted business palette, light neutral gray background, soft blue-gray primary color, desaturated teal and sage secondary colors, restrained soft-gold accent, dark charcoal linework, low saturation, clean tonal separation, professional and calm.\n",
+          "provenance_confidence": "verified",
+          "provider": "volcengine-ark",
+          "run_id": "RP2-T05-U2-R01",
+          "skill_lineage": {
+            "skill": "shortvideo-image-prompt-generation",
+            "version": "SC-004@35072b0"
+          },
+          "source_adapter": "local-file"
+        },
+        {
+          "assets": [
+            {
+              "asset_id": "AU202",
+              "bytes": 256452,
+              "canonical_path": "originals/AU202.jpg",
+              "case_id": "CASE-20260828-SC004-P2-T05",
+              "created_at": "2026-08-28T00:32:02Z",
+              "height": 2304,
+              "notes": [
+                "SC-004 P2 T05 U2 independent run 2; canonical binary from frozen P2 output"
+              ],
+              "original_filename": "segment-2105-v1-01.jpg",
+              "preview_path": "lab/previews/CASE-20260828-SC004-P2-T05-AU202.jpg",
+              "provenance_confidence": "verified",
+              "run_id": "RP2-T05-U2-R02",
+              "schema_version": "0.1.0",
+              "sha256": "e0a3bc0b84e6890a0e664af9a34cb922d87be7e522c2687bfbd805f2b181521d",
+              "source_format": "JPEG",
+              "thumbnail_path": "lab/thumbnails/CASE-20260828-SC004-P2-T05-AU202.jpg",
+              "user_feedback": [
+                "verdict=acceptable; attribution=none"
+              ],
+              "width": 1728
+            }
+          ],
+          "evaluation": "pass",
+          "evaluation_note": "The correction strip, central 4S store, and five equal duty connections are clear; icons carry meaning without extra labels.",
+          "generation_surface": "local-api-adapter",
+          "model": "doubao-seedream-5-0-lite-260128",
+          "model_version": "260128",
+          "parameters": {
+            "canonical_decision_gate": "gpt-5.6-sol/medium",
+            "canvas": "3:4",
+            "execution_model_role": "gpt-5.6-luna/max",
+            "independent_repeat": 2,
+            "machine_run_id": "P2-T05-U2-R02",
+            "p2_prompt_mutation_allowed": false,
+            "patch_scope": "none_baseline",
+            "sequential_image_generation": "disabled",
+            "series_palette": "u2_cool-neutral-business",
+            "size": "2K",
+            "style_route": "G21",
+            "watermark": false
+          },
+          "producer": "codex-sc004",
+          "prompt_delta_notes": [],
+          "prompt_id": "PU2",
+          "prompt_intended_model_target": "doubao-seedream-5-0-lite-260128",
+          "prompt_parent_prompt_id": null,
+          "prompt_provenance_confidence": "verified",
+          "prompt_public": true,
+          "prompt_sha256": "e9371aa5c1c22c3c55e5a3142afd31f3f9d9a6299e079b93cbd4b74bc7f7e912",
+          "prompt_summary": "P2 T05 adopted-U2 current-Skill baseline; patch_scope=none_baseline",
+          "prompt_text": "生成一张 3:4 竖版静态商业编辑插画。\n核心信息：轻量化不是把门店做小，而是把一家传统 4S 店承担的任务重新分配。\n信息结构：framework。顶部是误读纠偏窄条，中部是一张传统 4S 店主体卡，外围是五张职责卡。\n版式与阅读顺序：先读顶部误读纠偏，再读中央 4S 店，最后沿五条清晰发散线读外围职责。顶部只用小门店、小装修、小投入的三个简化图标表达误读，不为它们增加文字标签。中央画简化的 4S 店综合服务场景。外围五张职责卡分别用投资决策、库存箱、统一价签、服务工位、风险盾牌的视觉对象表达任务。\n关系必须画清：顶部误读条用一条向下纠偏箭头指向中央主体；中央主体用五条等权发散线连接五张职责卡，表现原来集中在一家店的任务被拆开重分。\n图中只允许出现这些文字：轻量化不是小店，是任务重分；4S店；投资；库存；价格；服务；风险。\n不画地图或任何地理轮廓。不要 logo、商标、水印、AI 字样、无意义英文、新闻来源、长句解释或白名单外文字。不要把画面做成门店广告、豪华展厅效果图或纯文字 PPT 卡片。\nIllustration style: soft narrative structural editorial illustration, flat illustration with light depth, clean thin outlines, simplified rounded forms, subtle shadows, gentle commercial editorial feel, airy, calm, restrained and professional, story-driven but structure-preserving.\nSeries palette: cool-neutral muted business palette, light neutral gray background, soft blue-gray primary color, desaturated teal and sage secondary colors, restrained soft-gold accent, dark charcoal linework, low saturation, clean tonal separation, professional and calm.\n",
+          "provenance_confidence": "verified",
+          "provider": "volcengine-ark",
+          "run_id": "RP2-T05-U2-R02",
+          "skill_lineage": {
+            "skill": "shortvideo-image-prompt-generation",
+            "version": "SC-004@35072b0"
+          },
+          "source_adapter": "local-file"
+        },
+        {
+          "assets": [
+            {
+              "asset_id": "AU203",
+              "bytes": 248283,
+              "canonical_path": "originals/AU203.jpg",
+              "case_id": "CASE-20260828-SC004-P2-T05",
+              "created_at": "2026-08-28T00:32:03Z",
+              "height": 2304,
+              "notes": [
+                "SC-004 P2 T05 U2 independent run 3; canonical binary from frozen P2 output"
+              ],
+              "original_filename": "segment-2105-v1-01.jpg",
+              "preview_path": "lab/previews/CASE-20260828-SC004-P2-T05-AU203.jpg",
+              "provenance_confidence": "verified",
+              "run_id": "RP2-T05-U2-R03",
+              "schema_version": "0.1.0",
+              "sha256": "320b73b97b3968a1289211b40c9c09e7b12f725db9589d859532835560bd6476",
+              "source_format": "JPEG",
+              "thumbnail_path": "lab/thumbnails/CASE-20260828-SC004-P2-T05-AU203.jpg",
+              "user_feedback": [
+                "verdict=acceptable; attribution=none"
+              ],
+              "width": 1728
+            }
+          ],
+          "evaluation": "pass",
+          "evaluation_note": "The small-store misread is corrected into the central 4S body and the five-way task split is clear.",
+          "generation_surface": "local-api-adapter",
+          "model": "doubao-seedream-5-0-lite-260128",
+          "model_version": "260128",
+          "parameters": {
+            "canonical_decision_gate": "gpt-5.6-sol/medium",
+            "canvas": "3:4",
+            "execution_model_role": "gpt-5.6-luna/max",
+            "independent_repeat": 3,
+            "machine_run_id": "P2-T05-U2-R03",
+            "p2_prompt_mutation_allowed": false,
+            "patch_scope": "none_baseline",
+            "sequential_image_generation": "disabled",
+            "series_palette": "u2_cool-neutral-business",
+            "size": "2K",
+            "style_route": "G21",
+            "watermark": false
+          },
+          "producer": "codex-sc004",
+          "prompt_delta_notes": [],
+          "prompt_id": "PU2",
+          "prompt_intended_model_target": "doubao-seedream-5-0-lite-260128",
+          "prompt_parent_prompt_id": null,
+          "prompt_provenance_confidence": "verified",
+          "prompt_public": true,
+          "prompt_sha256": "e9371aa5c1c22c3c55e5a3142afd31f3f9d9a6299e079b93cbd4b74bc7f7e912",
+          "prompt_summary": "P2 T05 adopted-U2 current-Skill baseline; patch_scope=none_baseline",
+          "prompt_text": "生成一张 3:4 竖版静态商业编辑插画。\n核心信息：轻量化不是把门店做小，而是把一家传统 4S 店承担的任务重新分配。\n信息结构：framework。顶部是误读纠偏窄条，中部是一张传统 4S 店主体卡，外围是五张职责卡。\n版式与阅读顺序：先读顶部误读纠偏，再读中央 4S 店，最后沿五条清晰发散线读外围职责。顶部只用小门店、小装修、小投入的三个简化图标表达误读，不为它们增加文字标签。中央画简化的 4S 店综合服务场景。外围五张职责卡分别用投资决策、库存箱、统一价签、服务工位、风险盾牌的视觉对象表达任务。\n关系必须画清：顶部误读条用一条向下纠偏箭头指向中央主体；中央主体用五条等权发散线连接五张职责卡，表现原来集中在一家店的任务被拆开重分。\n图中只允许出现这些文字：轻量化不是小店，是任务重分；4S店；投资；库存；价格；服务；风险。\n不画地图或任何地理轮廓。不要 logo、商标、水印、AI 字样、无意义英文、新闻来源、长句解释或白名单外文字。不要把画面做成门店广告、豪华展厅效果图或纯文字 PPT 卡片。\nIllustration style: soft narrative structural editorial illustration, flat illustration with light depth, clean thin outlines, simplified rounded forms, subtle shadows, gentle commercial editorial feel, airy, calm, restrained and professional, story-driven but structure-preserving.\nSeries palette: cool-neutral muted business palette, light neutral gray background, soft blue-gray primary color, desaturated teal and sage secondary colors, restrained soft-gold accent, dark charcoal linework, low saturation, clean tonal separation, professional and calm.\n",
+          "provenance_confidence": "verified",
+          "provider": "volcengine-ark",
+          "run_id": "RP2-T05-U2-R03",
+          "skill_lineage": {
+            "skill": "shortvideo-image-prompt-generation",
+            "version": "SC-004@35072b0"
+          },
+          "source_adapter": "local-file"
+        },
+        {
+          "assets": [
+            {
+              "asset_id": "AU204",
+              "bytes": 242108,
+              "canonical_path": "originals/AU204.jpg",
+              "case_id": "CASE-20260828-SC004-P2-T05",
+              "created_at": "2026-08-28T00:32:04Z",
+              "height": 2304,
+              "notes": [
+                "SC-004 P2 T05 U2 independent run 4; canonical binary from frozen P2 output"
+              ],
+              "original_filename": "segment-2105-v1-01.jpg",
+              "preview_path": "lab/previews/CASE-20260828-SC004-P2-T05-AU204.jpg",
+              "provenance_confidence": "verified",
+              "run_id": "RP2-T05-U2-R04",
+              "schema_version": "0.1.0",
+              "sha256": "f02521427caab6329f18b98adf4b2e37713afd3667ba68ebaa6e1bc40eaf5e29",
+              "source_format": "JPEG",
+              "thumbnail_path": "lab/thumbnails/CASE-20260828-SC004-P2-T05-AU204.jpg",
+              "user_feedback": [
+                "verdict=acceptable; attribution=none"
+              ],
+              "width": 1728
+            }
+          ],
+          "evaluation": "pass",
+          "evaluation_note": "The central body and investment, inventory, price, service, and risk duties are all readable.",
+          "generation_surface": "local-api-adapter",
+          "model": "doubao-seedream-5-0-lite-260128",
+          "model_version": "260128",
+          "parameters": {
+            "canonical_decision_gate": "gpt-5.6-sol/medium",
+            "canvas": "3:4",
+            "execution_model_role": "gpt-5.6-luna/max",
+            "independent_repeat": 4,
+            "machine_run_id": "P2-T05-U2-R04",
+            "p2_prompt_mutation_allowed": false,
+            "patch_scope": "none_baseline",
+            "sequential_image_generation": "disabled",
+            "series_palette": "u2_cool-neutral-business",
+            "size": "2K",
+            "style_route": "G21",
+            "watermark": false
+          },
+          "producer": "codex-sc004",
+          "prompt_delta_notes": [],
+          "prompt_id": "PU2",
+          "prompt_intended_model_target": "doubao-seedream-5-0-lite-260128",
+          "prompt_parent_prompt_id": null,
+          "prompt_provenance_confidence": "verified",
+          "prompt_public": true,
+          "prompt_sha256": "e9371aa5c1c22c3c55e5a3142afd31f3f9d9a6299e079b93cbd4b74bc7f7e912",
+          "prompt_summary": "P2 T05 adopted-U2 current-Skill baseline; patch_scope=none_baseline",
+          "prompt_text": "生成一张 3:4 竖版静态商业编辑插画。\n核心信息：轻量化不是把门店做小，而是把一家传统 4S 店承担的任务重新分配。\n信息结构：framework。顶部是误读纠偏窄条，中部是一张传统 4S 店主体卡，外围是五张职责卡。\n版式与阅读顺序：先读顶部误读纠偏，再读中央 4S 店，最后沿五条清晰发散线读外围职责。顶部只用小门店、小装修、小投入的三个简化图标表达误读，不为它们增加文字标签。中央画简化的 4S 店综合服务场景。外围五张职责卡分别用投资决策、库存箱、统一价签、服务工位、风险盾牌的视觉对象表达任务。\n关系必须画清：顶部误读条用一条向下纠偏箭头指向中央主体；中央主体用五条等权发散线连接五张职责卡，表现原来集中在一家店的任务被拆开重分。\n图中只允许出现这些文字：轻量化不是小店，是任务重分；4S店；投资；库存；价格；服务；风险。\n不画地图或任何地理轮廓。不要 logo、商标、水印、AI 字样、无意义英文、新闻来源、长句解释或白名单外文字。不要把画面做成门店广告、豪华展厅效果图或纯文字 PPT 卡片。\nIllustration style: soft narrative structural editorial illustration, flat illustration with light depth, clean thin outlines, simplified rounded forms, subtle shadows, gentle commercial editorial feel, airy, calm, restrained and professional, story-driven but structure-preserving.\nSeries palette: cool-neutral muted business palette, light neutral gray background, soft blue-gray primary color, desaturated teal and sage secondary colors, restrained soft-gold accent, dark charcoal linework, low saturation, clean tonal separation, professional and calm.\n",
+          "provenance_confidence": "verified",
+          "provider": "volcengine-ark",
+          "run_id": "RP2-T05-U2-R04",
+          "skill_lineage": {
+            "skill": "shortvideo-image-prompt-generation",
+            "version": "SC-004@35072b0"
+          },
+          "source_adapter": "local-file"
+        }
+      ],
+      "status": "open",
+      "svp_mode": "3:4",
+      "tags": [
+        "SC-004",
+        "P2-current-skill-baseline",
+        "T05"
+      ],
+      "title": "P2 T05 responsibility redistribution current-Skill baseline"
+    },
+    {
+      "case_id": "CASE-20260828-SC004-P2-T06",
+      "case_type": "experiment",
+      "contact_sheet": "lab/contact_sheets/CASE-20260828-SC004-P2-T06.jpg",
+      "expected_effect": [
+        "Preserve the three pressure-dissipation mechanisms and living service touchpoint"
+      ],
+      "final_selection": null,
+      "image_type": "shortvideo-business-illustration",
+      "problem_statement": "Measure current-Skill baseline on multi-brand, no-inventory, order dispatch, and survival progression",
+      "project": "hotspot/SC-004",
+      "runs": [
+        {
+          "assets": [
+            {
+              "asset_id": "AU201",
+              "bytes": 345986,
+              "canonical_path": "originals/AU201.jpg",
+              "case_id": "CASE-20260828-SC004-P2-T06",
+              "created_at": "2026-08-28T00:32:06Z",
+              "height": 2304,
+              "notes": [
+                "SC-004 P2 T06 U2 independent run 1; canonical binary from frozen P2 output"
+              ],
+              "original_filename": "segment-2106-v1-01.jpg",
+              "preview_path": "lab/previews/CASE-20260828-SC004-P2-T06-AU201.jpg",
+              "provenance_confidence": "verified",
+              "run_id": "RP2-T06-U2-R01",
+              "schema_version": "0.1.0",
+              "sha256": "edb38e54903c5f3d03f4a4e04715f0960a0300c2596244cf4499987ed7412964",
+              "source_format": "JPEG",
+              "thumbnail_path": "lab/thumbnails/CASE-20260828-SC004-P2-T06-AU201.jpg",
+              "user_feedback": [
+                "verdict=near-pass; attribution=renderer_stochastic_or_prompt_grounding_candidate"
+              ],
+              "width": 1728
+            }
+          ],
+          "evaluation": "partial",
+          "evaluation_note": "The no-inventory mechanism uses visible boxes/stacked inventory imagery, weakening pressure-removal semantics; the main progression remains.",
+          "generation_surface": "local-api-adapter",
+          "model": "doubao-seedream-5-0-lite-260128",
+          "model_version": "260128",
+          "parameters": {
+            "canonical_decision_gate": "gpt-5.6-sol/medium",
+            "canvas": "3:4",
+            "execution_model_role": "gpt-5.6-luna/max",
+            "independent_repeat": 1,
+            "machine_run_id": "P2-T06-U2-R01",
+            "p2_prompt_mutation_allowed": false,
+            "patch_scope": "none_baseline",
+            "sequential_image_generation": "disabled",
+            "series_palette": "u2_cool-neutral-business",
+            "size": "2K",
+            "style_route": "G21",
+            "watermark": false
+          },
+          "producer": "codex-sc004",
+          "prompt_delta_notes": [],
+          "prompt_id": "PU2",
+          "prompt_intended_model_target": "doubao-seedream-5-0-lite-260128",
+          "prompt_parent_prompt_id": null,
+          "prompt_provenance_confidence": "verified",
+          "prompt_public": true,
+          "prompt_sha256": "3f660b02deb67b983e78e69aa22b46d0a361b98729c2b936dc24124cae4ff80d",
+          "prompt_summary": "P2 T06 adopted-U2 current-Skill baseline; patch_scope=none_baseline",
+          "prompt_text": "生成一张 3:4 竖版静态商业编辑插画。\n核心信息：县域单一品牌难以养活完整门店，多品牌、不压库、按订单发车把流量、库存和资金压力拆散，让服务触点先活下来。\n信息结构：递进式 framework。顶部是一张低密度县域单品牌门店问题卡，中部横向三张机制卡，底部是一张存活结果大卡。\n版式与阅读顺序：从顶部问题向下进入中部三机制，再共同汇入底部结果。问题卡画稀薄客流、空停车位和单一门头的普通县域门店；三张机制卡分别画多品牌门头组合、轻库存箱、订单与发车车辆；底部画仍在稳定营业的服务触点和适度回流的顾客。\n关系必须画清：问题卡向三张机制卡分流；三张机制卡分别削弱流量、库存和资金压力，并用三条汇聚线进入底部结果卡。不要画成全国扩张或复杂供应链。\n图中只允许出现这些文字：下沉轻：让县域单点先活下来；单一品牌难撑店；多品牌；不压库；按订单发车；先活下来。\n不画地图或任何地理轮廓。不要 logo、商标、水印、AI 字样、无意义英文、政策说明、新闻来源或白名单外文字。不要把门店画成衰败废墟，也不要把结果画成大规模庆典。\nIllustration style: soft narrative structural editorial illustration, flat illustration with light depth, clean thin outlines, simplified rounded forms, subtle shadows, gentle commercial editorial feel, airy, calm, restrained and professional, story-driven but structure-preserving.\nSeries palette: cool-neutral muted business palette, light neutral gray background, soft blue-gray primary color, desaturated teal and sage secondary colors, restrained soft-gold accent, dark charcoal linework, low saturation, clean tonal separation, professional and calm.\n",
+          "provenance_confidence": "verified",
+          "provider": "volcengine-ark",
+          "run_id": "RP2-T06-U2-R01",
+          "skill_lineage": {
+            "skill": "shortvideo-image-prompt-generation",
+            "version": "SC-004@35072b0"
+          },
+          "source_adapter": "local-file"
+        },
+        {
+          "assets": [
+            {
+              "asset_id": "AU202",
+              "bytes": 303537,
+              "canonical_path": "originals/AU202.jpg",
+              "case_id": "CASE-20260828-SC004-P2-T06",
+              "created_at": "2026-08-28T00:32:07Z",
+              "height": 2304,
+              "notes": [
+                "SC-004 P2 T06 U2 independent run 2; canonical binary from frozen P2 output"
+              ],
+              "original_filename": "segment-2106-v1-01.jpg",
+              "preview_path": "lab/previews/CASE-20260828-SC004-P2-T06-AU202.jpg",
+              "provenance_confidence": "verified",
+              "run_id": "RP2-T06-U2-R02",
+              "schema_version": "0.1.0",
+              "sha256": "a3adac55e3044f9a70da9da7224c3e823b8f6c672a91e741efa77391cf08ff58",
+              "source_format": "JPEG",
+              "thumbnail_path": "lab/thumbnails/CASE-20260828-SC004-P2-T06-AU202.jpg",
+              "user_feedback": [
+                "verdict=near-pass; attribution=renderer_stochastic_or_prompt_grounding_candidate"
+              ],
+              "width": 1728
+            }
+          ],
+          "evaluation": "partial",
+          "evaluation_note": "Multi-brand, order-based dispatch, and survival are clear, but the no-inventory card reads like stocked inventory.",
+          "generation_surface": "local-api-adapter",
+          "model": "doubao-seedream-5-0-lite-260128",
+          "model_version": "260128",
+          "parameters": {
+            "canonical_decision_gate": "gpt-5.6-sol/medium",
+            "canvas": "3:4",
+            "execution_model_role": "gpt-5.6-luna/max",
+            "independent_repeat": 2,
+            "machine_run_id": "P2-T06-U2-R02",
+            "p2_prompt_mutation_allowed": false,
+            "patch_scope": "none_baseline",
+            "sequential_image_generation": "disabled",
+            "series_palette": "u2_cool-neutral-business",
+            "size": "2K",
+            "style_route": "G21",
+            "watermark": false
+          },
+          "producer": "codex-sc004",
+          "prompt_delta_notes": [],
+          "prompt_id": "PU2",
+          "prompt_intended_model_target": "doubao-seedream-5-0-lite-260128",
+          "prompt_parent_prompt_id": null,
+          "prompt_provenance_confidence": "verified",
+          "prompt_public": true,
+          "prompt_sha256": "3f660b02deb67b983e78e69aa22b46d0a361b98729c2b936dc24124cae4ff80d",
+          "prompt_summary": "P2 T06 adopted-U2 current-Skill baseline; patch_scope=none_baseline",
+          "prompt_text": "生成一张 3:4 竖版静态商业编辑插画。\n核心信息：县域单一品牌难以养活完整门店，多品牌、不压库、按订单发车把流量、库存和资金压力拆散，让服务触点先活下来。\n信息结构：递进式 framework。顶部是一张低密度县域单品牌门店问题卡，中部横向三张机制卡，底部是一张存活结果大卡。\n版式与阅读顺序：从顶部问题向下进入中部三机制，再共同汇入底部结果。问题卡画稀薄客流、空停车位和单一门头的普通县域门店；三张机制卡分别画多品牌门头组合、轻库存箱、订单与发车车辆；底部画仍在稳定营业的服务触点和适度回流的顾客。\n关系必须画清：问题卡向三张机制卡分流；三张机制卡分别削弱流量、库存和资金压力，并用三条汇聚线进入底部结果卡。不要画成全国扩张或复杂供应链。\n图中只允许出现这些文字：下沉轻：让县域单点先活下来；单一品牌难撑店；多品牌；不压库；按订单发车；先活下来。\n不画地图或任何地理轮廓。不要 logo、商标、水印、AI 字样、无意义英文、政策说明、新闻来源或白名单外文字。不要把门店画成衰败废墟，也不要把结果画成大规模庆典。\nIllustration style: soft narrative structural editorial illustration, flat illustration with light depth, clean thin outlines, simplified rounded forms, subtle shadows, gentle commercial editorial feel, airy, calm, restrained and professional, story-driven but structure-preserving.\nSeries palette: cool-neutral muted business palette, light neutral gray background, soft blue-gray primary color, desaturated teal and sage secondary colors, restrained soft-gold accent, dark charcoal linework, low saturation, clean tonal separation, professional and calm.\n",
+          "provenance_confidence": "verified",
+          "provider": "volcengine-ark",
+          "run_id": "RP2-T06-U2-R02",
+          "skill_lineage": {
+            "skill": "shortvideo-image-prompt-generation",
+            "version": "SC-004@35072b0"
+          },
+          "source_adapter": "local-file"
+        },
+        {
+          "assets": [
+            {
+              "asset_id": "AU203",
+              "bytes": 401563,
+              "canonical_path": "originals/AU203.jpg",
+              "case_id": "CASE-20260828-SC004-P2-T06",
+              "created_at": "2026-08-28T00:32:07Z",
+              "height": 2304,
+              "notes": [
+                "SC-004 P2 T06 U2 independent run 3; canonical binary from frozen P2 output"
+              ],
+              "original_filename": "segment-2106-v1-01.jpg",
+              "preview_path": "lab/previews/CASE-20260828-SC004-P2-T06-AU203.jpg",
+              "provenance_confidence": "verified",
+              "run_id": "RP2-T06-U2-R03",
+              "schema_version": "0.1.0",
+              "sha256": "e39629333c128abfa03acca876c9043680c5b178b755c31c522a7bb8c83b3f4c",
+              "source_format": "JPEG",
+              "thumbnail_path": "lab/thumbnails/CASE-20260828-SC004-P2-T06-AU203.jpg",
+              "user_feedback": [
+                "verdict=near-pass; attribution=renderer_stochastic_or_prompt_grounding_candidate"
+              ],
+              "width": 1728
+            }
+          ],
+          "evaluation": "partial",
+          "evaluation_note": "The three mechanisms and surviving service touchpoint remain, but box/warehouse imagery weakens no-inventory intent.",
+          "generation_surface": "local-api-adapter",
+          "model": "doubao-seedream-5-0-lite-260128",
+          "model_version": "260128",
+          "parameters": {
+            "canonical_decision_gate": "gpt-5.6-sol/medium",
+            "canvas": "3:4",
+            "execution_model_role": "gpt-5.6-luna/max",
+            "independent_repeat": 3,
+            "machine_run_id": "P2-T06-U2-R03",
+            "p2_prompt_mutation_allowed": false,
+            "patch_scope": "none_baseline",
+            "sequential_image_generation": "disabled",
+            "series_palette": "u2_cool-neutral-business",
+            "size": "2K",
+            "style_route": "G21",
+            "watermark": false
+          },
+          "producer": "codex-sc004",
+          "prompt_delta_notes": [],
+          "prompt_id": "PU2",
+          "prompt_intended_model_target": "doubao-seedream-5-0-lite-260128",
+          "prompt_parent_prompt_id": null,
+          "prompt_provenance_confidence": "verified",
+          "prompt_public": true,
+          "prompt_sha256": "3f660b02deb67b983e78e69aa22b46d0a361b98729c2b936dc24124cae4ff80d",
+          "prompt_summary": "P2 T06 adopted-U2 current-Skill baseline; patch_scope=none_baseline",
+          "prompt_text": "生成一张 3:4 竖版静态商业编辑插画。\n核心信息：县域单一品牌难以养活完整门店，多品牌、不压库、按订单发车把流量、库存和资金压力拆散，让服务触点先活下来。\n信息结构：递进式 framework。顶部是一张低密度县域单品牌门店问题卡，中部横向三张机制卡，底部是一张存活结果大卡。\n版式与阅读顺序：从顶部问题向下进入中部三机制，再共同汇入底部结果。问题卡画稀薄客流、空停车位和单一门头的普通县域门店；三张机制卡分别画多品牌门头组合、轻库存箱、订单与发车车辆；底部画仍在稳定营业的服务触点和适度回流的顾客。\n关系必须画清：问题卡向三张机制卡分流；三张机制卡分别削弱流量、库存和资金压力，并用三条汇聚线进入底部结果卡。不要画成全国扩张或复杂供应链。\n图中只允许出现这些文字：下沉轻：让县域单点先活下来；单一品牌难撑店；多品牌；不压库；按订单发车；先活下来。\n不画地图或任何地理轮廓。不要 logo、商标、水印、AI 字样、无意义英文、政策说明、新闻来源或白名单外文字。不要把门店画成衰败废墟，也不要把结果画成大规模庆典。\nIllustration style: soft narrative structural editorial illustration, flat illustration with light depth, clean thin outlines, simplified rounded forms, subtle shadows, gentle commercial editorial feel, airy, calm, restrained and professional, story-driven but structure-preserving.\nSeries palette: cool-neutral muted business palette, light neutral gray background, soft blue-gray primary color, desaturated teal and sage secondary colors, restrained soft-gold accent, dark charcoal linework, low saturation, clean tonal separation, professional and calm.\n",
+          "provenance_confidence": "verified",
+          "provider": "volcengine-ark",
+          "run_id": "RP2-T06-U2-R03",
+          "skill_lineage": {
+            "skill": "shortvideo-image-prompt-generation",
+            "version": "SC-004@35072b0"
+          },
+          "source_adapter": "local-file"
+        },
+        {
+          "assets": [
+            {
+              "asset_id": "AU204",
+              "bytes": 352655,
+              "canonical_path": "originals/AU204.jpg",
+              "case_id": "CASE-20260828-SC004-P2-T06",
+              "created_at": "2026-08-28T00:32:08Z",
+              "height": 2304,
+              "notes": [
+                "SC-004 P2 T06 U2 independent run 4; canonical binary from frozen P2 output"
+              ],
+              "original_filename": "segment-2106-v1-01.jpg",
+              "preview_path": "lab/previews/CASE-20260828-SC004-P2-T06-AU204.jpg",
+              "provenance_confidence": "verified",
+              "run_id": "RP2-T06-U2-R04",
+              "schema_version": "0.1.0",
+              "sha256": "e7f887b21728dee46c0778d831424005ff5a385fb99f0e3ee131833e05cec210",
+              "source_format": "JPEG",
+              "thumbnail_path": "lab/thumbnails/CASE-20260828-SC004-P2-T06-AU204.jpg",
+              "user_feedback": [
+                "verdict=near-pass; attribution=renderer_stochastic_or_prompt_grounding_candidate"
+              ],
+              "width": 1728
+            }
+          ],
+          "evaluation": "partial",
+          "evaluation_note": "The progression and result card are strongest, but packages still pull no-inventory toward an inventory scene.",
+          "generation_surface": "local-api-adapter",
+          "model": "doubao-seedream-5-0-lite-260128",
+          "model_version": "260128",
+          "parameters": {
+            "canonical_decision_gate": "gpt-5.6-sol/medium",
+            "canvas": "3:4",
+            "execution_model_role": "gpt-5.6-luna/max",
+            "independent_repeat": 4,
+            "machine_run_id": "P2-T06-U2-R04",
+            "p2_prompt_mutation_allowed": false,
+            "patch_scope": "none_baseline",
+            "sequential_image_generation": "disabled",
+            "series_palette": "u2_cool-neutral-business",
+            "size": "2K",
+            "style_route": "G21",
+            "watermark": false
+          },
+          "producer": "codex-sc004",
+          "prompt_delta_notes": [],
+          "prompt_id": "PU2",
+          "prompt_intended_model_target": "doubao-seedream-5-0-lite-260128",
+          "prompt_parent_prompt_id": null,
+          "prompt_provenance_confidence": "verified",
+          "prompt_public": true,
+          "prompt_sha256": "3f660b02deb67b983e78e69aa22b46d0a361b98729c2b936dc24124cae4ff80d",
+          "prompt_summary": "P2 T06 adopted-U2 current-Skill baseline; patch_scope=none_baseline",
+          "prompt_text": "生成一张 3:4 竖版静态商业编辑插画。\n核心信息：县域单一品牌难以养活完整门店，多品牌、不压库、按订单发车把流量、库存和资金压力拆散，让服务触点先活下来。\n信息结构：递进式 framework。顶部是一张低密度县域单品牌门店问题卡，中部横向三张机制卡，底部是一张存活结果大卡。\n版式与阅读顺序：从顶部问题向下进入中部三机制，再共同汇入底部结果。问题卡画稀薄客流、空停车位和单一门头的普通县域门店；三张机制卡分别画多品牌门头组合、轻库存箱、订单与发车车辆；底部画仍在稳定营业的服务触点和适度回流的顾客。\n关系必须画清：问题卡向三张机制卡分流；三张机制卡分别削弱流量、库存和资金压力，并用三条汇聚线进入底部结果卡。不要画成全国扩张或复杂供应链。\n图中只允许出现这些文字：下沉轻：让县域单点先活下来；单一品牌难撑店；多品牌；不压库；按订单发车；先活下来。\n不画地图或任何地理轮廓。不要 logo、商标、水印、AI 字样、无意义英文、政策说明、新闻来源或白名单外文字。不要把门店画成衰败废墟，也不要把结果画成大规模庆典。\nIllustration style: soft narrative structural editorial illustration, flat illustration with light depth, clean thin outlines, simplified rounded forms, subtle shadows, gentle commercial editorial feel, airy, calm, restrained and professional, story-driven but structure-preserving.\nSeries palette: cool-neutral muted business palette, light neutral gray background, soft blue-gray primary color, desaturated teal and sage secondary colors, restrained soft-gold accent, dark charcoal linework, low saturation, clean tonal separation, professional and calm.\n",
+          "provenance_confidence": "verified",
+          "provider": "volcengine-ark",
+          "run_id": "RP2-T06-U2-R04",
+          "skill_lineage": {
+            "skill": "shortvideo-image-prompt-generation",
+            "version": "SC-004@35072b0"
+          },
+          "source_adapter": "local-file"
+        }
+      ],
+      "status": "open",
+      "svp_mode": "3:4",
+      "tags": [
+        "SC-004",
+        "P2-current-skill-baseline",
+        "T06"
+      ],
+      "title": "P2 T06 county service-point survival current-Skill baseline"
+    },
+    {
+      "case_id": "CASE-20260828-SC004-P2-T07",
+      "case_type": "experiment",
+      "contact_sheet": "lab/contact_sheets/CASE-20260828-SC004-P2-T07.jpg",
+      "expected_effect": [
+        "Preserve the non-equivalence between short-term tool and efficiency and the four role divisions"
+      ],
+      "final_selection": null,
+      "image_type": "shortvideo-business-illustration",
+      "problem_statement": "Measure current-Skill baseline on short-term recruitment versus long-term efficiency path",
+      "project": "hotspot/SC-004",
+      "runs": [
+        {
+          "assets": [
+            {
+              "asset_id": "AU201",
+              "bytes": 206588,
+              "canonical_path": "originals/AU201.jpg",
+              "case_id": "CASE-20260828-SC004-P2-T07",
+              "created_at": "2026-08-28T00:32:10Z",
+              "height": 2304,
+              "notes": [
+                "SC-004 P2 T07 U2 independent run 1; canonical binary from frozen P2 output"
+              ],
+              "original_filename": "segment-2107-v1-01.jpg",
+              "preview_path": "lab/previews/CASE-20260828-SC004-P2-T07-AU201.jpg",
+              "provenance_confidence": "verified",
+              "run_id": "RP2-T07-U2-R01",
+              "schema_version": "0.1.0",
+              "sha256": "ab4a14d609573131eee4bcbf1c39064439d18ba267b4f0cb79c35ff7592610e0",
+              "source_format": "JPEG",
+              "thumbnail_path": "lab/thumbnails/CASE-20260828-SC004-P2-T07-AU201.jpg",
+              "user_feedback": [
+                "verdict=acceptable; attribution=none"
+              ],
+              "width": 1728
+            }
+          ],
+          "evaluation": "pass",
+          "evaluation_note": "Three downward actions feed only the short-term recruitment tool, then four role divisions feed efficiency; all whitelist text is readable.",
+          "generation_surface": "local-api-adapter",
+          "model": "doubao-seedream-5-0-lite-260128",
+          "model_version": "260128",
+          "parameters": {
+            "canonical_decision_gate": "gpt-5.6-sol/medium",
+            "canvas": "3:4",
+            "execution_model_role": "gpt-5.6-luna/max",
+            "independent_repeat": 1,
+            "machine_run_id": "P2-T07-U2-R01",
+            "p2_prompt_mutation_allowed": false,
+            "patch_scope": "none_baseline",
+            "sequential_image_generation": "disabled",
+            "series_palette": "u2_cool-neutral-business",
+            "size": "2K",
+            "style_route": "G22",
+            "watermark": false
+          },
+          "producer": "codex-sc004",
+          "prompt_delta_notes": [],
+          "prompt_id": "PU2",
+          "prompt_intended_model_target": "doubao-seedream-5-0-lite-260128",
+          "prompt_parent_prompt_id": null,
+          "prompt_provenance_confidence": "verified",
+          "prompt_public": true,
+          "prompt_sha256": "ab99c7305514331d9a414e9453f6075717dea15542cd846c73e6666ec0fe7ed4",
+          "prompt_summary": "P2 T07 adopted-U2 current-Skill baseline; patch_scope=none_baseline",
+          "prompt_text": "生成一张 3:4 竖版静态商业结构图。\n核心信息：只做降标准、降投入、降考核，轻量化只是短期招商工具；讲清总部直控、渠道承接、本地履约、风险分担，才可能形成效率提升。\n信息结构：transformation。顶部标题，中部左侧短期入口模块、右侧长期效率模块，中间一条明确升级路径。\n版式与阅读顺序：先读标题，再读左侧三个下降动作，沿中央升级箭头进入右侧四项分工，最后读底部效率提升。左侧三个动作使用向下的标准尺、投入筹码和考核表表达；右侧四项用控制台、渠道节点、服务交付点和风险盾牌表达。\n关系必须画清：左侧三项只汇入短期招商工具；它不能直接等于效率提升。只有中央升级路径经过右侧四项清晰分工后，才以条件箭头指向效率提升。\n图中只允许出现这些文字：轻量化；降标准；降投入；降考核；短期招商工具；总部直控；渠道承接；本地履约；风险分担；效率提升。\n不画地图。不要 logo、商标、水印、AI 字样、无意义英文、门店数量、新闻来源或白名单外文字。不要把四项分工画成四个互不相关的口号。\nIllustration style: clean isometric business schematic illustration, flat base with light pseudo-isometric depth, precise clean linework, simplified geometry, controlled perspective, subtle shadows, systematic, organized, restrained and professional, high readability.\nSeries palette: cool-neutral muted business palette, light neutral gray background, soft blue-gray primary color, desaturated teal and sage secondary colors, restrained soft-gold accent, dark charcoal linework, low saturation, clean tonal separation, professional and calm.\n",
+          "provenance_confidence": "verified",
+          "provider": "volcengine-ark",
+          "run_id": "RP2-T07-U2-R01",
+          "skill_lineage": {
+            "skill": "shortvideo-image-prompt-generation",
+            "version": "SC-004@35072b0"
+          },
+          "source_adapter": "local-file"
+        },
+        {
+          "assets": [
+            {
+              "asset_id": "AU202",
+              "bytes": 231690,
+              "canonical_path": "originals/AU202.jpg",
+              "case_id": "CASE-20260828-SC004-P2-T07",
+              "created_at": "2026-08-28T00:32:11Z",
+              "height": 2304,
+              "notes": [
+                "SC-004 P2 T07 U2 independent run 2; canonical binary from frozen P2 output"
+              ],
+              "original_filename": "segment-2107-v1-01.jpg",
+              "preview_path": "lab/previews/CASE-20260828-SC004-P2-T07-AU202.jpg",
+              "provenance_confidence": "verified",
+              "run_id": "RP2-T07-U2-R02",
+              "schema_version": "0.1.0",
+              "sha256": "fe1c8f15ac5c1e00ae872a5ffb37684f9467772304710eca65c3afd1cb8182cb",
+              "source_format": "JPEG",
+              "thumbnail_path": "lab/thumbnails/CASE-20260828-SC004-P2-T07-AU202.jpg",
+              "user_feedback": [
+                "verdict=failure; attribution=renderer_constraint_violation"
+              ],
+              "width": 1728
+            }
+          ],
+          "evaluation": "fail",
+          "evaluation_note": "The upgrade path is readable, but whitelist-external English 'transformation' is rendered.",
+          "generation_surface": "local-api-adapter",
+          "model": "doubao-seedream-5-0-lite-260128",
+          "model_version": "260128",
+          "parameters": {
+            "canonical_decision_gate": "gpt-5.6-sol/medium",
+            "canvas": "3:4",
+            "execution_model_role": "gpt-5.6-luna/max",
+            "independent_repeat": 2,
+            "machine_run_id": "P2-T07-U2-R02",
+            "p2_prompt_mutation_allowed": false,
+            "patch_scope": "none_baseline",
+            "sequential_image_generation": "disabled",
+            "series_palette": "u2_cool-neutral-business",
+            "size": "2K",
+            "style_route": "G22",
+            "watermark": false
+          },
+          "producer": "codex-sc004",
+          "prompt_delta_notes": [],
+          "prompt_id": "PU2",
+          "prompt_intended_model_target": "doubao-seedream-5-0-lite-260128",
+          "prompt_parent_prompt_id": null,
+          "prompt_provenance_confidence": "verified",
+          "prompt_public": true,
+          "prompt_sha256": "ab99c7305514331d9a414e9453f6075717dea15542cd846c73e6666ec0fe7ed4",
+          "prompt_summary": "P2 T07 adopted-U2 current-Skill baseline; patch_scope=none_baseline",
+          "prompt_text": "生成一张 3:4 竖版静态商业结构图。\n核心信息：只做降标准、降投入、降考核，轻量化只是短期招商工具；讲清总部直控、渠道承接、本地履约、风险分担，才可能形成效率提升。\n信息结构：transformation。顶部标题，中部左侧短期入口模块、右侧长期效率模块，中间一条明确升级路径。\n版式与阅读顺序：先读标题，再读左侧三个下降动作，沿中央升级箭头进入右侧四项分工，最后读底部效率提升。左侧三个动作使用向下的标准尺、投入筹码和考核表表达；右侧四项用控制台、渠道节点、服务交付点和风险盾牌表达。\n关系必须画清：左侧三项只汇入短期招商工具；它不能直接等于效率提升。只有中央升级路径经过右侧四项清晰分工后，才以条件箭头指向效率提升。\n图中只允许出现这些文字：轻量化；降标准；降投入；降考核；短期招商工具；总部直控；渠道承接；本地履约；风险分担；效率提升。\n不画地图。不要 logo、商标、水印、AI 字样、无意义英文、门店数量、新闻来源或白名单外文字。不要把四项分工画成四个互不相关的口号。\nIllustration style: clean isometric business schematic illustration, flat base with light pseudo-isometric depth, precise clean linework, simplified geometry, controlled perspective, subtle shadows, systematic, organized, restrained and professional, high readability.\nSeries palette: cool-neutral muted business palette, light neutral gray background, soft blue-gray primary color, desaturated teal and sage secondary colors, restrained soft-gold accent, dark charcoal linework, low saturation, clean tonal separation, professional and calm.\n",
+          "provenance_confidence": "verified",
+          "provider": "volcengine-ark",
+          "run_id": "RP2-T07-U2-R02",
+          "skill_lineage": {
+            "skill": "shortvideo-image-prompt-generation",
+            "version": "SC-004@35072b0"
+          },
+          "source_adapter": "local-file"
+        },
+        {
+          "assets": [
+            {
+              "asset_id": "AU203",
+              "bytes": 255531,
+              "canonical_path": "originals/AU203.jpg",
+              "case_id": "CASE-20260828-SC004-P2-T07",
+              "created_at": "2026-08-28T00:32:12Z",
+              "height": 2304,
+              "notes": [
+                "SC-004 P2 T07 U2 independent run 3; canonical binary from frozen P2 output"
+              ],
+              "original_filename": "segment-2107-v1-01.jpg",
+              "preview_path": "lab/previews/CASE-20260828-SC004-P2-T07-AU203.jpg",
+              "provenance_confidence": "verified",
+              "run_id": "RP2-T07-U2-R03",
+              "schema_version": "0.1.0",
+              "sha256": "5feaa5457fd510a40f8cf174ec25d70d5765cae561f9599167b4c8bc3dd1e4d8",
+              "source_format": "JPEG",
+              "thumbnail_path": "lab/thumbnails/CASE-20260828-SC004-P2-T07-AU203.jpg",
+              "user_feedback": [
+                "verdict=failure; attribution=renderer_constraint_violation"
+              ],
+              "width": 1728
+            }
+          ],
+          "evaluation": "fail",
+          "evaluation_note": "The short-term/long-term relation remains, but 'transformation' appears again outside the whitelist.",
+          "generation_surface": "local-api-adapter",
+          "model": "doubao-seedream-5-0-lite-260128",
+          "model_version": "260128",
+          "parameters": {
+            "canonical_decision_gate": "gpt-5.6-sol/medium",
+            "canvas": "3:4",
+            "execution_model_role": "gpt-5.6-luna/max",
+            "independent_repeat": 3,
+            "machine_run_id": "P2-T07-U2-R03",
+            "p2_prompt_mutation_allowed": false,
+            "patch_scope": "none_baseline",
+            "sequential_image_generation": "disabled",
+            "series_palette": "u2_cool-neutral-business",
+            "size": "2K",
+            "style_route": "G22",
+            "watermark": false
+          },
+          "producer": "codex-sc004",
+          "prompt_delta_notes": [],
+          "prompt_id": "PU2",
+          "prompt_intended_model_target": "doubao-seedream-5-0-lite-260128",
+          "prompt_parent_prompt_id": null,
+          "prompt_provenance_confidence": "verified",
+          "prompt_public": true,
+          "prompt_sha256": "ab99c7305514331d9a414e9453f6075717dea15542cd846c73e6666ec0fe7ed4",
+          "prompt_summary": "P2 T07 adopted-U2 current-Skill baseline; patch_scope=none_baseline",
+          "prompt_text": "生成一张 3:4 竖版静态商业结构图。\n核心信息：只做降标准、降投入、降考核，轻量化只是短期招商工具；讲清总部直控、渠道承接、本地履约、风险分担，才可能形成效率提升。\n信息结构：transformation。顶部标题，中部左侧短期入口模块、右侧长期效率模块，中间一条明确升级路径。\n版式与阅读顺序：先读标题，再读左侧三个下降动作，沿中央升级箭头进入右侧四项分工，最后读底部效率提升。左侧三个动作使用向下的标准尺、投入筹码和考核表表达；右侧四项用控制台、渠道节点、服务交付点和风险盾牌表达。\n关系必须画清：左侧三项只汇入短期招商工具；它不能直接等于效率提升。只有中央升级路径经过右侧四项清晰分工后，才以条件箭头指向效率提升。\n图中只允许出现这些文字：轻量化；降标准；降投入；降考核；短期招商工具；总部直控；渠道承接；本地履约；风险分担；效率提升。\n不画地图。不要 logo、商标、水印、AI 字样、无意义英文、门店数量、新闻来源或白名单外文字。不要把四项分工画成四个互不相关的口号。\nIllustration style: clean isometric business schematic illustration, flat base with light pseudo-isometric depth, precise clean linework, simplified geometry, controlled perspective, subtle shadows, systematic, organized, restrained and professional, high readability.\nSeries palette: cool-neutral muted business palette, light neutral gray background, soft blue-gray primary color, desaturated teal and sage secondary colors, restrained soft-gold accent, dark charcoal linework, low saturation, clean tonal separation, professional and calm.\n",
+          "provenance_confidence": "verified",
+          "provider": "volcengine-ark",
+          "run_id": "RP2-T07-U2-R03",
+          "skill_lineage": {
+            "skill": "shortvideo-image-prompt-generation",
+            "version": "SC-004@35072b0"
+          },
+          "source_adapter": "local-file"
+        },
+        {
+          "assets": [
+            {
+              "asset_id": "AU204",
+              "bytes": 198932,
+              "canonical_path": "originals/AU204.jpg",
+              "case_id": "CASE-20260828-SC004-P2-T07",
+              "created_at": "2026-08-28T00:32:13Z",
+              "height": 2304,
+              "notes": [
+                "SC-004 P2 T07 U2 independent run 4; canonical binary from frozen P2 output"
+              ],
+              "original_filename": "segment-2107-v1-01.jpg",
+              "preview_path": "lab/previews/CASE-20260828-SC004-P2-T07-AU204.jpg",
+              "provenance_confidence": "verified",
+              "run_id": "RP2-T07-U2-R04",
+              "schema_version": "0.1.0",
+              "sha256": "609107ac7af688b842ae0a0b4192434af9c82961017e917f8ab609855ad7f509",
+              "source_format": "JPEG",
+              "thumbnail_path": "lab/thumbnails/CASE-20260828-SC004-P2-T07-AU204.jpg",
+              "user_feedback": [
+                "verdict=failure; attribution=renderer_constraint_violation"
+              ],
+              "width": 1728
+            }
+          ],
+          "evaluation": "fail",
+          "evaluation_note": "Core flow remains, but whitelist-external English/mixed fragments including module-like text appear.",
+          "generation_surface": "local-api-adapter",
+          "model": "doubao-seedream-5-0-lite-260128",
+          "model_version": "260128",
+          "parameters": {
+            "canonical_decision_gate": "gpt-5.6-sol/medium",
+            "canvas": "3:4",
+            "execution_model_role": "gpt-5.6-luna/max",
+            "independent_repeat": 4,
+            "machine_run_id": "P2-T07-U2-R04",
+            "p2_prompt_mutation_allowed": false,
+            "patch_scope": "none_baseline",
+            "sequential_image_generation": "disabled",
+            "series_palette": "u2_cool-neutral-business",
+            "size": "2K",
+            "style_route": "G22",
+            "watermark": false
+          },
+          "producer": "codex-sc004",
+          "prompt_delta_notes": [],
+          "prompt_id": "PU2",
+          "prompt_intended_model_target": "doubao-seedream-5-0-lite-260128",
+          "prompt_parent_prompt_id": null,
+          "prompt_provenance_confidence": "verified",
+          "prompt_public": true,
+          "prompt_sha256": "ab99c7305514331d9a414e9453f6075717dea15542cd846c73e6666ec0fe7ed4",
+          "prompt_summary": "P2 T07 adopted-U2 current-Skill baseline; patch_scope=none_baseline",
+          "prompt_text": "生成一张 3:4 竖版静态商业结构图。\n核心信息：只做降标准、降投入、降考核，轻量化只是短期招商工具；讲清总部直控、渠道承接、本地履约、风险分担，才可能形成效率提升。\n信息结构：transformation。顶部标题，中部左侧短期入口模块、右侧长期效率模块，中间一条明确升级路径。\n版式与阅读顺序：先读标题，再读左侧三个下降动作，沿中央升级箭头进入右侧四项分工，最后读底部效率提升。左侧三个动作使用向下的标准尺、投入筹码和考核表表达；右侧四项用控制台、渠道节点、服务交付点和风险盾牌表达。\n关系必须画清：左侧三项只汇入短期招商工具；它不能直接等于效率提升。只有中央升级路径经过右侧四项清晰分工后，才以条件箭头指向效率提升。\n图中只允许出现这些文字：轻量化；降标准；降投入；降考核；短期招商工具；总部直控；渠道承接；本地履约；风险分担；效率提升。\n不画地图。不要 logo、商标、水印、AI 字样、无意义英文、门店数量、新闻来源或白名单外文字。不要把四项分工画成四个互不相关的口号。\nIllustration style: clean isometric business schematic illustration, flat base with light pseudo-isometric depth, precise clean linework, simplified geometry, controlled perspective, subtle shadows, systematic, organized, restrained and professional, high readability.\nSeries palette: cool-neutral muted business palette, light neutral gray background, soft blue-gray primary color, desaturated teal and sage secondary colors, restrained soft-gold accent, dark charcoal linework, low saturation, clean tonal separation, professional and calm.\n",
+          "provenance_confidence": "verified",
+          "provider": "volcengine-ark",
+          "run_id": "RP2-T07-U2-R04",
+          "skill_lineage": {
+            "skill": "shortvideo-image-prompt-generation",
+            "version": "SC-004@35072b0"
+          },
+          "source_adapter": "local-file"
+        }
+      ],
+      "status": "open",
+      "svp_mode": "3:4",
+      "tags": [
+        "SC-004",
+        "P2-current-skill-baseline",
+        "T07"
+      ],
+      "title": "P2 T07 lightweight channel transformation current-Skill baseline"
+    },
+    {
+      "case_id": "CASE-20260828-SC004-P2-T08",
+      "case_type": "experiment",
+      "contact_sheet": "lab/contact_sheets/CASE-20260828-SC004-P2-T08.jpg",
+      "expected_effect": [
+        "Preserve equal opportunity and trap branches and the three management constraints"
+      ],
+      "final_selection": null,
+      "image_type": "shortvideo-business-illustration",
+      "problem_statement": "Measure current-Skill baseline on opportunity/trap fork and management constraints",
+      "project": "hotspot/SC-004",
+      "runs": [
+        {
+          "assets": [
+            {
+              "asset_id": "AU201",
+              "bytes": 220638,
+              "canonical_path": "originals/AU201.jpg",
+              "case_id": "CASE-20260828-SC004-P2-T08",
+              "created_at": "2026-08-28T00:32:15Z",
+              "height": 2304,
+              "notes": [
+                "SC-004 P2 T08 U2 independent run 1; canonical binary from frozen P2 output"
+              ],
+              "original_filename": "segment-2108-v1-01.jpg",
+              "preview_path": "lab/previews/CASE-20260828-SC004-P2-T08-AU201.jpg",
+              "provenance_confidence": "verified",
+              "run_id": "RP2-T08-U2-R01",
+              "schema_version": "0.1.0",
+              "sha256": "5c7eeff5bfd7cf16e8fc798dc63da52bcc6e9124431de810b0ef86394eadec46",
+              "source_format": "JPEG",
+              "thumbnail_path": "lab/thumbnails/CASE-20260828-SC004-P2-T08-AU201.jpg",
+              "user_feedback": [
+                "verdict=acceptable; attribution=none"
+              ],
+              "width": 1728
+            }
+          ],
+          "evaluation": "pass",
+          "evaluation_note": "One second-brand decision forks into opportunity and trap, with equal branches and three upward control lines.",
+          "generation_surface": "local-api-adapter",
+          "model": "doubao-seedream-5-0-lite-260128",
+          "model_version": "260128",
+          "parameters": {
+            "canonical_decision_gate": "gpt-5.6-sol/medium",
+            "canvas": "3:4",
+            "execution_model_role": "gpt-5.6-luna/max",
+            "independent_repeat": 1,
+            "machine_run_id": "P2-T08-U2-R01",
+            "p2_prompt_mutation_allowed": false,
+            "patch_scope": "none_baseline",
+            "sequential_image_generation": "disabled",
+            "series_palette": "u2_cool-neutral-business",
+            "size": "2K",
+            "style_route": "G21",
+            "watermark": false
+          },
+          "producer": "codex-sc004",
+          "prompt_delta_notes": [],
+          "prompt_id": "PU2",
+          "prompt_intended_model_target": "doubao-seedream-5-0-lite-260128",
+          "prompt_parent_prompt_id": null,
+          "prompt_provenance_confidence": "verified",
+          "prompt_public": true,
+          "prompt_sha256": "8435629b2170a5aa75d4177446932cc36241290c373f3787af1b783e1d5c9ae4",
+          "prompt_summary": "P2 T08 adopted-U2 current-Skill baseline; patch_scope=none_baseline",
+          "prompt_text": "生成一张 3:4 竖版静态商业编辑插画。\n核心信息：第二品牌既可能成为破局利刃，也可能成为内耗陷阱，关键取决于企业能否管住定位、成本和资源。\n信息结构：comparison。顶部标题，中部一个企业主体站在左右分叉点，左侧是增长机会场景，右侧是组织内耗场景，底部三项约束收束。\n版式与阅读顺序：先读标题，再看中央企业主体和左右两条分叉路径，最后读底部定位、成本、资源三张约束卡。左侧用打开新市场空间的克制路径表达破局；右侧用两个团队争抢同一资源池的机制场景表达内耗，不做灾难化叙事。\n关系必须画清：左右路径从同一第二品牌决策分叉，机会与陷阱等权；底部三项约束用三条向上的控制线同时连接分叉点，表示结果取决于管理而非品牌名称。\n图中只允许出现这些文字：第二品牌；破局利刃；内耗陷阱；定位；成本；资源；增长工具；组织压力测试。\n不画地图。不要 logo、商标、具体品牌名、水印、AI 字样、无意义英文、报告数据、新闻来源或白名单外文字。不要把任何一侧画成已经发生的确定结局。\nIllustration style: soft narrative structural editorial illustration, flat illustration with light depth, clean thin outlines, simplified rounded forms, subtle shadows, gentle commercial editorial feel, airy, calm, restrained and professional, story-driven but structure-preserving.\nSeries palette: cool-neutral muted business palette, light neutral gray background, soft blue-gray primary color, desaturated teal and sage secondary colors, restrained soft-gold accent, dark charcoal linework, low saturation, clean tonal separation, professional and calm.\n",
+          "provenance_confidence": "verified",
+          "provider": "volcengine-ark",
+          "run_id": "RP2-T08-U2-R01",
+          "skill_lineage": {
+            "skill": "shortvideo-image-prompt-generation",
+            "version": "SC-004@35072b0"
+          },
+          "source_adapter": "local-file"
+        },
+        {
+          "assets": [
+            {
+              "asset_id": "AU202",
+              "bytes": 221204,
+              "canonical_path": "originals/AU202.jpg",
+              "case_id": "CASE-20260828-SC004-P2-T08",
+              "created_at": "2026-08-28T00:32:16Z",
+              "height": 2304,
+              "notes": [
+                "SC-004 P2 T08 U2 independent run 2; canonical binary from frozen P2 output"
+              ],
+              "original_filename": "segment-2108-v1-01.jpg",
+              "preview_path": "lab/previews/CASE-20260828-SC004-P2-T08-AU202.jpg",
+              "provenance_confidence": "verified",
+              "run_id": "RP2-T08-U2-R02",
+              "schema_version": "0.1.0",
+              "sha256": "e232faedf5de92126c57c8d51ca08e3218ba32a2b0ce7f54740dc38103322934",
+              "source_format": "JPEG",
+              "thumbnail_path": "lab/thumbnails/CASE-20260828-SC004-P2-T08-AU202.jpg",
+              "user_feedback": [
+                "verdict=acceptable; attribution=none"
+              ],
+              "width": 1728
+            }
+          ],
+          "evaluation": "pass",
+          "evaluation_note": "Growth opportunity and organizational stress are mechanismized; neither side is shown as a certain outcome.",
+          "generation_surface": "local-api-adapter",
+          "model": "doubao-seedream-5-0-lite-260128",
+          "model_version": "260128",
+          "parameters": {
+            "canonical_decision_gate": "gpt-5.6-sol/medium",
+            "canvas": "3:4",
+            "execution_model_role": "gpt-5.6-luna/max",
+            "independent_repeat": 2,
+            "machine_run_id": "P2-T08-U2-R02",
+            "p2_prompt_mutation_allowed": false,
+            "patch_scope": "none_baseline",
+            "sequential_image_generation": "disabled",
+            "series_palette": "u2_cool-neutral-business",
+            "size": "2K",
+            "style_route": "G21",
+            "watermark": false
+          },
+          "producer": "codex-sc004",
+          "prompt_delta_notes": [],
+          "prompt_id": "PU2",
+          "prompt_intended_model_target": "doubao-seedream-5-0-lite-260128",
+          "prompt_parent_prompt_id": null,
+          "prompt_provenance_confidence": "verified",
+          "prompt_public": true,
+          "prompt_sha256": "8435629b2170a5aa75d4177446932cc36241290c373f3787af1b783e1d5c9ae4",
+          "prompt_summary": "P2 T08 adopted-U2 current-Skill baseline; patch_scope=none_baseline",
+          "prompt_text": "生成一张 3:4 竖版静态商业编辑插画。\n核心信息：第二品牌既可能成为破局利刃，也可能成为内耗陷阱，关键取决于企业能否管住定位、成本和资源。\n信息结构：comparison。顶部标题，中部一个企业主体站在左右分叉点，左侧是增长机会场景，右侧是组织内耗场景，底部三项约束收束。\n版式与阅读顺序：先读标题，再看中央企业主体和左右两条分叉路径，最后读底部定位、成本、资源三张约束卡。左侧用打开新市场空间的克制路径表达破局；右侧用两个团队争抢同一资源池的机制场景表达内耗，不做灾难化叙事。\n关系必须画清：左右路径从同一第二品牌决策分叉，机会与陷阱等权；底部三项约束用三条向上的控制线同时连接分叉点，表示结果取决于管理而非品牌名称。\n图中只允许出现这些文字：第二品牌；破局利刃；内耗陷阱；定位；成本；资源；增长工具；组织压力测试。\n不画地图。不要 logo、商标、具体品牌名、水印、AI 字样、无意义英文、报告数据、新闻来源或白名单外文字。不要把任何一侧画成已经发生的确定结局。\nIllustration style: soft narrative structural editorial illustration, flat illustration with light depth, clean thin outlines, simplified rounded forms, subtle shadows, gentle commercial editorial feel, airy, calm, restrained and professional, story-driven but structure-preserving.\nSeries palette: cool-neutral muted business palette, light neutral gray background, soft blue-gray primary color, desaturated teal and sage secondary colors, restrained soft-gold accent, dark charcoal linework, low saturation, clean tonal separation, professional and calm.\n",
+          "provenance_confidence": "verified",
+          "provider": "volcengine-ark",
+          "run_id": "RP2-T08-U2-R02",
+          "skill_lineage": {
+            "skill": "shortvideo-image-prompt-generation",
+            "version": "SC-004@35072b0"
+          },
+          "source_adapter": "local-file"
+        },
+        {
+          "assets": [
+            {
+              "asset_id": "AU203",
+              "bytes": 263796,
+              "canonical_path": "originals/AU203.jpg",
+              "case_id": "CASE-20260828-SC004-P2-T08",
+              "created_at": "2026-08-28T00:32:17Z",
+              "height": 2304,
+              "notes": [
+                "SC-004 P2 T08 U2 independent run 3; canonical binary from frozen P2 output"
+              ],
+              "original_filename": "segment-2108-v1-01.jpg",
+              "preview_path": "lab/previews/CASE-20260828-SC004-P2-T08-AU203.jpg",
+              "provenance_confidence": "verified",
+              "run_id": "RP2-T08-U2-R03",
+              "schema_version": "0.1.0",
+              "sha256": "608e748f536296d4114a2cfb3a30d62cc03a1156085953ebcda1af3215bf9744",
+              "source_format": "JPEG",
+              "thumbnail_path": "lab/thumbnails/CASE-20260828-SC004-P2-T08-AU203.jpg",
+              "user_feedback": [
+                "verdict=acceptable; attribution=none"
+              ],
+              "width": 1728
+            }
+          ],
+          "evaluation": "pass",
+          "evaluation_note": "Central subject, two branches, and the positioning/cost/resource controls are clear.",
+          "generation_surface": "local-api-adapter",
+          "model": "doubao-seedream-5-0-lite-260128",
+          "model_version": "260128",
+          "parameters": {
+            "canonical_decision_gate": "gpt-5.6-sol/medium",
+            "canvas": "3:4",
+            "execution_model_role": "gpt-5.6-luna/max",
+            "independent_repeat": 3,
+            "machine_run_id": "P2-T08-U2-R03",
+            "p2_prompt_mutation_allowed": false,
+            "patch_scope": "none_baseline",
+            "sequential_image_generation": "disabled",
+            "series_palette": "u2_cool-neutral-business",
+            "size": "2K",
+            "style_route": "G21",
+            "watermark": false
+          },
+          "producer": "codex-sc004",
+          "prompt_delta_notes": [],
+          "prompt_id": "PU2",
+          "prompt_intended_model_target": "doubao-seedream-5-0-lite-260128",
+          "prompt_parent_prompt_id": null,
+          "prompt_provenance_confidence": "verified",
+          "prompt_public": true,
+          "prompt_sha256": "8435629b2170a5aa75d4177446932cc36241290c373f3787af1b783e1d5c9ae4",
+          "prompt_summary": "P2 T08 adopted-U2 current-Skill baseline; patch_scope=none_baseline",
+          "prompt_text": "生成一张 3:4 竖版静态商业编辑插画。\n核心信息：第二品牌既可能成为破局利刃，也可能成为内耗陷阱，关键取决于企业能否管住定位、成本和资源。\n信息结构：comparison。顶部标题，中部一个企业主体站在左右分叉点，左侧是增长机会场景，右侧是组织内耗场景，底部三项约束收束。\n版式与阅读顺序：先读标题，再看中央企业主体和左右两条分叉路径，最后读底部定位、成本、资源三张约束卡。左侧用打开新市场空间的克制路径表达破局；右侧用两个团队争抢同一资源池的机制场景表达内耗，不做灾难化叙事。\n关系必须画清：左右路径从同一第二品牌决策分叉，机会与陷阱等权；底部三项约束用三条向上的控制线同时连接分叉点，表示结果取决于管理而非品牌名称。\n图中只允许出现这些文字：第二品牌；破局利刃；内耗陷阱；定位；成本；资源；增长工具；组织压力测试。\n不画地图。不要 logo、商标、具体品牌名、水印、AI 字样、无意义英文、报告数据、新闻来源或白名单外文字。不要把任何一侧画成已经发生的确定结局。\nIllustration style: soft narrative structural editorial illustration, flat illustration with light depth, clean thin outlines, simplified rounded forms, subtle shadows, gentle commercial editorial feel, airy, calm, restrained and professional, story-driven but structure-preserving.\nSeries palette: cool-neutral muted business palette, light neutral gray background, soft blue-gray primary color, desaturated teal and sage secondary colors, restrained soft-gold accent, dark charcoal linework, low saturation, clean tonal separation, professional and calm.\n",
+          "provenance_confidence": "verified",
+          "provider": "volcengine-ark",
+          "run_id": "RP2-T08-U2-R03",
+          "skill_lineage": {
+            "skill": "shortvideo-image-prompt-generation",
+            "version": "SC-004@35072b0"
+          },
+          "source_adapter": "local-file"
+        },
+        {
+          "assets": [
+            {
+              "asset_id": "AU204",
+              "bytes": 284026,
+              "canonical_path": "originals/AU204.jpg",
+              "case_id": "CASE-20260828-SC004-P2-T08",
+              "created_at": "2026-08-28T00:32:18Z",
+              "height": 2304,
+              "notes": [
+                "SC-004 P2 T08 U2 independent run 4; canonical binary from frozen P2 output"
+              ],
+              "original_filename": "segment-2108-v1-01.jpg",
+              "preview_path": "lab/previews/CASE-20260828-SC004-P2-T08-AU204.jpg",
+              "provenance_confidence": "verified",
+              "run_id": "RP2-T08-U2-R04",
+              "schema_version": "0.1.0",
+              "sha256": "3fb3b2e579a41e5b1864cda013eb38eba209823a1eeec7069bf796f091d07ea0",
+              "source_format": "JPEG",
+              "thumbnail_path": "lab/thumbnails/CASE-20260828-SC004-P2-T08-AU204.jpg",
+              "user_feedback": [
+                "verdict=acceptable; attribution=none"
+              ],
+              "width": 1728
+            }
+          ],
+          "evaluation": "pass",
+          "evaluation_note": "Opportunity/trap and management constraints remain; the scene is not disasterized.",
+          "generation_surface": "local-api-adapter",
+          "model": "doubao-seedream-5-0-lite-260128",
+          "model_version": "260128",
+          "parameters": {
+            "canonical_decision_gate": "gpt-5.6-sol/medium",
+            "canvas": "3:4",
+            "execution_model_role": "gpt-5.6-luna/max",
+            "independent_repeat": 4,
+            "machine_run_id": "P2-T08-U2-R04",
+            "p2_prompt_mutation_allowed": false,
+            "patch_scope": "none_baseline",
+            "sequential_image_generation": "disabled",
+            "series_palette": "u2_cool-neutral-business",
+            "size": "2K",
+            "style_route": "G21",
+            "watermark": false
+          },
+          "producer": "codex-sc004",
+          "prompt_delta_notes": [],
+          "prompt_id": "PU2",
+          "prompt_intended_model_target": "doubao-seedream-5-0-lite-260128",
+          "prompt_parent_prompt_id": null,
+          "prompt_provenance_confidence": "verified",
+          "prompt_public": true,
+          "prompt_sha256": "8435629b2170a5aa75d4177446932cc36241290c373f3787af1b783e1d5c9ae4",
+          "prompt_summary": "P2 T08 adopted-U2 current-Skill baseline; patch_scope=none_baseline",
+          "prompt_text": "生成一张 3:4 竖版静态商业编辑插画。\n核心信息：第二品牌既可能成为破局利刃，也可能成为内耗陷阱，关键取决于企业能否管住定位、成本和资源。\n信息结构：comparison。顶部标题，中部一个企业主体站在左右分叉点，左侧是增长机会场景，右侧是组织内耗场景，底部三项约束收束。\n版式与阅读顺序：先读标题，再看中央企业主体和左右两条分叉路径，最后读底部定位、成本、资源三张约束卡。左侧用打开新市场空间的克制路径表达破局；右侧用两个团队争抢同一资源池的机制场景表达内耗，不做灾难化叙事。\n关系必须画清：左右路径从同一第二品牌决策分叉，机会与陷阱等权；底部三项约束用三条向上的控制线同时连接分叉点，表示结果取决于管理而非品牌名称。\n图中只允许出现这些文字：第二品牌；破局利刃；内耗陷阱；定位；成本；资源；增长工具；组织压力测试。\n不画地图。不要 logo、商标、具体品牌名、水印、AI 字样、无意义英文、报告数据、新闻来源或白名单外文字。不要把任何一侧画成已经发生的确定结局。\nIllustration style: soft narrative structural editorial illustration, flat illustration with light depth, clean thin outlines, simplified rounded forms, subtle shadows, gentle commercial editorial feel, airy, calm, restrained and professional, story-driven but structure-preserving.\nSeries palette: cool-neutral muted business palette, light neutral gray background, soft blue-gray primary color, desaturated teal and sage secondary colors, restrained soft-gold accent, dark charcoal linework, low saturation, clean tonal separation, professional and calm.\n",
+          "provenance_confidence": "verified",
+          "provider": "volcengine-ark",
+          "run_id": "RP2-T08-U2-R04",
+          "skill_lineage": {
+            "skill": "shortvideo-image-prompt-generation",
+            "version": "SC-004@35072b0"
+          },
+          "source_adapter": "local-file"
+        }
+      ],
+      "status": "open",
+      "svp_mode": "3:4",
+      "tags": [
+        "SC-004",
+        "P2-current-skill-baseline",
+        "T08"
+      ],
+      "title": "P2 T08 second-brand fork current-Skill baseline"
+    },
+    {
+      "case_id": "CASE-20260828-SC004-P2-T09",
+      "case_type": "experiment",
+      "contact_sheet": "lab/contact_sheets/CASE-20260828-SC004-P2-T09.jpg",
+      "expected_effect": [
+        "Preserve downward/upward probes, mutual damage, and non-guaranteed profit testing"
+      ],
+      "final_selection": null,
+      "image_type": "shortvideo-business-illustration",
+      "problem_statement": "Measure current-Skill baseline on price-band directions and core-brand boundary",
+      "project": "hotspot/SC-004",
+      "runs": [
+        {
+          "assets": [
+            {
+              "asset_id": "AU201",
+              "bytes": 181354,
+              "canonical_path": "originals/AU201.jpg",
+              "case_id": "CASE-20260828-SC004-P2-T09",
+              "created_at": "2026-08-28T00:32:20Z",
+              "height": 2304,
+              "notes": [
+                "SC-004 P2 T09 U2 independent run 1; canonical binary from frozen P2 output"
+              ],
+              "original_filename": "segment-2109-v1-01.jpg",
+              "preview_path": "lab/previews/CASE-20260828-SC004-P2-T09-AU201.jpg",
+              "provenance_confidence": "verified",
+              "run_id": "RP2-T09-U2-R01",
+              "schema_version": "0.1.0",
+              "sha256": "292138de2c0f957a9ef6a418e8bcc75affba8faee494fe09fa770c0d46ef95a8",
+              "source_format": "JPEG",
+              "thumbnail_path": "lab/thumbnails/CASE-20260828-SC004-P2-T09-AU201.jpg",
+              "user_feedback": [
+                "verdict=acceptable; attribution=none"
+              ],
+              "width": 1728
+            }
+          ],
+          "evaluation": "pass",
+          "evaluation_note": "Core-brand positioning connects both directions; downward intrusion shows mutual damage and the brand boundary closes the frame.",
+          "generation_surface": "local-api-adapter",
+          "model": "doubao-seedream-5-0-lite-260128",
+          "model_version": "260128",
+          "parameters": {
+            "canonical_decision_gate": "gpt-5.6-sol/medium",
+            "canvas": "3:4",
+            "execution_model_role": "gpt-5.6-luna/max",
+            "independent_repeat": 1,
+            "machine_run_id": "P2-T09-U2-R01",
+            "p2_prompt_mutation_allowed": false,
+            "patch_scope": "none_baseline",
+            "sequential_image_generation": "disabled",
+            "series_palette": "u2_cool-neutral-business",
+            "size": "2K",
+            "style_route": "G22",
+            "watermark": false
+          },
+          "producer": "codex-sc004",
+          "prompt_delta_notes": [],
+          "prompt_id": "PU2",
+          "prompt_intended_model_target": "doubao-seedream-5-0-lite-260128",
+          "prompt_parent_prompt_id": null,
+          "prompt_provenance_confidence": "verified",
+          "prompt_public": true,
+          "prompt_sha256": "31d566e39960e8215145774572b311f117904c6493fe07d857834d48101e33e7",
+          "prompt_summary": "P2 T09 adopted-U2 current-Skill baseline; patch_scope=none_baseline",
+          "prompt_text": "生成一张 3:4 竖版静态商业结构图。\n核心信息：第二品牌首先切开价格带；主品牌既要守住定位又向下抢量会左右互伤，而已有销量基础的企业也可能向上试探利润，核心是品牌边界。\n信息结构：framework。顶部标题，中部一条纵向价格带轴，中央主品牌定位卡，下方走量方向卡，上方利润方向卡，底部品牌边界收束。\n版式与阅读顺序：先读标题，再从中央主品牌定位卡读取基准，沿向下箭头读向下走量，沿向上箭头读向上试利润，最后读底部品牌边界。价格带轴只表达相对方向，不添加价格数字。\n关系必须画清：中央主品牌同时连接上下两个方向；向下抢量若侵入主品牌定位区，用轻微碰撞边界表达左右互伤；向上试利润保持独立试探箭头，不表达一定成功。\n图中只允许出现这些文字：第二品牌切开价格带；主品牌定位；向下走量；向上试利润；左右互伤；品牌边界。\n不画地图。不要 logo、商标、具体品牌名、水印、AI 字样、无意义英文、车型、价格数字、销量数据、新闻来源或白名单外文字。不要把画面做成产品价格海报。\nIllustration style: clean isometric business schematic illustration, flat base with light pseudo-isometric depth, precise clean linework, simplified geometry, controlled perspective, subtle shadows, systematic, organized, restrained and professional, high readability.\nSeries palette: cool-neutral muted business palette, light neutral gray background, soft blue-gray primary color, desaturated teal and sage secondary colors, restrained soft-gold accent, dark charcoal linework, low saturation, clean tonal separation, professional and calm.\n",
+          "provenance_confidence": "verified",
+          "provider": "volcengine-ark",
+          "run_id": "RP2-T09-U2-R01",
+          "skill_lineage": {
+            "skill": "shortvideo-image-prompt-generation",
+            "version": "SC-004@35072b0"
+          },
+          "source_adapter": "local-file"
+        },
+        {
+          "assets": [
+            {
+              "asset_id": "AU202",
+              "bytes": 158971,
+              "canonical_path": "originals/AU202.jpg",
+              "case_id": "CASE-20260828-SC004-P2-T09",
+              "created_at": "2026-08-28T00:32:20Z",
+              "height": 2304,
+              "notes": [
+                "SC-004 P2 T09 U2 independent run 2; canonical binary from frozen P2 output"
+              ],
+              "original_filename": "segment-2109-v1-01.jpg",
+              "preview_path": "lab/previews/CASE-20260828-SC004-P2-T09-AU202.jpg",
+              "provenance_confidence": "verified",
+              "run_id": "RP2-T09-U2-R02",
+              "schema_version": "0.1.0",
+              "sha256": "f4f2cbfad60cb6689facaf15f1c2a3ac3254a85afc09d43b2d8f7987b38ca16e",
+              "source_format": "JPEG",
+              "thumbnail_path": "lab/thumbnails/CASE-20260828-SC004-P2-T09-AU202.jpg",
+              "user_feedback": [
+                "verdict=acceptable; attribution=none"
+              ],
+              "width": 1728
+            }
+          ],
+          "evaluation": "pass",
+          "evaluation_note": "The vertical price-band direction and both probes are clear without price numbers or extra brands.",
+          "generation_surface": "local-api-adapter",
+          "model": "doubao-seedream-5-0-lite-260128",
+          "model_version": "260128",
+          "parameters": {
+            "canonical_decision_gate": "gpt-5.6-sol/medium",
+            "canvas": "3:4",
+            "execution_model_role": "gpt-5.6-luna/max",
+            "independent_repeat": 2,
+            "machine_run_id": "P2-T09-U2-R02",
+            "p2_prompt_mutation_allowed": false,
+            "patch_scope": "none_baseline",
+            "sequential_image_generation": "disabled",
+            "series_palette": "u2_cool-neutral-business",
+            "size": "2K",
+            "style_route": "G22",
+            "watermark": false
+          },
+          "producer": "codex-sc004",
+          "prompt_delta_notes": [],
+          "prompt_id": "PU2",
+          "prompt_intended_model_target": "doubao-seedream-5-0-lite-260128",
+          "prompt_parent_prompt_id": null,
+          "prompt_provenance_confidence": "verified",
+          "prompt_public": true,
+          "prompt_sha256": "31d566e39960e8215145774572b311f117904c6493fe07d857834d48101e33e7",
+          "prompt_summary": "P2 T09 adopted-U2 current-Skill baseline; patch_scope=none_baseline",
+          "prompt_text": "生成一张 3:4 竖版静态商业结构图。\n核心信息：第二品牌首先切开价格带；主品牌既要守住定位又向下抢量会左右互伤，而已有销量基础的企业也可能向上试探利润，核心是品牌边界。\n信息结构：framework。顶部标题，中部一条纵向价格带轴，中央主品牌定位卡，下方走量方向卡，上方利润方向卡，底部品牌边界收束。\n版式与阅读顺序：先读标题，再从中央主品牌定位卡读取基准，沿向下箭头读向下走量，沿向上箭头读向上试利润，最后读底部品牌边界。价格带轴只表达相对方向，不添加价格数字。\n关系必须画清：中央主品牌同时连接上下两个方向；向下抢量若侵入主品牌定位区，用轻微碰撞边界表达左右互伤；向上试利润保持独立试探箭头，不表达一定成功。\n图中只允许出现这些文字：第二品牌切开价格带；主品牌定位；向下走量；向上试利润；左右互伤；品牌边界。\n不画地图。不要 logo、商标、具体品牌名、水印、AI 字样、无意义英文、车型、价格数字、销量数据、新闻来源或白名单外文字。不要把画面做成产品价格海报。\nIllustration style: clean isometric business schematic illustration, flat base with light pseudo-isometric depth, precise clean linework, simplified geometry, controlled perspective, subtle shadows, systematic, organized, restrained and professional, high readability.\nSeries palette: cool-neutral muted business palette, light neutral gray background, soft blue-gray primary color, desaturated teal and sage secondary colors, restrained soft-gold accent, dark charcoal linework, low saturation, clean tonal separation, professional and calm.\n",
+          "provenance_confidence": "verified",
+          "provider": "volcengine-ark",
+          "run_id": "RP2-T09-U2-R02",
+          "skill_lineage": {
+            "skill": "shortvideo-image-prompt-generation",
+            "version": "SC-004@35072b0"
+          },
+          "source_adapter": "local-file"
+        },
+        {
+          "assets": [
+            {
+              "asset_id": "AU203",
+              "bytes": 190961,
+              "canonical_path": "originals/AU203.jpg",
+              "case_id": "CASE-20260828-SC004-P2-T09",
+              "created_at": "2026-08-28T00:32:21Z",
+              "height": 2304,
+              "notes": [
+                "SC-004 P2 T09 U2 independent run 3; canonical binary from frozen P2 output"
+              ],
+              "original_filename": "segment-2109-v1-01.jpg",
+              "preview_path": "lab/previews/CASE-20260828-SC004-P2-T09-AU203.jpg",
+              "provenance_confidence": "verified",
+              "run_id": "RP2-T09-U2-R03",
+              "schema_version": "0.1.0",
+              "sha256": "148c8b2239173dd5daff5b7a0403c8a12e02d8c9cc2af14e338512268acd710e",
+              "source_format": "JPEG",
+              "thumbnail_path": "lab/thumbnails/CASE-20260828-SC004-P2-T09-AU203.jpg",
+              "user_feedback": [
+                "verdict=acceptable; attribution=none"
+              ],
+              "width": 1728
+            }
+          ],
+          "evaluation": "pass",
+          "evaluation_note": "Up/down probes, core positioning, and brand boundary remain; upward testing is not shown as guaranteed.",
+          "generation_surface": "local-api-adapter",
+          "model": "doubao-seedream-5-0-lite-260128",
+          "model_version": "260128",
+          "parameters": {
+            "canonical_decision_gate": "gpt-5.6-sol/medium",
+            "canvas": "3:4",
+            "execution_model_role": "gpt-5.6-luna/max",
+            "independent_repeat": 3,
+            "machine_run_id": "P2-T09-U2-R03",
+            "p2_prompt_mutation_allowed": false,
+            "patch_scope": "none_baseline",
+            "sequential_image_generation": "disabled",
+            "series_palette": "u2_cool-neutral-business",
+            "size": "2K",
+            "style_route": "G22",
+            "watermark": false
+          },
+          "producer": "codex-sc004",
+          "prompt_delta_notes": [],
+          "prompt_id": "PU2",
+          "prompt_intended_model_target": "doubao-seedream-5-0-lite-260128",
+          "prompt_parent_prompt_id": null,
+          "prompt_provenance_confidence": "verified",
+          "prompt_public": true,
+          "prompt_sha256": "31d566e39960e8215145774572b311f117904c6493fe07d857834d48101e33e7",
+          "prompt_summary": "P2 T09 adopted-U2 current-Skill baseline; patch_scope=none_baseline",
+          "prompt_text": "生成一张 3:4 竖版静态商业结构图。\n核心信息：第二品牌首先切开价格带；主品牌既要守住定位又向下抢量会左右互伤，而已有销量基础的企业也可能向上试探利润，核心是品牌边界。\n信息结构：framework。顶部标题，中部一条纵向价格带轴，中央主品牌定位卡，下方走量方向卡，上方利润方向卡，底部品牌边界收束。\n版式与阅读顺序：先读标题，再从中央主品牌定位卡读取基准，沿向下箭头读向下走量，沿向上箭头读向上试利润，最后读底部品牌边界。价格带轴只表达相对方向，不添加价格数字。\n关系必须画清：中央主品牌同时连接上下两个方向；向下抢量若侵入主品牌定位区，用轻微碰撞边界表达左右互伤；向上试利润保持独立试探箭头，不表达一定成功。\n图中只允许出现这些文字：第二品牌切开价格带；主品牌定位；向下走量；向上试利润；左右互伤；品牌边界。\n不画地图。不要 logo、商标、具体品牌名、水印、AI 字样、无意义英文、车型、价格数字、销量数据、新闻来源或白名单外文字。不要把画面做成产品价格海报。\nIllustration style: clean isometric business schematic illustration, flat base with light pseudo-isometric depth, precise clean linework, simplified geometry, controlled perspective, subtle shadows, systematic, organized, restrained and professional, high readability.\nSeries palette: cool-neutral muted business palette, light neutral gray background, soft blue-gray primary color, desaturated teal and sage secondary colors, restrained soft-gold accent, dark charcoal linework, low saturation, clean tonal separation, professional and calm.\n",
+          "provenance_confidence": "verified",
+          "provider": "volcengine-ark",
+          "run_id": "RP2-T09-U2-R03",
+          "skill_lineage": {
+            "skill": "shortvideo-image-prompt-generation",
+            "version": "SC-004@35072b0"
+          },
+          "source_adapter": "local-file"
+        },
+        {
+          "assets": [
+            {
+              "asset_id": "AU204",
+              "bytes": 193606,
+              "canonical_path": "originals/AU204.jpg",
+              "case_id": "CASE-20260828-SC004-P2-T09",
+              "created_at": "2026-08-28T00:32:22Z",
+              "height": 2304,
+              "notes": [
+                "SC-004 P2 T09 U2 independent run 4; canonical binary from frozen P2 output"
+              ],
+              "original_filename": "segment-2109-v1-01.jpg",
+              "preview_path": "lab/previews/CASE-20260828-SC004-P2-T09-AU204.jpg",
+              "provenance_confidence": "verified",
+              "run_id": "RP2-T09-U2-R04",
+              "schema_version": "0.1.0",
+              "sha256": "402957c9aa7115123f1c3113555699180ec69a28034e0e885e2af279b83fa58c",
+              "source_format": "JPEG",
+              "thumbnail_path": "lab/thumbnails/CASE-20260828-SC004-P2-T09-AU204.jpg",
+              "user_feedback": [
+                "verdict=acceptable; attribution=none"
+              ],
+              "width": 1728
+            }
+          ],
+          "evaluation": "pass",
+          "evaluation_note": "Title, price band, core position, two directions, and boundary closure are complete.",
+          "generation_surface": "local-api-adapter",
+          "model": "doubao-seedream-5-0-lite-260128",
+          "model_version": "260128",
+          "parameters": {
+            "canonical_decision_gate": "gpt-5.6-sol/medium",
+            "canvas": "3:4",
+            "execution_model_role": "gpt-5.6-luna/max",
+            "independent_repeat": 4,
+            "machine_run_id": "P2-T09-U2-R04",
+            "p2_prompt_mutation_allowed": false,
+            "patch_scope": "none_baseline",
+            "sequential_image_generation": "disabled",
+            "series_palette": "u2_cool-neutral-business",
+            "size": "2K",
+            "style_route": "G22",
+            "watermark": false
+          },
+          "producer": "codex-sc004",
+          "prompt_delta_notes": [],
+          "prompt_id": "PU2",
+          "prompt_intended_model_target": "doubao-seedream-5-0-lite-260128",
+          "prompt_parent_prompt_id": null,
+          "prompt_provenance_confidence": "verified",
+          "prompt_public": true,
+          "prompt_sha256": "31d566e39960e8215145774572b311f117904c6493fe07d857834d48101e33e7",
+          "prompt_summary": "P2 T09 adopted-U2 current-Skill baseline; patch_scope=none_baseline",
+          "prompt_text": "生成一张 3:4 竖版静态商业结构图。\n核心信息：第二品牌首先切开价格带；主品牌既要守住定位又向下抢量会左右互伤，而已有销量基础的企业也可能向上试探利润，核心是品牌边界。\n信息结构：framework。顶部标题，中部一条纵向价格带轴，中央主品牌定位卡，下方走量方向卡，上方利润方向卡，底部品牌边界收束。\n版式与阅读顺序：先读标题，再从中央主品牌定位卡读取基准，沿向下箭头读向下走量，沿向上箭头读向上试利润，最后读底部品牌边界。价格带轴只表达相对方向，不添加价格数字。\n关系必须画清：中央主品牌同时连接上下两个方向；向下抢量若侵入主品牌定位区，用轻微碰撞边界表达左右互伤；向上试利润保持独立试探箭头，不表达一定成功。\n图中只允许出现这些文字：第二品牌切开价格带；主品牌定位；向下走量；向上试利润；左右互伤；品牌边界。\n不画地图。不要 logo、商标、具体品牌名、水印、AI 字样、无意义英文、车型、价格数字、销量数据、新闻来源或白名单外文字。不要把画面做成产品价格海报。\nIllustration style: clean isometric business schematic illustration, flat base with light pseudo-isometric depth, precise clean linework, simplified geometry, controlled perspective, subtle shadows, systematic, organized, restrained and professional, high readability.\nSeries palette: cool-neutral muted business palette, light neutral gray background, soft blue-gray primary color, desaturated teal and sage secondary colors, restrained soft-gold accent, dark charcoal linework, low saturation, clean tonal separation, professional and calm.\n",
+          "provenance_confidence": "verified",
+          "provider": "volcengine-ark",
+          "run_id": "RP2-T09-U2-R04",
+          "skill_lineage": {
+            "skill": "shortvideo-image-prompt-generation",
+            "version": "SC-004@35072b0"
+          },
+          "source_adapter": "local-file"
+        }
+      ],
+      "status": "open",
+      "svp_mode": "3:4",
+      "tags": [
+        "SC-004",
+        "P2-current-skill-baseline",
+        "T09"
+      ],
+      "title": "P2 T09 price-band boundary current-Skill baseline"
+    },
+    {
+      "case_id": "CASE-20260828-SC004-P2-T10",
+      "case_type": "experiment",
+      "contact_sheet": "lab/contact_sheets/CASE-20260828-SC004-P2-T10.jpg",
+      "expected_effect": [
+        "Preserve five equal capabilities, shared reuse, and conditional success wording"
+      ],
+      "final_selection": null,
+      "image_type": "shortvideo-business-illustration",
+      "problem_statement": "Measure current-Skill baseline on five shared capabilities and conditional brand matrix",
+      "project": "hotspot/SC-004",
+      "runs": [
+        {
+          "assets": [
+            {
+              "asset_id": "AU201",
+              "bytes": 211674,
+              "canonical_path": "originals/AU201.jpg",
+              "case_id": "CASE-20260828-SC004-P2-T10",
+              "created_at": "2026-08-28T00:32:24Z",
+              "height": 2304,
+              "notes": [
+                "SC-004 P2 T10 U2 independent run 1; canonical binary from frozen P2 output"
+              ],
+              "original_filename": "segment-2110-v1-01.jpg",
+              "preview_path": "lab/previews/CASE-20260828-SC004-P2-T10-AU201.jpg",
+              "provenance_confidence": "verified",
+              "run_id": "RP2-T10-U2-R01",
+              "schema_version": "0.1.0",
+              "sha256": "fb9e781f47132a6b3a201122098372a8c4cd8d5f7dc43e45ee7ca012e0006b06",
+              "source_format": "JPEG",
+              "thumbnail_path": "lab/thumbnails/CASE-20260828-SC004-P2-T10-AU201.jpg",
+              "user_feedback": [
+                "verdict=acceptable; attribution=none"
+              ],
+              "width": 1728
+            }
+          ],
+          "evaluation": "pass",
+          "evaluation_note": "Technology platform, supply chain, charging, channel efficiency, and organization converge equally into the brand matrix.",
+          "generation_surface": "local-api-adapter",
+          "model": "doubao-seedream-5-0-lite-260128",
+          "model_version": "260128",
+          "parameters": {
+            "canonical_decision_gate": "gpt-5.6-sol/medium",
+            "canvas": "3:4",
+            "execution_model_role": "gpt-5.6-luna/max",
+            "independent_repeat": 1,
+            "machine_run_id": "P2-T10-U2-R01",
+            "p2_prompt_mutation_allowed": false,
+            "patch_scope": "none_baseline",
+            "sequential_image_generation": "disabled",
+            "series_palette": "u2_cool-neutral-business",
+            "size": "2K",
+            "style_route": "G22",
+            "watermark": false
+          },
+          "producer": "codex-sc004",
+          "prompt_delta_notes": [],
+          "prompt_id": "PU2",
+          "prompt_intended_model_target": "doubao-seedream-5-0-lite-260128",
+          "prompt_parent_prompt_id": null,
+          "prompt_provenance_confidence": "verified",
+          "prompt_public": true,
+          "prompt_sha256": "4c82240eebe5ea302b2f7ca6392285f9291e435adc906bbf452211adb34eb01e",
+          "prompt_summary": "P2 T10 adopted-U2 current-Skill baseline; patch_scope=none_baseline",
+          "prompt_text": "生成一张 3:4 竖版静态商业结构图。\n核心信息：第二品牌能否成为品牌矩阵，取决于技术平台、供应链、补能体系、渠道效率和组织管理五项底层能力能否共享复用。\n信息结构：framework。顶部标题，中央品牌矩阵核心卡，外围五张等权能力卡，底部是一条成功条件收束带。\n版式与阅读顺序：先读标题，再沿外围五张能力卡顺时针阅读，随后沿五条汇聚线进入中央品牌矩阵，最后读底部收束。能力卡使用机制化对象：平台底座、供应链节点、补能网络、渠道触点、组织协作层；中央矩阵是由共享底座支撑的多品牌模块，不使用品牌 logo。\n关系必须画清：五张能力卡以五条等权、细而清楚的汇聚线指向中央矩阵，表示共享与复用；不得画成五个互不相关的标签，也不得证明任何第二品牌已经成功。\n图中只允许出现这些文字：底层能力复用；技术平台；供应链；补能体系；渠道效率；组织管理；品牌矩阵；共享后才可能成矩阵。\n不画地图。不要 logo、商标、水印、AI 字样、无意义英文、品牌案例、销量数据、百分比、新闻来源或白名单外文字。不要新增第六项能力，不要把结果画成已经成功的庆典场景。\nIllustration style: clean isometric business schematic illustration, flat base with light pseudo-isometric depth, precise clean linework, simplified geometry, controlled perspective, subtle shadows, systematic, organized, restrained and professional, high readability.\nSeries palette: cool-neutral muted business palette, light neutral gray background, soft blue-gray primary color, desaturated teal and sage secondary colors, restrained soft-gold accent, dark charcoal linework, low saturation, clean tonal separation, professional and calm.\n",
+          "provenance_confidence": "verified",
+          "provider": "volcengine-ark",
+          "run_id": "RP2-T10-U2-R01",
+          "skill_lineage": {
+            "skill": "shortvideo-image-prompt-generation",
+            "version": "SC-004@35072b0"
+          },
+          "source_adapter": "local-file"
+        },
+        {
+          "assets": [
+            {
+              "asset_id": "AU202",
+              "bytes": 216419,
+              "canonical_path": "originals/AU202.jpg",
+              "case_id": "CASE-20260828-SC004-P2-T10",
+              "created_at": "2026-08-28T00:32:25Z",
+              "height": 2304,
+              "notes": [
+                "SC-004 P2 T10 U2 independent run 2; canonical binary from frozen P2 output"
+              ],
+              "original_filename": "segment-2110-v1-01.jpg",
+              "preview_path": "lab/previews/CASE-20260828-SC004-P2-T10-AU202.jpg",
+              "provenance_confidence": "verified",
+              "run_id": "RP2-T10-U2-R02",
+              "schema_version": "0.1.0",
+              "sha256": "e684621538d5619a46ad107b51cd4271f3ddc27ba4160eb7f452c5bd1ae2bf2b",
+              "source_format": "JPEG",
+              "thumbnail_path": "lab/thumbnails/CASE-20260828-SC004-P2-T10-AU202.jpg",
+              "user_feedback": [
+                "verdict=acceptable; attribution=none"
+              ],
+              "width": 1728
+            }
+          ],
+          "evaluation": "pass",
+          "evaluation_note": "Five mechanism nodes and the shared-reuse relation are clear; the bottom remains conditional.",
+          "generation_surface": "local-api-adapter",
+          "model": "doubao-seedream-5-0-lite-260128",
+          "model_version": "260128",
+          "parameters": {
+            "canonical_decision_gate": "gpt-5.6-sol/medium",
+            "canvas": "3:4",
+            "execution_model_role": "gpt-5.6-luna/max",
+            "independent_repeat": 2,
+            "machine_run_id": "P2-T10-U2-R02",
+            "p2_prompt_mutation_allowed": false,
+            "patch_scope": "none_baseline",
+            "sequential_image_generation": "disabled",
+            "series_palette": "u2_cool-neutral-business",
+            "size": "2K",
+            "style_route": "G22",
+            "watermark": false
+          },
+          "producer": "codex-sc004",
+          "prompt_delta_notes": [],
+          "prompt_id": "PU2",
+          "prompt_intended_model_target": "doubao-seedream-5-0-lite-260128",
+          "prompt_parent_prompt_id": null,
+          "prompt_provenance_confidence": "verified",
+          "prompt_public": true,
+          "prompt_sha256": "4c82240eebe5ea302b2f7ca6392285f9291e435adc906bbf452211adb34eb01e",
+          "prompt_summary": "P2 T10 adopted-U2 current-Skill baseline; patch_scope=none_baseline",
+          "prompt_text": "生成一张 3:4 竖版静态商业结构图。\n核心信息：第二品牌能否成为品牌矩阵，取决于技术平台、供应链、补能体系、渠道效率和组织管理五项底层能力能否共享复用。\n信息结构：framework。顶部标题，中央品牌矩阵核心卡，外围五张等权能力卡，底部是一条成功条件收束带。\n版式与阅读顺序：先读标题，再沿外围五张能力卡顺时针阅读，随后沿五条汇聚线进入中央品牌矩阵，最后读底部收束。能力卡使用机制化对象：平台底座、供应链节点、补能网络、渠道触点、组织协作层；中央矩阵是由共享底座支撑的多品牌模块，不使用品牌 logo。\n关系必须画清：五张能力卡以五条等权、细而清楚的汇聚线指向中央矩阵，表示共享与复用；不得画成五个互不相关的标签，也不得证明任何第二品牌已经成功。\n图中只允许出现这些文字：底层能力复用；技术平台；供应链；补能体系；渠道效率；组织管理；品牌矩阵；共享后才可能成矩阵。\n不画地图。不要 logo、商标、水印、AI 字样、无意义英文、品牌案例、销量数据、百分比、新闻来源或白名单外文字。不要新增第六项能力，不要把结果画成已经成功的庆典场景。\nIllustration style: clean isometric business schematic illustration, flat base with light pseudo-isometric depth, precise clean linework, simplified geometry, controlled perspective, subtle shadows, systematic, organized, restrained and professional, high readability.\nSeries palette: cool-neutral muted business palette, light neutral gray background, soft blue-gray primary color, desaturated teal and sage secondary colors, restrained soft-gold accent, dark charcoal linework, low saturation, clean tonal separation, professional and calm.\n",
+          "provenance_confidence": "verified",
+          "provider": "volcengine-ark",
+          "run_id": "RP2-T10-U2-R02",
+          "skill_lineage": {
+            "skill": "shortvideo-image-prompt-generation",
+            "version": "SC-004@35072b0"
+          },
+          "source_adapter": "local-file"
+        },
+        {
+          "assets": [
+            {
+              "asset_id": "AU203",
+              "bytes": 226848,
+              "canonical_path": "originals/AU203.jpg",
+              "case_id": "CASE-20260828-SC004-P2-T10",
+              "created_at": "2026-08-28T00:32:26Z",
+              "height": 2304,
+              "notes": [
+                "SC-004 P2 T10 U2 independent run 3; canonical binary from frozen P2 output"
+              ],
+              "original_filename": "segment-2110-v1-01.jpg",
+              "preview_path": "lab/previews/CASE-20260828-SC004-P2-T10-AU203.jpg",
+              "provenance_confidence": "verified",
+              "run_id": "RP2-T10-U2-R03",
+              "schema_version": "0.1.0",
+              "sha256": "2d6bbd542c4269bfc34a96b3c76a66576ec8f573902c74ef2f9be411907fa438",
+              "source_format": "JPEG",
+              "thumbnail_path": "lab/thumbnails/CASE-20260828-SC004-P2-T10-AU203.jpg",
+              "user_feedback": [
+                "verdict=acceptable; attribution=none"
+              ],
+              "width": 1728
+            }
+          ],
+          "evaluation": "pass",
+          "evaluation_note": "Capability nodes, central matrix, and conditional close are complete; no sixth capability.",
+          "generation_surface": "local-api-adapter",
+          "model": "doubao-seedream-5-0-lite-260128",
+          "model_version": "260128",
+          "parameters": {
+            "canonical_decision_gate": "gpt-5.6-sol/medium",
+            "canvas": "3:4",
+            "execution_model_role": "gpt-5.6-luna/max",
+            "independent_repeat": 3,
+            "machine_run_id": "P2-T10-U2-R03",
+            "p2_prompt_mutation_allowed": false,
+            "patch_scope": "none_baseline",
+            "sequential_image_generation": "disabled",
+            "series_palette": "u2_cool-neutral-business",
+            "size": "2K",
+            "style_route": "G22",
+            "watermark": false
+          },
+          "producer": "codex-sc004",
+          "prompt_delta_notes": [],
+          "prompt_id": "PU2",
+          "prompt_intended_model_target": "doubao-seedream-5-0-lite-260128",
+          "prompt_parent_prompt_id": null,
+          "prompt_provenance_confidence": "verified",
+          "prompt_public": true,
+          "prompt_sha256": "4c82240eebe5ea302b2f7ca6392285f9291e435adc906bbf452211adb34eb01e",
+          "prompt_summary": "P2 T10 adopted-U2 current-Skill baseline; patch_scope=none_baseline",
+          "prompt_text": "生成一张 3:4 竖版静态商业结构图。\n核心信息：第二品牌能否成为品牌矩阵，取决于技术平台、供应链、补能体系、渠道效率和组织管理五项底层能力能否共享复用。\n信息结构：framework。顶部标题，中央品牌矩阵核心卡，外围五张等权能力卡，底部是一条成功条件收束带。\n版式与阅读顺序：先读标题，再沿外围五张能力卡顺时针阅读，随后沿五条汇聚线进入中央品牌矩阵，最后读底部收束。能力卡使用机制化对象：平台底座、供应链节点、补能网络、渠道触点、组织协作层；中央矩阵是由共享底座支撑的多品牌模块，不使用品牌 logo。\n关系必须画清：五张能力卡以五条等权、细而清楚的汇聚线指向中央矩阵，表示共享与复用；不得画成五个互不相关的标签，也不得证明任何第二品牌已经成功。\n图中只允许出现这些文字：底层能力复用；技术平台；供应链；补能体系；渠道效率；组织管理；品牌矩阵；共享后才可能成矩阵。\n不画地图。不要 logo、商标、水印、AI 字样、无意义英文、品牌案例、销量数据、百分比、新闻来源或白名单外文字。不要新增第六项能力，不要把结果画成已经成功的庆典场景。\nIllustration style: clean isometric business schematic illustration, flat base with light pseudo-isometric depth, precise clean linework, simplified geometry, controlled perspective, subtle shadows, systematic, organized, restrained and professional, high readability.\nSeries palette: cool-neutral muted business palette, light neutral gray background, soft blue-gray primary color, desaturated teal and sage secondary colors, restrained soft-gold accent, dark charcoal linework, low saturation, clean tonal separation, professional and calm.\n",
+          "provenance_confidence": "verified",
+          "provider": "volcengine-ark",
+          "run_id": "RP2-T10-U2-R03",
+          "skill_lineage": {
+            "skill": "shortvideo-image-prompt-generation",
+            "version": "SC-004@35072b0"
+          },
+          "source_adapter": "local-file"
+        },
+        {
+          "assets": [
+            {
+              "asset_id": "AU204",
+              "bytes": 223105,
+              "canonical_path": "originals/AU204.jpg",
+              "case_id": "CASE-20260828-SC004-P2-T10",
+              "created_at": "2026-08-28T00:32:27Z",
+              "height": 2304,
+              "notes": [
+                "SC-004 P2 T10 U2 independent run 4; canonical binary from frozen P2 output"
+              ],
+              "original_filename": "segment-2110-v1-01.jpg",
+              "preview_path": "lab/previews/CASE-20260828-SC004-P2-T10-AU204.jpg",
+              "provenance_confidence": "verified",
+              "run_id": "RP2-T10-U2-R04",
+              "schema_version": "0.1.0",
+              "sha256": "b26f7dc451d3e60d4bd1985d28f9098c4118d376135669b2b4d3b62fd8332388",
+              "source_format": "JPEG",
+              "thumbnail_path": "lab/thumbnails/CASE-20260828-SC004-P2-T10-AU204.jpg",
+              "user_feedback": [
+                "verdict=acceptable; attribution=none"
+              ],
+              "width": 1728
+            }
+          ],
+          "evaluation": "pass",
+          "evaluation_note": "Five capabilities support the center matrix with clear lines; no logo, percentage, or celebration scene.",
+          "generation_surface": "local-api-adapter",
+          "model": "doubao-seedream-5-0-lite-260128",
+          "model_version": "260128",
+          "parameters": {
+            "canonical_decision_gate": "gpt-5.6-sol/medium",
+            "canvas": "3:4",
+            "execution_model_role": "gpt-5.6-luna/max",
+            "independent_repeat": 4,
+            "machine_run_id": "P2-T10-U2-R04",
+            "p2_prompt_mutation_allowed": false,
+            "patch_scope": "none_baseline",
+            "sequential_image_generation": "disabled",
+            "series_palette": "u2_cool-neutral-business",
+            "size": "2K",
+            "style_route": "G22",
+            "watermark": false
+          },
+          "producer": "codex-sc004",
+          "prompt_delta_notes": [],
+          "prompt_id": "PU2",
+          "prompt_intended_model_target": "doubao-seedream-5-0-lite-260128",
+          "prompt_parent_prompt_id": null,
+          "prompt_provenance_confidence": "verified",
+          "prompt_public": true,
+          "prompt_sha256": "4c82240eebe5ea302b2f7ca6392285f9291e435adc906bbf452211adb34eb01e",
+          "prompt_summary": "P2 T10 adopted-U2 current-Skill baseline; patch_scope=none_baseline",
+          "prompt_text": "生成一张 3:4 竖版静态商业结构图。\n核心信息：第二品牌能否成为品牌矩阵，取决于技术平台、供应链、补能体系、渠道效率和组织管理五项底层能力能否共享复用。\n信息结构：framework。顶部标题，中央品牌矩阵核心卡，外围五张等权能力卡，底部是一条成功条件收束带。\n版式与阅读顺序：先读标题，再沿外围五张能力卡顺时针阅读，随后沿五条汇聚线进入中央品牌矩阵，最后读底部收束。能力卡使用机制化对象：平台底座、供应链节点、补能网络、渠道触点、组织协作层；中央矩阵是由共享底座支撑的多品牌模块，不使用品牌 logo。\n关系必须画清：五张能力卡以五条等权、细而清楚的汇聚线指向中央矩阵，表示共享与复用；不得画成五个互不相关的标签，也不得证明任何第二品牌已经成功。\n图中只允许出现这些文字：底层能力复用；技术平台；供应链；补能体系；渠道效率；组织管理；品牌矩阵；共享后才可能成矩阵。\n不画地图。不要 logo、商标、水印、AI 字样、无意义英文、品牌案例、销量数据、百分比、新闻来源或白名单外文字。不要新增第六项能力，不要把结果画成已经成功的庆典场景。\nIllustration style: clean isometric business schematic illustration, flat base with light pseudo-isometric depth, precise clean linework, simplified geometry, controlled perspective, subtle shadows, systematic, organized, restrained and professional, high readability.\nSeries palette: cool-neutral muted business palette, light neutral gray background, soft blue-gray primary color, desaturated teal and sage secondary colors, restrained soft-gold accent, dark charcoal linework, low saturation, clean tonal separation, professional and calm.\n",
+          "provenance_confidence": "verified",
+          "provider": "volcengine-ark",
+          "run_id": "RP2-T10-U2-R04",
+          "skill_lineage": {
+            "skill": "shortvideo-image-prompt-generation",
+            "version": "SC-004@35072b0"
+          },
+          "source_adapter": "local-file"
+        }
+      ],
+      "status": "open",
+      "svp_mode": "3:4",
+      "tags": [
+        "SC-004",
+        "P2-current-skill-baseline",
+        "T10"
+      ],
+      "title": "P2 T10 capability matrix current-Skill baseline"
     }
   ],
   "schema_version": "0.1.0"
