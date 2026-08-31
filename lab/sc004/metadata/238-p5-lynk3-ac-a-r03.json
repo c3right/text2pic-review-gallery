@@ -1,0 +1,16 @@
+{
+  "sequence": 238,
+  "stage": "P5",
+  "case_id": "LYNK3-AC",
+  "arm": "a",
+  "repeat": 3,
+  "run_id": "P5-LYNK3-AC-A-R03",
+  "prompt_sha256": "4124f88df699811d30dd37da207d0461002f96c18dcbb9a7b173613e87f396b0",
+  "source_sha256": "53ea008d106e5cdff682459b7bef1b9b4a01511d1f6e130819b29399da1243a5",
+  "source_width": 1728,
+  "source_height": 2304,
+  "preview": "previews/238-p5-lynk3-ac-a-r03.jpg",
+  "preview_sha256": "274b2144ac3768c7c9128e96f4b300f645082e71e699f8567f93724acdd7dd2e",
+  "thumbnail": "thumbnails/238-p5-lynk3-ac-a-r03.jpg",
+  "thumbnail_sha256": "45aac2b593460e29d8d38fd50664179af9c6ee023cdfca645698319bbaafdb52"
+}

@@ -1,0 +1,16 @@
+{
+  "sequence": 98,
+  "stage": "P2C",
+  "case_id": "LYNK4",
+  "arm": "current-skill",
+  "repeat": 1,
+  "run_id": "P2C-LYNK4-G21-CURRENT-R01",
+  "prompt_sha256": "a2b4a759d1d7c5274ed68ffa4988a80b7979792c8f989c13d12387ca229ffa2c",
+  "source_sha256": "8fb0c3b97569829e923af0354710277f161017a3152856d4e433d6a022f3b7e2",
+  "source_width": 1728,
+  "source_height": 2304,
+  "preview": "previews/098-p2c-lynk4-g21-current-r01.jpg",
+  "preview_sha256": "c57ef9f6a0cfc160a63a9529b9b55edb45a5605d24edde44d770636536fda801",
+  "thumbnail": "thumbnails/098-p2c-lynk4-g21-current-r01.jpg",
+  "thumbnail_sha256": "43114ecd0caddef73079c5f10ceee05a49be7399e83ad6e33bb94f7d05529cda"
+}

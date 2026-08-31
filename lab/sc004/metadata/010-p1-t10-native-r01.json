@@ -1,0 +1,16 @@
+{
+  "sequence": 10,
+  "stage": "P1",
+  "case_id": "T10",
+  "arm": "native",
+  "repeat": 1,
+  "run_id": "P1-T10-NATIVE-R01",
+  "prompt_sha256": "35185e159a620df9c7ae0a50f805a72250e65a93c0b518fac5e904adcad8efaf",
+  "source_sha256": "c61aad4a8f32a9b3e9bef99ff7c05582fd19f89126ed804c29faecb073017e4e",
+  "source_width": 1728,
+  "source_height": 2304,
+  "preview": "previews/010-p1-t10-native-r01.jpg",
+  "preview_sha256": "d128c27bb3c9071e4f83763b11d56043150b085c1f1b10884321178eda3b7736",
+  "thumbnail": "thumbnails/010-p1-t10-native-r01.jpg",
+  "thumbnail_sha256": "856d3803ec9b98d2f17117d3920c44dddee50baae421402f17bbf6ae5923c92f"
+}

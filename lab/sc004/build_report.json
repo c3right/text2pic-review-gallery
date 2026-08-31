@@ -1,0 +1,15 @@
+{
+  "result": "PASS",
+  "successful_images": 265,
+  "provider_no_image": 2,
+  "previews": 265,
+  "thumbnails": 265,
+  "contact_sheets": 40,
+  "metadata": 265,
+  "links": {
+    "html_files": 12,
+    "links_checked": 895,
+    "missing": []
+  },
+  "manifest_sha256": "cece0bb668cd9701758314ac5e8f324845074ae9a8a92c2ffa4d7b4fca2b13f1"
+}

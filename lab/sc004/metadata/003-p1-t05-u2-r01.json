@@ -1,0 +1,16 @@
+{
+  "sequence": 3,
+  "stage": "P1",
+  "case_id": "T05",
+  "arm": "u2",
+  "repeat": 1,
+  "run_id": "P1-T05-U2-R01",
+  "prompt_sha256": "e9371aa5c1c22c3c55e5a3142afd31f3f9d9a6299e079b93cbd4b74bc7f7e912",
+  "source_sha256": "36545b97da5feb25bb3dce7aa7a6316aea658dd118b268725b971a4c3e134dd6",
+  "source_width": 1728,
+  "source_height": 2304,
+  "preview": "previews/003-p1-t05-u2-r01.jpg",
+  "preview_sha256": "831dd9e1aacbd661b4b783aa3516bd063920967e9a57f53610eff8210a93cbc2",
+  "thumbnail": "thumbnails/003-p1-t05-u2-r01.jpg",
+  "thumbnail_sha256": "14c2c173ae93a0614bacfa789befd3d4b00e8693ce6deca16f0e8b3ea5ae104b"
+}

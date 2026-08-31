@@ -1,0 +1,16 @@
+{
+  "sequence": 107,
+  "stage": "P2C_TASK_MAPPING_CORRECTION_SANITIZED",
+  "case_id": "LYNK4",
+  "arm": "current-skill-correction-sanitized",
+  "repeat": 1,
+  "run_id": "P2C-LYNK4-G21-CURRENT-CORRECTION-SANITIZED-R01",
+  "prompt_sha256": "d410ba2f50a9a62477fe88c1f6dc5f329930a71b132ee1deeba6fa02a356d07e",
+  "source_sha256": "78f05abebfb2204a295e88db891c6fd46d69db94dd4f74b31ed3e9978d383778",
+  "source_width": 1728,
+  "source_height": 2304,
+  "preview": "previews/107-p2c-lynk4-g21-current-correction-sanitized-r01.jpg",
+  "preview_sha256": "74be551cd94bcdcb5e1744db4e963ecff99c5186250275e507a61a8b6af62462",
+  "thumbnail": "thumbnails/107-p2c-lynk4-g21-current-correction-sanitized-r01.jpg",
+  "thumbnail_sha256": "d386a747e9b96b5e2574ce911739890857b2017b558c8ee4f4de0801419fbf03"
+}

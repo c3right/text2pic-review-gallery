@@ -1,0 +1,16 @@
+{
+  "sequence": 193,
+  "stage": "P4",
+  "case_id": "LYNK1-NW",
+  "arm": "b",
+  "repeat": 2,
+  "run_id": "P4-LYNK1-NW-B-R02",
+  "prompt_sha256": "a7ac8a54617f16adfe4dbbba13615c63fc3c99f23597af3be8290ac37fd3ba99",
+  "source_sha256": "645b0da3a7530f10459c561ef9556df1f5814454dec95545a7c000686f5ca6f9",
+  "source_width": 1728,
+  "source_height": 2304,
+  "preview": "previews/193-p4-lynk1-nw-b-r02.jpg",
+  "preview_sha256": "803d933487a47e4ceefa93f7e63c533b0c48a4dedc00a4df7fbf3620e0eddac8",
+  "thumbnail": "thumbnails/193-p4-lynk1-nw-b-r02.jpg",
+  "thumbnail_sha256": "14d9a06cb6836f090f0c9892ca4ee82779b9195d25bc5dc64bfaddeda3b39fda"
+}

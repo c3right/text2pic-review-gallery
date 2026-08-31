@@ -1,0 +1,16 @@
+{
+  "sequence": 138,
+  "stage": "P3",
+  "case_id": "T06",
+  "arm": "g2",
+  "repeat": 3,
+  "run_id": "P3-T06-G2-R03",
+  "prompt_sha256": "67fda3cfaa22b76dea39a545f50a818b8dd3e96d5030281bf677a598aff759c1",
+  "source_sha256": "7340795243c91baf472b075674ecd25bcb2bd45bcdcd920aaad396a0c769a500",
+  "source_width": 1728,
+  "source_height": 2304,
+  "preview": "previews/138-p3-t06-g2-r03.jpg",
+  "preview_sha256": "1e5f2f597cc81cb4132fcb408e158c36ad03d5ad14df19d3aa00af130df47eef",
+  "thumbnail": "thumbnails/138-p3-t06-g2-r03.jpg",
+  "thumbnail_sha256": "6da228a66c451ff77a09e0394fb73e43d1b5929df01e04c778a4d7e5cef29ca5"
+}

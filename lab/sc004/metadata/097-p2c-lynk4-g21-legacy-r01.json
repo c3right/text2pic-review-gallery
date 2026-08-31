@@ -1,0 +1,16 @@
+{
+  "sequence": 97,
+  "stage": "P2C",
+  "case_id": "LYNK4",
+  "arm": "legacy-v2-adapted",
+  "repeat": 1,
+  "run_id": "P2C-LYNK4-G21-LEGACY-R01",
+  "prompt_sha256": "c046ff4dda577b543327151df5f45e48071a4f6d848a7a70d046a21cd73850a3",
+  "source_sha256": "9cc92cab4950c58ee93ca8a57eea6147af15108552ea9f217d724ca79b21df33",
+  "source_width": 1728,
+  "source_height": 2304,
+  "preview": "previews/097-p2c-lynk4-g21-legacy-r01.jpg",
+  "preview_sha256": "f444e4819f3d91ff0901dea8ea9340408a297893267cd4a7891362533d275ffb",
+  "thumbnail": "thumbnails/097-p2c-lynk4-g21-legacy-r01.jpg",
+  "thumbnail_sha256": "386fa7ad2afc458893b473fad294640dbbfc265a5eb54671411fb514d8e77067"
+}
