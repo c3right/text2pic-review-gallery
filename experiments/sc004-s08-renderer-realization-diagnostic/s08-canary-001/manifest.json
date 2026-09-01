@@ -1,0 +1,110 @@
+{
+  "schema": "s08-canary-blind-gallery-v1",
+  "run_id": "S08-CANARY-001",
+  "image_count": 20,
+  "images": [
+    {
+      "image_id": "C01-r01",
+      "path": "images/C01-r01.png",
+      "sha256": "17520b111d056af05fa237cf56720b31f63afb54beedcc2d40e9d8e05d3e75fd"
+    },
+    {
+      "image_id": "C01-r02",
+      "path": "images/C01-r02.png",
+      "sha256": "905a49afa380b1d6a8d5d00c75c3bd9fcfcbfe012ecd00f528d02bae613c8eaf"
+    },
+    {
+      "image_id": "C01-r03",
+      "path": "images/C01-r03.png",
+      "sha256": "b3dc0596e03841d6db4698ef0aa9e5439e01956bed8dfaa1fb6fd0a1590deebd"
+    },
+    {
+      "image_id": "C01-r04",
+      "path": "images/C01-r04.png",
+      "sha256": "822a26ee8bb0a0addc1a0c1a057eca2326ff8896e5a709538a85f4e4869c6d9c"
+    },
+    {
+      "image_id": "C01-r05",
+      "path": "images/C01-r05.png",
+      "sha256": "748ff42398197fce0f14827b13c221d3ffb903965f1735b959ff2202901560e8"
+    },
+    {
+      "image_id": "C02-r01",
+      "path": "images/C02-r01.png",
+      "sha256": "b6e5319047081854d04ffd0d7eb1e412a016a9c21629cc972ee486bed3aa0773"
+    },
+    {
+      "image_id": "C02-r02",
+      "path": "images/C02-r02.png",
+      "sha256": "4376377a13bb1bd1e1329e781ade40c9a874090a5d26f640f3d717dff6069e76"
+    },
+    {
+      "image_id": "C02-r03",
+      "path": "images/C02-r03.png",
+      "sha256": "e05523a1b46d60dfa1003d21d70ae6724afdd7f9c5e3eb00d1f8030d836ea82f"
+    },
+    {
+      "image_id": "C02-r04",
+      "path": "images/C02-r04.png",
+      "sha256": "d9f51ef0daf97eb8efd639c73adb86e9aa7f27719804f37877567eb0d01a7b17"
+    },
+    {
+      "image_id": "C02-r05",
+      "path": "images/C02-r05.png",
+      "sha256": "43df14ee5d22e3f24ab9ad0dc0656085a367647358f9c6d600bc21329a382bc3"
+    },
+    {
+      "image_id": "C03-r01",
+      "path": "images/C03-r01.png",
+      "sha256": "42d12c71c7474cc0d07be6427e24c938343518d47c8a2a8b9e575b61ecc07b9d"
+    },
+    {
+      "image_id": "C03-r02",
+      "path": "images/C03-r02.png",
+      "sha256": "fd866f3a7930dad27097274bc1dcef5c93b828b162fd7f2b7b2c5ea44c3901d4"
+    },
+    {
+      "image_id": "C03-r03",
+      "path": "images/C03-r03.png",
+      "sha256": "05ff468388310f3e00441f2fe93276741f5f155b2ee323049d970b6fc5391876"
+    },
+    {
+      "image_id": "C03-r04",
+      "path": "images/C03-r04.png",
+      "sha256": "194d722a27e2e1d618433878614e2034dd3a0ff5f10608f88bb00a8948f1d0c3"
+    },
+    {
+      "image_id": "C03-r05",
+      "path": "images/C03-r05.png",
+      "sha256": "ebd8ff421cb957a14dcef2055e0a74f97498f4e2fb922bdbe11f53295c33c8a3"
+    },
+    {
+      "image_id": "C04-r01",
+      "path": "images/C04-r01.png",
+      "sha256": "193f4c224e6c2216a5d51761a05b2e901570fb90404854fb3e80389af831ad0c"
+    },
+    {
+      "image_id": "C04-r02",
+      "path": "images/C04-r02.png",
+      "sha256": "a4304d10e9569655bd4c87aa83fa549cb9c9cb762d15984fe2726db5f0cda4e7"
+    },
+    {
+      "image_id": "C04-r03",
+      "path": "images/C04-r03.png",
+      "sha256": "e8cd0db378e8b1d731cfa3ba1bc364138e4eb9ccf229f63ec5cf433ea87dcd9b"
+    },
+    {
+      "image_id": "C04-r04",
+      "path": "images/C04-r04.png",
+      "sha256": "da09269006886d3d6c7131237c03d35dc190c4e953af55336986a6a63c3b6845"
+    },
+    {
+      "image_id": "C04-r05",
+      "path": "images/C04-r05.png",
+      "sha256": "01e3329ea7bddd63cf11f6916db06ba586330e4a7272b4b86637977de74da0b7"
+    }
+  ],
+  "human_decision_surface": "human-review/index.html",
+  "prompt_text_published": false,
+  "internal_condition_labels_published": false
+}
