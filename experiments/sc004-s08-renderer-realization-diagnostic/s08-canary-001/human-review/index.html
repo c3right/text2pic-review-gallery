@@ -2,240 +2,55 @@
 <html lang="zh-CN">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 <title>S08 Canary Human Decision Surface</title>
 <style>
-:root { color-scheme: light; font-family: system-ui, -apple-system, "Segoe UI", sans-serif; }
-body { margin:0; background:#f5f5f3; color:#202020; }
-main { max-width:1180px; margin:0 auto; padding:24px; }
-h1,h2,h3 { line-height:1.25; }
-.notice { background:white; border:1px solid #d8d8d3; border-radius:12px; padding:16px; margin:16px 0; }
-.card { background:white; border:1px solid #d8d8d3; border-radius:14px; margin:18px 0; overflow:hidden; }
-.card-head { padding:12px 16px; border-bottom:1px solid #ecece8; font-weight:700; display:flex; justify-content:space-between; }
-.card-body { display:grid; grid-template-columns:minmax(280px, 54%) 1fr; gap:18px; padding:16px; align-items:start; }
-.card img { width:100%; height:auto; display:block; border-radius:8px; background:#eee; }
-fieldset { border:0; padding:0; margin:0 0 16px 0; }
-legend { font-weight:650; margin-bottom:8px; }
-label.option { display:block; padding:5px 0; }
-textarea { width:100%; min-height:72px; box-sizing:border-box; }
-.group-grid { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:12px; }
-.group { background:white; border:1px solid #d8d8d3; border-radius:12px; padding:10px; }
-.group img { width:100%; margin:5px 0; border-radius:6px; }
-button { font:inherit; padding:10px 14px; margin:6px 8px 6px 0; border-radius:8px; border:1px solid #999; background:white; cursor:pointer; }
-button.primary { background:#202020; color:white; border-color:#202020; }
-button:disabled { opacity:.45; cursor:not-allowed; }
-pre { white-space:pre-wrap; word-break:break-word; background:#f3f3ef; border-radius:8px; padding:12px; }
-.hidden { display:none; }
-.locked { opacity:.72; }
-.status { font-weight:700; }
-@media (max-width:800px) {
-  .card-body { grid-template-columns:1fr; }
-  .group-grid { grid-template-columns:1fr 1fr; }
-}
+:root{font-family:system-ui,-apple-system,"Segoe UI",sans-serif;color:#202020;background:#f5f5f3}body{margin:0}main{max-width:1180px;margin:auto;padding:24px}h1,h2,h3{line-height:1.25}.notice,.card,.group{background:#fff;border:1px solid #d8d8d3;border-radius:12px}.notice{padding:16px;margin:16px 0}.card{margin:18px 0;overflow:hidden}.head{padding:10px 14px;border-bottom:1px solid #ecece8;display:flex;justify-content:space-between;font-weight:700}.body{display:grid;grid-template-columns:minmax(280px,54%) 1fr;gap:18px;padding:16px;align-items:start}.body img,.group img{width:100%;height:auto;display:block;border-radius:8px;background:#eee}fieldset{border:0;padding:0;margin:0 0 16px}legend{font-weight:650;margin-bottom:7px}.option{display:block;padding:4px 0}textarea{width:100%;min-height:72px;box-sizing:border-box}.grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}.group{padding:10px}.group img{margin:6px 0}button{font:inherit;padding:10px 14px;margin:6px 8px 6px 0;border-radius:8px;border:1px solid #999;background:#fff;cursor:pointer}.primary{background:#202020;color:#fff;border-color:#202020}button:disabled{opacity:.45;cursor:not-allowed}.hidden{display:none}.status{font-weight:700}.prompt-links a{display:inline-block;margin:6px 10px 6px 0;padding:8px 11px;border:1px solid #aaa;border-radius:8px;color:#202020;text-decoration:none;background:#fff}@media(max-width:800px){.body{grid-template-columns:1fr}.grid{grid-template-columns:1fr 1fr}}
 </style>
 </head>
 <body>
 <main>
 <h1>S08 Canary · Human Decision Surface</h1>
 <div class="notice">
-<p><strong>测试目的：</strong><span id="purpose"></span></p>
-<p>这是盲评页面。页面只显示盲码 C01–C04，不显示 Legacy / Current / Bridge 身份。先完成并锁定所有人工判断，再允许展开 Prompt。Agent 能判断的尺寸、缺图、明显文字错误、明显结构缺失等不要求你逐项审。</p>
-<p class="status" id="status">盲评未锁定。</p>
+<p><strong>测试目的：</strong>盲评同一业务段在不同提示词控制方式下的成图稳定性与短视频可用性。先看结果，不看条件身份；人工只判断需要人来判断的事项。</p>
+<p>页面只显示盲码 C01–C04，不显示 Legacy / Current / Bridge 身份。Agent 能判断的尺寸、缺图、明显文字错误、明显结构缺失等，不要求你逐项审。</p>
+<p id="status" class="status">盲评未锁定。</p>
 </div>
-
 <section id="individual"><h2>第一部分｜逐图判断</h2></section>
-
-<section id="groups">
-<h2>第二部分｜每组 5 张整体稳定性</h2>
-<div class="group-grid" id="groupGrid"></div>
-<div class="notice" id="groupQuestions"></div>
-</section>
-
-<div class="notice">
-<h2>第三部分｜锁定与导出</h2>
-<button class="primary" id="lockBtn">完成盲评并锁定评分</button>
-<button id="exportBtn" disabled>导出 JSON</button>
-<p>锁定后评分不可再修改；随后才开放 Prompt 查看。导出的 JSON 只包含盲码和你的判断，不包含条件真实身份。</p>
-</div>
-
-<section id="promptReveal" class="hidden">
-<h2>锁定后参考｜Prompt 原文</h2>
-<p>以下内容只用于盲评完成后的定性复核，不再改变已锁定评分。</p>
-<div id="promptBlocks"></div>
-</section>
+<section><h2>第二部分｜每组 5 张整体稳定性</h2><div id="groupGrid" class="grid"></div><div id="groupQuestions" class="notice"></div></section>
+<div class="notice"><h2>第三部分｜锁定与导出</h2><button id="lockBtn" class="primary">完成盲评并锁定评分</button><button id="exportBtn" disabled>导出 JSON</button><p>锁定后评分不可再修改；随后才开放 Prompt 查看。导出的 JSON 只包含盲码和你的判断，不包含条件真实身份。</p></div>
+<section id="promptReveal" class="hidden"><h2>锁定后参考｜Prompt 原文</h2><p>以下内容只用于盲评完成后的定性复核，不再改变已锁定评分。</p><div class="prompt-links" id="promptLinks"></div></section>
 </main>
-
 <script>
-const DATA = {"schema_version": "1.0", "work_id": "SC-004-S08-RENDERER-REALIZATION-DIAGNOSTIC", "run_id": "S08-CANARY-001", "surface_version": "HDS-S08-v1", "purpose": "盲评同一业务段在不同提示词控制方式下的成图稳定性与短视频可用性。先看结果，不看条件身份；人工只判断需要人来判断的事项。", "individual_order": ["C02-r01", "C03-r04", "C01-r01", "C02-r03", "C01-r03", "C01-r02", "C04-r04", "C04-r02", "C03-r01", "C02-r02", "C02-r04", "C01-r05", "C03-r05", "C01-r04", "C03-r03", "C02-r05", "C04-r01", "C04-r05", "C03-r02", "C04-r03"], "individual_questions": [{"id": "first_glance_message", "label": "第一眼是否能理解这张图想表达的核心业务关系？", "options": ["清楚", "基本清楚", "不清楚"], "required": true}, {"id": "shortvideo_usability", "label": "作为短视频中的一张静态配图，这张图是否达到可用水平？", "options": ["可直接用", "可用但明显不理想", "不可用"], "required": true}, {"id": "visual_expectation_fit", "label": "这张图的整体画面组织是否符合你对这一段应如何呈现的预期？", "options": ["符合", "大体符合", "不符合"], "required": true}], "group_questions": [{"id": "most_stable_group", "label": "看完每组 5 张后，哪一组整体最稳定？", "options": ["C01", "C02", "C03", "C04", "并列/无明显差别"], "required": true}, {"id": "best_production_group", "label": "如果现在就用于生产，哪一组最适合作为生产基线？", "options": ["C01", "C02", "C03", "C04", "并列/无明显差别"], "required": true}], "blind_codes": ["C01", "C02", "C03", "C04"], "prompts": {"C01": "生成一张 3:4 竖式静态配图。\n整体采用上下对照：上方短期招商工具含降标准、降投入、降考核；中央转化箭头；下方效率提升含总部直控、渠道承接、本地履约、风险分担四模块汇总。\n图中只允许出现这些文字：“轻量化”、“短期招商工具”、“降标准”、“降投入”、“降考核”、“效率提升”、“总部直控”、“渠道承接”、“本地履约”、“风险分担”。除这些文字外不要新增任何说明性文字。不要水印、不要“AI生成”字样、不要品牌官方logo、不要无意义英文装饰。\n整体视觉采用 clean-isometric-business-schematic，结构清楚、轻立体、克制留白、编辑感。", "C02": "3:4 竖幅结构框架。顶部是一条独立“短期入口”横条，内部并列三个入口手段“降标准”“降投入”“降考核”；它们通过一个整体转折箭头进入中部，而不是分别对应下方职责。中部必须是清楚的 2×2 四个等权职责模块：“总部直控”“渠道承接”“本地履约”“风险分担”。四模块彼此并行、互不串联，绝对不要画成纵向四步流程、审批链或时间序列；每个模块都用自己的一条汇入线共同进入底部独立的“效率提升”结果容器。总部直控用价格/规则控制台，渠道承接用合作网络与客户触达，本地履约用交付和售后工位，风险分担用品牌与渠道共同承担库存/资本风险的双侧盾牌与砝码。仅允许文字“短期入口”“降标准”“降投入”“降考核”“总部直控”“渠道承接”“本地履约”“风险分担”“效率提升”；不得省略四职责，也不得增加解释小字、logo、水印或英文。clean isometric business schematic, modular business illustration with light 3D structural feel, flat illustration, light texture, rational, restrained, orderly, clear hierarchy, generous but controlled whitespace. 角色绑定配色：背景最浅近中性；短期入口用低饱和灰沙；四个真实职责分别使用可清楚区分的低饱和冷蓝、青绿、暖沙、紫灰中明度色族；底部效率结果只用一处克制局部强调色；文字、轮廓、汇入线和结构锚点明显更深，禁止全局单色罩。", "C03": "3:4 竖幅结构框架。严格按“顶部窄入口条 → 中部主体 2×2 四卡 → 底部短结果条”的三段式画面施工图执行；中部四卡是绝对视觉主体，面积和视觉权重明显大于顶部入口与底部结果。\n\n顶部只画一条低矮、弱化的“短期入口”横向容器。容器内部从左到右并列三个小标签“降标准”“降投入”“降考核”，三个标签尺寸接近、都保持次要权重；从整个顶部容器中央向下只出一个整体转折箭头，指向中部四卡整体，不要让三个入口分别连接某一职责。\n\n中部占主要画面，固定为 2×2 四张等大、等边界、等权重的职责卡：左上“总部直控”、右上“渠道承接”、左下“本地履约”、右下“风险分担”。四卡之间保持清楚留白，彼此不连箭头，不形成步骤、审批链或时间线。四卡各自画一个明确、可辨认的实体组合：总部直控画价格/规则控制台与少量控制旋钮；渠道承接画合作伙伴网络节点连接客户触达节点；本地履约画车辆交付位与售后服务工位；风险分担画品牌方与渠道方两侧共同托住库存/资本风险的双侧盾牌、砝码或平衡承托结构。不要用抽象符号替代这四组实体。\n\n四张职责卡底部各自向下引出一条短汇入线，四条线先汇到同一条水平汇总线，再共同进入底部独立的“效率提升”横向结果容器。禁止任何卡到卡的串行箭头。底部结果条只承担结果，不再新增解释模块。\n\n仅允许文字“短期入口”“降标准”“降投入”“降考核”“总部直控”“渠道承接”“本地履约”“风险分担”“效率提升”；不得省略四职责，不得增加解释小字、logo、水印或英文。不要地图，不要海报化，不要 HUD，不要流程图面板化。\n\nclean isometric business schematic, modular business illustration with light 3D structural feel, flat illustration, light texture, rational, restrained, orderly, clear hierarchy, generous but controlled whitespace。背景最浅近中性；顶部短期入口用低饱和灰沙并弱化；四张职责卡分别使用可清楚区分的低饱和冷蓝、青绿、暖沙、紫灰中明度色族，但四卡保持同尺寸、同边界、同层级；底部效率结果只用一处克制局部强调色；文字、轮廓、汇入线和结构锚点明显更深；禁止全局单色罩。", "C04": "# D3 分块段 08 Prompt\n\n生成一张 3:4 竖版静态配图。\n整体布局采用顶部居中标题 + 顶部错误入口条 + 中部 2x2 四类分工卡 + 底部效率结论条的结构，阅读顺序从上到下。\n容器结构包括：顶部窄横条；中部四张等大框架卡；底部横向短结论条。\n视觉区块内容：顶部错误入口条画降标准、降投入、降考核三个被压缩的小标签块，配轻向下让位箭头和弱化底色。中部四张框架卡分别画总部中枢、渠道连接、本地服务履约、风险共担天平等对象组合，四张卡统一尺寸、统一边界、作为主体。底部效率结论条画短结论横条，配由四卡汇入的短汇总线和轻正向箭头。\n关系表达：顶部错误入口条通过下行箭头让位于中部四类分工；四类分工通过短汇总线共同汇入底部效率结论条，必须让上错下对的结构层级清楚可见，不要画成串行审批流程。\n图中只允许出现这些文字：轻量化要从招商工具变成效率提升、降标准、降投入、降考核、总部直控、渠道承接、本地履约、风险分担、效率提升。\n不需要地图，不要出现任何地理区域轮廓或地图底图。\n不要 logo，不要海报化，不要水印，不要 AI 字样，不要无意义英文；不要出现管理长句和流程说明；不要把上方错误入口做得比主体更抢眼；不要让四张卡风格失衡；不要做成流程图面板化。\n整体视觉采用专业、理性、容器清楚的 clean editorial illustration，轻等距模块感，flat illustration，light texture。\n"}, "image_src": {"C01-r01": "../images/C01-r01.png", "C01-r02": "../images/C01-r02.png", "C01-r03": "../images/C01-r03.png", "C01-r04": "../images/C01-r04.png", "C01-r05": "../images/C01-r05.png", "C02-r01": "../images/C02-r01.png", "C02-r02": "../images/C02-r02.png", "C02-r03": "../images/C02-r03.png", "C02-r04": "../images/C02-r04.png", "C02-r05": "../images/C02-r05.png", "C03-r01": "../images/C03-r01.png", "C03-r02": "../images/C03-r02.png", "C03-r03": "../images/C03-r03.png", "C03-r04": "../images/C03-r04.png", "C03-r05": "../images/C03-r05.png", "C04-r01": "../images/C04-r01.png", "C04-r02": "../images/C04-r02.png", "C04-r03": "../images/C04-r03.png", "C04-r04": "../images/C04-r04.png", "C04-r05": "../images/C04-r05.png"}, "export_filename": "human-review-S08-CANARY-001.json"};
-const STORAGE_KEY = `${DATA.work_id}|${DATA.run_id}|${DATA.surface_version}`;
-let state = JSON.parse(localStorage.getItem(STORAGE_KEY) || "null") || {
-  schema_version: "1.0",
-  work_id: DATA.work_id,
-  run_id: DATA.run_id,
-  surface_version: DATA.surface_version,
-  individual: {},
-  group: {},
-  overall_note: "",
-  locked: false,
-  blind_review_completed_at: null
-};
-
-function save() {
-  localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
-}
-
-function esc(s) {
-  return String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[c]));
-}
-
-function qname(imageId, qid) { return `${imageId}__${qid}`; }
-
-function renderIndividual() {
-  const root = document.getElementById("individual");
-  DATA.individual_order.forEach((imageId, idx) => {
-    if (!state.individual[imageId]) state.individual[imageId] = {answers: {}, note:""};
-    const rec = state.individual[imageId];
-    const card = document.createElement("article");
-    card.className = "card";
-    card.innerHTML = `<div class="card-head"><span>${idx+1} / ${DATA.individual_order.length}</span><span>${esc(imageId)}</span></div>
-      <div class="card-body">
-        <img loading="lazy" src="${esc(DATA.image_src[imageId])}" alt="${esc(imageId)}">
-        <div class="questions"></div>
-      </div>`;
-    const qroot = card.querySelector(".questions");
-    DATA.individual_questions.forEach(q => {
-      const fs = document.createElement("fieldset");
-      const options = q.options.map(opt => {
-        const checked = rec.answers[q.id] === opt ? "checked" : "";
-        const disabled = state.locked ? "disabled" : "";
-        return `<label class="option"><input type="radio" name="${esc(qname(imageId,q.id))}" value="${esc(opt)}" ${checked} ${disabled}> ${esc(opt)}</label>`;
-      }).join("");
-      fs.innerHTML = `<legend>${esc(q.label)}</legend>${options}`;
-      fs.addEventListener("change", e => {
-        if (state.locked) return;
-        rec.answers[q.id] = e.target.value;
-        save();
-      });
-      qroot.appendChild(fs);
-    });
-    const ta = document.createElement("textarea");
-    ta.placeholder = "可选备注：只写 Agent 很难替你判断的视觉/生产问题。";
-    ta.value = rec.note || "";
-    ta.disabled = state.locked;
-    ta.addEventListener("input", () => { rec.note = ta.value; save(); });
-    qroot.appendChild(ta);
-    root.appendChild(card);
-  });
-}
-
-function renderGroups() {
-  const grid = document.getElementById("groupGrid");
-  DATA.blind_codes.forEach(code => {
-    const box = document.createElement("div");
-    box.className = "group";
-    box.innerHTML = `<h3>${esc(code)}</h3>`;
-    for (let i=1;i<=5;i++) {
-      const imageId = `${code}-r${String(i).padStart(2,"0")}`;
-      const img = document.createElement("img");
-      img.loading = "lazy";
-      img.src = DATA.image_src[imageId];
-      img.alt = imageId;
-      box.appendChild(img);
-    }
-    grid.appendChild(box);
-  });
-
-  const root = document.getElementById("groupQuestions");
-  DATA.group_questions.forEach(q => {
-    const fs = document.createElement("fieldset");
-    const options = q.options.map(opt => {
-      const checked = state.group[q.id] === opt ? "checked" : "";
-      const disabled = state.locked ? "disabled" : "";
-      return `<label class="option"><input type="radio" name="${esc(q.id)}" value="${esc(opt)}" ${checked} ${disabled}> ${esc(opt)}</label>`;
-    }).join("");
-    fs.innerHTML = `<legend>${esc(q.label)}</legend>${options}`;
-    fs.addEventListener("change", e => {
-      if (state.locked) return;
-      state.group[q.id] = e.target.value;
-      save();
-    });
-    root.appendChild(fs);
-  });
-  const ta = document.createElement("textarea");
-  ta.placeholder = "整体备注（可选）";
-  ta.value = state.overall_note || "";
-  ta.disabled = state.locked;
-  ta.addEventListener("input", () => { state.overall_note = ta.value; save(); });
-  root.appendChild(ta);
-}
-
-function complete() {
-  for (const imageId of DATA.individual_order) {
-    const rec = state.individual[imageId];
-    if (!rec) return false;
-    for (const q of DATA.individual_questions) {
-      if (q.required && !rec.answers[q.id]) return false;
-    }
-  }
-  for (const q of DATA.group_questions) {
-    if (q.required && !state.group[q.id]) return false;
-  }
-  return true;
-}
-
-function lockBlind() {
-  if (state.locked) return;
-  if (!complete()) {
-    alert("还有必填判断未完成。");
-    return;
-  }
-  if (!confirm("确认锁定盲评？锁定后评分不可修改，并会开放 Prompt 查看。")) return;
-  state.locked = true;
-  state.blind_review_completed_at = new Date().toISOString();
-  save();
-  location.reload();
-}
-
-function renderPrompts() {
-  if (!state.locked) return;
-  const sec = document.getElementById("promptReveal");
-  sec.classList.remove("hidden");
-  const root = document.getElementById("promptBlocks");
-  DATA.blind_codes.forEach(code => {
-    const d = document.createElement("details");
-    d.innerHTML = `<summary><strong>${esc(code)} Prompt</strong></summary><pre>${esc(DATA.prompts[code])}</pre>`;
-    root.appendChild(d);
-  });
-}
-
-function exportJson() {
-  if (!state.locked) return;
-  const out = JSON.parse(JSON.stringify(state));
-  out.exported_at = new Date().toISOString();
-  const blob = new Blob([JSON.stringify(out, null, 2) + "
-"], {type:"application/json"});
-  const a = document.createElement("a");
-  a.href = URL.createObjectURL(blob);
-  a.download = DATA.export_filename;
-  a.click();
-  setTimeout(() => URL.revokeObjectURL(a.href), 1000);
-}
-
-document.getElementById("purpose").textContent = DATA.purpose;
-renderIndividual();
-renderGroups();
-document.getElementById("lockBtn").addEventListener("click", lockBlind);
-document.getElementById("exportBtn").addEventListener("click", exportJson);
-
-if (state.locked) {
-  document.body.classList.add("locked");
-  document.getElementById("status").textContent = `盲评已锁定：${state.blind_review_completed_at}`;
-  document.getElementById("lockBtn").disabled = true;
-  document.getElementById("exportBtn").disabled = false;
-  renderPrompts();
-} else {
-  document.getElementById("status").textContent = "盲评未锁定。完成全部必填项后点击“完成盲评并锁定评分”。";
-}
+"use strict";
+const RUN="S08-CANARY-001";
+const WORK="SC-004-S08-RENDERER-REALIZATION-DIAGNOSTIC";
+const STORAGE_KEY=WORK+"|"+RUN+"|HDS-S08-v2";
+const ORDER=["C02-r01","C03-r04","C01-r01","C02-r03","C01-r03","C01-r02","C04-r04","C04-r02","C03-r01","C02-r02","C02-r04","C01-r05","C03-r05","C01-r04","C03-r03","C02-r05","C04-r01","C04-r05","C03-r02","C04-r03"];
+const CODES=["C01","C02","C03","C04"];
+const IQ=[
+{id:"first_glance_message",label:"第一眼是否能理解这张图想表达的核心业务关系？",options:["清楚","基本清楚","不清楚"]},
+{id:"shortvideo_usability",label:"作为短视频中的一张静态配图，这张图是否达到可用水平？",options:["可直接用","可用但明显不理想","不可用"]},
+{id:"visual_expectation_fit",label:"这张图的整体画面组织是否符合你对这一段应如何呈现的预期？",options:["符合","大体符合","不符合"]}
+];
+const GQ=[
+{id:"most_stable_group",label:"看完每组 5 张后，哪一组整体最稳定？",options:["C01","C02","C03","C04","并列/无明显差别"]},
+{id:"best_production_group",label:"如果现在就用于生产，哪一组最适合作为生产基线？",options:["C01","C02","C03","C04","并列/无明显差别"]}
+];
+const PROMPT_BASE="https://github.com/c3right/hotspot/blob/codex/sc-004-s08-renderer-realization-diagnostic/experiments/text2pic/SC-004-S08-RENDERER-REALIZATION-DIAGNOSTIC/execution-packet/prompts/";
+let state;
+try{state=JSON.parse(localStorage.getItem(STORAGE_KEY)||"null")}catch(e){state=null}
+if(!state)state={schema_version:"1.0",work_id:WORK,run_id:RUN,surface_version:"HDS-S08-v2",individual:{},group:{},overall_note:"",locked:false,blind_review_completed_at:null};
+function save(){localStorage.setItem(STORAGE_KEY,JSON.stringify(state))}
+function imgSrc(id){return "../images/"+id+".png"}
+function makeRadio(name,value,checked,disabled){const label=document.createElement("label");label.className="option";const input=document.createElement("input");input.type="radio";input.name=name;input.value=value;input.checked=checked;input.disabled=disabled;label.append(input,document.createTextNode(" "+value));return {label,input}}
+function renderIndividual(){const root=document.getElementById("individual");ORDER.forEach((id,idx)=>{if(!state.individual[id])state.individual[id]={answers:{},note:""};const rec=state.individual[id];const card=document.createElement("article");card.className="card";const head=document.createElement("div");head.className="head";head.innerHTML="<span>"+(idx+1)+" / "+ORDER.length+"</span><span>"+id+"</span>";const body=document.createElement("div");body.className="body";const img=document.createElement("img");img.loading="lazy";img.src=imgSrc(id);img.alt=id;const qs=document.createElement("div");IQ.forEach(q=>{const fs=document.createElement("fieldset");const lg=document.createElement("legend");lg.textContent=q.label;fs.appendChild(lg);q.options.forEach(opt=>{const r=makeRadio(id+"__"+q.id,opt,rec.answers[q.id]===opt,state.locked);r.input.addEventListener("change",()=>{if(state.locked)return;rec.answers[q.id]=opt;save()});fs.appendChild(r.label)});qs.appendChild(fs)});const ta=document.createElement("textarea");ta.placeholder="可选备注：只写 Agent 很难替你判断的视觉/生产问题。";ta.value=rec.note||"";ta.disabled=state.locked;ta.addEventListener("input",()=>{rec.note=ta.value;save()});qs.appendChild(ta);body.append(img,qs);card.append(head,body);root.appendChild(card)})}
+function renderGroups(){const grid=document.getElementById("groupGrid");CODES.forEach(code=>{const box=document.createElement("div");box.className="group";const h=document.createElement("h3");h.textContent=code;box.appendChild(h);for(let i=1;i<=5;i++){const id=code+"-r"+String(i).padStart(2,"0");const img=document.createElement("img");img.loading="lazy";img.src=imgSrc(id);img.alt=id;box.appendChild(img)}grid.appendChild(box)});const root=document.getElementById("groupQuestions");GQ.forEach(q=>{const fs=document.createElement("fieldset");const lg=document.createElement("legend");lg.textContent=q.label;fs.appendChild(lg);q.options.forEach(opt=>{const r=makeRadio(q.id,opt,state.group[q.id]===opt,state.locked);r.input.addEventListener("change",()=>{if(state.locked)return;state.group[q.id]=opt;save()});fs.appendChild(r.label)});root.appendChild(fs)});const ta=document.createElement("textarea");ta.placeholder="整体备注（可选）";ta.value=state.overall_note||"";ta.disabled=state.locked;ta.addEventListener("input",()=>{state.overall_note=ta.value;save()});root.appendChild(ta)}
+function complete(){for(const id of ORDER){const rec=state.individual[id];if(!rec)return false;for(const q of IQ)if(!rec.answers[q.id])return false}for(const q of GQ)if(!state.group[q.id])return false;return true}
+function lockBlind(){if(state.locked)return;if(!complete()){alert("还有必填判断未完成。");return}if(!confirm("确认锁定盲评？锁定后评分不可修改，并会开放 Prompt 查看。"))return;state.locked=true;state.blind_review_completed_at=new Date().toISOString();save();location.reload()}
+function renderPromptLinks(){if(!state.locked)return;document.getElementById("promptReveal").classList.remove("hidden");const root=document.getElementById("promptLinks");CODES.forEach(code=>{const a=document.createElement("a");a.href=PROMPT_BASE+code+".md";a.target="_blank";a.rel="noopener";a.textContent=code+" Prompt";root.appendChild(a)})}
+function exportJson(){if(!state.locked)return;const out=JSON.parse(JSON.stringify(state));out.exported_at=new Date().toISOString();const blob=new Blob([JSON.stringify(out,null,2)],{type:"application/json"});const a=document.createElement("a");a.href=URL.createObjectURL(blob);a.download="human-review-S08-CANARY-001.json";document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(a.href),1000)}
+renderIndividual();renderGroups();document.getElementById("lockBtn").addEventListener("click",lockBlind);document.getElementById("exportBtn").addEventListener("click",exportJson);if(state.locked){document.getElementById("status").textContent="盲评已锁定："+state.blind_review_completed_at;document.getElementById("lockBtn").disabled=true;document.getElementById("exportBtn").disabled=false;renderPromptLinks()}else{document.getElementById("status").textContent="盲评未锁定。完成全部必填项后点击“完成盲评并锁定评分”。"}
 </script>
 </body>
 </html>
